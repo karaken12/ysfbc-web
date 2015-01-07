@@ -1,0 +1,67 @@
+- title: Fatima's Wound
+  author: Kali Wallace
+  meeting_for: January 2015
+  img-url: /images/shorts/2015/fatimaswound.jpg
+  store-links:
+  - name: Webpage (free)
+    class: web free
+    url: http://clarkesworldmagazine.com/wallace_12_14/
+  - name: Audio (free)
+    class: audio free
+    url: http://clarkesworldmagazine.com/audio_12_14
+  - name: Kobo (Clarkesworld Magazine Issue 99)
+    class: kobo mag
+    url: http://store.kobobooks.com/en-US/ebook/clarkesworld-magazine-issue-99
+  - name: Nook (Clarkesworld Magazine Issue 99)
+    class: nook mag
+    url: http://www.nook.com/gb/ebooks/clarkesworld-magazine-issue-99-by-neil-clarke/2940150191464
+
+- title: The Water That Falls on You from Nowhere
+  author: John Chu
+  meeting_for: December 2014
+  #img-url: http://www.tor.com/images/stories/stories/Chu/full_waterthatfalls.jpg
+  img-url: /images/shorts/2014/waterthatfalls.jpg
+  store-links:
+  - name: Webpage (free)
+    class: web free
+    url: http://www.tor.com/stories/2013/02/the-water-that-falls-on-you-from-nowhere
+  - name: Escape Pod (free)
+    class: escapepod free
+    url: http://escapepod.org/2014/08/21/ep459-water-falls-nowhere/
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/The-Water-That-Falls-Nowhere-ebook/dp/B00AW73TSG
+  - name: Kobo
+    class: kobo
+    url: http://store.kobobooks.com/en-gb/books/the-water-that-falls-on-you-from-nowhere/
+  - name: Nook
+    class: nook
+    url: http://www.nook.com/gb/ebooks/the-water-that-falls-on-you-from-nowhere-a-torcom-original-by-john-chu/9781466838116
+
+#- title: If You Were a Dinosaur, My Love
+#  author: Rachel Swirsky
+#  meeting_for: 
+#  img-url: https://calicointransition.files.wordpress.com/2014/06/apexmag03.jpg?w=500&h=714
+#  store-links:
+#  - name: Webpage (free)
+#    class: web free
+#    url: http://www.apex-magazine.com/if-you-were-a-dinosaur-my-love/
+#  - name: Audiobook (free)
+#    class: audio free
+#    url: http://traffic.libsyn.com/apexmagazinepodcast/apex01.mp3
+#
+#- title: The Ink Readers of Doi Saket
+#  author: Thomas Olde Heuvelt
+##  meeting_for:
+#  img-url: http://www.tor.com/images/stories/stories/Heuvelt/full_inkreaders.jpg
+#  - name: Webpage (free)
+#    class: web free
+#    url: http://www.tor.com/stories/2013/04/the-ink-readers-of-doi-saket
+#- title: Selkie Stories Are for Losers
+#  author: Sofia Samatar
+#  meeting_for: 
+#  img-url: 
+#  store-links:
+#    - name:
+#      class:
+#      url: 

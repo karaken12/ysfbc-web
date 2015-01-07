@@ -1,0 +1,22 @@
+
+{% assign book = site.data.allbooks[0] %}
+
+<section class="book">
+  <header>
+  <h1>Current book</h1>
+  <h2>{{ book.title }}</h2>
+  <p>by {{ book.author }}</p>
+  </header>
+
+  <div class="bookimg">
+    <img src="{{ book.img-url }}"/>
+  </div>
+  <ul class="affiliate-links">
+  {% for link in book.store-links %}
+    <li><a class="{{ link.class }}" href="{{ link.url }}">{{ link.name }}</a></li>
+  {% endfor %}
+  </ul>
+
+<div class="prevbooks"><a href="/books/">Previous books</a></div>
+
+</section>

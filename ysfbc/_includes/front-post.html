@@ -1,0 +1,16 @@
+<article class="blog">
+
+{% assign entry = include.param %}
+{% assign post = entry.post_stream.posts[0] %}
+{% assign avatar_url = post.avatar_template | replace:'{size}','45' %}
+{% capture avatar_url %}{{ site.discourse_base }}{{ avatar_url }}{% endcapture %}
+{% capture topic_url %}{{ site.discourse_base }}/t/{{ entry.slug }}{% endcapture %}
+
+<h1><a href="{{ topic_url }}">{{ entry.fancy_title }}</a></h1>
+<img src="{{ avatar_url }}" class="avatar" />
+{{ post.cooked }}
+</article>
+
+<!--
+{{ entry }}
+-->

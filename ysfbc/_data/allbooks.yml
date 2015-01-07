@@ -1,0 +1,284 @@
+- title: Ubik
+  author: Philip K. Dick
+  meeting_for: January 2015
+  img-url: /images/books/2015/ubik.jpg
+  store-links:
+  - name: Amazon Paperback
+    class: amazon
+    url: http://www.amazon.co.uk/Ubik-S-F-MASTERWORKS-Philip-Dick/dp/1857988531
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/Ubik-GOLLANCZ-S-F-Philip-Dick-ebook/dp/B003FXCSU4/
+  - name: Nook
+    class: nook
+    url: http://www.nook.com/gb/ebooks/ubik-by-philip-k-dick/9780575097957
+  - name: Kobo
+    class: kobo
+    url: http://store.kobobooks.com/en-US/ebook/ubik
+
+- title: It Looks Like You're Writing A Letter
+  author: Alexander King
+  meeting_for: December 2014
+  img-url: http://alexanderking.co/wp-content/uploads/2014/09/itlookslikeyourewritingaletter_cover.jpg
+  store-links:
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/Looks-Like-Youre-Writing-Letter-ebook/dp/B00NO7EZ0C
+  - name: Nook
+    class: nook
+    url: http://www.nook.com/gb/ebooks/it-looks-like-youre-writing-a-letter-by-alexander-king/2940046180701
+  - name: Kobo
+    class: kobo
+    url: http://store.kobobooks.com/en-US/ebook/it-looks-like-you-re-writing-a-letter
+  - name: iTunes
+    class: itunes
+    url: https://itunes.apple.com/gb/book/it-looks-like-youre-writing/id920241215
+  - name: Google Play
+    class: googleplay
+    url: https://play.google.com/store/books/details?id=XLGLBAAAQBAJ
+
+- title: The Man in the High Castle
+  author: Philip K. Dick
+  meeting_for: November 2014
+  startdate: 2014-10-19
+  enddate: 2014-11-20
+  img-url: http://upload.wikimedia.org/wikipedia/en/thumb/2/28/The_Man_in_the_High_Castle.jpg/200px-The_Man_in_the_High_Castle.jpg
+  img-url: http://img1.imagesbn.com/p/9780241964262_p0_v1_s300x475.JPG
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: http://www.amazon.co.uk/High-Castle-Penguin-Modern-Classics/dp/0141186674
+    - name: Amazon Kindle
+      class: kindle
+      url: http://www.amazon.co.uk/High-Castle-Penguin-Modern-Classics-ebook/dp/B008DM2MGW
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/the-man-in-the-high-castle-1
+    - name: Nook
+      class: nook
+      url: http://www.nook.com/gb/ebooks/the-man-in-the-high-castle-by-philip-k-dick/9780241964262
+
+- title: The Darwin Elevator
+  author: Jason Hough
+  meeting_for: October 2014
+  startdate: 2014-09-18
+  enddate: 2014-10-16
+  img-url: http://kbimages1-a.akamaihd.net/81e6219e-7a30-4e20-a3ae-d43dbd13e38b/166/300/False/The+Darwin+Elevator.jpg
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/the-darwin-elevator-2
+
+- title: Contact
+  author: Carl Sagan
+  meeting_for: September 2014
+  startdate: 2014-08-21
+  enddate: 2014-09-18
+  img-url: http://upload.wikimedia.org/wikipedia/en/thumb/5/55/Contact_Sagan.jpg/220px-Contact_Sagan.jpg
+
+- title: Halting State
+  author: Charles Stross
+  meeting_for: August 2014
+  startdate: 2014-07-17
+  enddate: 2014-08-21
+  img-url: http://img1.imagesbn.com/p/9780748100408_p0_v2_s300x475.JPG
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: http://www.amazon.co.uk/Halting-State-Charles-Stross/dp/1841496650
+    - name: Amazon Kindle
+      class: kindle
+      url: http://www.amazon.co.uk/Halting-State-Ace-Science-Fiction-ebook/dp/B002TXZR6S
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/halting-state
+    - name: Nook
+      class: nook
+      url: http://www.nook.com/gb/ebooks/halting-state-by-charles-stross/9780748100408
+
+- title: Rainbows End
+  author: Vernor Vinge
+  meeting_for: July 2014
+  startdate: 2014-06-19
+  enddate: 2014-07-17
+  img-url: //upload.wikimedia.org/wikipedia/en/thumb/e/ec/VernorVinge_RainbowsEnd.jpg/200px-VernorVinge_RainbowsEnd.jpg
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/rainbow-s-end-22
+
+- title: John Dies At The End
+  author: David Wong
+  meeting_for: June 2014
+  startdate: 2014-05-15
+  enddate: 2014-06-19
+  img-url: http://kbimages1-a.akamaihd.net/725168a3-5424-45e9-8cd3-ef79cdbe8812/166/300/False/John+Dies+at+the+End.jpg
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/john-dies-at-the-end-4
+
+- title: The City and The City
+  author: Chine Miéville
+  meeting_for: May 2014
+  startdate: 2014-04-17
+  enddate: 2014-05-15
+  img-url: http://tomcatintheredroom.files.wordpress.com/2011/08/the-city-and-the-city.jpg
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: http://www.amazon.co.uk/City-China-Mieville/dp/033053419X
+    - name: Amazon Kindle
+      class: kindle
+      url: http://www.amazon.co.uk/City-China-Mi-ville-ebook/dp/B003E2UQLO
+
+- title: Twisted Metal
+  author: Tony Ballantyne
+  meeting_for: April 2014
+  startdate: 2014-03-20
+  enddate: 2014-04-17
+  img-url: http://kbimages1-a.akamaihd.net/dcc23bee-7f94-42e4-bea0-66586917cea1/166/300/False/Twisted+Metal.jpg
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/twisted-metal-1
+
+- title: Old Man's War
+  author: John Scalzi
+  meeting_for: March 2014
+  startdate: 2014-02-20
+  enddate: 2014-03-20
+  img-url: http://kbimages1-a.akamaihd.net/2ac6e66b-d1c1-4e03-beff-a042badd5461/166/300/False/Old+Man%27s+War.jpg
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/old-man-s-war-2
+
+- title: Ancillary Justice
+  author: Ann Leckie
+  meeting_for: February 2014
+  startdate: 2014-01-16
+  enddate: 2014-02-20
+  img-url: http://kbimages1-a.akamaihd.net/8ee270b2-d166-46f4-a04c-4c2c6a52f436/166/300/False/Ancillary+Justice.jpg
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/ancillary-justice
+
+- title: The Atrocity Archive
+  author: Charlie Stross
+  meeting_for: January 2014
+  startdate: 2013-12-19
+  enddate: 2014-01-16
+  img-url: http://kbimages1-a.akamaihd.net/5e80f176-ad2a-4d50-92a0-be2092059cf1/166/300/False/The+Atrocity+Archives.jpg
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/the-atrocity-archives
+
+- title: The Dispossessed
+  author: Ursula K. Le Guin
+  meeting_for: December 2013
+  startdate: 2013-11-21
+  enddate: 2013-12-19
+  img-url: https://libcom.org/files/images/library/dispossessed.jpg
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: http://www.amazon.co.uk/Dispossessed-Ursula-Guin/dp/1857988825
+
+- title: Leviathan Wakes
+  author: James S. A. Corey
+  meeting_for: November 2013
+  startdate: 2013-10-17
+  enddate: 2013-11-21
+  img-url: http://kbimages1-a.akamaihd.net/f25cc4a0-1a61-4b60-9d8d-584e990bf630/166/300/False/Leviathan+Wakes.jpg
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/leviathan-wakes-1
+
+- title: Final Days
+  author: Gary Gibson
+  meeting_for: October 2013
+  startdate: 2013-09-19
+  enddate: 2013-10-17
+  img-url: http://kbimages1-a.akamaihd.net/4649e510-c6b9-43b4-afbe-9c3b7d8b980f/166/300/False/Final+Days.jpg
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/final-days-2
+
+#- title:
+#  author: 
+#  meeting_for: September 2013
+#  startdate: 2013-08-15
+#  enddate: 2013-09-19
+#  img-url: 
+#  store-links:
+
+- title: Foundation
+  author: Isaac Asimov
+  meeting_for: August 2013
+  startdate: 2013-07-18
+  enddate: 2013-08-15
+  img-url: http://www.vavatch.co.uk/books/asimov/found1as.jpg
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: http://www.amazon.co.uk/Foundation-1-3-Isaac-Asimov/dp/0586010807
+
+- title: By Light Alone
+  author: Adam Roberts
+  meeting_for: July 2013
+  startdate: 2013-06-17
+  enddate: 2013-07-18
+  img-url: http://kbimages1-a.akamaihd.net/896cacb4-b6f2-4faa-8197-4a5c4f77c77e/166/300/False/By+Light+Alone.jpg
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/by-light-alone
+
+- title: The Long Earth
+  author: Stephen Baxter and Terry Pratchett
+  meeting_for: June 2013
+  startdate: 2013-05-20
+  enddate: 2013-06-17
+  img-url: http://kbimages1-a.akamaihd.net/52fae4c4-79c5-42e2-8a79-da5990274e93/166/300/False/The+Long+Earth.jpg
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/the-long-earth-1
+
+- title: The Accidental Time Machine
+  author: Joe Haldeman
+  meeting_for: June 2013
+  startdate: 2013-04-15
+  enddate: 2013-05-20
+  img-url: http://d.gr-assets.com/books/1388420458l/21608.jpg
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/the-accidental-time-machine
+
+- title: Surface Detail
+  author: Ian M. Banks
+  meeting_for: May 2013
+  startdate: 2013-03-18
+  enddate: 2013-04-15
+  img-url: http://kbimages1-a.akamaihd.net/7a7cffcd-5bb0-42c7-b898-6c1a7c9aa1b2/166/300/False/Surface+Detail.jpg
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/surface-detail-1
+
+- title: Yellow Blue Tibia
+  author: Adam Roberts
+  meeting_for: April 2013
+  startdate: 2013-03-18
+  enddate: 2013-04-15
+  img-url: http://kbimages1-a.akamaihd.net/d23a60fb-cb4b-4bd2-86f5-94c54313c215/166/300/False/Yellow+Blue+Tibia.jpg
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/yellow-blue-tibia
