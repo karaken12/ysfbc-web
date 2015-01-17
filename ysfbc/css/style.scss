@@ -24,7 +24,11 @@ body {
   color: #333;
   background-color: #fff;
 }
+
 /* End of bootstrap stuff */
+
+/* Fonts */
+@import "fonts";
 
 /* Mixins */
 @mixin box-shadow($shadow) {
@@ -41,6 +45,13 @@ body {
 
 $minwidth: 625px;
 $midwidth: 675px;
+
+h1 {
+//  font-family: 'Akashi';
+//  font-family: 'Audiowide';
+//  font-family: 'Iceland';
+  font-family: 'Iceland', Helvetica, Arial, sans-serif;
+}
 
 .header {
     img {
@@ -109,6 +120,7 @@ img.avatar {
     border-radius: 10px;
     background-color: white;
     margin-bottom: 15px;
+    font-family: 'Audiowide', Helvetica, Arial, sans-serif;
 
     img {
         max-width: 150px;
@@ -181,4 +193,4 @@ h1.books {
    margin: 0;
 }
 
-@import "affiliate_links"
+@import "affiliate_links";
