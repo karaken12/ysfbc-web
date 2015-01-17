@@ -1,3 +1,24 @@
+- title: Streets of Ashkelon
+  author: Harry Harrison
+  meeting_for: February 2015
+  img-url: /images/shorts/2015/ashkelon.jpg
+  store-links:
+  #- name: Lightspeed Magazine
+  #  class: mag
+  #  url: http://www.lightspeedmagazine.com/ebooks/september-2012-issue-28/
+  - name: Audio (free)
+    class: audio free
+    url: http://www.podtrac.com/pts/redirect.mp3/www.lightspeedmagazine.com/podcasts/podcast_streets_of_ashkelon_harry_harrison.mp3
+  - name: Kobo (Lightspeed Magazine Issue 28)
+    class: kobo mag
+    url: http://store.kobobooks.com/en-gb/books/Lightspeed-Magazine-September-2012
+  - name: Amazon Kindle (Lightspeed Magazine Issue 28)
+    class: kindle mag
+    url: http://www.amazon.co.uk/Lightspeed-Magazine-September-Joseph-Adams-ebook/dp/B0092WUTYE/
+  - name: Nook (Lightspeed Magazine Issue 28)
+    class: nook mag
+    url: http://www.nook.com/gb/ebooks/lightspeed-magazine-september-2012-by-john-joseph-adams/2940015150247
+
 - title: Fatima's Wound
   author: Kali Wallace
   meeting_for: January 2015

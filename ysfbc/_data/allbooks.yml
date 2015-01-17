@@ -1,3 +1,21 @@
+- title: Singularity Sky
+  author: Charles Stross
+  meeting_for: February 2015
+  img-url: /images/books/2015/singularity-sky.jpg
+  store-links:
+  - name: Amazon Paperback
+    class: amazon
+    url: http://www.amazon.co.uk/Singularity-Sky-Charles-Stross/dp/1841493341
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/Singularity-Sky-Charles-Stross-ebook/dp/B002TXZRF4
+  - name: Kobo
+    class: kobo
+    url: http://store.kobobooks.com/en-US/ebook/singularity-sky
+  - name: Nook
+    class: nook
+    url: http://www.nook.com/gb/ebooks/singularity-sky-by-charles-stross/9780748109173
+
 - title: Ubik
   author: Philip K. Dick
   meeting_for: January 2015
