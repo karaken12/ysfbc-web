@@ -2,10 +2,14 @@
   author: Harry Harrison
   meeting_for: February 2015
   img-url: /images/shorts/2015/ashkelon.jpg
+  isfdb: 66842
   store-links:
   #- name: Lightspeed Magazine
   #  class: mag
   #  url: http://www.lightspeedmagazine.com/ebooks/september-2012-issue-28/
+  - name: Webpage (free)
+    class: web free
+    url: http://www.lightspeedmagazine.com/fiction/the-streets-of-ashkelon/
   - name: Audio (free)
     class: audio free
     url: http://www.podtrac.com/pts/redirect.mp3/www.lightspeedmagazine.com/podcasts/podcast_streets_of_ashkelon_harry_harrison.mp3
@@ -23,6 +27,7 @@
   author: Kali Wallace
   meeting_for: January 2015
   img-url: /images/shorts/2015/fatimaswound.jpg
+  isfdb: 1800160
   store-links:
   - name: Webpage (free)
     class: web free
@@ -42,6 +47,7 @@
   meeting_for: December 2014
   #img-url: http://www.tor.com/images/stories/stories/Chu/full_waterthatfalls.jpg
   img-url: /images/shorts/2014/waterthatfalls.jpg
+  isfdb: 1572571
   store-links:
   - name: Webpage (free)
     class: web free
@@ -63,6 +69,7 @@
 #  author: Rachel Swirsky
 #  meeting_for: 
 #  img-url: https://calicointransition.files.wordpress.com/2014/06/apexmag03.jpg?w=500&h=714
+#  isfdb: 1567933
 #  store-links:
 #  - name: Webpage (free)
 #    class: web free
@@ -75,6 +82,8 @@
 #  author: Thomas Olde Heuvelt
 ##  meeting_for:
 #  img-url: http://www.tor.com/images/stories/stories/Heuvelt/full_inkreaders.jpg
+#  isfdb: 1587789
+#  store-links:
 #  - name: Webpage (free)
 #    class: web free
 #    url: http://www.tor.com/stories/2013/04/the-ink-readers-of-doi-saket
@@ -82,6 +91,7 @@
 #  author: Sofia Samatar
 #  meeting_for: 
 #  img-url: 
+#  isfdb: 1555716
 #  store-links:
 #    - name:
 #      class:

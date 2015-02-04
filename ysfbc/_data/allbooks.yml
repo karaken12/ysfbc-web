@@ -2,6 +2,7 @@
   author: Charles Stross
   meeting_for: February 2015
   img-url: /images/books/2015/singularity-sky.jpg
+  isfdb: 23623
   store-links:
   - name: Amazon Paperback
     class: amazon
@@ -20,6 +21,7 @@
   author: Philip K. Dick
   meeting_for: January 2015
   img-url: /images/books/2015/ubik.jpg
+  isfdb: 948
   store-links:
   - name: Amazon Paperback
     class: amazon
@@ -38,6 +40,7 @@
   author: Alexander King
   meeting_for: December 2014
   img-url: http://alexanderking.co/wp-content/uploads/2014/09/itlookslikeyourewritingaletter_cover.jpg
+  #isfdb:
   store-links:
   - name: Amazon Kindle
     class: kindle
@@ -62,6 +65,7 @@
   enddate: 2014-11-20
   img-url: http://upload.wikimedia.org/wikipedia/en/thumb/2/28/The_Man_in_the_High_Castle.jpg/200px-The_Man_in_the_High_Castle.jpg
   img-url: http://img1.imagesbn.com/p/9780241964262_p0_v1_s300x475.JPG
+  isfdb: 1574
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -82,6 +86,7 @@
   startdate: 2014-09-18
   enddate: 2014-10-16
   img-url: http://kbimages1-a.akamaihd.net/81e6219e-7a30-4e20-a3ae-d43dbd13e38b/166/300/False/The+Darwin+Elevator.jpg
+  isfdb: 1599406
   store-links:
     - name: Kobo
       class: kobo
@@ -93,6 +98,7 @@
   startdate: 2014-08-21
   enddate: 2014-09-18
   img-url: http://upload.wikimedia.org/wikipedia/en/thumb/5/55/Contact_Sagan.jpg/220px-Contact_Sagan.jpg
+  isfdb: 2199
 
 - title: Halting State
   author: Charles Stross
@@ -100,6 +106,7 @@
   startdate: 2014-07-17
   enddate: 2014-08-21
   img-url: http://img1.imagesbn.com/p/9780748100408_p0_v2_s300x475.JPG
+  isfdb: 659009
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -120,6 +127,7 @@
   startdate: 2014-06-19
   enddate: 2014-07-17
   img-url: //upload.wikimedia.org/wikipedia/en/thumb/e/ec/VernorVinge_RainbowsEnd.jpg/200px-VernorVinge_RainbowsEnd.jpg
+  isfdb: 181278
   store-links:
     - name: Kobo
       class: kobo
@@ -131,17 +139,19 @@
   startdate: 2014-05-15
   enddate: 2014-06-19
   img-url: http://kbimages1-a.akamaihd.net/725168a3-5424-45e9-8cd3-ef79cdbe8812/166/300/False/John+Dies+at+the+End.jpg
+  isfdb: 1142519
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/john-dies-at-the-end-4
 
 - title: The City and The City
-  author: Chine Miéville
+  author: China Miéville
   meeting_for: May 2014
   startdate: 2014-04-17
   enddate: 2014-05-15
   img-url: http://tomcatintheredroom.files.wordpress.com/2011/08/the-city-and-the-city.jpg
+  isfdb: 979458
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -156,6 +166,7 @@
   startdate: 2014-03-20
   enddate: 2014-04-17
   img-url: http://kbimages1-a.akamaihd.net/dcc23bee-7f94-42e4-bea0-66586917cea1/166/300/False/Twisted+Metal.jpg
+  isfdb: 930148
   store-links:
     - name: Kobo
       class: kobo
@@ -167,6 +178,7 @@
   startdate: 2014-02-20
   enddate: 2014-03-20
   img-url: http://kbimages1-a.akamaihd.net/2ac6e66b-d1c1-4e03-beff-a042badd5461/166/300/False/Old+Man%27s+War.jpg
+  isfdb: 157782
   store-links:
     - name: Kobo
       class: kobo
@@ -178,6 +190,7 @@
   startdate: 2014-01-16
   enddate: 2014-02-20
   img-url: http://kbimages1-a.akamaihd.net/8ee270b2-d166-46f4-a04c-4c2c6a52f436/166/300/False/Ancillary+Justice.jpg
+  isfdb: 1632550
   store-links:
     - name: Kobo
       class: kobo
@@ -189,6 +202,7 @@
   startdate: 2013-12-19
   enddate: 2014-01-16
   img-url: http://kbimages1-a.akamaihd.net/5e80f176-ad2a-4d50-92a0-be2092059cf1/166/300/False/The+Atrocity+Archives.jpg
+  isfdb: 23803
   store-links:
     - name: Kobo
       class: kobo
@@ -200,6 +214,7 @@
   startdate: 2013-11-21
   enddate: 2013-12-19
   img-url: https://libcom.org/files/images/library/dispossessed.jpg
+  isfdb: 1765549
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -211,6 +226,7 @@
   startdate: 2013-10-17
   enddate: 2013-11-21
   img-url: http://kbimages1-a.akamaihd.net/f25cc4a0-1a61-4b60-9d8d-584e990bf630/166/300/False/Leviathan+Wakes.jpg
+  isfdb: 1272563
   store-links:
     - name: Kobo
       class: kobo
@@ -222,17 +238,19 @@
   startdate: 2013-09-19
   enddate: 2013-10-17
   img-url: http://kbimages1-a.akamaihd.net/4649e510-c6b9-43b4-afbe-9c3b7d8b980f/166/300/False/Final+Days.jpg
+  isfdb: 1245173
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/final-days-2
 
 #- title:
-#  author: 
+#  author:
 #  meeting_for: September 2013
 #  startdate: 2013-08-15
 #  enddate: 2013-09-19
-#  img-url: 
+#  img-url:
+#  isfdb:
 #  store-links:
 
 - title: Foundation
@@ -241,6 +259,7 @@
   startdate: 2013-07-18
   enddate: 2013-08-15
   img-url: http://www.vavatch.co.uk/books/asimov/found1as.jpg
+  #isfdb: you'd think this was easy, but I'm not sure which title it actually was!
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -252,6 +271,7 @@
   startdate: 2013-06-17
   enddate: 2013-07-18
   img-url: http://kbimages1-a.akamaihd.net/896cacb4-b6f2-4faa-8197-4a5c4f77c77e/166/300/False/By+Light+Alone.jpg
+  isfdb: 1245153
   store-links:
     - name: Kobo
       class: kobo
@@ -263,6 +283,7 @@
   startdate: 2013-05-20
   enddate: 2013-06-17
   img-url: http://kbimages1-a.akamaihd.net/52fae4c4-79c5-42e2-8a79-da5990274e93/166/300/False/The+Long+Earth.jpg
+  isfdb: 1433940
   store-links:
     - name: Kobo
       class: kobo
@@ -274,6 +295,7 @@
   startdate: 2013-04-15
   enddate: 2013-05-20
   img-url: http://d.gr-assets.com/books/1388420458l/21608.jpg
+  isfdb: 389381
   store-links:
     - name: Kobo
       class: kobo
@@ -285,6 +307,7 @@
   startdate: 2013-03-18
   enddate: 2013-04-15
   img-url: http://kbimages1-a.akamaihd.net/7a7cffcd-5bb0-42c7-b898-6c1a7c9aa1b2/166/300/False/Surface+Detail.jpg
+  isfdb: 1143220
   store-links:
     - name: Kobo
       class: kobo
@@ -296,6 +319,7 @@
   startdate: 2013-03-18
   enddate: 2013-04-15
   img-url: http://kbimages1-a.akamaihd.net/d23a60fb-cb4b-4bd2-86f5-94c54313c215/166/300/False/Yellow+Blue+Tibia.jpg
+  isfdb: 873631
   store-links:
     - name: Kobo
       class: kobo
