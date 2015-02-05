@@ -21,6 +21,9 @@
   {% endfor %}
   </ul>
 
+  {% if book.isfdb %}
+  <a class="isfdb" href="http://www.isfdb.org/cgi-bin/title.cgi?{{ book.isfdb }}">ISFDB</a>
+  {% endif %}
   <p class="meeting">{{ book.meeting_for }}</p>
 
 </section>
