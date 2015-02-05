@@ -1,0 +1,32 @@
+<div class="content">
+
+<h1 class="books">{{ page.title }}</h1>
+
+<div class="books">
+
+{% for book in books %}
+
+<section class="book">
+  <header>
+    <h2>{{ book.title }}</h2>
+    <p>by {{ book.author }}</p>
+  </header>
+  <div class="bookimg">
+    <img src="{{ book.img-url }}"/>
+  </div>
+
+  <ul class="affiliate-links">
+  {% for link in book.store-links %}
+    <li><a class="{{ link.class }}" href="{{ link.url }}">{{ link.name }}</a></li>
+  {% endfor %}
+  </ul>
+
+  <p class="meeting">{{ book.meeting_for }}</p>
+
+</section>
+
+{% endfor %}
+
+</div> <!-- End books -->
+
+</div> <!-- End content -->
