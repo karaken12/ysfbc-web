@@ -1,3 +1,23 @@
+---
+- title: Sleepover
+  author: Alastair Reynolds
+  meeting_for: March 2015
+  img-url: /images/shorts/2015/sleepover.jpg
+  isfdb: 1205313
+  store-links:
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/Mammoth-presents-Sleepover-Alastair-Reynolds-ebook/dp/B0097AXWUY
+  - name: Kobo
+    class: kobo
+    url: https://store.kobobooks.com/en-US/ebook/mammoth-books-presents-sleepover-1
+  - name: Nook
+    class: nook
+    url: http://www.nook.com/gb/ebooks/mammoth-books-presents-sleepover-by-alastair-reynolds/9781472104694
+  - name: Amazon Paperback (collection)
+    class: amazon
+    url: http://www.amazon.co.uk/Mammoth-Book-Apocalyptic-SF/dp/1849013055/
+
 - title: Streets of Ashkelon
   author: Harry Harrison
   meeting_for: February 2015
