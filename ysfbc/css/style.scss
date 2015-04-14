@@ -1,5 +1,7 @@
 ---
 ---
+@import "bourbon/bourbon";
+
 /* General box-sizing fixing. */
 html {
 //    -moz-box-sizing: border-box;
@@ -147,11 +149,11 @@ img.avatar {
 
 div.books {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    @include display(flex);
+    @include flex-wrap(wrap);
 
     .book {
-        flex: 1;
+        @include flex(1);
         border-radius: 10px;
         margin: 15px;
         min-width: 300px;
