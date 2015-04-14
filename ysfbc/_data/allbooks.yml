@@ -1,4 +1,24 @@
 ---
+- title: Mort
+  author: Terry Pratchett
+  meeting_for: April 2015
+  img-url: /images/books/2015/mort.jpg
+  isfdb: 1496
+  store-links:
+  - name: Amazon Paperback
+    class: amazon
+    url: http://www.amazon.co.uk/Mort-Discworld-Novel-Novels/dp/0552166626
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/Mort-Discworld-Novel-4-ebook/dp/B0035OC7OU
+  - name: Kobo
+    class: kobo
+    url: https://store.kobobooks.com/en-US/ebook/mort-2
+  - name: Nook
+    class: nook
+    url: http://www.nook.com/gb/ebooks/mort-discworld-novel-4-by-terry-pratchett/9781407034508
+  
+
 - title: Gateway
   author: Frederik Pohl
   meeting_for: March 2015
@@ -8,7 +28,6 @@
   - name: Amazon Paperback
     class: amazon
     url: http://www.amazon.co.uk/Gateway-S-F-MASTERWORKS-Frederik-Pohl/dp/0575094230/ref=sr_1_1?s=books&ie=UTF8&qid=1424424506&sr=1-1&keywords=gateway+pohl
-
 
 - title: Singularity Sky
   author: Charles Stross
@@ -232,11 +251,16 @@
       class: amazon
       url: http://www.amazon.co.uk/Dispossessed-Ursula-Guin/dp/1857988825
 
+- title: Only Forward
+  author: Michael Marshall Smith
+  meeting_for: November 2013
+  img-url: http://ecx.images-amazon.com/images/I/31VF9V9Y8QL.jpg
+  isfdb: 25035
+#  store-links:
+
 - title: Leviathan Wakes
   author: James S. A. Corey
-  meeting_for: November 2013
-  startdate: 2013-10-17
-  enddate: 2013-11-21
+  meeting_for: October 2013
   img-url: http://kbimages1-a.akamaihd.net/f25cc4a0-1a61-4b60-9d8d-584e990bf630/166/300/False/Leviathan+Wakes.jpg
   isfdb: 1272563
   store-links:
@@ -246,9 +270,7 @@
 
 - title: Final Days
   author: Gary Gibson
-  meeting_for: October 2013
-  startdate: 2013-09-19
-  enddate: 2013-10-17
+  meeting_for: September 2013
   img-url: http://kbimages1-a.akamaihd.net/4649e510-c6b9-43b4-afbe-9c3b7d8b980f/166/300/False/Final+Days.jpg
   isfdb: 1245173
   store-links:
@@ -292,8 +314,6 @@
 - title: The Long Earth
   author: Stephen Baxter and Terry Pratchett
   meeting_for: June 2013
-  startdate: 2013-05-20
-  enddate: 2013-06-17
   img-url: http://kbimages1-a.akamaihd.net/52fae4c4-79c5-42e2-8a79-da5990274e93/166/300/False/The+Long+Earth.jpg
   isfdb: 1433940
   store-links:
@@ -303,9 +323,7 @@
 
 - title: The Accidental Time Machine
   author: Joe Haldeman
-  meeting_for: June 2013
-  startdate: 2013-04-15
-  enddate: 2013-05-20
+  meeting_for: May 2013
   img-url: http://d.gr-assets.com/books/1388420458l/21608.jpg
   isfdb: 389381
   store-links:
@@ -313,11 +331,19 @@
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/the-accidental-time-machine
 
+- title: Yellow Blue Tibia
+  author: Adam Roberts
+  meeting_for: April 2013
+  img-url: http://kbimages1-a.akamaihd.net/d23a60fb-cb4b-4bd2-86f5-94c54313c215/166/300/False/Yellow+Blue+Tibia.jpg
+  isfdb: 873631
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/yellow-blue-tibia
+
 - title: Surface Detail
   author: Ian M. Banks
-  meeting_for: May 2013
-  startdate: 2013-03-18
-  enddate: 2013-04-15
+  meeting_for: March 2013
   img-url: http://kbimages1-a.akamaihd.net/7a7cffcd-5bb0-42c7-b898-6c1a7c9aa1b2/166/300/False/Surface+Detail.jpg
   isfdb: 1143220
   store-links:
@@ -325,14 +351,3 @@
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/surface-detail-1
 
-- title: Yellow Blue Tibia
-  author: Adam Roberts
-  meeting_for: April 2013
-  startdate: 2013-03-18
-  enddate: 2013-04-15
-  img-url: http://kbimages1-a.akamaihd.net/d23a60fb-cb4b-4bd2-86f5-94c54313c215/166/300/False/Yellow+Blue+Tibia.jpg
-  isfdb: 873631
-  store-links:
-    - name: Kobo
-      class: kobo
-      url: http://store.kobobooks.com/en-US/ebook/yellow-blue-tibia
