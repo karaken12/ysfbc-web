@@ -4,6 +4,23 @@ layout: default
 
 <div class="content">
 
+<div>
+  <h1 class="books">Next Meeting</h1>
+  <div class="blog">
+     <dl>
+       <dt>When</dt>
+       <dd>{{ site.data.next_meeting.when }}</dd>
+       <dt>Where</dt>
+       <dd>{{ site.data.next_meeting.where }}</dd>
+       <dt>Book</dt>
+       <dd>{{ site.data.next_meeting.book.title }} by {{ site.data.next_meeting.book.author }}</dd>
+       <dt>Story</dt>
+       <dd>{{ site.data.next_meeting.short.title }} by {{ site.data.next_meeting.short.author }}</dd>
+     </dl>
+     <a href="https://www.facebook.com/events/{{ site.data.next_meeting.facebook.event_id}}/">Facebook event</a>
+  </div>
+</div>
+
 <div class="blogs">
   <h1 class="books">Blog</h1>
 {% for entry in site.data.blog_entries %}
