@@ -4,9 +4,12 @@ layout: default
 
 <div class="content">
 
+<div class="blogs">
+  <h1 class="books">Blog</h1>
 {% for entry in site.data.blog_entries %}
   {% include front-post.html param=entry %}
 {% endfor %}
+</div>
 
 </div> <!-- End content -->
 
