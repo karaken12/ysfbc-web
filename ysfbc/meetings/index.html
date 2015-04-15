@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div>
+  <h1 class="books">Meetings</h1>
+  {% for meeting_x in site.data.meetings %}
+  {% assign meeting = meeting_x[1] %}
+  <div class="blog">
+     <h2>{{ meeting_x[0] }}</h2>
+     <dl>
+       <dt>When</dt>
+       {% if meeting.date.hour != 0 %}
+       <dd>{{ meeting.date | date: '%I:%M %p on %A %B %d, %Y' }}</dd>
+       {% else %}
+       <dd>{{ meeting.date | date: '%A %m %Y' }}</dd>
+       {% endif %}
+
+       {% if meeting.where %}
+         <dt>Where</dt>
+         <dd>{{ meeting.where }}</dd>
+       {% endif %}
+
+       {% if meeting.book %}
+         <dt>Book</dt>
+         <dd>{{ meeting.book.title }} by {{ meeting.book.author }}</dd>
+       {% endif %}
+
+       {% if meeting.short %}
+         <dt>Short Story</dt>
+         <dd>{{ meeting.short.title }} by {{ meeting.short.author }}</dd>
+       {% endif %}
+     </dl>
+     <a href="https://www.facebook.com/events/{{ meeting.facebook.event_id}}/">Facebook event</a>
+  </div>
+  {% endfor %}
+</div>
