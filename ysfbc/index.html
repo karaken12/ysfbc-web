@@ -9,7 +9,7 @@ layout: default
   <div class="blog">
      <dl>
        <dt>When</dt>
-       <dd>{{ site.data.next_meeting.when }}</dd>
+       <dd>{{ site.data.next_meeting.date | date: '%I:%M %p on %A %B %d, %Y' }}</dd>
        <dt>Where</dt>
        <dd>{{ site.data.next_meeting.where }}</dd>
        <dt>Book</dt>
