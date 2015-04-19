@@ -1,4 +1,23 @@
 ---
+- title: "Professor Moriarty: The Hound of the D'Urbervilles"
+  author: Kim Newman
+  meeting_for: May 2015
+  img-url: /images/books/2015/durbervilles.jpg
+  isfdb: 1354407
+  store-links:
+  - name: Amazon Paperback
+    class: amazon
+    url: http://www.amazon.co.uk/Professor-Moriarty-Hound-DUrbervilles-Novels/dp/0857682830
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/Hound-DUrbervilles-Moriarty-Kim-Newman-ebook/dp/B00MLDU676
+  - name: Kobo
+    class: kobo
+    url: https://store.kobobooks.com/en-US/ebook/the-hound-of-the-d-urbervilles
+  - name: Nook
+    class: nook
+    url: http://www.nook.com/gb/ebooks/professor-moriarty-the-hound-of-the-durbervilles-by-kim-newman/9780857686015
+
 - title: Mort
   author: Terry Pratchett
   meeting_for: April 2015
