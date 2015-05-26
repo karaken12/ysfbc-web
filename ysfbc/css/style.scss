@@ -40,6 +40,11 @@ body {
 }
 /* End mixins */
 
+$white: white;
+$footer-color: rgb(165, 165, 165);
+$text-color: black;
+$emphlink-color: lightblue;
+
 body {
     background-color: #3d3d3d;
     padding: 10px;
@@ -59,7 +64,7 @@ h1 {
     img {
         width: 100%;
         max-width: 500px;
-        background-color: white;
+        background-color: $white;
         border-radius: 10px;
         padding: 10px;
     }
@@ -100,7 +105,7 @@ h1 {
 .blog {
     padding: 15px;
     border-radius: 10px;
-    background-color: white;
+    background-color: $white;
     margin-bottom: 15px;
 
     h1 {
@@ -120,7 +125,7 @@ img.avatar {
 .book {
     padding: 15px;
     border-radius: 10px;
-    background-color: white;
+    background-color: $white;
     margin-bottom: 15px;
     font-family: 'Audiowide', Helvetica, Arial, sans-serif;
 
@@ -143,7 +148,7 @@ img.avatar {
 .footer {
     padding: 15px;
     border-radius: 10px;
-    background-color: rgb(165, 165, 165);
+    background-color: $footer-color;
     font-size: 90%;
 }
 
@@ -164,13 +169,13 @@ div.books {
     display: block;
     margin: auto;
     padding: 10px;
-    background-color: lightblue;
+    background-color: $emphlink-color;
     border-radius: 10px;
 
     text-align: center;
 
     a, a:visited, a:hover {
-        color: black;
+        color: inherit;
     }
 }
 
@@ -180,7 +185,7 @@ div.books {
 }
 
 h1.books {
-  background-color: white;
+  background-color: $white;
   border-radius: 10px;
   padding: 15px;
   margin: 15px;
@@ -195,7 +200,7 @@ h1.books {
    margin: 0;
 }
 
-.dt {
+dt {
    font-family: 'Audiowide', Helvetica, Arial, sans-serif;
 //   font-weight: bold;
 //   font-size: 170%;
