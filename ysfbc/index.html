@@ -17,7 +17,9 @@ layout: default
        <dt>Short story</dt>
        <dd>{{ site.data.next_meeting.short.title }} by {{ site.data.next_meeting.short.author }}</dd>
      </dl>
+     {% if site.data.next_meeting.facebook %}
      <a href="https://www.facebook.com/events/{{ site.data.next_meeting.facebook.event_id}}/">Facebook event</a>
+     {% endif %}
   </div>
 </div>
 
