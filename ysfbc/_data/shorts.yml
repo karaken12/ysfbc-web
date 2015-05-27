@@ -1,8 +1,22 @@
 ---
-- title: The Sentinal
+- title: The Sentinel
   author: Arthur C. Clarke
   meeting_for: June 2015
   isfdb: 25639
+  img-url: /images/shorts/2015/sentinel.jpg
+  store-links:
+  - name: Amazon Paperback
+    class: amazon
+    url: http://www.amazon.co.uk/Sentinel-Arthur-C-Clarke/dp/0586212043
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/Collected-Stories-Arthur-Clarke-Author-ebook/dp/B00550NYDU
+  - name: Kobo
+    class: kobo
+    url: https://store.kobobooks.com/en-US/ebook/the-collected-stories-of-arthur-c-clarke
+  - name: Nook
+    class: nook
+    url: http://www.nook.com/gb/ebooks/the-sentinel-by-arthur-c-clarke/9781876963682
 
 - title: Jackalope Wives
   author: Ursula Vernon

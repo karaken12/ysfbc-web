@@ -2,7 +2,21 @@
 - title: The Martian
   author: Andy Weir
   meeting_for: June 2015
+  img-url: /images/books/2015/martian.jpg
   isfdb: 1678924
+  store-links:
+  - name: Amazon Paperback
+    class: amazon
+    url: http://www.amazon.co.uk/Martian-Andy-Weir/dp/0091956145
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/Martian-Andy-Weir-ebook/dp/B00FAXJHCY
+  - name: Kobo
+    class: kobo
+    url: https://store.kobobooks.com/en-US/ebook/the-martian-5
+  - name: Nook
+    class: nook
+    url: http://www.nook.com/gb/ebooks/the-martian-by-andy-weir/9781448177202
 
 - title: "Professor Moriarty: The Hound of the D'Urbervilles"
   author: Kim Newman
