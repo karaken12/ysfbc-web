@@ -40,13 +40,40 @@ body {
 }
 /* End mixins */
 
-$white: white;
-$footer-color: rgb(165, 165, 165);
-$text-color: black;
-$emphlink-color: lightblue;
+$colorscheme: beige;
+
+$white: null;
+$bg-color: null;
+$bg-img: null;
+$footer-color: null;
+$text-color: null;
+$emphlink-color: null;
+
+@if $colorscheme == grey {
+  $white: white;
+  $bg-color: #CC6600;
+  $bg-img: none;
+  $footer-color: rgb(165, 165, 165);
+  $text-color: black;
+  $emphlink-color: lightblue;
+} @else {
+  $white: beige;
+  $bg-color: #CC6600;
+  $bg-img: url("/images/bookshelf-min.jpg");
+  $footer-color: darkkhaki;
+  $text-color: #043104;
+  $emphlink-color: lightblue;
+}
 
 body {
-    background-color: #3d3d3d;
+    background-color: $bg-color;
+    @if $bg-img != null {
+      background: $bg-img no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
     padding: 10px;
 }
 
