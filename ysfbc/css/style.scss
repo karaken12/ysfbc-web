@@ -65,20 +65,21 @@ $emphlink-color: null;
   $emphlink-color: lightblue;
 }
 
+$minwidth: 625px;
+$midwidth: 675px;
+
 body {
     background-color: $bg-color;
     @if $bg-img != null {
-      background: $bg-img no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
+      background: $bg-color $bg-img no-repeat center center;
       background-size: cover;
+      @media (max-width: $midwidth) {
+        background: $bg-color $bg-img repeat-y center center;
+        background-size: contain;
+      }
     }
     padding: 10px;
 }
-
-$minwidth: 625px;
-$midwidth: 675px;
 
 h1 {
 //  font-family: 'Akashi';
