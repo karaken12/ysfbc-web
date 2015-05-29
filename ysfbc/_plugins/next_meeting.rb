@@ -3,7 +3,7 @@ require 'discourse_api'
 module Discourse
   class NextMeeting < Jekyll::Generator
      def generate(site)
-       name = 'June 2015'
+       name = site.config['next_meeting']
        meeting = site.data['meetings'][name]
        site.data['next_meeting'] = meeting
 
