@@ -7,7 +7,7 @@ module Discourse
        meeting = site.data['meetings'][name]
        site.data['next_meeting'] = meeting
 
-       for book in site.data['allbooks']
+       for book in site.data['books']
          meeting_name = book['meeting_for']
          if !site.data['meetings'].has_key?(meeting_name)
            puts "Missing meeting: #{meeting_name}"
