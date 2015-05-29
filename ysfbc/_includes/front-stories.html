@@ -1,21 +1,8 @@
 
-{% assign story = site.data.shorts[0] %}
-
 <section class="book">
-  <header>
-    <h1>Current short story</h1>
-    <h2>{{ story.title }}</h2>
-    <p>by {{ story.author }}</p>
-  </header>
-
-  <div class="bookimg">
-    <img src="{{ story.img-url }}"/>
-  </div>
-  <ul class="affiliate-links">
-  {% for link in story.store-links %}
-    <li><a class="{{ link.class }}" href="{{ link.url }}">{{ link.name }}</a></li>
-  {% endfor %}
-  </ul>
+{% assign extra_heading = "Current short story" %}
+{% assign book = site.data.next_meeting.short %}
+{% include book.html %}
 
 <div class="prevshorts"><a href="/shorts/">Previous short stories</a></div>
 

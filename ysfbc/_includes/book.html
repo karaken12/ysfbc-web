@@ -1,0 +1,19 @@
+  <header>
+    {% if extra_heading %}<h1>{{ extra_heading }}</h1>{% endif %}
+    <h2>{{ book.title }}</h2>
+    <p>by {{ book.author }}</p>
+  </header>
+  <div class="bookimg">
+    <img src="{{ book.img-url }}"/>
+  </div>
+
+  <ul class="affiliate-links">
+  {% for link in book.store-links %}
+    <li><a class="{{ link.class }}" href="{{ link.url }}">{{ link.name }}</a></li>
+  {% endfor %}
+  </ul>
+
+  {% if book.isfdb %}
+  <a class="isfdb" href="http://www.isfdb.org/cgi-bin/title.cgi?{{ book.isfdb }}">ISFDB</a>
+  {% endif %}
+  <p class="meeting">{{ book.meeting_for }}</p>
