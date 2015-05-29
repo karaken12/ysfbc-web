@@ -34,8 +34,19 @@ layout: default
 
 <div class="sidebar">
 
-{% include front-book.html %}
-{% include front-stories.html %}
+<section class="book">
+  {% assign extra_heading = "Current book" %}
+  {% assign book = site.data.next_meeting.book %}
+  {% include book.html %}
+  <div class="prevbooks"><a href="/books/">Previous books</a></div>
+</section>
+
+<section class="book">
+  {% assign extra_heading = "Current short story" %}
+  {% assign book = site.data.next_meeting.short %}
+  {% include book.html %}
+  <div class="prevshorts"><a href="/shorts/">Previous short stories</a></div>
+</section>
 
 </div> <!-- End sidebar -->
 
