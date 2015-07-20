@@ -1,4 +1,20 @@
 ---
+- title: The Retgun
+  author: Tim Pratt
+  meeting_for: August 2015
+  isfdb: 1646535
+  img-url: /images/shorts/2015/retgun.jpg
+  store-links:
+  - name: Escape Pod
+    class: escapepod free
+    url: http://escapepod.org/2015/06/01/ep494-the-retgun/
+  - name: Amazon Kindle (anthology)
+    class: anthology kindle
+    url: http://www.amazon.co.uk/Unidentified-Objects-Annual-Anthology-Humorous-ebook/dp/B00FN8PBQW
+  - name: Kobo (anthology)
+    class: anthology kobo
+    url: https://store.kobobooks.com/en-US/ebook/unidentified-funny-objects-2
+
 - title: Cassandra
   author: Ken Liu
   meeting_for: July 2015

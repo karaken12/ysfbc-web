@@ -1,4 +1,21 @@
 ---
+- title: Fallen Dragon
+  author: Peter F. Hamilton
+  meeting_for: August 2015
+  img-url: /images/books/2015/fallen-dragon.jpg
+  isfdb: 22083
+  goodreads: 45258.Fallen_Dragon
+  store-links:
+  - name: Amazon Paperback
+    class: amazon
+    url: http://www.amazon.co.uk/Fallen-Dragon-Peter-F-Hamilton/dp/0330480065
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/Fallen-Dragon-Peter-F-Hamilton-ebook/dp/B003GK21CG
+  - name: Kobo
+    class: kobo
+    url: https://store.kobobooks.com/en-US/ebook/fallen-dragon-2
+
 - title: Annihilation
   author: Jeff VanderMeer
   meeting_for: July 2015
