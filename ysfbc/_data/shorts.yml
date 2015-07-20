@@ -1,4 +1,23 @@
 ---
+- title: Cassandra
+  author: Ken Liu
+  meeting_for: July 2015
+  isfdb: 1830702
+  img-url: /images/shorts/2015/cassandra.jpg
+  store-links:
+  - name: Clarkesworld
+    class: web free
+    url: http://clarkesworldmagazine.com/liu_03_15/
+  - name: Clarkesworld Audio
+    class: audio free
+    url: http://clarkesworldmagazine.com/audio_03_15a/
+  - name: Amazon Kindle (Clarkesworld Magazine)
+    class: kindle
+    url: http://www.amazon.co.uk/dp/B00VH5GPNS/
+  - name: Kobo (Clarkesworld Magazine)
+    class: kobo
+    url: https://store.kobobooks.com/en-US/ebook/clarkesworld-magazine-issue-102
+
 - title: The Sentinel
   author: Arthur C. Clarke
   meeting_for: June 2015

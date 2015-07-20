@@ -1,4 +1,24 @@
 ---
+- title: Annihilation
+  author: Jeff VanderMeer
+  meeting_for: July 2015
+  img-url: /images/books/2015/annihilation.jpg
+  isfdb: 1678159
+  goodreads: 17934530-annihilation
+  store-links:
+  - name: Amazon Hardback
+    class: amazon
+    url: http://www.amazon.co.uk/Annihilation-The-Southern-Reach-Trilogy/dp/0007550715
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/Annihilation-Southern-Reach-Trilogy-Book-ebook/dp/B00EN5LEMG
+  - name: Kobo
+    class: kobo
+    url: https://store.kobobooks.com/en-US/ebook/annihilation-the-southern-reach-trilogy-book-1
+  - name: Nook
+    class: nook
+    url: http://www.nook.com/gb/ebooks/annihilation-the-southern-reach-trilogy-book-1-by-jeff-vandermeer/9780007550708
+
 - title: The Martian
   author: Andy Weir
   meeting_for: June 2015
