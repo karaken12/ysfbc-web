@@ -23,6 +23,7 @@
   meeting_for: June 2015
   isfdb: 25639
   img-url: /images/shorts/2015/sentinel.jpg
+  suggested-by: Jonathon
   store-links:
   - name: Amazon Paperback
     class: amazon
@@ -42,6 +43,7 @@
   meeting_for: May 2015
   img-url: /images/shorts/2015/jackalope_wives.jpg
   isfdb: 1679219
+  suggested-by: Tom
   store-links:
   - name: Webpage (free)
     class: web free
@@ -55,6 +57,7 @@
   meeting_for: April 2015
   img-url: /images/shorts/2015/made_of_cats.jpg
   isfdb: 1294390
+  suggested-by: Sophie
   store-links:
   - name: Escape Pod (free)
     class: escapepod free
@@ -68,6 +71,7 @@
   meeting_for: March 2015
   img-url: /images/shorts/2015/sleepover.jpg
   isfdb: 1205313
+  suggested-by: Dan
   store-links:
   - name: Amazon Kindle
     class: kindle
@@ -87,6 +91,7 @@
   meeting_for: February 2015
   img-url: /images/shorts/2015/ashkelon.jpg
   isfdb: 66842
+  suggested-by: Jonathon
   store-links:
   #- name: Lightspeed Magazine
   #  class: mag

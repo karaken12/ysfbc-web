@@ -16,4 +16,7 @@
   {% if book.isfdb %}
   <a class="isfdb" href="http://www.isfdb.org/cgi-bin/title.cgi?{{ book.isfdb }}">ISFDB</a>
   {% endif %}
+  {% if book.goodreads %}
+  <a class="goodreads" href="http://www.goodreads.com/book/show/{{ book.goodreads }}">GoodReads</a>
+  {% endif %}
   <p class="meeting">{{ book.meeting_for }}</p>

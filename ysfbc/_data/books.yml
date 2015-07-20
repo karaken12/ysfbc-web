@@ -24,6 +24,7 @@
   meeting_for: June 2015
   img-url: /images/books/2015/martian.jpg
   isfdb: 1678924
+  goodreads: 18007564-the-martian
   store-links:
   - name: Amazon Paperback
     class: amazon
@@ -43,6 +44,7 @@
   meeting_for: May 2015
   img-url: /images/books/2015/durbervilles.jpg
   isfdb: 1354407
+  suggested-by: Fiona
   store-links:
   - name: Amazon Paperback
     class: amazon
@@ -62,6 +64,7 @@
   meeting_for: April 2015
   img-url: /images/books/2015/mort.jpg
   isfdb: 1496
+  suggested-by: The Club
   store-links:
   - name: Amazon Paperback
     class: amazon
@@ -75,23 +78,24 @@
   - name: Nook
     class: nook
     url: http://www.nook.com/gb/ebooks/mort-discworld-novel-4-by-terry-pratchett/9781407034508
-  
 
 - title: Gateway
   author: Frederik Pohl
   meeting_for: March 2015
   img-url: /images/books/2015/gateway.jpg
   isfdb: 1884
+  suggested-by: Jonathon
   store-links:
   - name: Amazon Paperback
     class: amazon
-    url: http://www.amazon.co.uk/Gateway-S-F-MASTERWORKS-Frederik-Pohl/dp/0575094230/ref=sr_1_1?s=books&ie=UTF8&qid=1424424506&sr=1-1&keywords=gateway+pohl
+    url: http://www.amazon.co.uk/Gateway-S-F-MASTERWORKS-Frederik-Pohl/dp/0575094230
 
 - title: Singularity Sky
   author: Charles Stross
   meeting_for: February 2015
   img-url: /images/books/2015/singularity-sky.jpg
   isfdb: 23623
+  suggested-by: Naomi
   store-links:
   - name: Amazon Paperback
     class: amazon
@@ -188,6 +192,7 @@
   enddate: 2014-09-18
   img-url: http://upload.wikimedia.org/wikipedia/en/thumb/5/55/Contact_Sagan.jpg/220px-Contact_Sagan.jpg
   isfdb: 2199
+  suggested-by: Michelle
 
 - title: Halting State
   author: Charles Stross

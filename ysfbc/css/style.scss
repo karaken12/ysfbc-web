@@ -71,8 +71,7 @@ $midwidth: 675px;
 body {
     background-color: $bg-color;
     @if $bg-img != null {
-      background: $bg-color $bg-img no-repeat center center;
-      background-size: cover;
+      background: $bg-color $bg-img repeat-y center center;
       @media (max-width: $midwidth) {
         background: $bg-color $bg-img repeat-y center center;
         background-size: contain;
