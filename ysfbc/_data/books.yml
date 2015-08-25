@@ -1,4 +1,24 @@
 ---
+- title: I Am Legend
+  author: Richard Matheson
+  meeting_for: September 2015
+  img-url: /images/books/2015/legend.jpg
+  isfdb: 16515
+  goodreads: 14064.I_Am_Legend
+  store-links:
+  - name: Amazon Paperback
+    class: amazon
+    url: http://www.amazon.co.uk/I-Am-Legend-S-F-MASTERWORKS/dp/0575094168
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/I-Am-Legend-S-F-MASTERWORKS-ebook/dp/B005GQ5IA0
+  - name: Kobo
+    class: kobo
+    url: https://store.kobobooks.com/en-US/ebook/i-am-legend
+  - name: Nook
+    class: nook
+    url: http://www.nook.com/gb/ebooks/i-am-legend-by-richard-matheson/9780575119574
+
 - title: Fallen Dragon
   author: Peter F. Hamilton
   meeting_for: August 2015

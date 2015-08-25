@@ -13,7 +13,7 @@ github_username:  jekyll
 discourse_api_key: secret
 discourse_api_user: secret
 max_blog_entries: 2
-next_meeting: August 2015
+next_meeting: September 2015
 
 # Build settings
 markdown: kramdown

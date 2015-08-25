@@ -14,8 +14,10 @@ layout: default
        <dd>{{ site.data.next_meeting.where }}</dd>
        <dt>Book</dt>
        <dd>{{ site.data.next_meeting.book.title }} by {{ site.data.next_meeting.book.author }}</dd>
+       {% if site.data.next_meeting.short %}
        <dt>Short story</dt>
        <dd>{{ site.data.next_meeting.short.title }} by {{ site.data.next_meeting.short.author }}</dd>
+       {% endif %}
      </dl>
      {% if site.data.next_meeting.facebook %}
      <a href="https://www.facebook.com/events/{{ site.data.next_meeting.facebook.event_id}}/">Facebook event</a>
@@ -41,12 +43,14 @@ layout: default
   <div class="prevbooks"><a href="/books/">Previous books</a></div>
 </section>
 
+{% if site.data.next_meeting.short %}
 <section class="book">
   {% assign extra_heading = "Current short story" %}
   {% assign book = site.data.next_meeting.short %}
   {% include book.html %}
   <div class="prevshorts"><a href="/shorts/">Previous short stories</a></div>
 </section>
+{% endif %}
 
 </div> <!-- End sidebar -->
 
