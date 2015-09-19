@@ -67,6 +67,7 @@ $emphlink-color: null;
 
 $minwidth: 625px;
 $midwidth: 675px;
+$smallwidth: 400px;
 
 body {
     background-color: $bg-color;
@@ -181,14 +182,21 @@ img.avatar {
 
 div.books {
     width: 100%;
-    @include display(flex);
-    @include flex-wrap(wrap);
+    @media (min-width: $smallwidth) {
+        @include display(flex);
+        @include flex-wrap(wrap);
+    }
 
     .book {
         @include flex(1);
         border-radius: 10px;
         margin: 15px;
-        min-width: 300px;
+        @media (min-width: $smallwidth) {
+            min-width: 300px;
+        }
+        @media (max-width: calc($smallwidth-1px)) {
+            background: red;
+        }
     }
 }
 
