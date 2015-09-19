@@ -1,4 +1,20 @@
 ---
+- title: The Accountant
+  author: Robert Sheckley
+  meeting_for: October 2015
+  isfdb: 58540
+  img-url: /images/shorts/2015/accountant.jpg
+  store-links:
+  - name: Amazon Kindle (anthology)
+    class: anthology kindle
+    url: http://www.amazon.co.uk/Citizen-Space-Robert-Sheckley-ebook/dp/B00P6TZJIS
+  - name: Kobo (anthology)
+    class: anthology kobo
+    url: https://store.kobobooks.com/en-us/ebook/citizen-in-space-1
+  - name: Nook (anthology)
+    class: anthology nook
+    url: http://www.nook.com/gb/ebooks/citizen-in-space-by-robert-sheckley/9781473207608
+
 - title: The Retgun
   author: Tim Pratt
   meeting_for: August 2015

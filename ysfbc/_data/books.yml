@@ -1,4 +1,24 @@
 ---
+- title: The Kraken Wakes
+  author: John Wyndham
+  meeting_for: October 2015
+  img-url: /images/books/2015/kraken.jpg
+  isfdb: 1426
+  goodreads: 91092.The_Kraken_Wakes
+  store-links:
+  - name: Amazon Paperback
+    class: amazon
+    url: http://www.amazon.co.uk/The-Kraken-Wakes-John-Wyndham/dp/0141032995
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/Kraken-Wakes-John-Wyndham-ebook/dp/B002RI9S1U
+  - name: Kobo
+    class: kobo
+    url: https://store.kobobooks.com/en-us/ebook/the-kraken-wakes
+  - name: Nook
+    class: nook
+    url: http://www.nook.com/gb/ebooks/the-kraken-wakes-by-john-wyndham/9780141920887
+
 - title: I Am Legend
   author: Richard Matheson
   meeting_for: September 2015
