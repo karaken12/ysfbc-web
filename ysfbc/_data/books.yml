@@ -1,4 +1,21 @@
 ---
+- title: Wasp
+  author: Eric Frank Russell
+  meeting_for: November 2015
+  img-url: /images/books/2015/wasp.jpg
+  isfdb: 886
+  goodreads: 335919.Wasp
+  store-links:
+  - name: Amazon Paperback
+    class: amazon
+    url: http://www.amazon.co.uk/Wasp-S-F-MASTERWORKS-Frank-Russell/dp/0575129042
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/WASP-Eric-Frank-Russell-ebook/dp/B003TFESY2
+  - name: Kobo
+    class: kobo
+    url: https://store.kobobooks.com/en-us/ebook/wasp-6
+
 - title: The Kraken Wakes
   author: John Wyndham
   meeting_for: October 2015

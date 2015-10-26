@@ -1,4 +1,20 @@
 ---
+- title: The Veldt
+  author: Ray Bradbury
+  meeting_for: November 2015
+  isfdb: 64827
+  img-url: /images/shorts/2015/veldt.jpg
+  store-links:
+  - name: Amazon Paperback (anthology)
+    class: anthology amazon
+    url: http://www.amazon.co.uk/Illustrated-Man-Flamingo-Modern-Classics/dp/0006479227
+  - name: Amazon Kindle (anthology)
+    class: anthology kindle
+    url: http://www.amazon.co.uk/Illustrated-Man-Flamingo-Modern-Classics-ebook/dp/B00BAJ6GKS
+  - name: Leonard Nimoy reads The Veldt
+    class: youtube free
+    url: https://www.youtube.com/watch?v=dJAKjpb2eOs
+
 - title: The Accountant
   author: Robert Sheckley
   meeting_for: October 2015
