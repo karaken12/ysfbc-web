@@ -1,7 +1,9 @@
   <header>
     {% if extra_heading %}<h1>{{ extra_heading }}</h1>{% endif %}
     <h2>{{ book.title }}</h2>
+    {% if book.author %}
     <p>by {{ book.author }}</p>
+    {% endif %}
   </header>
   <div class="bookimg">
     <img src="{{ book.img-url }}"/>
@@ -18,5 +20,8 @@
   {% endif %}
   {% if book.goodreads %}
   <a class="goodreads" href="http://www.goodreads.com/book/show/{{ book.goodreads }}">GoodReads</a>
+  {% endif %}
+  {% if book.imdb %}
+  <a class="imdb" href="http://www.imdb.com/title/{{ book.imdb }}">IMDB</a>
   {% endif %}
   <p class="meeting">{{ book.meeting_for }}</p>

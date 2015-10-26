@@ -52,6 +52,15 @@ layout: default
 </section>
 {% endif %}
 
+{% if site.data.next_meeting.film %}
+<section class="book">
+  {% assign extra_heading = "Current film" %}
+  {% assign book = site.data.next_meeting.film %}
+  {% include book.html %}
+  <div class="prevfilms"><a href="/films/">Previous films</a></div>
+</section>
+{% endif %}
+
 </div> <!-- End sidebar -->
 
 <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->

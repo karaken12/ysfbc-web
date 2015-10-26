@@ -24,6 +24,16 @@ module Discourse
          end
          site.data['meetings'][meeting_name]['short'] = short
        end
+
+       for film in site.data['films']
+         meeting_name = film['meeting_for']
+         if !site.data['meetings'].has_key?(meeting_name)
+           puts "Missing meeting: #{meeting_name}"
+           next
+         end
+         site.data['meetings'][meeting_name]['film'] = film
+       end
+
      end
   end
 end
