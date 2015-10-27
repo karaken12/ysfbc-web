@@ -4,26 +4,43 @@ layout: default
 
 <div class="content">
 
-<div>
-  <h1 class="books">Next Meeting</h1>
-  <div class="blog">
-     <dl>
-       <dt>When</dt>
-       <dd>{{ site.data.next_meeting.date | date: '%I:%M %p on %A %B %d, %Y' }}</dd>
-       <dt>Where</dt>
-       <dd>{{ site.data.next_meeting.where }}</dd>
-       <dt>Book</dt>
-       <dd>{{ site.data.next_meeting.book.title }} by {{ site.data.next_meeting.book.author }}</dd>
-       {% if site.data.next_meeting.short %}
-       <dt>Short story</dt>
-       <dd>{{ site.data.next_meeting.short.title }} by {{ site.data.next_meeting.short.author }}</dd>
-       {% endif %}
-     </dl>
+<div class="next-meeting">
+  <h1>Next Meeting</h1>
+  <p>{{ site.data.next_meeting.date | date: '%I:%M %p on %A %B %d, %Y' }} at {{ site.data.next_meeting.where }}.</p>
+<!--
      {% if site.data.next_meeting.facebook %}
      <a href="https://www.facebook.com/events/{{ site.data.next_meeting.facebook.event_id}}/">Facebook event</a>
      {% endif %}
-  </div>
+-->
 </div>
+
+<div class="books">
+  <section class="book">
+    {% assign extra_heading = "Current book" %}
+    {% assign book = site.data.next_meeting.book %}
+    {% include book.html %}
+    <div class="prevbooks"><a href="/books/">Previous books</a></div>
+  </section>
+
+  {% if site.data.next_meeting.short %}
+  <section class="book">
+    {% assign extra_heading = "Current short story" %}
+    {% assign book = site.data.next_meeting.short %}
+    {% include book.html %}
+    <div class="prevshorts"><a href="/shorts/">Previous short stories</a></div>
+  </section>
+  {% endif %}
+
+  {% if site.data.next_meeting.film %}
+  <section class="book">
+    {% assign extra_heading = "Current film" %}
+    {% assign book = site.data.next_meeting.film %}
+    {% include book.html %}
+    <div class="prevfilms"><a href="/films/">Previous films</a></div>
+  </section>
+  {% endif %}
+</div><!-- End books -->
+
 
 <div class="blogs">
   <h1 class="books">Blog</h1>
@@ -34,33 +51,3 @@ layout: default
 
 </div> <!-- End content -->
 
-<div class="sidebar">
-
-<section class="book">
-  {% assign extra_heading = "Current book" %}
-  {% assign book = site.data.next_meeting.book %}
-  {% include book.html %}
-  <div class="prevbooks"><a href="/books/">Previous books</a></div>
-</section>
-
-{% if site.data.next_meeting.short %}
-<section class="book">
-  {% assign extra_heading = "Current short story" %}
-  {% assign book = site.data.next_meeting.short %}
-  {% include book.html %}
-  <div class="prevshorts"><a href="/shorts/">Previous short stories</a></div>
-</section>
-{% endif %}
-
-{% if site.data.next_meeting.film %}
-<section class="book">
-  {% assign extra_heading = "Current film" %}
-  {% assign book = site.data.next_meeting.film %}
-  {% include book.html %}
-  <div class="prevfilms"><a href="/films/">Previous films</a></div>
-</section>
-{% endif %}
-
-</div> <!-- End sidebar -->
-
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
