@@ -150,3 +150,7 @@
 .audio {
     @include background("/images/links/audio.png", 100px);
 }
+
+.youtube {
+    @include background("/images/links/YouTube-logo-full_color.png", 80px);
+}

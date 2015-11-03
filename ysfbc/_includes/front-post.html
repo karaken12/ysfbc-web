@@ -7,10 +7,12 @@
 {% capture topic_url %}{{ site.discourse_base }}/t/{{ entry.slug }}{% endcapture %}
 
 <h1><a href="{{ topic_url }}">{{ entry.fancy_title }}</a></h1>
-<img src="{{ avatar_url }}" class="avatar" />
+<img width="45" height="45" src="{{ avatar_url }}" class="avatar" title="{{post.username}}" />
 {{ post.cooked }}
 </article>
 
+{% comment %}
 <!--
 {{ entry }}
 -->
+{% endcomment %}

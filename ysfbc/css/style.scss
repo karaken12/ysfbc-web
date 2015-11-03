@@ -81,7 +81,7 @@ $emphlink-color: null;
   $white: $color_secondary2;
   $footer-color: $color_secondary1;
   $text-color: $color_black;
-  $emphlink-color: $color_secondary2;
+  $emphlink-color: $color_secondary1;
 }
 
 $minwidth: 625px;
@@ -214,6 +214,7 @@ h1 {
 img.avatar {
     float: left;
     margin-right: 15px;
+    border-radius: 50%;
 }
 
 .book {
