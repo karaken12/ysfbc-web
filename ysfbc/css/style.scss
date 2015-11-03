@@ -40,7 +40,7 @@ body {
 }
 /* End mixins */
 
-$colorscheme: beige;
+$colorscheme: green;
 
 $white: null;
 $bg-color: null;
@@ -65,12 +65,23 @@ $emphlink-color: null;
   $text-color: #043104;
   $emphlink-color: lightblue;
 } @else if $colorscheme == green {
-  $white: #C0CCDA;
-  $bg-color: #424D2B;
+  $color_base: #8B9E52;
+  //$color_base--
+  $color_secondary1: #757F7C;
+  $color_secondary2: #C4D0DC;
+  $color_black: #080D0B;
+//
+//  $white: #BCD4D8;
+//  $bg-color: #424D2B;
   $header-img: url("/images/spaceship_wreck_yard.jpg");
-  $footer-color: darkkhaki;
-  $text-color: #043104;
-  $emphlink-color: #A8B893;
+//  $footer-color: darkkhaki;
+//  $text-color: #043104;
+//  $emphlink-color: #A8B893;
+  $bg-color: $color_base;
+  $white: $color_secondary2;
+  $footer-color: $color_secondary1;
+  $text-color: $color_black;
+  $emphlink-color: $color_secondary2;
 }
 
 $minwidth: 625px;
@@ -87,6 +98,24 @@ body {
       }
     }
     padding: 10px;
+}
+
+body {
+  position: relative;
+  &::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: $header-img;
+    content: "";
+    z-index: -1;
+    opacity: 0.5;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
 
 h1 {
@@ -106,6 +135,9 @@ h1 {
         width: 100%;
         max-width: 500px;
         background-color: $white;
+        @if $header-img != null {
+            background-color: fade_out($white, 0.2);
+        }
         border-radius: 10px;
         padding: 10px;
     }

@@ -6,12 +6,15 @@ layout: default
 
 <div class="next-meeting">
   <h1>Next Meeting</h1>
-  <p>{{ site.data.next_meeting.date | date: '%I:%M %p on %A %B %d, %Y' }} at {{ site.data.next_meeting.where }}.</p>
-<!--
-     {% if site.data.next_meeting.facebook %}
-     <a href="https://www.facebook.com/events/{{ site.data.next_meeting.facebook.event_id}}/">Facebook event</a>
-     {% endif %}
--->
+  <p>
+    {{ site.data.next_meeting.date | date: '%I:%M %p on %A %B %d, %Y' }}
+    at {{ site.data.next_meeting.where }}.
+    {% if site.data.next_meeting.facebook %}
+      <a href="https://www.facebook.com/events/{{ site.data.next_meeting.facebook.event_id}}/">
+        <img src="images/facebook-icon.png" alt="Facebook Event" style="vertical-align: text-top" />
+      </a>
+    {% endif %}
+  </p>
 </div>
 
 <div class="books">
