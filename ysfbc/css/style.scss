@@ -251,11 +251,13 @@ div.books {
     width: 100%;
     @media (min-width: $smallwidth) {
         @include display(flex);
+        @include flex-direction(row);
         @include flex-wrap(wrap);
     }
 
     .book {
-        @include flex(1);
+        @include flex-grow(1);
+        @include flex-basis(auto);
         border-radius: 10px;
         margin: 15px;
         @media (min-width: $smallwidth) {
