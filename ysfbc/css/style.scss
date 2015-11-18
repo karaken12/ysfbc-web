@@ -40,6 +40,18 @@ body {
 }
 /* End mixins */
 
+/* MQ */
+
+$mq-breakpoints: (
+  smallwidth: 400px,
+  minwidth:   625px,
+  midwidth:   675px
+);
+
+@import "mq/mq";
+
+/* End MQ */
+
 $colorscheme: green;
 
 $white: null;
@@ -84,15 +96,11 @@ $emphlink-color: null;
   $emphlink-color: $color_secondary1;
 }
 
-$minwidth: 625px;
-$midwidth: 675px;
-$smallwidth: 400px;
-
 body {
     background-color: $bg-color;
     @if $bg-img != null {
       background: $bg-color $bg-img repeat-y center center;
-      @media (max-width: $midwidth) {
+      @include mq($until: midwidth) {
         background: $bg-color $bg-img repeat-y center center;
         background-size: contain;
       }
@@ -160,7 +168,7 @@ h1 {
 
 
 .content {
-    @media (min-width: $minwidth) {
+    @include mq($from: minwidth) {
         display: table-cell;
 /*        width: 75%; */
         width: 65%;
@@ -169,7 +177,7 @@ h1 {
 }
 
 .sidebar {
-    @media (min-width: $minwidth) {
+    @include mq($from: minwidth) {
         display: table-cell;
         padding-left: 15px;
     }
@@ -249,7 +257,7 @@ img.avatar {
 
 div.books {
     width: 100%;
-    @media (min-width: $smallwidth) {
+    @include mq($from: smallwidth) {
         @include display(flex);
         @include flex-direction(row);
         @include flex-wrap(wrap);
@@ -260,10 +268,10 @@ div.books {
         @include flex-basis(auto);
         border-radius: 10px;
         margin: 15px;
-        @media (min-width: $smallwidth) {
+        @include mq($from: smallwidth) {
             min-width: 300px;
         }
-        @media (max-width: calc($smallwidth-1px)) {
+        @include mq($until: smallwidth) {
             background: red;
         }
     }
