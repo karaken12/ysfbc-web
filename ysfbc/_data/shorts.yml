@@ -1,4 +1,14 @@
 ---
+- title: Totaled
+  author: Kary English
+  meeting_for: December 2015
+  isfdb: 1789936
+  img-url: /images/shorts/2015/totaled.jpg
+  store-links:
+  - name: Galaxy's Edge
+    class: web free
+    url: http://galaxysedge.com/Hugo/Totaled.htm
+
 - title: The Veldt
   author: Ray Bradbury
   meeting_for: November 2015
