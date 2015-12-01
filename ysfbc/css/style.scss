@@ -139,7 +139,7 @@ h1 {
         border-radius: 5em;
         padding: 4em;
     }
-    img {
+    .logo {
         width: 100%;
         max-width: 500px;
         background-color: $white;
@@ -148,6 +148,10 @@ h1 {
         }
         border-radius: 10px;
         padding: 10px;
+        display: inline-block;
+        img {
+            width: 100%;
+        }
     }
     .nav {
         display: inline-block;
