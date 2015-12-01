@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg width="580" height="70" xmlns="http://www.w3.org/2000/svg">
+ <g fill="#fff" stroke="none">
+  <title>Snow</title>
+  <ellipse ry="31.5" rx="82" id="svg_1" cy="24" cx="76.5" stroke-width="1.5" />
+  <ellipse ry="35" rx="97.5" id="svg_2" cy="7.5" cx="205" stroke-width="1.5" />
+  <ellipse ry="50.5" rx="40" id="svg_3" cy="1" cx="279.5" stroke-width="1.5" />
+  <ellipse ry="32.5" rx="80" id="svg_4" cy="6" cx="370.5" stroke-width="1.5" />
+  <ellipse ry="42" rx="34" id="svg_5" cy="0.5" cx="463.5" stroke-width="1.5" />
+  <ellipse ry="36" rx="56" id="svg_6" cy="4.5" cx="542.5" stroke-width="1.5" />
+  <ellipse ry="33" rx="51" id="svg_7" cy="9.5" cx="1.5" stroke-width="1.5" />
+  <ellipse ry="40.5" rx="20" id="svg_10" cy="16" cx="1.5" stroke-width="1.5" />
+  <ellipse ry="40.5" rx="20" id="svg_11" cy="16" cx="579.5" stroke-width="1.5" />
+ </g>
+</svg>
