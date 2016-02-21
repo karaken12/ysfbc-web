@@ -154,3 +154,10 @@
 .youtube {
     @include background("/images/links/YouTube-logo-full_color.png", 80px);
 }
+
+.netflix {
+    //@include background("/images/links/netflix.gif", 80px);
+    background: url("/images/links/netflix.gif") center center no-repeat, #E9231B;
+    background-size: 80px, cover;
+    border-radius: 5px;
+}

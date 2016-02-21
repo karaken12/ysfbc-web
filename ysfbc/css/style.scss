@@ -275,9 +275,9 @@ div.books {
         @include mq($from: smallwidth) {
             min-width: 300px;
         }
-        @include mq($until: smallwidth) {
-            background: red;
-        }
+//        @include mq($until: smallwidth) {
+//            background: red;
+//        }
     }
 }
 

@@ -1,4 +1,30 @@
 ---
+- title: We Can Get Them For You Wholesale
+  author: Neil Gaiman
+  meeting_for: March 2016
+  img-url: /images/shorts/2016/we-can-get-them-for-you-wholesale.jpg
+  isfdb: 468511
+  store-links:
+  - name: Kobo (collection)
+    class: collection kobo
+    url: https://store.kobobooks.com/en-us/ebook/smoke-and-mirrors-4
+  - name: Amazon Kindle (collection)
+    class: collection kindle
+    url: http://www.amazon.co.uk/Smoke-Mirrors-Neil-Gaiman-ebook/dp/B0049MPHXK
+  - name: Amazon Paperback (collection)
+    class: collection amazon
+    url: http://www.amazon.co.uk/Smoke-Mirrors-Neil-Gaiman/dp/0755322835
+  - name: Nook (collection)
+    class: collection nook
+    url: http://www.nook.com/gb/ebooks/smoke-and-mirrors-by-neil-gaiman/9780755379972
+
+- title: Diamond Dogs
+  author: Alastair Reynolds
+  meeting_for: February 2016
+  isfdb: 102008
+  goodreads: 893596.Diamond_Dogs
+  img-url: /images/shorts/2016/diamond-dogs.jpg
+
 - title: Merry Christmas from the Heartbreakers
   author: Mur Lafferty
   meeting_for: January 2016

@@ -1,4 +1,31 @@
 ---
+- title: The Circle
+  author: Dave Eggers
+  meeting_for: March 2016
+  img-url: /images/books/2016/the-circle.jpg
+  isfdb: 1632893
+  goodreads: 18302455-the-circle
+  store-links:
+  - name: Amazon Paperback
+    class: amazon
+    url: http://www.amazon.co.uk/The-Circle-Dave-Eggers/dp/024114650X
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/Circle-Dave-Eggers-ebook/dp/B00EODUWQ6
+  - name: Kobo
+    class: kobo
+    url: https://store.kobobooks.com/en-us/ebook/the-circle-21
+  - name: Nook
+    class: nook
+    url: http://www.nook.com/gb/ebooks/the-circle-by-dave-eggers/9780241967553
+
+- title: Slaughterhouse-Five
+  author: Kurt Vonnegut
+  meeting_for: February 2016
+  img-url: /images/books/2016/slaughterhouse-five.jpg
+  isfdb: 955451
+  goodreads: 4981.Slaughterhouse_Five
+
 - title: On Basilisk Station
   author: David Weber
   meeting_for: January 2016
