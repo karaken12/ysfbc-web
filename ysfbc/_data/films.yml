@@ -1,4 +1,13 @@
 ---
+- title: The Mist
+  meeting_for: April 2016
+  img-url: /images/films/2016/mist.jpg
+  imdb: tt0884328
+  store-links:
+  - name: Netflix
+    class: netflix
+    url: http://www.netflix.com/WiMovie/70077532
+
 - title: Advantageous
   meeting_for: March 2016
   img-url: /images/films/2016/advantageous.jpg

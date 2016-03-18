@@ -1,4 +1,15 @@
 ---
+- title: News From Gardenia
+  author: Robert Llewellyn
+  meeting_for: April 2016
+  img-url: /images/books/2016/news-from-gardenia.jpg
+  isfdb: 1390108
+  goodreads: 13560055-news-from-gardenia
+  store-links:
+  - name: Unbound
+    class: web
+    url: https://unbound.co.uk/books/news-from-gardenia
+
 - title: The Circle
   author: Dave Eggers
   meeting_for: March 2016
