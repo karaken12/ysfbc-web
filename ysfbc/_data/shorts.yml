@@ -5,6 +5,13 @@
   img-url: /images/shorts/2016/graveyard-of-dreams.jpg
   isfdb: 46003
   goodreads: 27396965-graveyard-of-dreams
+  store-links:
+  - name: Kobo
+    class: kobo free
+    url: https://store.kobobooks.com/en-us/ebook/graveyard-of-dreams-6
+  - name: Amazon Kindle
+    class: kindle free
+    url: http://www.amazon.co.uk/Graveyard-Dreams-H-Beam-Piper-ebook/dp/B016V10RLS/
 
 - title: We Can Get Them For You Wholesale
   author: Neil Gaiman
