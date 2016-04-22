@@ -1,4 +1,24 @@
 ---
+- title: Exhalation
+  author: Ted Chiang
+  meeting_for: May 2016
+  img-url: /images/shorts/2016/exhalation.jpg
+  isfdb: 938470
+  goodreads: 6404787-exhalation
+  store-links:
+  - name: Lightspeed Magazine
+    class: web free
+    url: http://www.lightspeedmagazine.com/fiction/exhalation/
+  - name: Escape Pod
+    class: escapepod free
+    url: http://escapepod.org/2009/04/10/ep194-exhalation/
+  - name: Kobo - Lightspeed Magazine
+    class: magazine kobo
+    url: https://store.kobobooks.com/en-us/ebook/lightspeed-magazine-april-2014
+  - name: Amazon Kindle - Lightspeed Magazine
+    class: magazine kindle
+    url: http://www.amazon.co.uk/Lightspeed-Magazine-April-2014-ebook/dp/B00JE4U8KK
+
 - title: Graveyard of Dreams
   author: H. Beam Piper
   meeting_for: April 2016

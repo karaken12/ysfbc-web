@@ -1,4 +1,22 @@
 ---
+- title: All The Birds In The Sky
+  author: Charlie Jane Anders
+  meeting_for: May 2016
+  img-url: /images/books/2016/all-the-birds-in-the-sky.jpg
+  isfdb: 1938602
+  goodreads: 25372801-all-the-birds-in-the-sky
+  store-links:
+  - name: Kobo
+    class: kobo
+    url: https://store.kobobooks.com/en-us/ebook/all-the-birds-in-the-sky-1
+  - name: Amazon Paperback
+    class: amazon
+    url: https://www.amazon.co.uk/All-Birds-Charlie-Jane-Anders/dp/1785650556
+  - name: Amazon Kindle
+    class: kindle
+    url: http://www.amazon.co.uk/All-Birds-Charlie-Jane-Anders-ebook/dp/B019NFXK72
+
+
 - title: News From Gardenia
   author: Robert Llewellyn
   meeting_for: April 2016
