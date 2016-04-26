@@ -44,13 +44,14 @@ layout: default
   {% endif %}
 </div><!-- End books -->
 
-
+{% if site.data.blog_entries.size != 0 %}
 <div class="blogs">
   <h1 class="books">Blog</h1>
 {% for entry in site.data.blog_entries %}
   {% include front-post.html param=entry %}
 {% endfor %}
 </div>
+{% endif %}
 
 </div> <!-- End content -->
 

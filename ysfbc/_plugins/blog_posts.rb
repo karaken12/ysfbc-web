@@ -8,6 +8,10 @@ module Discourse
        if maxtopics.nil?
          maxtopics = -1
        end
+       maxage = site.config['max_blog_age']
+       if maxage.nil?
+         maxage = -1
+       end
 
        category = 'blog'
 
@@ -28,6 +32,13 @@ module Discourse
        topics.each { |topic|
          entries.push(client.topic(topic['id']))
        }
+       # If set, restict to newer topics.
+       if (maxage > 0)
+         entries = entries.select{ |entry|
+           age = Date.today - Date.parse(entry['created_at'])
+           age < maxage
+         }
+       end
        #TODO for each category, put this away into a variable
 
        site.data['blog_entries'] = entries
