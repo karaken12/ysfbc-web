@@ -1,4 +1,13 @@
 ---
+- title: Europa Report
+  meeting_for: July 2016
+  img-url: /images/films/2016/europa-report.jpg
+  imdb: tt2051879
+  store-links:
+  - name: Netflix
+    class: netflix
+    url: http://www.netflix.com/WiMovie/70276016
+
 - title: Battleship
   meeting_for: June 2016
   img-url: /images/films/2016/battleship.jpg
