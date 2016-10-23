@@ -10,15 +10,26 @@ layout: default
      <h2>{{ meeting_x[0] }}</h2>
      <dl>
        <dt>When</dt>
-       {% if meeting.date.hour != 0 %}
-       <dd>{{ meeting.date | date: '%I:%M %p on %A %B %d, %Y' }}</dd>
-       {% else %}
-       <dd>{{ meeting.date | date: '%A %m %Y' }}</dd>
-       {% endif %}
+       <dd>
+         {% if meeting.date.hour != 0 %}
+           {{ meeting.date | date: '%I:%M %p on %A %B %d, %Y' }}
+         {% else %}
+           {{ meeting.date | date: '%A %m %Y' }}
+         {% endif %}
+       </dd>
 
        {% if meeting.where %}
          <dt>Where</dt>
          <dd>{{ meeting.where }}</dd>
+       {% endif %}
+
+       {% if meeting.facebook %}
+         <dt>Links</dt>
+         <dd>
+           <a href="https://www.facebook.com/events/{{ meeting.facebook.event_id}}/">
+             <img src="{{ "/images/facebook-icon.png" | prepend: site.baseurl | prepend: site.url }}" alt="Facebook Event" style="vertical-align: text-top" />
+           </a>
+         </dd>
        {% endif %}
 
        {% if meeting.book %}
@@ -30,8 +41,12 @@ layout: default
          <dt>Short Story</dt>
          <dd>{{ meeting.short.title }} by {{ meeting.short.author }}</dd>
        {% endif %}
+
+       {% if meeting.film %}
+         <dt>Film</dt>
+         <dd>{{ meeting.film.title }}</dd>
+       {% endif %}
      </dl>
-     <a href="https://www.facebook.com/events/{{ meeting.facebook.event_id}}/">Facebook event</a>
   </div>
   {% endfor %}
 </div>
