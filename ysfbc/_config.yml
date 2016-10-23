@@ -10,11 +10,10 @@ url: "http://www.yorkscifibookclub.co.uk"
 discourse_base: "http://discourse.yorkscifibookclub.co.uk"
 twitter_username: jekyllrb
 github_username:  jekyll
-discourse_api_key: secret
 discourse_api_user: secret
+discourse_api_key: secret
 max_blog_entries: 2
 max_blog_age: 90 # ~ 3 months
-next_meeting: November 2016
 
 # Build settings
 markdown: kramdown
