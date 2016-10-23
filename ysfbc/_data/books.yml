@@ -59,6 +59,7 @@
   author: M.R. Carey
   meeting_for: July 2016
   img-url: /images/books/2016/the-girl-with-all-the-gifts.jpg
+  image-source: https://upload.wikimedia.org/wikipedia/en/1/1f/The_Girl_with_All_the_Gifts.jpg
   isfdb: 1666651
   goodreads: 17235026-the-girl-with-all-the-gifts
 
@@ -66,6 +67,7 @@
   author: Ernest Cline
   meeting_for: June 2016
   img-url: /images/books/2016/ready-player-one.jpg
+  image-source: https://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg
   isfdb: 1297291
   goodreads: 9969571-ready-player-one
 
@@ -73,6 +75,7 @@
   author: Charlie Jane Anders
   meeting_for: May 2016
   img-url: /images/books/2016/all-the-birds-in-the-sky.jpg
+  image-source: https://images-na.ssl-images-amazon.com/images/I/51AQy9%2BuVPL._SX328_BO1,204,203,200_.jpg
   isfdb: 1938602
   goodreads: 25372801-all-the-birds-in-the-sky
   store-links:
@@ -86,11 +89,11 @@
     class: kindle
     url: http://www.amazon.co.uk/All-Birds-Charlie-Jane-Anders-ebook/dp/B019NFXK72
 
-
 - title: News From Gardenia
   author: Robert Llewellyn
   meeting_for: April 2016
   img-url: /images/books/2016/news-from-gardenia.jpg
+  image-source: https://s3-eu-west-1.amazonaws.com/media.unbound.co/p/images/266/medium/9781908717139.jpg?1425299678
   isfdb: 1390108
   goodreads: 13560055-news-from-gardenia
   store-links:
@@ -102,6 +105,7 @@
   author: Dave Eggers
   meeting_for: March 2016
   img-url: /images/books/2016/the-circle.jpg
+  image-source: http://cdn.collider.com/wp-content/uploads/circle.jpg
   isfdb: 1632893
   goodreads: 18302455-the-circle
   store-links:
@@ -122,6 +126,7 @@
   author: Kurt Vonnegut
   meeting_for: February 2016
   img-url: /images/books/2016/slaughterhouse-five.jpg
+  image-source: http://ecx.images-amazon.com/images/I/4120yizU-2L._SY344_BO1,204,203,200_.jpg
   isfdb: 955451
   goodreads: 4981.Slaughterhouse_Five
 
@@ -129,6 +134,7 @@
   author: David Weber
   meeting_for: January 2016
   img-url: /images/books/2016/basilisk.jpg
+  image-source: https://upload.wikimedia.org/wikipedia/en/a/ae/OnBasiliskStation.jpg
   isfdb: 1442
   goodreads: 35921.On_Basilisk_Station
 
@@ -136,9 +142,9 @@
   author: Greg Egan
   meeting_for: December 2015
   img-url: /images/books/2015/teranesia.jpg
+  image-source: https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Teranesia.jpg/220px-Teranesia.jpg
   isfdb: 19907
   goodreads: 156787.Teranesia
-#  store-links:
 
 - title: Wasp
   author: Eric Frank Russell
@@ -348,7 +354,8 @@
   author: Alexander King
   meeting_for: December 2014
   img-url: http://alexanderking.co/wp-content/uploads/2014/09/itlookslikeyourewritingaletter_cover.jpg
-  #isfdb:
+  isfdb: 1823232
+  goodreads: 23251483-it-looks-like-you-re-writing-a-letter
   store-links:
   - name: Amazon Kindle
     class: kindle
@@ -534,7 +541,6 @@
   meeting_for: November 2013
   img-url: http://ecx.images-amazon.com/images/I/31VF9V9Y8QL.jpg
   isfdb: 25035
-#  store-links:
 
 - title: Leviathan Wakes
   author: James S. A. Corey
@@ -555,15 +561,6 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/final-days-2
-
-#- title:
-#  author:
-#  meeting_for: September 2013
-#  startdate: 2013-08-15
-#  enddate: 2013-09-19
-#  img-url:
-#  isfdb:
-#  store-links:
 
 - title: Foundation
   author: Isaac Asimov

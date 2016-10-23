@@ -51,12 +51,14 @@
   author: Harry Harrison
   meeting_for: June 2016
   img-url: /images/shorts/2016/i-always-do-what-teddy-says.jpg
+  image-source: http://ecx.images-amazon.com/images/I/512pXro1RsL._SL500_SY344_BO1,204,203,200_.jpg
   isfdb: 62854
 
 - title: Exhalation
   author: Ted Chiang
   meeting_for: May 2016
   img-url: /images/shorts/2016/exhalation.jpg
+  image-source: http://www.lightspeedmagazine.com/wp-content/files_mf/cache/th_a0580aaeccec739569f2502c0aa86498_lightspeed_47_april_201431.jpg
   isfdb: 938470
   goodreads: 6404787-exhalation
   store-links:
@@ -77,6 +79,7 @@
   author: H. Beam Piper
   meeting_for: April 2016
   img-url: /images/shorts/2016/graveyard-of-dreams.jpg
+  image-source: http://d.gr-assets.com/books/1446252198l/27396965.jpg
   isfdb: 46003
   goodreads: 27396965-graveyard-of-dreams
   store-links:
@@ -91,6 +94,7 @@
   author: Neil Gaiman
   meeting_for: March 2016
   img-url: /images/shorts/2016/we-can-get-them-for-you-wholesale.jpg
+  image-source: http://ecx.images-amazon.com/images/I/519u91IIH5L._SX324_BO1,204,203,200_.jpg
   isfdb: 468511
   store-links:
   - name: Kobo (collection)
@@ -112,12 +116,14 @@
   isfdb: 102008
   goodreads: 893596.Diamond_Dogs
   img-url: /images/shorts/2016/diamond-dogs.jpg
+  image-source: http://d.gr-assets.com/books/1406468069l/893596.jpg
 
 - title: Merry Christmas from the Heartbreakers
   author: Mur Lafferty
   meeting_for: January 2016
   isfdb: 924324
   img-url: /images/shorts/2016/merry-christmas-heartbreakers.jpg
+  image-source: http://ecx.images-amazon.com/images/I/51A3RQ1fBmL._SX329_BO1,204,203,200_.jpg
   store-links:
   - name: Escape Pod
     class: escapepod free
@@ -134,6 +140,7 @@
   meeting_for: December 2015
   isfdb: 1789936
   img-url: /images/shorts/2015/totaled.jpg
+  image-source: http://karyenglish.com/wp-content/uploads/2015/02/TotaledCover375x600.jpg
   store-links:
   - name: Galaxy's Edge
     class: web free
@@ -322,7 +329,7 @@
 - title: The Water That Falls on You from Nowhere
   author: John Chu
   meeting_for: December 2014
-  #img-url: http://www.tor.com/images/stories/stories/Chu/full_waterthatfalls.jpg
+  image-source: http://www.tor.com/images/stories/stories/Chu/full_waterthatfalls.jpg
   img-url: /images/shorts/2014/waterthatfalls.jpg
   isfdb: 1572571
   store-links:
@@ -341,35 +348,3 @@
   - name: Nook
     class: nook
     url: http://www.nook.com/gb/ebooks/the-water-that-falls-on-you-from-nowhere-a-torcom-original-by-john-chu/9781466838116
-
-#- title: If You Were a Dinosaur, My Love
-#  author: Rachel Swirsky
-#  meeting_for: 
-#  img-url: https://calicointransition.files.wordpress.com/2014/06/apexmag03.jpg?w=500&h=714
-#  isfdb: 1567933
-#  store-links:
-#  - name: Webpage (free)
-#    class: web free
-#    url: http://www.apex-magazine.com/if-you-were-a-dinosaur-my-love/
-#  - name: Audiobook (free)
-#    class: audio free
-#    url: http://traffic.libsyn.com/apexmagazinepodcast/apex01.mp3
-#
-#- title: The Ink Readers of Doi Saket
-#  author: Thomas Olde Heuvelt
-##  meeting_for:
-#  img-url: http://www.tor.com/images/stories/stories/Heuvelt/full_inkreaders.jpg
-#  isfdb: 1587789
-#  store-links:
-#  - name: Webpage (free)
-#    class: web free
-#    url: http://www.tor.com/stories/2013/04/the-ink-readers-of-doi-saket
-#- title: Selkie Stories Are for Losers
-#  author: Sofia Samatar
-#  meeting_for: 
-#  img-url: 
-#  isfdb: 1555716
-#  store-links:
-#    - name:
-#      class:
-#      url: 

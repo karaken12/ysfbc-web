@@ -38,6 +38,7 @@
 - title: Europa Report
   meeting_for: July 2016
   img-url: /images/films/2016/europa-report.jpg
+  image-source: https://s.s-bol.com/imgbase0/imagebase3/large/FC/8/1/0/0/9200000035780018.jpg
   imdb: tt2051879
   store-links:
   - name: Netflix
@@ -47,16 +48,19 @@
 - title: Battleship
   meeting_for: June 2016
   img-url: /images/films/2016/battleship.jpg
+  image-source: https://upload.wikimedia.org/wikipedia/en/6/6e/Battleship_Poster.jpg
   imdb: tt1440129
 
 - title: Attack The Block
   meeting_for: May 2016
   img-url: /images/films/2016/attack-the-block.jpg
+  image-source: http://www.sonypictures.com/movies/attacktheblock/assets/images/onesheet.jpg
   imdb: tt1478964
 
 - title: The Mist
   meeting_for: April 2016
   img-url: /images/films/2016/mist.jpg
+  image-source: http://www.blairwitch.de/wp-content/uploads/2013/12/the-mist-5217e3e9d563b.jpg
   imdb: tt0884328
   store-links:
   - name: Netflix
@@ -66,6 +70,7 @@
 - title: Advantageous
   meeting_for: March 2016
   img-url: /images/films/2016/advantageous.jpg
+  image-source: http://cdn0.nflximg.net/images/0164/21510164.jpg
   imdb: tt3090670
   store-links:
   - name: Netflix
@@ -75,16 +80,19 @@
 - title: Gattaca
   meeting_for: February 2016
   img-url: /images/films/2016/gattaca.jpg
+  image-source: https://upload.wikimedia.org/wikipedia/en/b/bb/Gataca_Movie_Poster_B.jpg
   imdb: tt0119177
 
 - title: "Star Wars: The Force Awakens"
   meeting_for: January 2016
   img-url: /images/films/2016/starwars.jpg
+  image-source: http://vignette2.wikia.nocookie.net/starwars/images/f/fd/Star_Wars_Episode_VII_The_Force_Awakens.jpg/revision/latest?cb=20151018162823
   imdb: tt2488496
 
 - title: Snowpiercer
   meeting_for: December 2015
   img-url: /images/films/2015/snowpiercer.jpg
+  image-source: http://ia.media-imdb.com/images/M/MV5BMTQ3NzA1MTY3MV5BMl5BanBnXkFtZTgwNzE2Mzg5MTE@._V1_SX214_AL_.jpg
   imdb: tt1706620
 
 - title: What We Do In The Shadows
