@@ -1,4 +1,28 @@
 ---
+- title: Backwards
+  author: Rob Grant
+  meeting_for: October 2016
+  img-url: /images/books/2016/backwards.jpg
+  image-source: https://upload.wikimedia.org/wikipedia/en/8/81/Backwards_novel.jpg
+  isfdb: 18041
+  goodreads: 98785.Backwards
+
+- title: Proxima
+  author: Stephen Baxter
+  meeting_for: September 2016
+  img-url: /images/books/2016/proxima.jpg
+  image-source: http://www.forbiddenplanet.co.uk/blog/wp2013/wp-content/uploads/2013/09/proxima-stephen-baxter-gollancz.jpg
+  isfdb: 1616089
+  goodreads: 17983396-proxima
+
+- title: We
+  author: Yevgeny Zamyatin
+  meeting_for: August 2016
+  img-url: /images/books/2016/we.jpg
+  image-source: https://images-na.ssl-images-amazon.com/images/I/5147D4RvY7L.jpg
+  isfdb: 7135
+  goodreads: 76171.We
+
 - title: The Girl With All The Gifts
   author: M.R. Carey
   meeting_for: July 2016
