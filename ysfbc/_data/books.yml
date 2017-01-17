@@ -1,4 +1,12 @@
 ---
+- title: Starship Troopers
+  author: Robert Heinlein
+  meeting_for: December 2016
+  img-url: /images/books/2016/starship-troopers.jpg
+  image-source: https://upload.wikimedia.org/wikipedia/en/a/a9/Starship_Troopers_(novel).jpg
+  isfdb: 1112
+  goodreads: 17214.Starship_Troopers
+
 - title: The Three-Body Problem
   author: Liu Cixin
   meeting_for: November 2016
