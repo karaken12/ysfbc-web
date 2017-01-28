@@ -353,7 +353,8 @@
 - title: It Looks Like You're Writing A Letter
   author: Alexander King
   meeting_for: December 2014
-  img-url: http://alexanderking.co/wp-content/uploads/2014/09/itlookslikeyourewritingaletter_cover.jpg
+  img-url: /images/books/2014/it-looks-like-youre-writing-a-letter.jpg
+  image-source: http://alexanderking.co/wp-content/uploads/2014/09/itlookslikeyourewritingaletter_cover.jpg
   isfdb: 1823232
   goodreads: 23251483-it-looks-like-you-re-writing-a-letter
   store-links:
@@ -378,8 +379,8 @@
   meeting_for: November 2014
   startdate: 2014-10-19
   enddate: 2014-11-20
-  img-url: http://upload.wikimedia.org/wikipedia/en/thumb/2/28/The_Man_in_the_High_Castle.jpg/200px-The_Man_in_the_High_Castle.jpg
-  img-url: http://img1.imagesbn.com/p/9780241964262_p0_v1_s300x475.JPG
+  img-url: /images/books/2014/man-in-high-castle.jpg
+  image-source: http://img1.imagesbn.com/p/9780241964262_p0_v1_s300x475.JPG
   isfdb: 1574
   store-links:
     - name: Amazon paperback
@@ -400,7 +401,8 @@
   meeting_for: October 2014
   startdate: 2014-09-18
   enddate: 2014-10-16
-  img-url: http://kbimages1-a.akamaihd.net/81e6219e-7a30-4e20-a3ae-d43dbd13e38b/166/300/False/The+Darwin+Elevator.jpg
+  img-url: /images/books/2014/the-darwin-elevator.jpg
+  image-source: http://kbimages1-a.akamaihd.net/81e6219e-7a30-4e20-a3ae-d43dbd13e38b/166/300/False/The+Darwin+Elevator.jpg
   isfdb: 1599406
   store-links:
     - name: Kobo
@@ -412,7 +414,8 @@
   meeting_for: September 2014
   startdate: 2014-08-21
   enddate: 2014-09-18
-  img-url: http://upload.wikimedia.org/wikipedia/en/thumb/5/55/Contact_Sagan.jpg/220px-Contact_Sagan.jpg
+  img-url: /images/books/2014/contact.jpg
+  image-source: http://upload.wikimedia.org/wikipedia/en/thumb/5/55/Contact_Sagan.jpg/220px-Contact_Sagan.jpg
   isfdb: 2199
   suggested-by: Michelle
 
@@ -421,7 +424,8 @@
   meeting_for: August 2014
   startdate: 2014-07-17
   enddate: 2014-08-21
-  img-url: http://img1.imagesbn.com/p/9780748100408_p0_v2_s300x475.JPG
+  img-url: /images/books/2014/halting-state.jpg
+  image-source: http://img1.imagesbn.com/p/9780748100408_p0_v2_s300x475.JPG
   isfdb: 659009
   store-links:
     - name: Amazon paperback
@@ -442,7 +446,8 @@
   meeting_for: July 2014
   startdate: 2014-06-19
   enddate: 2014-07-17
-  img-url: //upload.wikimedia.org/wikipedia/en/thumb/e/ec/VernorVinge_RainbowsEnd.jpg/200px-VernorVinge_RainbowsEnd.jpg
+  img-url: /images/books/2014/rainbows-end.jpg
+  image-source: http://upload.wikimedia.org/wikipedia/en/thumb/e/ec/VernorVinge_RainbowsEnd.jpg/200px-VernorVinge_RainbowsEnd.jpg
   isfdb: 181278
   store-links:
     - name: Kobo
@@ -454,7 +459,8 @@
   meeting_for: June 2014
   startdate: 2014-05-15
   enddate: 2014-06-19
-  img-url: http://kbimages1-a.akamaihd.net/725168a3-5424-45e9-8cd3-ef79cdbe8812/166/300/False/John+Dies+at+the+End.jpg
+  img-url: /images/books/2014/john-dies-at-the-end.jpg
+  image-source: http://kbimages1-a.akamaihd.net/725168a3-5424-45e9-8cd3-ef79cdbe8812/166/300/False/John+Dies+at+the+End.jpg
   isfdb: 1142519
   store-links:
     - name: Kobo
@@ -466,7 +472,8 @@
   meeting_for: May 2014
   startdate: 2014-04-17
   enddate: 2014-05-15
-  img-url: http://tomcatintheredroom.files.wordpress.com/2011/08/the-city-and-the-city.jpg
+  img-url: /images/books/2014/the-city-and-the-city.jpg
+  image-source: https://tomcatintheredroom.files.wordpress.com/2011/08/the-city-and-the-city.jpg
   isfdb: 979458
   store-links:
     - name: Amazon paperback
@@ -481,7 +488,8 @@
   meeting_for: April 2014
   startdate: 2014-03-20
   enddate: 2014-04-17
-  img-url: http://kbimages1-a.akamaihd.net/dcc23bee-7f94-42e4-bea0-66586917cea1/166/300/False/Twisted+Metal.jpg
+  img-url: /images/books/2014/twisted-metal.jpg
+  image-source: http://kbimages1-a.akamaihd.net/dcc23bee-7f94-42e4-bea0-66586917cea1/166/300/False/Twisted+Metal.jpg
   isfdb: 930148
   store-links:
     - name: Kobo
@@ -493,7 +501,8 @@
   meeting_for: March 2014
   startdate: 2014-02-20
   enddate: 2014-03-20
-  img-url: http://kbimages1-a.akamaihd.net/2ac6e66b-d1c1-4e03-beff-a042badd5461/166/300/False/Old+Man%27s+War.jpg
+  img-url: /images/books/2014/old-mans-war.jpg
+  image-source: http://kbimages1-a.akamaihd.net/2ac6e66b-d1c1-4e03-beff-a042badd5461/166/300/False/Old+Man%27s+War.jpg
   isfdb: 157782
   store-links:
     - name: Kobo
@@ -505,7 +514,8 @@
   meeting_for: February 2014
   startdate: 2014-01-16
   enddate: 2014-02-20
-  img-url: http://kbimages1-a.akamaihd.net/8ee270b2-d166-46f4-a04c-4c2c6a52f436/166/300/False/Ancillary+Justice.jpg
+  img-url: /images/books/2014/ancillary-justice.jpg
+  image-source: http://kbimages1-a.akamaihd.net/8ee270b2-d166-46f4-a04c-4c2c6a52f436/166/300/False/Ancillary+Justice.jpg
   isfdb: 1632550
   store-links:
     - name: Kobo
@@ -517,7 +527,8 @@
   meeting_for: January 2014
   startdate: 2013-12-19
   enddate: 2014-01-16
-  img-url: http://kbimages1-a.akamaihd.net/5e80f176-ad2a-4d50-92a0-be2092059cf1/166/300/False/The+Atrocity+Archives.jpg
+  img-url: /images/books/2014/atrocity-archive.jpg
+  image-source: http://kbimages1-a.akamaihd.net/5e80f176-ad2a-4d50-92a0-be2092059cf1/166/300/False/The+Atrocity+Archives.jpg
   isfdb: 23803
   store-links:
     - name: Kobo
@@ -529,7 +540,8 @@
   meeting_for: December 2013
   startdate: 2013-11-21
   enddate: 2013-12-19
-  img-url: https://libcom.org/files/images/library/dispossessed.jpg
+  img-url: /images/books/2013/dispossessed.jpg
+  image-source: https://images-na.ssl-images-amazon.com/images/I/51uFZUY12BL._SX321_BO1,204,203,200_.jpg
   isfdb: 1765549
   store-links:
     - name: Amazon paperback
@@ -539,13 +551,15 @@
 - title: Only Forward
   author: Michael Marshall Smith
   meeting_for: November 2013
-  img-url: http://ecx.images-amazon.com/images/I/31VF9V9Y8QL.jpg
+  img-url: /images/books/2013/only-forward.jpg
+  image-source: http://ecx.images-amazon.com/images/I/31VF9V9Y8QL.jpg
   isfdb: 25035
 
 - title: Leviathan Wakes
   author: James S. A. Corey
   meeting_for: October 2013
-  img-url: http://kbimages1-a.akamaihd.net/f25cc4a0-1a61-4b60-9d8d-584e990bf630/166/300/False/Leviathan+Wakes.jpg
+  img-url: /images/books/2013/leviathan-wakes.jpg
+  image-source: http://kbimages1-a.akamaihd.net/f25cc4a0-1a61-4b60-9d8d-584e990bf630/166/300/False/Leviathan+Wakes.jpg
   isfdb: 1272563
   store-links:
     - name: Kobo
@@ -555,7 +569,8 @@
 - title: Final Days
   author: Gary Gibson
   meeting_for: September 2013
-  img-url: http://kbimages1-a.akamaihd.net/4649e510-c6b9-43b4-afbe-9c3b7d8b980f/166/300/False/Final+Days.jpg
+  img-url: /images/books/2013/final-days.jpg
+  image-source: http://kbimages1-a.akamaihd.net/4649e510-c6b9-43b4-afbe-9c3b7d8b980f/166/300/False/Final+Days.jpg
   isfdb: 1245173
   store-links:
     - name: Kobo
@@ -567,7 +582,8 @@
   meeting_for: August 2013
   startdate: 2013-07-18
   enddate: 2013-08-15
-  img-url: http://www.vavatch.co.uk/books/asimov/found1as.jpg
+  img-url: /images/books/2013/foundation.jpg
+  image-source: http://www.vavatch.co.uk/books/asimov/found1as.jpg
   #isfdb: you'd think this was easy, but I'm not sure which title it actually was!
   store-links:
     - name: Amazon paperback
@@ -579,7 +595,8 @@
   meeting_for: July 2013
   startdate: 2013-06-17
   enddate: 2013-07-18
-  img-url: http://kbimages1-a.akamaihd.net/896cacb4-b6f2-4faa-8197-4a5c4f77c77e/166/300/False/By+Light+Alone.jpg
+  img-url: /images/books/2013/by-light-alone.jpg
+  image-source: http://kbimages1-a.akamaihd.net/896cacb4-b6f2-4faa-8197-4a5c4f77c77e/166/300/False/By+Light+Alone.jpg
   isfdb: 1245153
   store-links:
     - name: Kobo
@@ -589,7 +606,8 @@
 - title: The Long Earth
   author: Stephen Baxter and Terry Pratchett
   meeting_for: June 2013
-  img-url: http://kbimages1-a.akamaihd.net/52fae4c4-79c5-42e2-8a79-da5990274e93/166/300/False/The+Long+Earth.jpg
+  img-url: /images/books/2013/long-earth.jpg
+  image-source: http://kbimages1-a.akamaihd.net/52fae4c4-79c5-42e2-8a79-da5990274e93/166/300/False/The+Long+Earth.jpg
   isfdb: 1433940
   store-links:
     - name: Kobo
@@ -599,7 +617,8 @@
 - title: The Accidental Time Machine
   author: Joe Haldeman
   meeting_for: May 2013
-  img-url: http://d.gr-assets.com/books/1388420458l/21608.jpg
+  img-url: /images/books/2013/accidental-time-machine.jpg
+  image-source: http://d.gr-assets.com/books/1388420458l/21608.jpg
   isfdb: 389381
   store-links:
     - name: Kobo
@@ -609,7 +628,8 @@
 - title: Yellow Blue Tibia
   author: Adam Roberts
   meeting_for: April 2013
-  img-url: http://kbimages1-a.akamaihd.net/d23a60fb-cb4b-4bd2-86f5-94c54313c215/166/300/False/Yellow+Blue+Tibia.jpg
+  img-url: /images/books/2013/yellow-blue-tibia.jpg
+  image-source: http://kbimages1-a.akamaihd.net/d23a60fb-cb4b-4bd2-86f5-94c54313c215/166/300/False/Yellow+Blue+Tibia.jpg
   isfdb: 873631
   store-links:
     - name: Kobo
@@ -619,7 +639,8 @@
 - title: Surface Detail
   author: Ian M. Banks
   meeting_for: March 2013
-  img-url: http://kbimages1-a.akamaihd.net/7a7cffcd-5bb0-42c7-b898-6c1a7c9aa1b2/166/300/False/Surface+Detail.jpg
+  img-url: /images/books/2013/surface-detail.jpg
+  image-source: http://kbimages1-a.akamaihd.net/7a7cffcd-5bb0-42c7-b898-6c1a7c9aa1b2/166/300/False/Surface+Detail.jpg
   isfdb: 1143220
   store-links:
     - name: Kobo
