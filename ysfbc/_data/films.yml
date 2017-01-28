@@ -1,43 +1,64 @@
 ---
 - title: Interstellar
   meeting_for: February 2017
-  img-url: /images/films/2017/interstellar.jpg
+  img-url-a: films
+  img-url-b: 2017
+  img-url-c: interstellar
+  img-url-d: jpg
   image-source: https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_UY1200_CR69,0,630,1200_AL_.jpg
   imdb: tt0816692
 
 - title: "Rogue One: A Star Wars Story"
   meeting_for: January 2017
-  img-url: /images/films/2017/rogue-one-a-star-wars-story.jpg
+  img-url-a: films
+  img-url-b: 2017
+  img-url-c: rogue-one-a-star-wars-story
+  img-url-d: jpg
   image-source: http://img.lum.dolimg.com/v1/images/rogueone_onesheeta_1000_309ed8f6.jpeg?region=0%2C0%2C1000%2C1481&width=480
   imdb: tt3748528
 
 - title: Lucy
   meeting_for: December 2016
-  img-url: /images/films/2016/lucy.jpg
+  img-url-a: films
+  img-url-b: 2016
+  img-url-c: lucy
+  img-url-d: jpg
   image-source: https://thehumanist.com/wp-content/uploads/2014/08/LucyMoviePoster.jpg
   imdb: tt2872732
 
 - title: The Wicker Man
   meeting_for: November 2016
-  img-url: /images/films/2016/wicker-man.jpg
+  img-url-a: films
+  img-url-b: 2016
+  img-url-c: wicker-man
+  img-url-d: jpg
   image-source: https://upload.wikimedia.org/wikipedia/en/thumb/1/11/The_Wicker_Man_(1973_film)_UK_poster.jpg/220px-The_Wicker_Man_(1973_film)_UK_poster.jpg
   imdb: tt0070917
 
 - title: The Girl With All The Gifts
   meeting_for: October 2016
-  img-url: /images/films/2016/the-girl-with-all-the-gifts.jpg
+  img-url-a: films
+  img-url-b: 2016
+  img-url-c: the-girl-with-all-the-gifts
+  img-url-d: jpg
   image-source: https://upload.wikimedia.org/wikipedia/en/c/c7/The_Girl_with_All_the_Gifts_poster.jpg
   imdb: tt4547056
 
 - title: Labyrinth
   meeting_for: August 2016
-  img-url: /images/films/2016/labyrinth.jpg
+  img-url-a: films
+  img-url-b: 2016
+  img-url-c: labyrinth
+  img-url-d: jpg
   image-source: https://upload.wikimedia.org/wikipedia/en/6/6b/Labyrinth_ver2.jpg
   imdb: tt0091369
 
 - title: Europa Report
   meeting_for: July 2016
-  img-url: /images/films/2016/europa-report.jpg
+  img-url-a: films
+  img-url-b: 2016
+  img-url-c: europa-report
+  img-url-d: jpg
   image-source: https://s.s-bol.com/imgbase0/imagebase3/large/FC/8/1/0/0/9200000035780018.jpg
   imdb: tt2051879
   store-links:
@@ -47,19 +68,28 @@
 
 - title: Battleship
   meeting_for: June 2016
-  img-url: /images/films/2016/battleship.jpg
+  img-url-a: films
+  img-url-b: 2016
+  img-url-c: battleship
+  img-url-d: jpg
   image-source: https://upload.wikimedia.org/wikipedia/en/6/6e/Battleship_Poster.jpg
   imdb: tt1440129
 
 - title: Attack The Block
   meeting_for: May 2016
-  img-url: /images/films/2016/attack-the-block.jpg
+  img-url-a: films
+  img-url-b: 2016
+  img-url-c: attack-the-block
+  img-url-d: jpg
   image-source: http://www.sonypictures.com/movies/attacktheblock/assets/images/onesheet.jpg
   imdb: tt1478964
 
 - title: The Mist
   meeting_for: April 2016
-  img-url: /images/films/2016/mist.jpg
+  img-url-a: films
+  img-url-b: 2016
+  img-url-c: mist
+  img-url-d: jpg
   image-source: http://www.blairwitch.de/wp-content/uploads/2013/12/the-mist-5217e3e9d563b.jpg
   imdb: tt0884328
   store-links:
@@ -69,7 +99,10 @@
 
 - title: Advantageous
   meeting_for: March 2016
-  img-url: /images/films/2016/advantageous.jpg
+  img-url-a: films
+  img-url-b: 2016
+  img-url-c: advantageous
+  img-url-d: jpg
   image-source: http://cdn0.nflximg.net/images/0164/21510164.jpg
   imdb: tt3090670
   store-links:
@@ -79,28 +112,43 @@
 
 - title: Gattaca
   meeting_for: February 2016
-  img-url: /images/films/2016/gattaca.jpg
+  img-url-a: films
+  img-url-b: 2016
+  img-url-c: gattaca
+  img-url-d: jpg
   image-source: https://upload.wikimedia.org/wikipedia/en/b/bb/Gataca_Movie_Poster_B.jpg
   imdb: tt0119177
 
 - title: "Star Wars: The Force Awakens"
   meeting_for: January 2016
-  img-url: /images/films/2016/starwars.jpg
+  img-url-a: films
+  img-url-b: 2016
+  img-url-c: starwars
+  img-url-d: jpg
   image-source: http://vignette2.wikia.nocookie.net/starwars/images/f/fd/Star_Wars_Episode_VII_The_Force_Awakens.jpg/revision/latest?cb=20151018162823
   imdb: tt2488496
 
 - title: Snowpiercer
   meeting_for: December 2015
-  img-url: /images/films/2015/snowpiercer.jpg
+  img-url-a: films
+  img-url-b: 2015
+  img-url-c: snowpiercer
+  img-url-d: jpg
   image-source: http://ia.media-imdb.com/images/M/MV5BMTQ3NzA1MTY3MV5BMl5BanBnXkFtZTgwNzE2Mzg5MTE@._V1_SX214_AL_.jpg
   imdb: tt1706620
 
 - title: What We Do In The Shadows
   meeting_for: November 2015
-  img-url: /images/films/2015/what-do-shadows.jpg
+  img-url-a: films
+  img-url-b: 2015
+  img-url-c: what-do-shadows
+  img-url-d: jpg
   imdb: tt3416742
 
 - title: Village of the Damned
   meeting_for: October 2015
-  img-url: /images/films/2015/village-damned.jpg
+  img-url-a: films
+  img-url-b: 2015
+  img-url-c: village-damned
+  img-url-d: jpg
   imdb: tt0054443
