@@ -2,10 +2,7 @@
 - title: Asymmetrical Warfare
   author: S.R. Algernon
   meeting_for: February 2017
-  img-url-a: shorts
-  img-url-b: 2017
-  img-url-c: asymmetrical-warfare
-  img-url-d: jpg
+  slug: asymmetrical-warfare
   image-source: http://www.nature.com/nature/journal/v519/n7544/images/519498a-i1.jpg
   isfdb: 1864869
   goodreads: 30066460-asymmetrical-warfare
@@ -17,30 +14,21 @@
 - title: Let's Go To Golgotha
   author: Garry Kilworth
   meeting_for: January 2017
-  img-url-a: shorts
-  img-url-b: 2017
-  img-url-c: lets-go-to-golgotha
-  img-url-d: jpg
+  slug: lets-go-to-golgotha
   image-source: http://images.gr-assets.com/books/1352710704l/16138652.jpg
   isfdb: 82634
 
 - title: Story of Your Life
   author: Ted Chiang
   meeting_for: December 2016
-  img-url-a: shorts
-  img-url-b: 2016
-  img-url-c: story-of-your-life
-  img-url-d: jpg
+  slug: story-of-your-life
   image-source: http://media.boingboing.net/wp-content/uploads/2013/10/cover1.jpg
   isfdb: 84502
 
 - title: Gorlack the Destroyer's All You Can Eat Adventure
   author: Robert Lowell Russell
   meeting_for: November 2016
-  img-url-a: shorts
-  img-url-b: 2016
-  img-url-c: gorlack-the-destroyers-all-you-can-eat-adventure
-  img-url-d: jpg
+  slug: gorlack-the-destroyers-all-you-can-eat-adventure
   image-source: http://imglogo.podbean.com/dir-logo/192383/192383_300x300.jpg
   isfdb: 1865069
   store-links:
@@ -51,10 +39,7 @@
 - title: Why I Left Harry's All-Night Hamburgers
   author: Lawrence Watt-Evans
   meeting_for: August 2016
-  img-url-a: shorts
-  img-url-b: 2016
-  img-url-c: why-i-left-harrys-all-night-hamburgers
-  img-url-d: jpg
+  slug: why-i-left-harrys-all-night-hamburgers
   image-source: http://www.isfdb.org/wiki/images/5/52/WHLFTHRRSL1992.jpg
   isfdb: 40786
   store-links:
@@ -65,20 +50,14 @@
 - title: I Always Do What Teddy Says
   author: Harry Harrison
   meeting_for: June 2016
-  img-url-a: shorts
-  img-url-b: 2016
-  img-url-c: i-always-do-what-teddy-says
-  img-url-d: jpg
+  slug: i-always-do-what-teddy-says
   image-source: http://ecx.images-amazon.com/images/I/512pXro1RsL._SL500_SY344_BO1,204,203,200_.jpg
   isfdb: 62854
 
 - title: Exhalation
   author: Ted Chiang
   meeting_for: May 2016
-  img-url-a: shorts
-  img-url-b: 2016
-  img-url-c: exhalation
-  img-url-d: jpg
+  slug: exhalation
   image-source: http://www.lightspeedmagazine.com/wp-content/files_mf/cache/th_a0580aaeccec739569f2502c0aa86498_lightspeed_47_april_201431.jpg
   isfdb: 938470
   goodreads: 6404787-exhalation
@@ -99,10 +78,7 @@
 - title: Graveyard of Dreams
   author: H. Beam Piper
   meeting_for: April 2016
-  img-url-a: shorts
-  img-url-b: 2016
-  img-url-c: graveyard-of-dreams
-  img-url-d: jpg
+  slug: graveyard-of-dreams
   image-source: http://d.gr-assets.com/books/1446252198l/27396965.jpg
   isfdb: 46003
   goodreads: 27396965-graveyard-of-dreams
@@ -117,10 +93,7 @@
 - title: We Can Get Them For You Wholesale
   author: Neil Gaiman
   meeting_for: March 2016
-  img-url-a: shorts
-  img-url-b: 2016
-  img-url-c: we-can-get-them-for-you-wholesale
-  img-url-d: jpg
+  slug: we-can-get-them-for-you-wholesale
   image-source: http://ecx.images-amazon.com/images/I/519u91IIH5L._SX324_BO1,204,203,200_.jpg
   isfdb: 468511
   store-links:
@@ -142,20 +115,14 @@
   meeting_for: February 2016
   isfdb: 102008
   goodreads: 893596.Diamond_Dogs
-  img-url-a: shorts
-  img-url-b: 2016
-  img-url-c: diamond-dogs
-  img-url-d: jpg
+  slug: diamond-dogs
   image-source: http://d.gr-assets.com/books/1406468069l/893596.jpg
 
 - title: Merry Christmas from the Heartbreakers
   author: Mur Lafferty
   meeting_for: January 2016
   isfdb: 924324
-  img-url-a: shorts
-  img-url-b: 2016
-  img-url-c: merry-christmas-heartbreakers
-  img-url-d: jpg
+  slug: merry-christmas-heartbreakers
   image-source: http://ecx.images-amazon.com/images/I/51A3RQ1fBmL._SX329_BO1,204,203,200_.jpg
   store-links:
   - name: Escape Pod
@@ -172,10 +139,7 @@
   author: Kary English
   meeting_for: December 2015
   isfdb: 1789936
-  img-url-a: shorts
-  img-url-b: 2015
-  img-url-c: totaled
-  img-url-d: jpg
+  slug: totaled
   image-source: http://karyenglish.com/wp-content/uploads/2015/02/TotaledCover375x600.jpg
   store-links:
   - name: Galaxy's Edge
@@ -186,10 +150,7 @@
   author: Ray Bradbury
   meeting_for: November 2015
   isfdb: 64827
-  img-url-a: shorts
-  img-url-b: 2015
-  img-url-c: veldt
-  img-url-d: jpg
+  slug: veldt
   store-links:
   - name: Amazon Paperback (anthology)
     class: anthology amazon
@@ -205,10 +166,7 @@
   author: Robert Sheckley
   meeting_for: October 2015
   isfdb: 58540
-  img-url-a: shorts
-  img-url-b: 2015
-  img-url-c: accountant
-  img-url-d: jpg
+  slug: accountant
   store-links:
   - name: Amazon Kindle (anthology)
     class: anthology kindle
@@ -224,10 +182,7 @@
   author: Tim Pratt
   meeting_for: August 2015
   isfdb: 1646535
-  img-url-a: shorts
-  img-url-b: 2015
-  img-url-c: retgun
-  img-url-d: jpg
+  slug: retgun
   store-links:
   - name: Escape Pod
     class: escapepod free
@@ -243,10 +198,7 @@
   author: Ken Liu
   meeting_for: July 2015
   isfdb: 1830702
-  img-url-a: shorts
-  img-url-b: 2015
-  img-url-c: cassandra
-  img-url-d: jpg
+  slug: cassandra
   store-links:
   - name: Clarkesworld
     class: web free
@@ -265,10 +217,7 @@
   author: Arthur C. Clarke
   meeting_for: June 2015
   isfdb: 25639
-  img-url-a: shorts
-  img-url-b: 2015
-  img-url-c: sentinel
-  img-url-d: jpg
+  slug: sentinel
   suggested-by: Jonathon
   store-links:
   - name: Amazon Paperback
@@ -287,10 +236,7 @@
 - title: Jackalope Wives
   author: Ursula Vernon
   meeting_for: May 2015
-  img-url-a: shorts
-  img-url-b: 2015
-  img-url-c: jackalope_wives
-  img-url-d: jpg
+  slug: jackalope_wives
   isfdb: 1679219
   suggested-by: Tom
   store-links:
@@ -304,10 +250,7 @@
 - title: Made of Cats
   author: Judith Tarr
   meeting_for: April 2015
-  img-url-a: shorts
-  img-url-b: 2015
-  img-url-c: made_of_cats
-  img-url-d: jpg
+  slug: made_of_cats
   isfdb: 1294390
   suggested-by: Sophie
   store-links:
@@ -321,10 +264,7 @@
 - title: Sleepover
   author: Alastair Reynolds
   meeting_for: March 2015
-  img-url-a: shorts
-  img-url-b: 2015
-  img-url-c: sleepover
-  img-url-d: jpg
+  slug: sleepover
   isfdb: 1205313
   suggested-by: Dan
   store-links:
@@ -344,10 +284,7 @@
 - title: Streets of Ashkelon
   author: Harry Harrison
   meeting_for: February 2015
-  img-url-a: shorts
-  img-url-b: 2015
-  img-url-c: ashkelon
-  img-url-d: jpg
+  slug: ashkelon
   isfdb: 66842
   suggested-by: Jonathon
   store-links:
@@ -373,10 +310,7 @@
 - title: Fatima's Wound
   author: Kali Wallace
   meeting_for: January 2015
-  img-url-a: shorts
-  img-url-b: 2015
-  img-url-c: fatimaswound
-  img-url-d: jpg
+  slug: fatimaswound
   isfdb: 1800160
   store-links:
   - name: Webpage (free)
@@ -395,10 +329,7 @@
 - title: The Water That Falls on You from Nowhere
   author: John Chu
   meeting_for: December 2014
-  img-url-a: shorts
-  img-url-b: 2014
-  img-url-c: waterthatfalls
-  img-url-d: jpg
+  slug: waterthatfalls
   image-source: http://www.tor.com/images/stories/stories/Chu/full_waterthatfalls.jpg
   isfdb: 1572571
   store-links:

@@ -10,6 +10,7 @@ module Discourse
        site.data['next_meeting'] = meeting
 
        for book in site.data['books']
+         book['ptype'] = 'books'
          book['img-url'] = image_url(book)
          download_image(site, book)
 
@@ -22,6 +23,7 @@ module Discourse
        end
 
        for short in site.data['shorts']
+         short['ptype'] = 'shorts'
          short['img-url'] = image_url(short)
          download_image(site, short)
 
@@ -34,6 +36,7 @@ module Discourse
        end
 
        for film in site.data['films']
+         film['ptype'] = 'films'
          film['img-url'] = image_url(film)
          download_image(site, film)
 
@@ -47,11 +50,10 @@ module Discourse
      end
 
     def image_url(entry)
-      base = entry['img-url-a']
-      year = entry['img-url-b']
-      slug = entry['img-url-c']
-      ext = entry['img-url-d']
-      "/images/#{base}/#{year}/#{slug}.#{ext}"
+      base = entry['ptype']
+      year = entry['meeting_for'][-4..-1]
+      slug = entry['slug']
+      "/images/#{base}/#{year}/#{slug}.jpg"
     end
 
     def download_image(site, entry)
