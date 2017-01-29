@@ -9,45 +9,25 @@ module Discourse
        meeting = site.data['meetings'][name]
        site.data['next_meeting'] = meeting
 
-       for book in site.data['books']
-         book['ptype'] = 'books'
-         book['img-url'] = image_url(book)
-         download_image(site, book)
-
-         meeting_name = book['meeting_for']
-         if !site.data['meetings'].has_key?(meeting_name)
-           puts "Missing meeting: #{meeting_name}"
-           next
-         end
-         site.data['meetings'][meeting_name]['book'] = book
-       end
-
-       for short in site.data['shorts']
-         short['ptype'] = 'shorts'
-         short['img-url'] = image_url(short)
-         download_image(site, short)
-
-         meeting_name = short['meeting_for']
-         if !site.data['meetings'].has_key?(meeting_name)
-           puts "Missing meeting: #{meeting_name}"
-           next
-         end
-         site.data['meetings'][meeting_name]['short'] = short
-       end
-
-       for film in site.data['films']
-         film['ptype'] = 'films'
-         film['img-url'] = image_url(film)
-         download_image(site, film)
-
-         meeting_name = film['meeting_for']
-         if !site.data['meetings'].has_key?(meeting_name)
-           puts "Missing meeting: #{meeting_name}"
-           next
-         end
-         site.data['meetings'][meeting_name]['film'] = film
-       end
+       setup_entries(site, 'book', 'books')
+       setup_entries(site, 'short', 'shorts')
+       setup_entries(site, 'film','films')
      end
+
+    def setup_entries(site, type, ptype)
+      for entry in site.data[ptype]
+        entry['ptype'] = ptype
+        entry['img-url'] = image_url(entry)
+        download_image(site, entry)
+
+        meeting_name = entry['meeting_for']
+        if !site.data['meetings'].has_key?(meeting_name)
+          puts "Missing meeting: #{meeting_name}"
+          next
+        end
+        site.data['meetings'][meeting_name][type] = entry
+      end
+    end
 
     def image_url(entry)
       base = entry['ptype']
