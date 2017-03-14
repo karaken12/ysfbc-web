@@ -1,5 +1,7 @@
 require 'discourse_api'
 require 'open-uri'
+require 'rmagick'
+include Magick
 
 module Discourse
   class NextMeeting < Jekyll::Generator
@@ -19,6 +21,7 @@ module Discourse
         entry['ptype'] = ptype
         entry['img-url'] = image_url(entry)
         download_image(site, entry)
+        create_image_vars(site, entry)
 
         meeting_name = entry['meeting_for']
         if !site.data['meetings'].has_key?(meeting_name)
@@ -36,8 +39,15 @@ module Discourse
       "/images/#{base}/#{year}/#{slug}.jpg"
     end
 
+    def original_image_url(entry)
+      base = entry['ptype']
+      year = entry['meeting_for'][-4..-1]
+      slug = entry['slug']
+      "/images/o/#{base}/#{year}/#{slug}.jpg"
+    end
+
     def download_image(site, entry)
-      img_path = ".#{entry['img-url']}"
+      img_path = ".#{original_image_url(entry)}"
       image_source = entry['image-source']
       if not(File.exists?(img_path)) and image_source
          puts "Downloading #{image_source} to #{img_path}..."
@@ -46,6 +56,18 @@ module Discourse
          end
          FileUtils.chmod 0664, img_path
          site.static_files << Jekyll::StaticFile.new(site, site.source, File.dirname(entry['img-url']), File.basename(entry['img-url']))
+      end
+    end
+
+    def create_image_vars(site, entry)
+      img_path = ".#{image_url(entry)}"
+      orig_image_path = ".#{original_image_url(entry)}"
+      if not(File.exists?(img_path)) and File.exists?(orig_image_path)
+        puts "Resizing #{img_path}..."
+        orig_img = Image.read(orig_image_path).first
+        new_img = orig_img.resize_to_fit(150,500)
+        new_img.write(img_path)
+        site.static_files << Jekyll::StaticFile.new(site, site.source, File.dirname(img_path), File.basename(img_path))
       end
     end
 
