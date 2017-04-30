@@ -31,22 +31,30 @@ layout: default
            </a>
          </dd>
        {% endif %}
-
-       {% if meeting.book %}
-         <dt>Book</dt>
-         <dd>{{ meeting.book.title }} by {{ meeting.book.author }}</dd>
-       {% endif %}
-
-       {% if meeting.short %}
-         <dt>Short Story</dt>
-         <dd>{{ meeting.short.title }} by {{ meeting.short.author }}</dd>
-       {% endif %}
-
-       {% if meeting.film %}
-         <dt>Film</dt>
-         <dd>{{ meeting.film.title }}</dd>
-       {% endif %}
      </dl>
+
+<div class="books">
+     {% if meeting.book %}
+       {% assign book = meeting.book %}
+       <section class="book">
+         {% include book.html %}
+       </section>
+     {% endif %}
+
+     {% if meeting.short %}
+       {% assign book = meeting.short %}
+       <section class="book">
+         {% include book.html %}
+       </section>
+     {% endif %}
+
+     {% if meeting.film %}
+       {% assign book = meeting.film %}
+       <section class="book">
+         {% include book.html %}
+       </section>
+     {% endif %}
+</div>
   </div>
   {% endfor %}
 </div>
