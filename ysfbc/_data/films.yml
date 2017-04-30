@@ -1,4 +1,10 @@
 ---
+- title: Demolition Man
+  meeting_for: April 2017
+  slug: demolition-man
+  image-source: https://upload.wikimedia.org/wikipedia/en/0/05/Demolition_man.jpg
+  imdb: tt0106697
+
 - title: Escape from L.A.
   meeting_for: March 2017
   slug: escape-from-la
