@@ -1,4 +1,16 @@
 ---
+- title: Seasons of Glass and Iron
+  author: Amal Et-Mohtar
+  meeting_for: July 2017
+  slug: seasons-glass-iron
+  image-source: http://images.gr-assets.com/books/1489209667l/34401218.jpg
+  isfdb: 2088490
+  goodreads: 34401218-seasons-of-glass-and-iron
+  store-links:
+  - name: Uncanny Magazine
+    class: web free
+    url: http://uncannymagazine.com/article/seasons-glass-iron/
+
 - title: Men of the Ashen Morrow
   author: Margaret Killjoy
   meeting_for: June 2017
