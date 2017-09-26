@@ -1,4 +1,20 @@
 ---
+- title: Today I Am Paul
+  author: Martin L. Shoemaker
+  meeting_for: October 2017
+  suggested-by: Jonathon
+  slug: today-i-am-paul
+  image-source: http://clarkesworldmagazine.com/covers/cw_107_350.jpg
+  isfdb: 1971481
+  goodreads: 29910765-today-i-am-paul
+  store-links:
+  - name: Clarkesworld
+    class: web free
+    url: http://clarkesworldmagazine.com/shoemaker_08_15/
+  - name: Clarkesworld Audio
+    class: audio free
+    url: http://clarkesworldmagazine.com/audio_08_15/
+
 - title: The City Born Great
   author: N.K. Jemisin
   meeting_for: September 2017
