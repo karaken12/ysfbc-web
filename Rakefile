@@ -1,9 +1,12 @@
 require 'aws-sdk-s3'
 require 'logger'
 require 'mime-types'
+require 'yaml'
 
 log = Logger.new(STDOUT)
 log.level = Logger::DEBUG
+
+config = YAML.load_file('config.yml')
 
 task :default => :build
 
@@ -23,9 +26,9 @@ namespace :aws do
   desc "Deploy to S3."
   task :s3 do
     # TODO: what about deleting old files?
-    access_key_id = nil
-    secret_access_key = nil
-    bucket_name = nil
+    access_key_id = config[:aws][:access_key_id]
+    secret_access_key = config[:aws][:secret_access_key]
+    bucket_name = config[:aws][:s3_deploy_bucket]
     from_folder = 'ysfbc/_site'
 
     s3 = Aws::S3::Resource.new(
