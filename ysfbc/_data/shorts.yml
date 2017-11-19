@@ -1,4 +1,20 @@
 ---
+- title: Things With Beards
+  author: Sam J. Miller
+  meeting_for: December 2017
+  suggested_by: Tom
+  slug: things-with-beards
+  image-source: http://samjmiller.com/wordpress_2015/wp-content/uploads/2016/06/cw_117_700.jpg
+  isfdb: 2122739
+  goodreads: 36464569-things-with-beards
+  store-links:
+  - name: Clarkesworld
+    class: web free
+    url: http://clarkesworldmagazine.com/miller_06_16/
+  - name: Clarkesworld Audio
+    class: audio free
+    url: http://clarkesworldmagazine.com/audio_06_16a/
+
 - title: At The Speed of Light
   author: Simon Morden
   meeting_for: November 2017
