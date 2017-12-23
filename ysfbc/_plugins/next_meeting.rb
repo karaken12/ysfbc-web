@@ -51,6 +51,7 @@ module Discourse
       image_source = entry['image-source']
       if not(File.exists?(img_path)) and image_source
          puts "Downloading #{image_source} to #{img_path}..."
+         FileUtils.mkdir_p(File.split(img_path)[0])
          open(image_source) do |download|
            IO.copy_stream(download, img_path)
          end
@@ -64,6 +65,7 @@ module Discourse
       orig_image_path = ".#{original_image_url(entry)}"
       if not(File.exists?(img_path)) and File.exists?(orig_image_path)
         puts "Resizing #{img_path}..."
+        FileUtils.mkdir_p(File.split(img_path)[0])
         orig_img = Image.read(orig_image_path).first
         new_img = orig_img.resize_to_fit(150,500)
         new_img.write(img_path)
