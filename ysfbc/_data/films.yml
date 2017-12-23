@@ -1,4 +1,10 @@
 ---
+- title: "Star Wars: The Last Jedi"
+  meeting_for: January 2018
+  slug: the-last-jedi
+  image-source: https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg
+  imdb: tt2527336
+
 - title: Monsters vs. Aliens
   meeting_for: December 2017
   suggested_by: Tom

@@ -1,4 +1,17 @@
 ---
+- title: A Pail of Air
+  author: Fritz Leiber
+  meeting_for: January 2018
+  suggested_by: Jonathon
+  slug: pail-of-air
+  image-source: http://www.gutenberg.org/files/51461/51461-h/images/cover.jpg
+  isfdb: 56229
+  goodreads: 297432.A_Pail_of_Air
+  store-links:
+  - name: Project Gutenberg
+    class: web free
+    url: http://www.gutenberg.org/ebooks/51461
+
 - title: Things With Beards
   author: Sam J. Miller
   meeting_for: December 2017
