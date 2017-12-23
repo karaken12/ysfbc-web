@@ -16,6 +16,12 @@ task :build do
   end
 end
 
+task :serve do
+  Dir.chdir('ysfbc') do
+    sh 'jekyll serve --config "_config.yml,_secret_config.yml,_current_config.yml"'
+  end
+end
+
 task :publish => ['build', 'aws:deploy']
 
 namespace :aws do
