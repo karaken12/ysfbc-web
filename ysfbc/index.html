@@ -22,7 +22,7 @@ layout: default
     {% assign extra_heading = "Current book" %}
     {% assign book = site.data.next_meeting.book %}
     {% include book.html %}
-    <div class="prevbooks"><a href="/books/">Previous books</a></div>
+    <div class="prevbooks"><a href="/books.html">Previous books</a></div>
   </section>
 
   {% if site.data.next_meeting.short %}
@@ -30,7 +30,7 @@ layout: default
     {% assign extra_heading = "Current short story" %}
     {% assign book = site.data.next_meeting.short %}
     {% include book.html %}
-    <div class="prevshorts"><a href="/shorts/">Previous short stories</a></div>
+    <div class="prevshorts"><a href="/shorts.html">Previous short stories</a></div>
   </section>
   {% endif %}
 
@@ -39,7 +39,7 @@ layout: default
     {% assign extra_heading = "Current film" %}
     {% assign book = site.data.next_meeting.film %}
     {% include book.html %}
-    <div class="prevfilms"><a href="/films/">Previous films</a></div>
+    <div class="prevfilms"><a href="/films.html">Previous films</a></div>
   </section>
   {% endif %}
 </div><!-- End books -->
