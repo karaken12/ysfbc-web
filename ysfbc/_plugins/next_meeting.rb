@@ -10,6 +10,10 @@ module Ysfbc
        meeting = site.data['meetings'][name]
        site.data['next_meeting'] = meeting
 
+       site.data['meetings'].each do |name, entry|
+         entry['name'] = name
+       end
+
        setup_entries(site, 'book', 'books')
        setup_entries(site, 'short', 'shorts')
        setup_entries(site, 'film','films')

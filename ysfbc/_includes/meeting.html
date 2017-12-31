@@ -1,0 +1,66 @@
+<div class="meeting">
+  <div class="next-meeting">
+    <h1>{% if meeting.name == site.next_meeting %}
+      Next Meeting -
+      {% endif %}
+      {{ meeting.name }}</h1>
+    <p>
+      {{ meeting.date | date: '%I:%M %p on %A %B %d, %Y' }}
+      {% if meeting.where %}
+      at {{ meeting.where }}.
+      {% endif %}
+      {% if meeting.facebook %}
+      <a href="https://www.facebook.com/events/{{ meeting.facebook.event_id}}/">
+        <img src="images/facebook-icon.png" alt="Facebook Event" style="vertical-align: text-top"/>
+      </a>
+      {% endif %}
+    </p>
+  </div>
+
+  <div class="books">
+    {% if meeting.book %}
+    {% assign book = meeting.book %}
+    {% if meeting.name == site.next_meeting %}
+    {% assign extra_heading = "Current book" %}
+    {% else %}
+    {% assign extra_heading = nil %}
+    {% endif %}
+    <section class="book">
+      {% include book.html %}
+      {% if meeting.name == site.next_meeting %}
+      <div class="prevbooks"><a href="/books.html">Previous books</a></div>
+      {% endif %}
+    </section>
+    {% endif %}
+
+    {% if meeting.short %}
+    {% assign book = meeting.short %}
+    {% if meeting.name == site.next_meeting %}
+    {% assign extra_heading = "Current short story" %}
+    {% else %}
+    {% assign extra_heading = nil %}
+    {% endif %}
+    <section class="book">
+      {% include book.html %}
+      {% if meeting.name == site.next_meeting %}
+      <div class="prevshorts"><a href="/shorts.html">Previous short stories</a></div>
+      {% endif %}
+    </section>
+    {% endif %}
+
+    {% if meeting.film %}
+    {% assign book = meeting.film %}
+    {% if meeting.name == site.next_meeting %}
+    {% assign extra_heading = "Current film" %}
+    {% else %}
+    {% assign extra_heading = nil %}
+    {% endif %}
+    <section class="book">
+      {% include book.html %}
+      {% if meeting.name == site.next_meeting %}
+      <div class="prevfilms"><a href="/films.html">Previous films</a></div>
+      {% endif %}
+    </section>
+    {% endif %}
+  </div>
+</div>

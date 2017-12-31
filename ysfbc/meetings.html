@@ -6,55 +6,10 @@ layout: default
   <h1 class="books">Meetings</h1>
   {% for meeting_x in site.data.meetings %}
   {% assign meeting = meeting_x[1] %}
-  <div class="blog">
-     <h2>{{ meeting_x[0] }}</h2>
-     <dl>
-       <dt>When</dt>
-       <dd>
-         {% if meeting.date.hour != 0 %}
-           {{ meeting.date | date: '%I:%M %p on %A %B %d, %Y' }}
-         {% else %}
-           {{ meeting.date | date: '%A %m %Y' }}
-         {% endif %}
-       </dd>
 
-       {% if meeting.where %}
-         <dt>Where</dt>
-         <dd>{{ meeting.where }}</dd>
-       {% endif %}
+  {% include meeting.html %}
 
-       {% if meeting.facebook %}
-         <dt>Links</dt>
-         <dd>
-           <a href="https://www.facebook.com/events/{{ meeting.facebook.event_id}}/">
-             <img src="{{ "/images/facebook-icon.png" | prepend: site.baseurl | prepend: site.url }}" alt="Facebook Event" style="vertical-align: text-top" />
-           </a>
-         </dd>
-       {% endif %}
-     </dl>
+  <hr/>
 
-<div class="books">
-     {% if meeting.book %}
-       {% assign book = meeting.book %}
-       <section class="book">
-         {% include book.html %}
-       </section>
-     {% endif %}
-
-     {% if meeting.short %}
-       {% assign book = meeting.short %}
-       <section class="book">
-         {% include book.html %}
-       </section>
-     {% endif %}
-
-     {% if meeting.film %}
-       {% assign book = meeting.film %}
-       <section class="book">
-         {% include book.html %}
-       </section>
-     {% endif %}
-</div>
-  </div>
   {% endfor %}
 </div>

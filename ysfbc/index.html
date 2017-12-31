@@ -4,45 +4,8 @@ layout: default
 
 <div class="content">
 
-<div class="next-meeting">
-  <h1>Next Meeting</h1>
-  <p>
-    {{ site.data.next_meeting.date | date: '%I:%M %p on %A %B %d, %Y' }}
-    at {{ site.data.next_meeting.where }}.
-    {% if site.data.next_meeting.facebook %}
-      <a href="https://www.facebook.com/events/{{ site.data.next_meeting.facebook.event_id}}/">
-        <img src="images/facebook-icon.png" alt="Facebook Event" style="vertical-align: text-top" />
-      </a>
-    {% endif %}
-  </p>
-</div>
-
-<div class="books">
-  <section class="book">
-    {% assign extra_heading = "Current book" %}
-    {% assign book = site.data.next_meeting.book %}
-    {% include book.html %}
-    <div class="prevbooks"><a href="/books.html">Previous books</a></div>
-  </section>
-
-  {% if site.data.next_meeting.short %}
-  <section class="book">
-    {% assign extra_heading = "Current short story" %}
-    {% assign book = site.data.next_meeting.short %}
-    {% include book.html %}
-    <div class="prevshorts"><a href="/shorts.html">Previous short stories</a></div>
-  </section>
-  {% endif %}
-
-  {% if site.data.next_meeting.film %}
-  <section class="book">
-    {% assign extra_heading = "Current film" %}
-    {% assign book = site.data.next_meeting.film %}
-    {% include book.html %}
-    <div class="prevfilms"><a href="/films.html">Previous films</a></div>
-  </section>
-  {% endif %}
-</div><!-- End books -->
+  {% assign meeting = site.data.next_meeting %}
+  {% include meeting.html %}
 
 </div> <!-- End content -->
 
