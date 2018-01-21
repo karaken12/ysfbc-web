@@ -1,9 +1,8 @@
-require 'discourse_api'
 require 'open-uri'
 require 'rmagick'
 include Magick
 
-module Discourse
+module Ysfbc
   class NextMeeting < Jekyll::Generator
 
      def generate(site)
