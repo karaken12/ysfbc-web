@@ -1,4 +1,10 @@
 ---
+- title: District 9
+  meeting_for: March 2018
+  slug: district-9
+  image-source: https://images-na.ssl-images-amazon.com/images/M/MV5BYmQ5MzFjYWMtMTMwNC00ZGU5LWI3YTQtYzhkMGExNGFlY2Q0XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg
+  imdb: tt1136608
+
 - title: The Fountain
   meeting_for: February 2018
   suggested-by: Tom

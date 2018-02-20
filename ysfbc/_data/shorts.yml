@@ -1,4 +1,17 @@
 ---
+- title: The Soft Weapon
+  author: Larry Niven
+  meeting_for: March 2018
+  suggested_by: Jonathon
+  slug: soft-weapon
+  image-source: http://www.danhausertrek.com/AnimatedSeries/If_Feb1967_Big.jpg
+  isfdb: 54182
+  goodreads: 23507248-the-soft-weapon
+  store-links:
+  - name: Worlds of IF (February 1967)
+    class: web free
+    url: https://archive.org/details/1967-02_IF
+
 - title: A Pail of Air
   author: Fritz Leiber
   meeting_for: January 2018
