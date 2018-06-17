@@ -1,4 +1,20 @@
 ---
+- title: Cosmic Spring
+  author: Ken Liu
+  meeting_for: April 2018
+  suggested_by: Tom
+  slug: cosmic-spring
+  image-source: http://www.lightspeedmagazine.com/wp-content/uploads/2018/02/Lightspeed_94_March_2018-200x300.jpg
+  isfdb: 2352866
+  goodreads: 39608348-cosmic-spring
+  store-links:
+  - name: Lightspeed Magazine
+    class: web free
+    url: http://www.lightspeedmagazine.com/fiction/cosmic-spring/
+  - name: Lightspeed Magazine Podcast
+    class: audio free
+    url: http://podcasts.lightspeedmagazine.com/podcast_357-Cosmic_Spring-Ken_Liu.mp3
+
 - title: The Soft Weapon
   author: Larry Niven
   meeting_for: March 2018

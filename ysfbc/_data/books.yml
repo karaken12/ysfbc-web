@@ -1,4 +1,12 @@
 ---
+- title: The Hitchhiker's Guide to the Galaxy
+  author: Douglas Adams
+  meeting_for: April 2018
+  slug: hitchhikers-guide
+  image-source: https://images.gr-assets.com/books/1388282444l/386162.jpg
+  isfdb: 1773
+  goodreads: 386162.The_Hitchhiker_s_Guide_to_the_Galaxy
+
 - title: The First Fifteen Lives of Harry August
   author: Claire North
   meeting_for: March 2018
