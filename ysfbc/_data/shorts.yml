@@ -1,4 +1,12 @@
 ---
+- title: Another Fine Mess
+  author: Ray Bradbury
+  meeting_for: June 2018
+  slug: another-fine-mess
+  image-source: https://images.gr-assets.com/books/1475225831l/32318271.jpg
+  isfdb: 40363
+  goodreads: 32318271-another-fine-mess
+
 - title: Nightfall
   author: Issac Asimov
   meeting_for: May 2018
