@@ -1,4 +1,10 @@
 ---
+- title: The Thing
+  meeting_for: September 2018
+  slug: the-thing
+  image-source: https://m.media-amazon.com/images/M/MV5BNDcyZmFjY2YtN2I1OC00MzU3LWIzZGEtZDA5N2VlNDJjYWI3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY1000_CR0,0,660,1000_AL_.jpg
+  imdb: tt0084787
+
 - title: 10 Cloverfield Lane
   meeting_for: August 2018
   slug: ten-cloverfield-lane
