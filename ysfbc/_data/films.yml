@@ -1,4 +1,10 @@
 ---
+- title: Arrival
+  meeting_for: July 2018
+  slug: arrival
+  image-source: https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_SY1000_CR0,0,640,1000_AL_.jpg
+  imdb: tt2543164
+
 - title: "Solo: A Star Wars Story"
   meeting_for: June 2018
   slug: solo

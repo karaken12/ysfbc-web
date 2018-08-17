@@ -1,4 +1,16 @@
 ---
+- title: The Last Question
+  author: Isaac Asimov
+  meeting_for: July 2018
+  slug: last-question
+  image-source: https://images.gr-assets.com/books/1476712579l/32667075.jpg
+  isfdb: 41230
+  goodreads: 4808763-the-last-question
+  store-links:
+  - name: MultiVAX
+    class: web free
+    url: http://www.multivax.com/last_question.html
+
 - title: Another Fine Mess
   author: Ray Bradbury
   meeting_for: June 2018
