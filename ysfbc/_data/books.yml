@@ -1,4 +1,19 @@
 ---
+- title: Shunt
+  author: Stubert Ferglstein
+  meeting_for: October 2018
+  slug: shunt
+  image-source: https://images.gr-assets.com/books/1503125737l/36067435.jpg
+  isfdb: 2437058
+  goodreads: https://www.goodreads.com/book/show/36067435-shunt
+  store-links:
+  - name: Amazon Paperback
+    class: amazon
+    url: https://www.amazon.co.uk/Shunt-Crest-Stubert-Ferglstein/dp/1521210543
+  - name: Amazon Kindle
+    class: kindle
+    url: https://www.amazon.co.uk/Shunt-Crest-Book-Stubert-Ferglstein-ebook/dp/B073RPH6DT
+
 - title: Places in the Darkness
   author: Chris Brookmyre
   meeting_for: September 2018

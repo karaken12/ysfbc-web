@@ -1,4 +1,10 @@
 ---
+- title: Flash Gordon
+  meeting_for: October 2018
+  slug: flash-gordon
+  image-source: https://m.media-amazon.com/images/M/MV5BN2Y4ZDBjMjEtZWQ0OS00NzYyLTg0M2ItMmUzYTEwN2RmMGVlXkEyXkFqcGdeQXVyMjgyOTI1ODY@._V1_SY1000_CR0,0,650,1000_AL_.jpg
+  imdb: tt0080745
+
 - title: The Thing
   meeting_for: September 2018
   slug: the-thing
