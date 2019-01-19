@@ -105,3 +105,8 @@ $bgcolor-default: linear-gradient(to bottom,  #ffffff 0%, #e5e5e5 100%);
   @extend %affiliate-link;
   @include background("/images/links/netflix.gif", 80px, #E9231B);
 }
+
+.bfiplayer {
+  @extend %affiliate-link;
+  @include background("/images/links/bfiplayer.png", 100px, #000);
+}
