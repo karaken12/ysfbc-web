@@ -1,4 +1,18 @@
 ---
+- title: Lethbridge-Stewart - '48 Crash
+  author: Mark Carton
+  meeting_for: February 2019
+  slug: 48-crash
+  image-source: https://images.gr-assets.com/books/1506727755l/36326593.jpg
+  goodreads: 36326593-lethbridge-stewart
+  store-links:
+  - name: Amazon Kindle
+    class: kindle
+    url: https://www.amazon.co.uk/Lethbridge-Stewart-48-Crash-Mark-Carton-ebook/dp/B0761XZW7G
+  - name: Candy Jar
+    class: web free
+    url: http://www.candy-jar.co.uk/books/files/Lethbridge-Stewart_Free_Download_48_Crash_advent.pdf
+
 - title: Murder Mysteries
   author: Neil Gaiman
   meeting_for: January 2019

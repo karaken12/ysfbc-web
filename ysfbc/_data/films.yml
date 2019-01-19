@@ -1,4 +1,14 @@
 ---
+- title: Delicatessen
+  meeting_for: February 2019
+  slug: delicatessen
+  image-source: https://m.media-amazon.com/images/M/MV5BNjg5ZDM0MTEtYTZmNC00NDJiLWI5MTktYzk4N2QxY2IxZTc2L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY1000_CR0,0,745,1000_AL_.jpg
+  imdb: tt0101700
+  store-links:
+    - name: BFI Player
+      class: bfiplayer
+      url: https://player.bfi.org.uk/subscription/film/watch-delicatessen-1990-online
+
 - title: Time Bandits
   meeting_for: January 2019
   slug: time-bandits

@@ -1,4 +1,22 @@
 ---
+- title: Spares
+  author: Michael Marshall Smith
+  meeting_for: February 2019
+  slug: spares
+  image-source: https://images.gr-assets.com/books/1167301486l/21010.jpg
+  isfdb: 5818
+  goodreads: 21010.Spares
+  store-links:
+  - name: Amazon paperback
+    class: amazon
+    url: https://www.amazon.co.uk/Spares-Michael-Marshall-Smith/dp/0006512674/
+  - name: Amazon Kindle
+    class: kindle
+    url: https://www.amazon.co.uk/Spares-Michael-Marshall-Smith-ebook/dp/B002RI9R20/
+  - name: Kobo
+    class: kobo
+    url: https://www.kobo.com/gb/en/ebook/spares
+
 - title: The Fifth Season
   author: N. K. Jemisin
   meeting_for: January 2019
