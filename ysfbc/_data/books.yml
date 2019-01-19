@@ -1,4 +1,19 @@
 ---
+- title: Synbat
+  author: Bob Mayher
+  meeting_for: November 2018
+  slug: synbat
+  image-source: https://images-na.ssl-images-amazon.com/images/I/715wqgsTnYL.jpg
+  isfdb: 1385184
+  goodreads: 2656865-synbat
+  store-links:
+  - name: Amazon Paperback
+    class: amazon
+    url: https://www.amazon.co.uk/Synbat-Green-Berets-Bob-Mayer/dp/1621250423
+  - name: Amazon Kindle
+    class: kindle
+    url: https://www.amazon.co.uk/Synbat-Green-Berets-Book-3-ebook/dp/B004XWFW7M
+
 - title: Shunt
   author: Stubert Ferglstein
   meeting_for: October 2018

@@ -1,4 +1,15 @@
 ---
+- title: Traveller's Rest
+  author: David I. Masson
+  meeting_for: November 2018
+  slug: travellers-rest
+  image-source: https://images.gr-assets.com/books/1356133182l/17061841.jpg
+  isfdb: 43952
+  store-links:
+  - name: Lightspeed Magazine
+    class: web free
+    url: http://www.lightspeedmagazine.com/fiction/travellers-rest/
+
 - title: Welcome to Your Authentic Indian Experience™
   author: Rebecca Roanhorse
   meeting_for: October 2018

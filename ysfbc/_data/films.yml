@@ -1,4 +1,10 @@
 ---
+- title: Cube
+  meeting_for: November 2018
+  slug: cube
+  image-source: https://m.media-amazon.com/images/M/MV5BZTIyZGM3NDItMTNmNS00Yzc4LTg2MzItOWY4MTE1NDlmZDIyXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_.jpg
+  imdb: tt0123755
+
 - title: Flash Gordon
   meeting_for: October 2018
   slug: flash-gordon
