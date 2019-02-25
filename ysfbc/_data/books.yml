@@ -1,4 +1,22 @@
 ---
+- title: Station Eleven
+  author: Emily St. John Mandel
+  meeting_for: March 2019
+  slug: station-eleven
+  image-source: http://ecx.images-amazon.com/images/I/518jrV1TaxL.jpg
+  isfdb: 1754847
+  goodreads: 20170404-station-eleven
+  store-links:
+  - name: Amazon Kindle
+    class: kindle
+    url: https://www.amazon.co.uk/Station-Eleven-Emily-John-Mandel-ebook/dp/B00JQ9FYAM
+  - name: Amazon paperback
+    class: amazon
+    url: https://www.amazon.co.uk/Station-Eleven-Emily-John-Mandel/dp/1447268970
+  - name: Kobo
+    class: kobo
+    url: https://www.kobo.com/gb/en/ebook/station-eleven-2
+
 - title: Spares
   author: Michael Marshall Smith
   meeting_for: February 2019

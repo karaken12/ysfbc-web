@@ -1,4 +1,23 @@
 ---
+- title: Sponda the Suet Girl and the Secret of the French Pearl
+  author: Ellen Klages
+  meeting_for: March 2019
+  slug: sponda-the-suet-girl
+  image-source: http://www.isfdb.org/wiki/images/8/8d/FRSMJRNSTB2013.jpg
+  isfdb: 1579856
+  store-links:
+  - name: Fearsome Journeys - Rebellion publishing
+    url: https://www.rebellionstore.com/products/fearsome_journeys
+  - name: Fearsome Journeys - Amazon Paperback
+    class: amazon
+    url: https://www.amazon.co.uk/Fearsome-Journeys-Solaris-Book-Fantasy/dp/1781081190
+  - name: Fearsome Journeys - Amazon Kindle
+    class: kindle
+    url: https://www.amazon.co.uk/Fearsome-Journeys-Chronicles-Black-Company-ebook/dp/B00D2JLV36/
+  - name: Fearsome Journeys - Kobo
+    class: kobo
+    url: https://www.kobo.com/gb/en/ebook/fearsome-journeys
+
 - title: Lethbridge-Stewart - '48 Crash
   author: Mark Carton
   meeting_for: February 2019
