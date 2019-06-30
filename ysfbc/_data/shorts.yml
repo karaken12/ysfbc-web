@@ -1,4 +1,18 @@
 ---
+- title: The Court Magician
+  author: Sarah Pinsker
+  meeting_for: July 2019
+  slug: court-magician
+  image-source: https://prodimage.images-bn.com/pimages/2940158955112_p0_v1_s600x595.jpg
+  isfdb: 2312904
+  store-links:
+  - name: Lightspeed Magazinen
+    class: web free
+    url: http://www.lightspeedmagazine.com/fiction/the-court-magician
+  - name: Lightspeed Magazine Podcast
+    class: audio free
+    url: http://podcasts.lightspeedmagazine.com/podcast_350-The_Court_Magician-Sarah_Pinsker.mp3
+
 - title: Sponda the Suet Girl and the Secret of the French Pearl
   author: Ellen Klages
   meeting_for: March 2019

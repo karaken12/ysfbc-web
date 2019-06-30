@@ -1,4 +1,14 @@
 ---
+- title: I Am Mother
+  meeting_for: July 2019
+  slug: i-am-mother
+  image-source: https://m.media-amazon.com/images/M/MV5BMTkxMTczNTA4Nl5BMl5BanBnXkFtZTgwNDAyMzgwODM@._V1_SY1000_CR0,0,674,1000_AL_.jpg
+  imdb: tt6292852
+  store-links:
+    - name: Netflix
+      class: netflix
+      url: https://www.netflix.com/gb/title/80227090
+
 - title: Captain Marvel
   meeting_for: March 2019
   slug: captain-marvel
