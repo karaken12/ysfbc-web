@@ -2,14 +2,8 @@
 layout: default
 ---
 
-<div>
-  <h1 class="books">Meetings</h1>
-  {% for meeting_x in site.data.meetings %}
-  {% assign meeting = meeting_x[1] %}
+<div id="root"></div>
 
-  {% include meeting.html %}
-
-  <hr/>
-
-  {% endfor %}
-</div>
+<script src='//unpkg.com/react/umd/react.development.js'></script>
+<script src='//unpkg.com/react-dom/umd/react-dom.development.js'></script>
+<script src='js/Meetings.js'></script>
