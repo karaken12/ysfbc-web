@@ -1,4 +1,22 @@
 ---
+- title: The Things We Learn When We're Dead
+  author: Charlie Laidlaw
+  meeting_for: August 2019
+  slug: things-we-learn-when-were-dead
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480332487l/33142013._SY475_.jpg
+  isfdb: 2099322
+  goodreads: 33142013-the-things-we-learn-when-we-re-dead
+  store-links:
+  - name: Amazon Kindle
+    class: kindle
+    url: https://www.amazon.co.uk/Things-Learn-When-Were-Dead-ebook/dp/B01N455BK7
+  - name: Amazon paperback
+    class: amazon
+    url: https://www.amazon.co.uk/Things-Learn-When-Were-Dead/dp/1786150352
+  - name: Kobo
+    class: kobo
+    url: https://www.kobo.com/gb/en/ebook/the-things-we-learn-when-we-re-dead
+
 - title: Roboteer
   author: Alex Lamb
   meeting_for: July 2019
