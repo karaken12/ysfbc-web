@@ -45,133 +45,99 @@ function Meeting(props) {
                 </p>
             </div>
             <div className="books">
-                {props.book && Book(props.book)}
-                {props.short && Short(props.short)}
-                {props.film && Film(props.film)}
+                {props.book && Book('book', props.book)}
+                {props.short && Book('short', props.short)}
+                {props.film && Book('film', props.film)}
             </div>
         </div>
     );
 }
 
-function Book(props) {
-    var current_meeting = (props.meeting_for == next_meeting);
+function Book(type, props) {
+    const current_meeting = (props.meeting_for == next_meeting);
+
     return (
         <section className="book">
-            <header>
-                {current_meeting && <h1>Current book</h1>}
-                <h2>{props.title}</h2>
-                {props.author && (
-                    <p>by {props.author}</p>)
-                }
-            </header>
-            <div className="bookimg">
-                <img src={props["img-url"]} alt={props.title}/>
-            </div>
+            {current_meeting && CurrentHeader(type)}
+            {Header(props)}
+            {BookImage(props)}
+            {props['store-links'] && StoreLinks(props)}
+            {AdditionalInfo(props)}
+            {MeetingName(props)}
+            {current_meeting && PreviousLink(type)}
+        </section>
+    );
+}
 
-            {props['store-links'] && (
-                <ul className="affiliate-links">
-                    {props['store-links'].map((link) =>
-                        <li key={link.url}><a className={link.class} href={link.url}>{link.name}</a></li>
-                    )}
-                </ul>
+function CurrentHeader(type) {
+    switch (type) {
+        case 'book':
+            return <h1>Current book</h1>;
+        case 'short':
+            return <h1>Current short story</h1>;
+        case 'film':
+            return <h1>Current film</h1>;
+        default:
+            return;
+    }
+}
+
+function Header(props) {
+    return <header>
+        <h2>{props.title}</h2>
+        {props.author && (
+            <p>by {props.author}</p>)
+        }
+    </header>;
+}
+
+function BookImage(props) {
+    return <div className="bookimg">
+        <img src={props["img-url"]} alt={props.title}/>
+    </div>;
+}
+
+function StoreLinks(props) {
+    return (
+        <ul className="affiliate-links">
+            {props['store-links'].map((link) =>
+                <li key={link.url}><a className={link.class} href={link.url}>{link.name}</a></li>
             )}
+        </ul>
+    );
+}
 
-            {props.isfdb &&
-            <a className="isfdb" href={"http://www.isfdb.org/cgi-bin/title.cgi?" + props.isfdb}>ISFDB</a>}
-            {" "}
-            {props.goodreads &&
-            <a className="goodreads" href={"http://www.goodreads.com/book/show/" + props.goodreads}>GoodReads</a>}
-            {" "}
-            {props.imdb && <a className="imdb" href={"http://www.imdb.com/title/" + props.imdb}>IMDB</a>}
+function AdditionalInfo(props) {
+    return <div>
+        {props.isfdb &&
+        <a className="isfdb" href={"http://www.isfdb.org/cgi-bin/title.cgi?" + props.isfdb}>ISFDB</a>}
+        {" "}
+        {props.goodreads &&
+        <a className="goodreads" href={"http://www.goodreads.com/book/show/" + props.goodreads}>GoodReads</a>}
+        {" "}
+        {props.imdb && <a className="imdb" href={"http://www.imdb.com/title/" + props.imdb}>IMDB</a>}
+    </div>;
+}
 
-            <p className="meeting">{props.meeting_for}</p>
+function MeetingName(props) {
+    return <p className="meeting">{props.meeting_for}</p>;
+}
 
-            {
-                current_meeting &&
+function PreviousLink(type) {
+    switch (type) {
+        case 'book':
+            return (
                 <div className="prevbooks"><a href="/books.html">Previous books</a></div>
-            }
-        </section>
-    );
-}
-
-function Short(props) {
-    var current_meeting = (props.meeting_for == next_meeting);
-    return (
-        <section className="book">
-            <header>
-                {current_meeting && <h1>Current short story</h1>}
-                <h2>{props.title}</h2>
-                {props.author && (
-                    <p>by {props.author}</p>)
-                }
-            </header>
-            <div className="bookimg">
-                <img src={props["img-url"]} alt={props.title}/>
-            </div>
-
-            {props['store-links'] && (
-                <ul className="affiliate-links">
-                    {props['store-links'].map((link) =>
-                        <li key={link.url}><a className={link.class} href={link.url}>{link.name}</a></li>
-                    )}
-                </ul>
-            )}
-
-            {props.isfdb &&
-            <a className="isfdb" href={"http://www.isfdb.org/cgi-bin/title.cgi?" + props.isfdb}>ISFDB</a>}
-            {" "}
-            {props.goodreads &&
-            <a className="goodreads" href={"http://www.goodreads.com/book/show/" + props.goodreads}>GoodReads</a>}
-            {" "}
-            {props.imdb && <a className="imdb" href={"http://www.imdb.com/title/" + props.imdb}>IMDB</a>}
-
-            <p className="meeting">{props.meeting_for}</p>
-
-            {
-                current_meeting &&
+            );
+        case 'short':
+            return (
                 <div className="prevshorts"><a href="/shorts.html">Previous short stories</a></div>
-            }
-        </section>
-    );
-}
-
-function Film(props) {
-    var current_meeting = (props.meeting_for == next_meeting);
-    return (
-        <section className="book">
-            <header>
-                {current_meeting && <h1>Current film</h1>}
-                <h2>{props.title}</h2>
-                {props.author && (
-                    <p>by {props.author}</p>)
-                }
-            </header>
-            <div className="bookimg">
-                <img src={props["img-url"]} alt={props.title}/>
-            </div>
-
-            {props['store-links'] && (
-                <ul className="affiliate-links">
-                    {props['store-links'].map((link) =>
-                        <li key={link.url}><a className={link.class} href={link.url}>{link.name}</a></li>
-                    )}
-                </ul>
-            )}
-
-            {props.isfdb &&
-            <a className="isfdb" href={"http://www.isfdb.org/cgi-bin/title.cgi?" + props.isfdb}>ISFDB</a>}
-            {" "}
-            {props.goodreads &&
-            <a className="goodreads" href={"http://www.goodreads.com/book/show/" + props.goodreads}>GoodReads</a>}
-            {" "}
-            {props.imdb && <a className="imdb" href={"http://www.imdb.com/title/" + props.imdb}>IMDB</a>}
-
-            <p className="meeting">{props.meeting_for}</p>
-
-            {
-                current_meeting &&
+            );
+        case 'film':
+            return (
                 <div className="prevfilms"><a href="/films.html">Previous films</a></div>
-            }
-        </section>
-    );
+            );
+        default:
+            return;
+    }
 }
