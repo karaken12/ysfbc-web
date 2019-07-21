@@ -1,8 +1,7 @@
-const next_meeting = 'July 2019';
-
 fetch('/data/meetings.json')
     .then(response => response.json())
     .then((jsonData) => {
+        const next_meeting = Object.keys(jsonData)[0];
         ReactDOM.render(
             (
                 <div>
@@ -19,6 +18,7 @@ fetch('/data/meetings.json')
                                 book={meeting.book}
                                 short={meeting.short}
                                 film={meeting.film}
+                                isCurrent={(meeting.name == next_meeting)}
                             />
                         )
                     })}
@@ -32,8 +32,7 @@ fetch('/data/meetings.json')
     });
 
 function Meeting(props) {
-    var current_meeting = (props.name == next_meeting);
-    var meetingName = (current_meeting ? "Next Meeting - " : '') + props.name;
+    var meetingName = (props.isCurrent ? "Next Meeting - " : '') + props.name;
     return (
         <div className="meeting">
             <div className="next-meeting">
@@ -50,26 +49,24 @@ function Meeting(props) {
                 </p>
             </div>
             <div className="books">
-                {props.book && Book('book', props.book)}
-                {props.short && Book('short', props.short)}
-                {props.film && Book('film', props.film)}
+                {props.book && <Book {...props.book} type="book" isCurrent={props.isCurrent}/>}
+                {props.short && <Book {...props.short} type="short" isCurrent={props.isCurrent}/>}
+                {props.film && <Book {...props.film} type="film" isCurrent={props.isCurrent}/>}
             </div>
         </div>
     );
 }
 
-function Book(type, props) {
-    const current_meeting = (props.meeting_for == next_meeting);
-
+function Book(props) {
     return (
         <section className="book">
-            {current_meeting && CurrentHeader(type)}
+            {props.isCurrent && CurrentHeader(props.type)}
             {Header(props)}
             {BookImage(props)}
             {props['store-links'] && StoreLinks(props)}
             {AdditionalInfo(props)}
             {MeetingName(props)}
-            {current_meeting && PreviousLink(type)}
+            {props.isCurrent && PreviousLink(props.type)}
         </section>
     );
 }
