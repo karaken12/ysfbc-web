@@ -2,3 +2,4 @@ _site
 .sass-cache
 _sass/bourbon
 _secret_config.yml
+js/
