@@ -2,10 +2,9 @@
 layout: default
 ---
 
-<div class="content">
+<div id="root" class="content"></div>
 
-  {% assign meeting = site.data.next_meeting %}
-  {% include meeting.html %}
-
-</div> <!-- End content -->
-
+<script src='//unpkg.com/react/umd/react.development.js'></script>
+<script src='//unpkg.com/react-dom/umd/react-dom.development.js'></script>
+<script src='js/Meeting.js'></script>
+<script src='js/index.js'></script>
