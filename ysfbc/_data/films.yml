@@ -1,4 +1,14 @@
 ---
+- title: The Wandering Earth
+  meeting_for: September 2019
+  slug: wandering-earth
+  image-source: https://m.media-amazon.com/images/M/MV5BMjE2NzZlMGItMzA4OS00ZjRiLTk3NzItMDRkOGFlZmNhYzJkXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SY1000_CR0,0,714,1000_AL_.jpg
+  imdb: tt7605074
+  store-links:
+    - name: Netflix
+      class: netflix
+      url: https://www.netflix.com/gb/title/81067760
+
 - title: Children of Men
   meeting_for: August 2019
   slug: children-of-men

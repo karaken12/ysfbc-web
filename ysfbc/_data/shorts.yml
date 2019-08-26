@@ -1,4 +1,16 @@
 ---
+- title: "A Witch’s Guide to Escape: A Practical Compendium of Portal Fantasies"
+  author: Alix E. Harrow
+  meeting_for: September 2019
+  slug: a-witches-guide-to-escape
+  image-source: https://prodimage.images-bn.com/pimages/2940158753985_p0_v1_s600x595.jpg
+  isfdb: 2323601
+  goodreads: 47868053-a-witch-s-guide-to-escape
+  store-links:
+  - name: Apex Magazine
+    class: web free
+    url: https://www.apex-magazine.com/a-witchs-guide-to-escape-a-practical-compendium-of-portal-fantasies/
+
 - title: STET
   author: Sarah Gailey
   meeting_for: August 2019

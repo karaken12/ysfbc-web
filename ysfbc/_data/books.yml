@@ -1,4 +1,19 @@
 ---
+- title: Roadside Picnic
+  author: Arkady and Boris Strugatsky
+  meeting_for: September 2019
+  slug: roadside-picnic
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516895892l/16118280._SY475_.jpg
+  isfdb: 2369460
+  goodreads: 331256.Roadside_Picnic
+  store-links:
+  - name: Amazon paperback
+    class: amazon
+    url: https://www.amazon.co.uk/Roadside-Picnic-Boris-Strugatsky/dp/0575093137
+  - name: Amazon Kindle
+    class: kindle
+    url: https://www.amazon.co.uk/Roadside-Picnic-MASTERWORKS-Arkady-Strugatsky-ebook/dp/B00JDQEC7Y
+
 - title: The Things We Learn When We're Dead
   author: Charlie Laidlaw
   meeting_for: August 2019
