@@ -37,6 +37,21 @@
     class: audio free
     url: http://podcasts.lightspeedmagazine.com/podcast_350-The_Court_Magician-Sarah_Pinsker.mp3
 
+- meeting_for: May 2019
+  title: Who Goes There?
+  author: John W. Campbell
+  slug: who-goes-there
+  image-source: https://images-na.ssl-images-amazon.com/images/I/71l4t%2BTuuAL.jpg
+  isfdb: 710457
+  goodreads: 6468870-who-goes-there
+
+- meeting_for: April 2019
+  title: "Master Zhao: The Tale of an Ordinary Time Traveler"
+  author: Zhang Ran
+  slug: master-zhao
+  image-source: http://clarkesworldmagazine.com/covers/cw_147_700.jpg
+  isfdb: 2486206
+
 - title: Sponda the Suet Girl and the Secret of the French Pearl
   author: Ellen Klages
   meeting_for: March 2019

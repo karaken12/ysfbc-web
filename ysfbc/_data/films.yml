@@ -25,6 +25,18 @@
       class: netflix
       url: https://www.netflix.com/gb/title/80227090
 
+- meeting_for: May 2019
+  title: Jurassic Park
+  slug: jurassic-park
+  image-source: https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg
+  imdb: tt0107290
+
+- meeting_for: April 2019
+  title: Sunshine
+  slug: sunshine
+  image-source: https://images-na.ssl-images-amazon.com/images/I/51469K3UVwL.jpg
+  imdb: tt0448134
+
 - title: Captain Marvel
   meeting_for: March 2019
   slug: captain-marvel

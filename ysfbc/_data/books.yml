@@ -40,6 +40,29 @@
   isfdb: 1898595
   goodreads: 25070598-roboteer
 
+- meeting_for: June 2019
+  title: The Pope of the Chimps
+  author: Robert Silverberg
+  slug: pope-of-the-chimps
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394351007l/21335957.jpg
+  isfdb: 41047
+  goodreads: 21335957-the-pope-of-the-chimps
+
+- meeting_for: May 2019
+  title: The Seven Deaths of Evelyn Hardcastle
+  author: Stuart Turton
+  slug: seven-deaths-of-evelyn-hardcastle
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529014217l/39088216.jpg
+  isfdb: 2304896
+  goodreads: 39088216-the-seven-deaths-of-evelyn-hardcastle
+
+- meeting_for: April 2019
+  title: Saga, Volume 1
+  author: Brian K. Vaughan and Fiona Staples
+  slug: saga-vol-1
+  image-source: https://images-na.ssl-images-amazon.com/images/I/81%2BSf%2BbNqUL.jpg
+  goodreads: 15704307-saga-vol-1
+
 - title: Station Eleven
   author: Emily St. John Mandel
   meeting_for: March 2019
