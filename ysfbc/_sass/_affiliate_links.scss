@@ -110,3 +110,8 @@ $bgcolor-default: linear-gradient(to bottom,  #ffffff 0%, #e5e5e5 100%);
   @extend %affiliate-link;
   @include background("/images/links/bfiplayer.png", 100px, #000);
 }
+
+.justwatch {
+  @extend %affiliate-link;
+  @include background("/images/links/justwatch.png", 85px, rgba(5,30,40,.98));
+}
