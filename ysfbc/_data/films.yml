@@ -30,6 +30,10 @@
   slug: jurassic-park
   image-source: https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg
   imdb: tt0107290
+  store-links:
+    - name: Netflix
+      class: netflix
+      url: https://www.netflix.com/title/60002360
 
 - meeting_for: April 2019
   title: Sunshine

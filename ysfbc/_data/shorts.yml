@@ -44,6 +44,16 @@
   image-source: https://images-na.ssl-images-amazon.com/images/I/71l4t%2BTuuAL.jpg
   isfdb: 710457
   goodreads: 6468870-who-goes-there
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Who-Goes-There-John-Campbell/dp/0575091037
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Goes-There-Gateway-Essentials-Book-ebook/dp/B0068PHWAC
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/who-goes-there-2
 
 - meeting_for: April 2019
   title: "Master Zhao: The Tale of an Ordinary Time Traveler"
@@ -51,6 +61,13 @@
   slug: master-zhao
   image-source: http://clarkesworldmagazine.com/covers/cw_147_700.jpg
   isfdb: 2486206
+  store-links:
+    - name: Clarkesworld
+      class: web free
+      url: http://clarkesworldmagazine.com/zhang_12_18/
+    - name: Clarkesworld Audio
+      class: audio free
+      url: http://clarkesworldmagazine.com/audio_12_18d/
 
 - title: Sponda the Suet Girl and the Secret of the French Pearl
   author: Ellen Klages

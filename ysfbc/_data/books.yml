@@ -13,6 +13,9 @@
   - name: Amazon Kindle
     class: kindle
     url: https://www.amazon.co.uk/Roadside-Picnic-MASTERWORKS-Arkady-Strugatsky-ebook/dp/B00JDQEC7Y
+  - name: Kobo
+    class: kobo
+    url: https://www.kobo.com/gb/en/ebook/roadside-picnic-3
 
 - title: The Things We Learn When We're Dead
   author: Charlie Laidlaw
@@ -39,6 +42,16 @@
   image-source: https://www.sffworld.com/wp-content/uploads/2016/04/roboteer.jpg
   isfdb: 1898595
   goodreads: 25070598-roboteer
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Roboteer-Alex-Lamb/dp/147320609X
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Roboteer-Alex-Lamb-ebook/dp/B00TXH9GHY
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/roboteer
 
 - meeting_for: June 2019
   title: The Pope of the Chimps
@@ -47,6 +60,10 @@
   image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394351007l/21335957.jpg
   isfdb: 41047
   goodreads: 21335957-the-pope-of-the-chimps
+  store-links:
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/POPE-CHIMPS-CLASSIC-SCIENCE-FICTION-ebook/dp/B00C32YCES
 
 - meeting_for: May 2019
   title: The Seven Deaths of Evelyn Hardcastle
@@ -55,6 +72,16 @@
   image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529014217l/39088216.jpg
   isfdb: 2304896
   goodreads: 39088216-the-seven-deaths-of-evelyn-hardcastle
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Seven-Deaths-Evelyn-Hardcastle-bestseller/dp/140888951X
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Seven-Deaths-Evelyn-Hardcastle-bestseller-ebook/dp/B075RTC2LW
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/the-seven-deaths-of-evelyn-hardcastle
 
 - meeting_for: April 2019
   title: Saga, Volume 1
@@ -62,6 +89,13 @@
   slug: saga-vol-1
   image-source: https://images-na.ssl-images-amazon.com/images/I/81%2BSf%2BbNqUL.jpg
   goodreads: 15704307-saga-vol-1
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Saga-1-Comic-Brian-Vaughan/dp/1607066017
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Saga-Vol-1-Brian-Vaughan-ebook/dp/B015XEABR4
 
 - title: Station Eleven
   author: Emily St. John Mandel
@@ -106,6 +140,13 @@
   image-source: https://images.gr-assets.com/books/1386803701l/19161852.jpg
   isfdb: 1878015
   goodreads: 19161852-the-fifth-season
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Fifth-Season-Broken-WINNER-Trilogy/dp/0356508196
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Fifth-Season-Broken-Earth-WINNER-ebook/dp/B00UFWTMUC
 
 - title: Brave New World
   author: Aldous Huxley
@@ -114,6 +155,13 @@
   image-source: https://images.gr-assets.com/books/1494225554l/11517032.jpg
   isfdb: 2319
   goodreads: 5129.Brave_New_World
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Brave-New-World-Aldous-Huxley/dp/0099518473
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Brave-New-World-Aldous-Huxley-ebook/dp/B0031R5K6S
 
 - title: Synbat
   author: Bob Mayher
@@ -152,6 +200,13 @@
   image-source: https://images.gr-assets.com/books/1498745868l/31933061.jpg
   isfdb: 2260856
   goodreads: 31933061-places-in-the-darkness
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Places-Darkness-Chris-Brookmyre/dp/0356506274
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Places-Darkness-Chris-Brookmyre-ebook/dp/B06Y16K2QV
 
 - title: Dreams Before the Start of Time
   author: Anne Charnock
@@ -160,6 +215,13 @@
   image-source: https://images.gr-assets.com/books/1484777556l/27780648.jpg
   isfdb: 2149858
   goodreads: 27780648-dreams-before-the-start-of-time
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Dreams-Before-Start-Time-Charnock/dp/1503934721
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Dreams-Before-Start-Time-Charnock-ebook/dp/B0176BJYRK
 
 - title: All Systems Red
   author: Martha Wells
@@ -168,6 +230,13 @@
   image-source: https://images.gr-assets.com/books/1484171189l/32758901.jpg
   isfdb: 2161845
   goodreads: 32758901-all-systems-red
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/ALL-SYSTEMS-RED-Murderbot-Diaries/dp/0765397536
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/All-Systems-Red-Kindle-Single-ebook/dp/B01MYZ8X5C
 
 - title: A Fire Upon the Deep
   author: Vernor Vinge
@@ -176,6 +245,13 @@
   image-source: https://images-na.ssl-images-amazon.com/images/I/51sC8gPxGQL.jpg
   isfdb: 1952
   goodreads: 77711.A_Fire_Upon_the_Deep
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Fire-Upon-Deep-S-F-MASTERWORKS/dp/1473211956
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Fire-Upon-Deep-S-F-MASTERWORKS-ebook/dp/B00AVUMIZE
 
 - title: Veniss Underground
   author: Jeff Vandermeer
@@ -184,6 +260,13 @@
   image-source: https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/5098/9781509848164.jpg
   isfdb: 171348
   goodreads: 230853.Veniss_Underground
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Veniss-Underground-Jeff-VanderMeer/dp/1509848169
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Veniss-Underground-Jeff-VanderMeer-ebook/dp/B00K7DBOMS
 
 - title: The Hitchhiker's Guide to the Galaxy
   author: Douglas Adams
@@ -192,6 +275,13 @@
   image-source: https://images.gr-assets.com/books/1388282444l/386162.jpg
   isfdb: 1773
   goodreads: 386162.The_Hitchhiker_s_Guide_to_the_Galaxy
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Hitchhikers-Guide-Galaxy-Omnibus-Trilogy/dp/1509852794
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Hitchhikers-Guide-Galaxy-Omnibus-Trilogy-ebook/dp/B075NLB4P7
 
 - title: The First Fifteen Lives of Harry August
   author: Claire North
@@ -201,6 +291,13 @@
   image-source: https://images-na.ssl-images-amazon.com/images/I/51DJ1X5NJwL._SX325_BO1,204,203,200_.jpg
   isfdb: 1708932
   goodreads: 20706317-the-first-fifteen-lives-of-harry-august
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/First-Fifteen-Lives-August-mouth/dp/0356502589
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/First-Fifteen-Lives-August-mouth-ebook/dp/B00DI7HLDG
 
 - title: The Day of the Triffids
   author: John Wyndham
@@ -210,6 +307,13 @@
   image-source: http://litreactor.com/sites/default/files/images/column/day-of-triffids.png
   isfdb: 2139
   goodreads: 530965.The_Day_of_the_Triffids
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Day-Triffids-John-Wyndham/dp/0141033002
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Day-Triffids-Penguin-Modern-Classics-ebook/dp/B002RI9YOG
 
 - title: The Race
   author: Nina Allan
@@ -219,6 +323,13 @@
   image-source: http://www.ninaallan.co.uk/wp-content/uploads/2015/11/the-race-cover-2.jpg
   isfdb: 1768867
   goodreads: 22708417-the-race
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Race-Nina-Allan/dp/1785650467
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Race-Nina-Allan-ebook/dp/B01G4GS5GY
 
 - title: Hyperion
   author: Dan Simmons
@@ -228,6 +339,13 @@
   image-source: https://images.gr-assets.com/books/1481404355l/9732198.jpg
   isfdb: 1749
   goodreads: 77566.Hyperion
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Hyperion-GOLLANCZ-S-F-Dan-Simmons/dp/0575076372
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Hyperion-Cantos-Book-1-ebook/dp/B0043M6780
 
 - title: The Machine
   author: James Smythe
@@ -237,6 +355,13 @@
   image-source: https://images.gr-assets.com/books/1359897792l/17316670.jpg
   isfdb: 1568223
   goodreads: 17316670-the-machine
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Machine-James-Smythe/dp/000750750X
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Machine-James-Smythe-ebook/dp/B009QU6V94
 
 - title: The Supernaturalist
   author: Eoin Colfer
@@ -246,6 +371,13 @@
   image-source: https://images.gr-assets.com/books/1233460677l/45432.jpg
   isfdb: 155146
   goodreads: 45432.The_Supernaturalist
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Supernaturalist-New-Cover-Eoin-Colfer/dp/1423146794
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Supernaturalist-Eoin-Colfer-ebook/dp/B002RI9L8K
 
 - title: Do Androids Dream of Electric Sheep?
   author: Philip K. Dick
@@ -254,6 +386,13 @@
   image-source: http://www.dylan-penev.ch/sites/default/files/public/styles/colorbox_full_image/public/article/gallery/book_cover_07.jpg
   isfdb: 2103
   goodreads: 7082.Do_Androids_Dream_of_Electric_Sheep_
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Androids-Dream-Electric-Sheep-Masterworks/dp/0575079932
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Blade-Runner-Philip-K-Dick-ebook/dp/B06WLKRKN5
 
 - title: Children of Time
   author: Adrian Tchaikovsky
@@ -262,6 +401,13 @@
   image-source: https://images.gr-assets.com/books/1431014197l/25499718.jpg
   isfdb: 1856439
   goodreads: 25499718-children-of-time
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Children-Time-Adrian-Tchaikovsky/dp/1447273303
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Children-Time-Winner-Arthur-Clarke-ebook/dp/B00SN93AHU
 
 - title: Random Factor
   author: Jessica Palmer
@@ -270,6 +416,10 @@
   image-source: https://images-na.ssl-images-amazon.com/images/I/41SmNkmxWeL._SX288_BO1,204,203,200_.jpg
   isfdb: 15829
   goodreads: 2415676.Random_Factor
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Random-Factor-Point-SF-S/dp/0590556657
 
 - title: "Doctor Who: Harvest of Time"
   author: Alastair Reynolds
@@ -278,6 +428,13 @@
   image-source: https://vignette2.wikia.nocookie.net/tardis/images/7/72/Harvest_of_Time.jpg/revision/latest?cb=20140623085617
   isfdb: 1588310
   goodreads: 17162398-doctor-who
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Doctor-Who-Harvest-Alastair-Reynolds/dp/1849904197
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Doctor-Who-Harvest-Alastair-Reynolds-ebook/dp/B00CA88I2C
 
 - title: We Are Legion (We Are Bob)
   author: Dennis E. Taylor
@@ -286,6 +443,13 @@
   image-source: https://images-eu.ssl-images-amazon.com/images/I/513erhF-l2L._SY346_.jpg
   isfdb: 2159484
   goodreads: 32109569-we-are-legion-we-are-bob
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/We-Are-Legion-Bob-Bobiverse/dp/1680680587
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Are-Legion-Bob-Bobiverse-Book-ebook/dp/B01LWAESYQ
 
 - title: How to Live Safely in a Science Fictional Universe
   author: Charles Yu
@@ -294,6 +458,13 @@
   image-source: https://www.wired.com/wp-content/uploads/blogs/geekdad/wp-content/uploads/2010/07/howto.jpg
   isfdb: 1142404
   goodreads: 7726420-how-to-live-safely-in-a-science-fictional-universe
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Live-Safely-Science-Fictional-Universe/dp/1848876823
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Live-Safely-Science-Fictional-Universe-ebook/dp/B004S7BBNQ
 
 - title: Methuselah's Children
   author: Robert A. Heinlein
@@ -302,6 +473,13 @@
   image-source: https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/8/6/8/9200000036418685.jpg
   isfdb: 1532
   goodreads: 175319.Methuselah_s_Children
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Methuselahs-Children-Robert-Heinlein/dp/0451075919
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Methuselahs-Children-Gateway-Essentials-Heinlein-ebook/dp/B00QFLKOH2
 
 - title: Redshirts
   author: John Scalzi
@@ -310,6 +488,13 @@
   image-source: https://www.wired.com/images_blogs/underwire/2012/07/Redshirts_800.jpg
   isfdb: 1422355
   goodreads: 13055592-redshirts
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Redshirts-John-Scalzi/dp/0575134305
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Redshirts-John-Scalzi-ebook/dp/B0087GYY92
 
 - title: Promise of the Child
   author: Tom Toner
@@ -318,6 +503,13 @@
   image-source: https://images-na.ssl-images-amazon.com/images/I/516YGwuiw1L._SY344_BO1,204,203,200_.jpg
   isfdb: 1916463
   goodreads: 24693990-the-promise-of-the-child
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Promise-Child-Amaranthine-Spectrum/dp/1473211379
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Promise-Child-Amaranthine-Spectrum-ebook/dp/B00XUDPGBW
 
 - title: Starship Troopers
   author: Robert Heinlein
@@ -326,6 +518,13 @@
   image-source: https://upload.wikimedia.org/wikipedia/en/a/a9/Starship_Troopers_(novel).jpg
   isfdb: 1112
   goodreads: 17214.Starship_Troopers
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Starship-Troopers-Robert-Heinlein/dp/1473616115
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Starship-Troopers-Robert-Heinlein-ebook/dp/B003ODIWEG
 
 - title: The Three-Body Problem
   author: Liu Cixin
@@ -334,6 +533,13 @@
   image-source: https://images.gr-assets.com/books/1415428227l/20518872.jpg
   isfdb: 1779013
   goodreads: 20518872-the-three-body-problem
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Three-Body-Problem-Cixin-Liu/dp/178497157X
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Three-Body-Problem-Cixin-Liu-ebook/dp/B00S8FCJCQ
 
 - title: Backwards
   author: Rob Grant
@@ -342,6 +548,10 @@
   image-source: https://upload.wikimedia.org/wikipedia/en/8/81/Backwards_novel.jpg
   isfdb: 18041
   goodreads: 98785.Backwards
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Backwards-Red-Dwarf-Rob-Grant/dp/0140171509
 
 - title: Proxima
   author: Stephen Baxter
@@ -350,6 +560,13 @@
   image-source: http://www.forbiddenplanet.co.uk/blog/wp2013/wp-content/uploads/2013/09/proxima-stephen-baxter-gollancz.jpg
   isfdb: 1616089
   goodreads: 17983396-proxima
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Proxima-1-Stephen-Baxter/dp/0575116854
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Proxima-Stephen-Baxter-ebook/dp/B00E0JYS8M
 
 - title: We
   author: Yevgeny Zamyatin
@@ -358,6 +575,13 @@
   image-source: https://images-na.ssl-images-amazon.com/images/I/5147D4RvY7L.jpg
   isfdb: 7135
   goodreads: 76171.We
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/We-Yevgeny-Zamyatin/dp/0140185852
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/We-Momentum-Classic-Science-Fiction-ebook/dp/B00ABQ0LJS
 
 - title: The Girl With All The Gifts
   author: M.R. Carey
@@ -366,6 +590,13 @@
   image-source: https://upload.wikimedia.org/wikipedia/en/1/1f/The_Girl_with_All_the_Gifts.jpg
   isfdb: 1666651
   goodreads: 17235026-the-girl-with-all-the-gifts
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Girl-All-Gifts-original-thriller/dp/0356500152
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Girl-All-Gifts-original-thriller-ebook/dp/B00B27ECPY
 
 - title: Ready Player One
   author: Ernest Cline
@@ -374,6 +605,13 @@
   image-source: https://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg
   isfdb: 1297291
   goodreads: 9969571-ready-player-one
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Ready-Player-One-Ernest-Cline/dp/0099560437
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Ready-Player-One-Ernest-Cline-ebook/dp/B005CVWWJY
 
 - title: All The Birds In The Sky
   author: Charlie Jane Anders
@@ -391,7 +629,7 @@
     url: https://www.amazon.co.uk/All-Birds-Charlie-Jane-Anders/dp/1785650556
   - name: Amazon Kindle
     class: kindle
-    url: http://www.amazon.co.uk/All-Birds-Charlie-Jane-Anders-ebook/dp/B019NFXK72
+    url: https://www.amazon.co.uk/All-Birds-Charlie-Jane-Anders-ebook/dp/B019NFXK72
 
 - title: News From Gardenia
   author: Robert Llewellyn
@@ -404,6 +642,12 @@
   - name: Unbound
     class: web
     url: https://unbound.co.uk/books/news-from-gardenia
+  - name: Amazon paperback
+    class: amazon
+    url: https://www.amazon.co.uk/Robert-Llewellyn-News-Gardenia-Paperback/dp/B00RWOC2AI
+  - name: Amazon Kindle
+    class: kindle
+    url: https://www.amazon.co.uk/News-Gardenia-Robert-Llewellyn-ebook/dp/B00WDP9IPS
 
 - title: The Circle
   author: Dave Eggers
@@ -415,10 +659,10 @@
   store-links:
   - name: Amazon Paperback
     class: amazon
-    url: http://www.amazon.co.uk/The-Circle-Dave-Eggers/dp/024114650X
+    url: https://www.amazon.co.uk/The-Circle-Dave-Eggers/dp/024114650X
   - name: Amazon Kindle
     class: kindle
-    url: http://www.amazon.co.uk/Circle-Dave-Eggers-ebook/dp/B00EODUWQ6
+    url: https://www.amazon.co.uk/Circle-Dave-Eggers-ebook/dp/B00EODUWQ6
   - name: Kobo
     class: kobo
     url: https://store.kobobooks.com/en-us/ebook/the-circle-21
@@ -433,6 +677,10 @@
   image-source: http://ecx.images-amazon.com/images/I/4120yizU-2L._SY344_BO1,204,203,200_.jpg
   isfdb: 955451
   goodreads: 4981.Slaughterhouse_Five
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Slaughterhouse-Childrens-Crusade-Duty-dance-Death/dp/0099800209
 
 - title: On Basilisk Station
   author: David Weber
@@ -441,6 +689,13 @@
   image-source: https://upload.wikimedia.org/wikipedia/en/a/ae/OnBasiliskStation.jpg
   isfdb: 1442
   goodreads: 35921.On_Basilisk_Station
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Basilisk-Station-Honorverse-David-Weber/dp/0743435710
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Basilisk-Station-Honor-Harrington-Book-ebook/dp/B00ARPJBS0
 
 - title: Teranesia
   author: Greg Egan
@@ -449,6 +704,13 @@
   image-source: https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Teranesia.jpg/220px-Teranesia.jpg
   isfdb: 19907
   goodreads: 156787.Teranesia
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Teranesia-Greg-Egan/dp/0575083336
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Teranesia-Greg-Egan-ebook/dp/B004JHY8IA
 
 - title: Wasp
   author: Eric Frank Russell
@@ -459,10 +721,10 @@
   store-links:
   - name: Amazon Paperback
     class: amazon
-    url: http://www.amazon.co.uk/Wasp-S-F-MASTERWORKS-Frank-Russell/dp/0575129042
+    url: https://www.amazon.co.uk/Wasp-S-F-MASTERWORKS-Frank-Russell/dp/0575129042
   - name: Amazon Kindle
     class: kindle
-    url: http://www.amazon.co.uk/WASP-Eric-Frank-Russell-ebook/dp/B003TFESY2
+    url: https://www.amazon.co.uk/WASP-Eric-Frank-Russell-ebook/dp/B003TFESY2
   - name: Kobo
     class: kobo
     url: https://store.kobobooks.com/en-us/ebook/wasp-6
@@ -476,10 +738,10 @@
   store-links:
   - name: Amazon Paperback
     class: amazon
-    url: http://www.amazon.co.uk/The-Kraken-Wakes-John-Wyndham/dp/0141032995
+    url: https://www.amazon.co.uk/The-Kraken-Wakes-John-Wyndham/dp/0141032995
   - name: Amazon Kindle
     class: kindle
-    url: http://www.amazon.co.uk/Kraken-Wakes-John-Wyndham-ebook/dp/B002RI9S1U
+    url: https://www.amazon.co.uk/Kraken-Wakes-John-Wyndham-ebook/dp/B002RI9S1U
   - name: Kobo
     class: kobo
     url: https://store.kobobooks.com/en-us/ebook/the-kraken-wakes
@@ -496,10 +758,10 @@
   store-links:
   - name: Amazon Paperback
     class: amazon
-    url: http://www.amazon.co.uk/I-Am-Legend-S-F-MASTERWORKS/dp/0575094168
+    url: https://www.amazon.co.uk/I-Am-Legend-S-F-MASTERWORKS/dp/0575094168
   - name: Amazon Kindle
     class: kindle
-    url: http://www.amazon.co.uk/I-Am-Legend-S-F-MASTERWORKS-ebook/dp/B005GQ5IA0
+    url: https://www.amazon.co.uk/I-Am-Legend-S-F-MASTERWORKS-ebook/dp/B005GQ5IA0
   - name: Kobo
     class: kobo
     url: https://store.kobobooks.com/en-US/ebook/i-am-legend
@@ -516,10 +778,10 @@
   store-links:
   - name: Amazon Paperback
     class: amazon
-    url: http://www.amazon.co.uk/Fallen-Dragon-Peter-F-Hamilton/dp/0330480065
+    url: https://www.amazon.co.uk/Fallen-Dragon-Peter-F-Hamilton/dp/0330480065
   - name: Amazon Kindle
     class: kindle
-    url: http://www.amazon.co.uk/Fallen-Dragon-Peter-F-Hamilton-ebook/dp/B003GK21CG
+    url: https://www.amazon.co.uk/Fallen-Dragon-Peter-F-Hamilton-ebook/dp/B003GK21CG
   - name: Kobo
     class: kobo
     url: https://store.kobobooks.com/en-US/ebook/fallen-dragon-2
@@ -533,10 +795,10 @@
   store-links:
   - name: Amazon Hardback
     class: amazon
-    url: http://www.amazon.co.uk/Annihilation-The-Southern-Reach-Trilogy/dp/0007550715
+    url: https://www.amazon.co.uk/Annihilation-The-Southern-Reach-Trilogy/dp/0007550715
   - name: Amazon Kindle
     class: kindle
-    url: http://www.amazon.co.uk/Annihilation-Southern-Reach-Trilogy-Book-ebook/dp/B00EN5LEMG
+    url: https://www.amazon.co.uk/Annihilation-Southern-Reach-Trilogy-Book-ebook/dp/B00EN5LEMG
   - name: Kobo
     class: kobo
     url: https://store.kobobooks.com/en-US/ebook/annihilation-the-southern-reach-trilogy-book-1
@@ -553,10 +815,10 @@
   store-links:
   - name: Amazon Paperback
     class: amazon
-    url: http://www.amazon.co.uk/Martian-Andy-Weir/dp/0091956145
+    url: https://www.amazon.co.uk/Martian-Andy-Weir/dp/0091956145
   - name: Amazon Kindle
     class: kindle
-    url: http://www.amazon.co.uk/Martian-Andy-Weir-ebook/dp/B00FAXJHCY
+    url: https://www.amazon.co.uk/Martian-Andy-Weir-ebook/dp/B00FAXJHCY
   - name: Kobo
     class: kobo
     url: https://store.kobobooks.com/en-US/ebook/the-martian-5
@@ -573,10 +835,10 @@
   store-links:
   - name: Amazon Paperback
     class: amazon
-    url: http://www.amazon.co.uk/Professor-Moriarty-Hound-DUrbervilles-Novels/dp/0857682830
+    url: https://www.amazon.co.uk/Professor-Moriarty-Hound-DUrbervilles-Novels/dp/0857682830
   - name: Amazon Kindle
     class: kindle
-    url: http://www.amazon.co.uk/Hound-DUrbervilles-Moriarty-Kim-Newman-ebook/dp/B00MLDU676
+    url: https://www.amazon.co.uk/Hound-DUrbervilles-Moriarty-Kim-Newman-ebook/dp/B00MLDU676
   - name: Kobo
     class: kobo
     url: https://store.kobobooks.com/en-US/ebook/the-hound-of-the-d-urbervilles
@@ -593,10 +855,10 @@
   store-links:
   - name: Amazon Paperback
     class: amazon
-    url: http://www.amazon.co.uk/Mort-Discworld-Novel-Novels/dp/0552166626
+    url: https://www.amazon.co.uk/Mort-Discworld-Novel-Novels/dp/0552166626
   - name: Amazon Kindle
     class: kindle
-    url: http://www.amazon.co.uk/Mort-Discworld-Novel-4-ebook/dp/B0035OC7OU
+    url: https://www.amazon.co.uk/Mort-Discworld-Novel-4-ebook/dp/B0035OC7OU
   - name: Kobo
     class: kobo
     url: https://store.kobobooks.com/en-US/ebook/mort-2
@@ -613,7 +875,7 @@
   store-links:
   - name: Amazon Paperback
     class: amazon
-    url: http://www.amazon.co.uk/Gateway-S-F-MASTERWORKS-Frederik-Pohl/dp/0575094230
+    url: https://www.amazon.co.uk/Gateway-S-F-MASTERWORKS-Frederik-Pohl/dp/0575094230
 
 - title: Singularity Sky
   author: Charles Stross
@@ -624,10 +886,10 @@
   store-links:
   - name: Amazon Paperback
     class: amazon
-    url: http://www.amazon.co.uk/Singularity-Sky-Charles-Stross/dp/1841493341
+    url: https://www.amazon.co.uk/Singularity-Sky-Charles-Stross/dp/1841493341
   - name: Amazon Kindle
     class: kindle
-    url: http://www.amazon.co.uk/Singularity-Sky-Charles-Stross-ebook/dp/B002TXZRF4
+    url: https://www.amazon.co.uk/Singularity-Sky-Charles-Stross-ebook/dp/B002TXZRF4
   - name: Kobo
     class: kobo
     url: http://store.kobobooks.com/en-US/ebook/singularity-sky
@@ -643,10 +905,10 @@
   store-links:
   - name: Amazon Paperback
     class: amazon
-    url: http://www.amazon.co.uk/Ubik-S-F-MASTERWORKS-Philip-Dick/dp/1857988531
+    url: https://www.amazon.co.uk/Ubik-S-F-MASTERWORKS-Philip-Dick/dp/1857988531
   - name: Amazon Kindle
     class: kindle
-    url: http://www.amazon.co.uk/Ubik-GOLLANCZ-S-F-Philip-Dick-ebook/dp/B003FXCSU4/
+    url: https://www.amazon.co.uk/Ubik-GOLLANCZ-S-F-Philip-Dick-ebook/dp/B003FXCSU4/
   - name: Nook
     class: nook
     url: http://www.nook.com/gb/ebooks/ubik-by-philip-k-dick/9780575097957
@@ -664,7 +926,7 @@
   store-links:
   - name: Amazon Kindle
     class: kindle
-    url: http://www.amazon.co.uk/Looks-Like-Youre-Writing-Letter-ebook/dp/B00NO7EZ0C
+    url: https://www.amazon.co.uk/Looks-Like-Youre-Writing-Letter-ebook/dp/B00NO7EZ0C
   - name: Nook
     class: nook
     url: http://www.nook.com/gb/ebooks/it-looks-like-youre-writing-a-letter-by-alexander-king/2940046180701
@@ -689,10 +951,10 @@
   store-links:
     - name: Amazon paperback
       class: amazon
-      url: http://www.amazon.co.uk/High-Castle-Penguin-Modern-Classics/dp/0141186674
+      url: https://www.amazon.co.uk/High-Castle-Penguin-Modern-Classics/dp/0141186674
     - name: Amazon Kindle
       class: kindle
-      url: http://www.amazon.co.uk/High-Castle-Penguin-Modern-Classics-ebook/dp/B008DM2MGW
+      url: https://www.amazon.co.uk/High-Castle-Penguin-Modern-Classics-ebook/dp/B008DM2MGW
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/the-man-in-the-high-castle-1
@@ -712,6 +974,12 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/the-darwin-elevator-2
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Darwin-Elevator-Dire-Earth-Cycle/dp/178116763X
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Darwin-Elevator-Dire-Earth-Cycle-ebook/dp/B00MLDKLDU
 
 - title: Contact
   author: Carl Sagan
@@ -722,6 +990,13 @@
   image-source: http://upload.wikimedia.org/wikipedia/en/thumb/5/55/Contact_Sagan.jpg/220px-Contact_Sagan.jpg
   isfdb: 2199
   suggested-by: Michelle
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Contact-Carl-Sagan/dp/1857235800
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Contact-Carl-Sagan-ebook/dp/B01NGT5T6A
 
 - title: Halting State
   author: Charles Stross
@@ -734,10 +1009,10 @@
   store-links:
     - name: Amazon paperback
       class: amazon
-      url: http://www.amazon.co.uk/Halting-State-Charles-Stross/dp/1841496650
+      url: https://www.amazon.co.uk/Halting-State-Charles-Stross/dp/1841496650
     - name: Amazon Kindle
       class: kindle
-      url: http://www.amazon.co.uk/Halting-State-Ace-Science-Fiction-ebook/dp/B002TXZR6S
+      url: https://www.amazon.co.uk/Halting-State-Ace-Science-Fiction-ebook/dp/B002TXZR6S
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/halting-state
@@ -757,6 +1032,12 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/rainbow-s-end-22
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Rainbows-End-Vernor-Vinge/dp/2221108469
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Rainbows-End-Vernor-Vinge-ebook/dp/B006L7RAPO
 
 - title: John Dies At The End
   author: David Wong
@@ -770,6 +1051,12 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/john-dies-at-the-end-4
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/John-Dies-End-David-Wong/dp/0857684833
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/John-Dies-End-David-Wong-ebook/dp/B00MLDTPIC
 
 - title: The City and The City
   author: China Miéville
@@ -782,10 +1069,10 @@
   store-links:
     - name: Amazon paperback
       class: amazon
-      url: http://www.amazon.co.uk/City-China-Mieville/dp/033053419X
+      url: https://www.amazon.co.uk/City-China-Mieville/dp/033053419X
     - name: Amazon Kindle
       class: kindle
-      url: http://www.amazon.co.uk/City-China-Mi-ville-ebook/dp/B003E2UQLO
+      url: https://www.amazon.co.uk/City-China-Mi-ville-ebook/dp/B003E2UQLO
 
 - title: Twisted Metal
   author: Tony Ballantyne
@@ -799,6 +1086,12 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/twisted-metal-1
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Twisted-Metal-Penrose-Tony-Ballantyne/dp/1447281284
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Twisted-Metal-Penrose-Book-1-ebook/dp/B003P9XI66
 
 - title: Old Man's War
   author: John Scalzi
@@ -812,6 +1105,12 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/old-man-s-war-2
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Old-Mans-War/dp/1447295374
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Old-Mans-War-John-Scalzi-ebook/dp/B004M8S6FC
 
 - title: Ancillary Justice
   author: Ann Leckie
@@ -825,6 +1124,12 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/ancillary-justice
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Ancillary-Justice-NEBULA-ARTHUR-Imperial/dp/0356502406
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Ancillary-Justice-NEBULA-ARTHUR-Imperial-ebook/dp/B00BU1DG1S
 
 - title: The Atrocity Archive
   author: Charlie Stross
@@ -838,6 +1143,12 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/the-atrocity-archives
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Atrocity-Archives-Book-Laundry-Files/dp/0356502392
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Atrocity-Archives-Book-Laundry-Files-ebook/dp/B00486U23M
 
 - title: The Dispossessed
   author: Ursula K. Le Guin
@@ -850,7 +1161,10 @@
   store-links:
     - name: Amazon paperback
       class: amazon
-      url: http://www.amazon.co.uk/Dispossessed-Ursula-Guin/dp/1857988825
+      url: https://www.amazon.co.uk/Dispossessed-Ursula-Guin/dp/1857988825
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Dispossessed-S-F-MASTERWORKS-Ursula-Guin-ebook/dp/B0151Q54OE
 
 - title: Only Forward
   author: Michael Marshall Smith
@@ -858,6 +1172,13 @@
   slug: only-forward
   image-source: http://ecx.images-amazon.com/images/I/31VF9V9Y8QL.jpg
   isfdb: 25035
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Only-Forward-Michael-Marshall-Smith/dp/0008117446
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Forward-Voyager-Classics-Michael-Marshall-ebook/dp/B003IDMUOA
 
 - title: Leviathan Wakes
   author: James S. A. Corey
@@ -869,6 +1190,12 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/leviathan-wakes-1
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Leviathan-Wakes-Expanse-major-Netflix/dp/1841499897
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Leviathan-Wakes-Expanse-major-Netflix-ebook/dp/B004XCGKYQ
 
 - title: Final Days
   author: Gary Gibson
@@ -880,6 +1207,12 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/final-days-2
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Final-Days-Gary-Gibson/dp/0330519697
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Final-Days-Gary-Gibson-ebook/dp/B005BOHZ76
 
 - title: Foundation
   author: Isaac Asimov
@@ -892,7 +1225,7 @@
   store-links:
     - name: Amazon paperback
       class: amazon
-      url: http://www.amazon.co.uk/Foundation-1-3-Isaac-Asimov/dp/0586010807
+      url: https://www.amazon.co.uk/Foundation-1-3-Isaac-Asimov/dp/0586010807
 
 - title: By Light Alone
   author: Adam Roberts
@@ -906,6 +1239,12 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/by-light-alone
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Light-Alone-Adam-Roberts/dp/0575083662
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Light-Alone-Adam-Roberts-ebook/dp/B005ES0WN8
 
 - title: The Long Earth
   author: Stephen Baxter and Terry Pratchett
@@ -917,6 +1256,12 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/the-long-earth-1
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Long-Earth/dp/0552164089
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Long-Earth-ebook/dp/B0073E4FTI
 
 - title: The Accidental Time Machine
   author: Joe Haldeman
@@ -928,6 +1273,12 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/the-accidental-time-machine
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Accidental-Time-Machine-Joe-Haldeman/dp/0441016162
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Accidental-Time-Machine-Gateway-Essentials-ebook/dp/B00AJ1ZSJ8
 
 - title: Yellow Blue Tibia
   author: Adam Roberts
@@ -939,6 +1290,12 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/yellow-blue-tibia
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Yellow-Blue-Tibia-Adam-Roberts/dp/0575083581
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Yellow-Blue-Tibia-Adam-Roberts-ebook/dp/B002UP1SZO
 
 - title: Surface Detail
   author: Ian M. Banks
@@ -950,4 +1307,10 @@
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/surface-detail-1
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Surface-Detail-Culture-Iain-Banks/dp/1841498955
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Surface-Detail-Culture-Book-9-ebook/dp/B00462RVHI
 
