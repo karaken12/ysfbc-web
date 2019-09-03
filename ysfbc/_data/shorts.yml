@@ -4,8 +4,9 @@
   author: Alix E. Harrow
   slug: a-witches-guide-to-escape
   image-source: https://prodimage.images-bn.com/pimages/2940158753985_p0_v1_s600x595.jpg
-  isfdb: 2323601
-  goodreads: 47868053-a-witch-s-guide-to-escape
+  info-links:
+    isfdb: 2323601
+    goodreads: 47868053-a-witch-s-guide-to-escape
   store-links:
     - name: Apex Magazine
       class: web free
@@ -16,8 +17,9 @@
   author: Sarah Gailey
   slug: stet
   image-source: https://lh3.googleusercontent.com/QF8N0Ay9h2jv4SX3GzEYBbE8pOVgu8huNOyUFfUf1y_38OfGuaW_TrWxbfiOyyXj81dflTsoee5sNXEMbAcM2KF-jt15Sy_KTvhau2AtHLcRhZU7h1y04NHWAzmfig7hFA3MnfNfCREkCM9B5CFOTTvIJTvSKkd6QWXT-a9DLBlyTbladon-inEp74xZlTkUy46GEUnZ_r7a407sK-6RHw-RRthyKbkMuxkrq29H10T6OKqEqlet8HG01FcviT3aRLMMV4VYFd5kqWkAUfDfcBdny-8BmyNUZGvFxeVMGHPRNLa8VqIJ3yV3vFlz8oTX8sf2lguVIyz1EMuuB_qOJh-kcPv5LZZ861yxbpW1mRd_fHGWj_ujHaf_XLhjj0s-2kS6UNxhjJNlz6NFMC4-Nj3g5kkupYgFgHkLUA0NnXBfNz0ddhZ6WBu6MKyJO6cFpq5S9jt394SLWiwHCKV7q9u1-0qWEq2ULNdGlwA0Nm2nqQXwnX2eVSFxw3ItebPi_6bhK_CriCzyIXgEjxZYTNr9spZ_JLLYTdEH6DVX3twHt7cD-9JznDn-4tjrWX21aTlo4t52mnoV_ZhqRHmy0RGIJiambSE4xFKLVbm1FHCYNoa5tk4g9MoEsf8Th4CT4EHZ-139vUP7wTl5tDTQqHFM-ePld7D97D2cVvnam34wv_xMWxx5M1Uz-7q_TBtfGcqfN2U-KehvWR4RpVzv9RmjWg=w403-h571-no
-  isfdb: 2477336
-  goodreads: 45727847-stet
+  info-links:
+    isfdb: 2477336
+    goodreads: 45727847-stet
   store-links:
     - name: Fireside Fiction
       class: web free
@@ -28,7 +30,8 @@
   author: Sarah Pinsker
   slug: court-magician
   image-source: https://prodimage.images-bn.com/pimages/2940158955112_p0_v1_s600x595.jpg
-  isfdb: 2312904
+  info-links:
+    isfdb: 2312904
   store-links:
     - name: Lightspeed Magazinen
       class: web free
@@ -42,8 +45,9 @@
   author: John W. Campbell
   slug: who-goes-there
   image-source: https://images-na.ssl-images-amazon.com/images/I/71l4t%2BTuuAL.jpg
-  isfdb: 710457
-  goodreads: 6468870-who-goes-there
+  info-links:
+    isfdb: 710457
+    goodreads: 6468870-who-goes-there
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -60,7 +64,8 @@
   author: Zhang Ran
   slug: master-zhao
   image-source: http://clarkesworldmagazine.com/covers/cw_147_700.jpg
-  isfdb: 2486206
+  info-links:
+    isfdb: 2486206
   store-links:
     - name: Clarkesworld
       class: web free
@@ -74,7 +79,8 @@
   author: Ellen Klages
   slug: sponda-the-suet-girl
   image-source: http://www.isfdb.org/wiki/images/8/8d/FRSMJRNSTB2013.jpg
-  isfdb: 1579856
+  info-links:
+    isfdb: 1579856
   store-links:
     - name: Fearsome Journeys - Rebellion publishing
       url: https://www.rebellionstore.com/products/fearsome_journeys
@@ -93,7 +99,8 @@
   author: Mark Carton
   slug: 48-crash
   image-source: https://images.gr-assets.com/books/1506727755l/36326593.jpg
-  goodreads: 36326593-lethbridge-stewart
+  info-links:
+    goodreads: 36326593-lethbridge-stewart
   store-links:
     - name: Amazon Kindle
       class: kindle
@@ -107,8 +114,9 @@
   author: Neil Gaiman
   slug: murder-mysteries
   image-source: https://images.gr-assets.com/books/1397219096l/21593238.jpg
-  isfdb: 43813
-  goodreads: 21593238-murder-mysteries-a-play-for-voices
+  info-links:
+    isfdb: 43813
+    goodreads: 21593238-murder-mysteries-a-play-for-voices
   store-links: []
 
 - meeting_for: November 2018
@@ -116,7 +124,8 @@
   author: David I. Masson
   slug: travellers-rest
   image-source: https://images.gr-assets.com/books/1356133182l/17061841.jpg
-  isfdb: 43952
+  info-links:
+    isfdb: 43952
   store-links:
     - name: Lightspeed Magazine
       class: web free
@@ -127,8 +136,9 @@
   author: Rebecca Roanhorse
   slug: welcome-to-your-authentic-indian-experience
   image-source: https://images.gr-assets.com/books/1522618888l/39119490.jpg
-  isfdb: 2236694
-  goodreads: 39119490-welcome-to-your-authentic-indian-experience
+  info-links:
+    isfdb: 2236694
+    goodreads: 39119490-welcome-to-your-authentic-indian-experience
   store-links:
     - name: Apex Magazine
       class: web free
@@ -139,8 +149,9 @@
   author: Jerome Bixby
   slug: its-a-good-life
   image-source: https://images.gr-assets.com/books/1407081949l/17828358.jpg
-  isfdb: 41109
-  goodreads: 17828358-it-s-a-good-life
+  info-links:
+    isfdb: 41109
+    goodreads: 17828358-it-s-a-good-life
   store-links: []
 
 - meeting_for: August 2018
@@ -148,8 +159,9 @@
   author: Shirley Jackson
   slug: lottery
   image-source: https://images.gr-assets.com/books/1351885380l/6219655.jpg
-  isfdb: 41194
-  goodreads: 6219656-the-lottery
+  info-links:
+    isfdb: 41194
+    goodreads: 6219656-the-lottery
   store-links: []
 
 - meeting_for: July 2018
@@ -157,8 +169,9 @@
   author: Isaac Asimov
   slug: last-question
   image-source: https://images.gr-assets.com/books/1476712579l/32667075.jpg
-  isfdb: 41230
-  goodreads: 4808763-the-last-question
+  info-links:
+    isfdb: 41230
+    goodreads: 4808763-the-last-question
   store-links:
     - name: MultiVAX
       class: web free
@@ -169,8 +182,9 @@
   author: Ray Bradbury
   slug: another-fine-mess
   image-source: https://images.gr-assets.com/books/1475225831l/32318271.jpg
-  isfdb: 40363
-  goodreads: 32318271-another-fine-mess
+  info-links:
+    isfdb: 40363
+    goodreads: 32318271-another-fine-mess
   store-links: []
 
 - meeting_for: May 2018
@@ -178,8 +192,9 @@
   author: Issac Asimov
   slug: nightfall
   image-source: https://www.popsci.com/sites/popsci.com/files/styles/1000_1x_/public/import/2014/nightfall-graphic-novel-isaac-asimov-popular-science.jpg?itok=GGQh9weC
-  isfdb: 46434
-  goodreads: 18297094-nightfall
+  info-links:
+    isfdb: 46434
+    goodreads: 18297094-nightfall
   store-links: []
 
 - meeting_for: April 2018
@@ -188,8 +203,9 @@
   slug: cosmic-spring
   image-source: http://www.lightspeedmagazine.com/wp-content/uploads/2018/02/Lightspeed_94_March_2018-200x300.jpg
   suggested-by: Tom
-  isfdb: 2352866
-  goodreads: 39608348-cosmic-spring
+  info-links:
+    isfdb: 2352866
+    goodreads: 39608348-cosmic-spring
   store-links:
     - name: Lightspeed Magazine
       class: web free
@@ -204,8 +220,9 @@
   slug: soft-weapon
   image-source: http://www.danhausertrek.com/AnimatedSeries/If_Feb1967_Big.jpg
   suggested-by: Jonathon
-  isfdb: 54182
-  goodreads: 23507248-the-soft-weapon
+  info-links:
+    isfdb: 54182
+    goodreads: 23507248-the-soft-weapon
   store-links:
     - name: Worlds of IF (February 1967)
       class: web free
@@ -217,8 +234,9 @@
   slug: pail-of-air
   image-source: http://www.gutenberg.org/files/51461/51461-h/images/cover.jpg
   suggested-by: Jonathon
-  isfdb: 56229
-  goodreads: 297432.A_Pail_of_Air
+  info-links:
+    isfdb: 56229
+    goodreads: 297432.A_Pail_of_Air
   store-links:
     - name: Project Gutenberg
       class: web free
@@ -230,8 +248,9 @@
   slug: things-with-beards
   image-source: http://samjmiller.com/wordpress_2015/wp-content/uploads/2016/06/cw_117_700.jpg
   suggested-by: Tom
-  isfdb: 2122739
-  goodreads: 36464569-things-with-beards
+  info-links:
+    isfdb: 2122739
+    goodreads: 36464569-things-with-beards
   store-links:
     - name: Clarkesworld
       class: web free
@@ -246,8 +265,9 @@
   slug: at-the-speed-of-light
   image-source: https://images.gr-assets.com/books/1483386289l/33775684.jpg
   suggested-by: Dan
-  isfdb: 2099442
-  goodreads: 33775684-at-the-speed-of-light
+  info-links:
+    isfdb: 2099442
+    goodreads: 33775684-at-the-speed-of-light
   store-links: []
 
 - meeting_for: October 2017
@@ -256,8 +276,9 @@
   slug: today-i-am-paul
   image-source: http://clarkesworldmagazine.com/covers/cw_107_350.jpg
   suggested-by: Jonathon
-  isfdb: 1971481
-  goodreads: 29910765-today-i-am-paul
+  info-links:
+    isfdb: 1971481
+    goodreads: 29910765-today-i-am-paul
   store-links:
     - name: Clarkesworld
       class: web free
@@ -271,8 +292,9 @@
   author: N.K. Jemisin
   slug: city-born-great
   image-source: https://images.gr-assets.com/books/1468437333l/31115639.jpg
-  isfdb: 2118896
-  goodreads: 31115639-the-city-born-great
+  info-links:
+    isfdb: 2118896
+    goodreads: 31115639-the-city-born-great
   store-links:
     - name: Tor.com
       class: web free
@@ -283,8 +305,9 @@
   author: Amal Et-Mohtar
   slug: seasons-glass-iron
   image-source: http://images.gr-assets.com/books/1489209667l/34401218.jpg
-  isfdb: 2088490
-  goodreads: 34401218-seasons-of-glass-and-iron
+  info-links:
+    isfdb: 2088490
+    goodreads: 34401218-seasons-of-glass-and-iron
   store-links:
     - name: Uncanny Magazine
       class: web free
@@ -295,7 +318,8 @@
   author: Margaret Killjoy
   slug: men-of-the-ashen-morrow
   image-source: https://1.bp.blogspot.com/-DzNYpeOVAGI/WIke-WhzdKI/AAAAAAAACac/22y-vpvWJhIOt01IWhiKOARpa3Qhtc_MgCLcB/w134/beneath-ceaseless-skies-issue-218-cover.jpg
-  isfdb: 2161577
+  info-links:
+    isfdb: 2161577
   store-links:
     - name: Beneath Ceaseless Skies
       class: magazine free
@@ -312,7 +336,8 @@
   author: Eleanor Arnason
   slug: ruins
   image-source: http://3.bp.blogspot.com/-FCyVXs2NQog/VO9aOals3yI/AAAAAAAABC0/YBYY6SY4JAY/s1600/download.jpeg
-  isfdb: 1832848
+  info-links:
+    isfdb: 1832848
   store-links: []
 
 - meeting_for: March 2017
@@ -320,8 +345,9 @@
   author: C. M. Kornbluth
   slug: marching-morons
   image-source: http://images.gr-assets.com/books/1327523964l/2300110.jpg
-  isfdb: 55238
-  goodreads: 31743904-the-marching-morons
+  info-links:
+    isfdb: 55238
+    goodreads: 31743904-the-marching-morons
   store-links: []
 
 - meeting_for: February 2017
@@ -329,8 +355,9 @@
   author: S.R. Algernon
   slug: asymmetrical-warfare
   image-source: http://www.nature.com/nature/journal/v519/n7544/images/519498a-i1.jpg
-  isfdb: 1864869
-  goodreads: 30066460-asymmetrical-warfare
+  info-links:
+    isfdb: 1864869
+    goodreads: 30066460-asymmetrical-warfare
   store-links:
     - name: Nature
       class: web free
@@ -341,7 +368,8 @@
   author: Garry Kilworth
   slug: lets-go-to-golgotha
   image-source: http://images.gr-assets.com/books/1352710704l/16138652.jpg
-  isfdb: 82634
+  info-links:
+    isfdb: 82634
   store-links: []
 
 - meeting_for: December 2016
@@ -349,7 +377,8 @@
   author: Ted Chiang
   slug: story-of-your-life
   image-source: http://media.boingboing.net/wp-content/uploads/2013/10/cover1.jpg
-  isfdb: 84502
+  info-links:
+    isfdb: 84502
   store-links: []
 
 - meeting_for: November 2016
@@ -357,7 +386,8 @@
   author: Robert Lowell Russell
   slug: gorlack-the-destroyers-all-you-can-eat-adventure
   image-source: http://imglogo.podbean.com/dir-logo/192383/192383_300x300.jpg
-  isfdb: 1865069
+  info-links:
+    isfdb: 1865069
   store-links:
     - name: Escape Pod
       class: escapepod free
@@ -368,7 +398,8 @@
   author: Lawrence Watt-Evans
   slug: why-i-left-harrys-all-night-hamburgers
   image-source: http://www.isfdb.org/wiki/images/5/52/WHLFTHRRSL1992.jpg
-  isfdb: 40786
+  info-links:
+    isfdb: 40786
   store-links:
     - name: Escape Pod
       class: escapepod free
@@ -379,7 +410,8 @@
   author: Harry Harrison
   slug: i-always-do-what-teddy-says
   image-source: http://ecx.images-amazon.com/images/I/512pXro1RsL._SL500_SY344_BO1,204,203,200_.jpg
-  isfdb: 62854
+  info-links:
+    isfdb: 62854
   store-links: []
 
 - meeting_for: May 2016
@@ -387,8 +419,9 @@
   author: Ted Chiang
   slug: exhalation
   image-source: http://www.lightspeedmagazine.com/wp-content/files_mf/cache/th_a0580aaeccec739569f2502c0aa86498_lightspeed_47_april_201431.jpg
-  isfdb: 938470
-  goodreads: 6404787-exhalation
+  info-links:
+    isfdb: 938470
+    goodreads: 6404787-exhalation
   store-links:
     - name: Lightspeed Magazine
       class: web free
@@ -408,8 +441,9 @@
   author: H. Beam Piper
   slug: graveyard-of-dreams
   image-source: http://d.gr-assets.com/books/1446252198l/27396965.jpg
-  isfdb: 46003
-  goodreads: 27396965-graveyard-of-dreams
+  info-links:
+    isfdb: 46003
+    goodreads: 27396965-graveyard-of-dreams
   store-links:
     - name: Kobo
       class: kobo free
@@ -423,7 +457,8 @@
   author: Neil Gaiman
   slug: we-can-get-them-for-you-wholesale
   image-source: http://ecx.images-amazon.com/images/I/519u91IIH5L._SX324_BO1,204,203,200_.jpg
-  isfdb: 468511
+  info-links:
+    isfdb: 468511
   store-links:
     - name: Kobo (collection)
       class: collection kobo
@@ -443,8 +478,9 @@
   author: Alastair Reynolds
   slug: diamond-dogs
   image-source: http://d.gr-assets.com/books/1406468069l/893596.jpg
-  isfdb: 102008
-  goodreads: 893596.Diamond_Dogs
+  info-links:
+    isfdb: 102008
+    goodreads: 893596.Diamond_Dogs
   store-links: []
 
 - meeting_for: January 2016
@@ -452,7 +488,8 @@
   author: Mur Lafferty
   slug: merry-christmas-heartbreakers
   image-source: http://ecx.images-amazon.com/images/I/51A3RQ1fBmL._SX329_BO1,204,203,200_.jpg
-  isfdb: 924324
+  info-links:
+    isfdb: 924324
   store-links:
     - name: Escape Pod
       class: escapepod free
@@ -469,7 +506,8 @@
   author: Kary English
   slug: totaled
   image-source: http://karyenglish.com/wp-content/uploads/2015/02/TotaledCover375x600.jpg
-  isfdb: 1789936
+  info-links:
+    isfdb: 1789936
   store-links:
     - name: Galaxy's Edge
       class: web free
@@ -479,7 +517,8 @@
   title: The Veldt
   author: Ray Bradbury
   slug: veldt
-  isfdb: 64827
+  info-links:
+    isfdb: 64827
   store-links:
     - name: Amazon Paperback (anthology)
       class: anthology amazon
@@ -495,7 +534,8 @@
   title: The Accountant
   author: Robert Sheckley
   slug: accountant
-  isfdb: 58540
+  info-links:
+    isfdb: 58540
   store-links:
     - name: Amazon Kindle (anthology)
       class: anthology kindle
@@ -511,7 +551,8 @@
   title: The Retgun
   author: Tim Pratt
   slug: retgun
-  isfdb: 1646535
+  info-links:
+    isfdb: 1646535
   store-links:
     - name: Escape Pod
       class: escapepod free
@@ -527,7 +568,8 @@
   title: Cassandra
   author: Ken Liu
   slug: cassandra
-  isfdb: 1830702
+  info-links:
+    isfdb: 1830702
   store-links:
     - name: Clarkesworld
       class: web free
@@ -547,7 +589,8 @@
   author: Arthur C. Clarke
   slug: sentinel
   suggested-by: Jonathon
-  isfdb: 25639
+  info-links:
+    isfdb: 25639
   store-links:
     - name: Amazon Paperback
       class: amazon
@@ -567,7 +610,8 @@
   author: Ursula Vernon
   slug: jackalope_wives
   suggested-by: Tom
-  isfdb: 1679219
+  info-links:
+    isfdb: 1679219
   store-links:
     - name: Webpage (free)
       class: web free
@@ -581,7 +625,8 @@
   author: Judith Tarr
   slug: made_of_cats
   suggested-by: Sophie
-  isfdb: 1294390
+  info-links:
+    isfdb: 1294390
   store-links:
     - name: Escape Pod (free)
       class: escapepod free
@@ -595,7 +640,8 @@
   author: Alastair Reynolds
   slug: sleepover
   suggested-by: Dan
-  isfdb: 1205313
+  info-links:
+    isfdb: 1205313
   store-links:
     - name: Amazon Kindle
       class: kindle
@@ -615,7 +661,8 @@
   author: Harry Harrison
   slug: ashkelon
   suggested-by: Jonathon
-  isfdb: 66842
+  info-links:
+    isfdb: 66842
   store-links:
 #    - name: Lightspeed Magazine
 #      class: mag
@@ -640,7 +687,8 @@
   title: Fatima's Wound
   author: Kali Wallace
   slug: fatimaswound
-  isfdb: 1800160
+  info-links:
+    isfdb: 1800160
   store-links:
     - name: Webpage (free)
       class: web free
@@ -660,7 +708,8 @@
   author: John Chu
   slug: waterthatfalls
   image-source: http://www.tor.com/images/stories/stories/Chu/full_waterthatfalls.jpg
-  isfdb: 1572571
+  info-links:
+    isfdb: 1572571
   store-links:
     - name: Webpage (free)
       class: web free

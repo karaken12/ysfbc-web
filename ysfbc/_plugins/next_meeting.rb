@@ -45,17 +45,18 @@ module Ysfbc
 
     def setup_info_links(entry)
       info_links = []
-      if entry['isfdb']
-        info_links << {'name' => 'ISFDB', 'class' => 'isfdb', 'url' => "http://www.isfdb.org/cgi-bin/title.cgi?#{entry['isfdb']}"}
+      links = entry['info-links']
+      if links['isfdb']
+        info_links << {'name' => 'ISFDB', 'class' => 'isfdb', 'url' => "http://www.isfdb.org/cgi-bin/title.cgi?#{links['isfdb']}"}
       end
-      if entry['goodreads']
-        info_links << {'name' => 'GoodReads', 'class' => 'goodreads', 'url' => "http://www.goodreads.com/book/show/#{entry['goodreads']}"}
+      if links['goodreads']
+        info_links << {'name' => 'GoodReads', 'class' => 'goodreads', 'url' => "http://www.goodreads.com/book/show/#{links['goodreads']}"}
       end
-      if entry['imdb']
-        info_links << {'name' => 'IMDB', 'class' => 'imdb', 'url' => "http://www.imdb.com/title/#{entry['imdb']}"}
+      if links['imdb']
+        info_links << {'name' => 'IMDB', 'class' => 'imdb', 'url' => "http://www.imdb.com/title/#{links['imdb']}"}
       end
-      if entry['justwatch']
-        info_links << {'name' => 'JustWatch', 'class' => 'justwatch', 'url' => entry['justwatch']}
+      if links['justwatch']
+        info_links << {'name' => 'JustWatch', 'class' => 'justwatch', 'url' => links['justwatch']}
       end
       entry['info-links'] = info_links
     end

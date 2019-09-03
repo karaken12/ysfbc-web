@@ -4,8 +4,9 @@
   author: Arkady and Boris Strugatsky
   slug: roadside-picnic
   image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516895892l/16118280._SY475_.jpg
-  isfdb: 2369460
-  goodreads: 331256.Roadside_Picnic
+  info-links:
+    isfdb: 2369460
+    goodreads: 331256.Roadside_Picnic
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -22,8 +23,9 @@
   author: Charlie Laidlaw
   slug: things-we-learn-when-were-dead
   image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480332487l/33142013._SY475_.jpg
-  isfdb: 2099322
-  goodreads: 33142013-the-things-we-learn-when-we-re-dead
+  info-links:
+    isfdb: 2099322
+    goodreads: 33142013-the-things-we-learn-when-we-re-dead
   store-links:
     - name: Amazon Kindle
       class: kindle
@@ -40,8 +42,9 @@
   author: Alex Lamb
   slug: roboteer
   image-source: https://www.sffworld.com/wp-content/uploads/2016/04/roboteer.jpg
-  isfdb: 1898595
-  goodreads: 25070598-roboteer
+  info-links:
+    isfdb: 1898595
+    goodreads: 25070598-roboteer
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -58,8 +61,9 @@
   author: Robert Silverberg
   slug: pope-of-the-chimps
   image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394351007l/21335957.jpg
-  isfdb: 41047
-  goodreads: 21335957-the-pope-of-the-chimps
+  info-links:
+    isfdb: 41047
+    goodreads: 21335957-the-pope-of-the-chimps
   store-links:
     - name: Amazon Kindle
       class: kindle
@@ -70,8 +74,9 @@
   author: Stuart Turton
   slug: seven-deaths-of-evelyn-hardcastle
   image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529014217l/39088216.jpg
-  isfdb: 2304896
-  goodreads: 39088216-the-seven-deaths-of-evelyn-hardcastle
+  info-links:
+    isfdb: 2304896
+    goodreads: 39088216-the-seven-deaths-of-evelyn-hardcastle
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -88,7 +93,8 @@
   author: Brian K. Vaughan and Fiona Staples
   slug: saga-vol-1
   image-source: https://images-na.ssl-images-amazon.com/images/I/81%2BSf%2BbNqUL.jpg
-  goodreads: 15704307-saga-vol-1
+  info-links:
+    goodreads: 15704307-saga-vol-1
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -102,8 +108,9 @@
   author: Emily St. John Mandel
   slug: station-eleven
   image-source: http://ecx.images-amazon.com/images/I/518jrV1TaxL.jpg
-  isfdb: 1754847
-  goodreads: 20170404-station-eleven
+  info-links:
+    isfdb: 1754847
+    goodreads: 20170404-station-eleven
   store-links:
     - name: Amazon Kindle
       class: kindle
@@ -120,8 +127,9 @@
   author: Michael Marshall Smith
   slug: spares
   image-source: https://images.gr-assets.com/books/1167301486l/21010.jpg
-  isfdb: 5818
-  goodreads: 21010.Spares
+  info-links:
+    isfdb: 5818
+    goodreads: 21010.Spares
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -138,8 +146,9 @@
   author: N. K. Jemisin
   slug: fifth-season
   image-source: https://images.gr-assets.com/books/1386803701l/19161852.jpg
-  isfdb: 1878015
-  goodreads: 19161852-the-fifth-season
+  info-links:
+    isfdb: 1878015
+    goodreads: 19161852-the-fifth-season
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -153,8 +162,9 @@
   author: Aldous Huxley
   slug: brave-new-world
   image-source: https://images.gr-assets.com/books/1494225554l/11517032.jpg
-  isfdb: 2319
-  goodreads: 5129.Brave_New_World
+  info-links:
+    isfdb: 2319
+    goodreads: 5129.Brave_New_World
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -168,8 +178,9 @@
   author: Bob Mayher
   slug: synbat
   image-source: https://images-na.ssl-images-amazon.com/images/I/715wqgsTnYL.jpg
-  isfdb: 1385184
-  goodreads: 2656865-synbat
+  info-links:
+    isfdb: 1385184
+    goodreads: 2656865-synbat
   store-links:
     - name: Amazon Paperback
       class: amazon
@@ -183,8 +194,9 @@
   author: Stubert Ferglstein
   slug: shunt
   image-source: https://images.gr-assets.com/books/1503125737l/36067435.jpg
-  isfdb: 2437058
-  goodreads: https://www.goodreads.com/book/show/36067435-shunt
+  info-links:
+    isfdb: 2437058
+    goodreads: https://www.goodreads.com/book/show/36067435-shunt
   store-links:
     - name: Amazon Paperback
       class: amazon
@@ -198,8 +210,9 @@
   author: Chris Brookmyre
   slug: places-in-darkness
   image-source: https://images.gr-assets.com/books/1498745868l/31933061.jpg
-  isfdb: 2260856
-  goodreads: 31933061-places-in-the-darkness
+  info-links:
+    isfdb: 2260856
+    goodreads: 31933061-places-in-the-darkness
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -213,8 +226,9 @@
   author: Anne Charnock
   slug: dreams-before-start-of-time
   image-source: https://images.gr-assets.com/books/1484777556l/27780648.jpg
-  isfdb: 2149858
-  goodreads: 27780648-dreams-before-the-start-of-time
+  info-links:
+    isfdb: 2149858
+    goodreads: 27780648-dreams-before-the-start-of-time
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -228,8 +242,9 @@
   author: Martha Wells
   slug: all-systems-red
   image-source: https://images.gr-assets.com/books/1484171189l/32758901.jpg
-  isfdb: 2161845
-  goodreads: 32758901-all-systems-red
+  info-links:
+    isfdb: 2161845
+    goodreads: 32758901-all-systems-red
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -243,8 +258,9 @@
   author: Vernor Vinge
   slug: fire-upon-the-deep
   image-source: https://images-na.ssl-images-amazon.com/images/I/51sC8gPxGQL.jpg
-  isfdb: 1952
-  goodreads: 77711.A_Fire_Upon_the_Deep
+  info-links:
+    isfdb: 1952
+    goodreads: 77711.A_Fire_Upon_the_Deep
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -258,8 +274,9 @@
   author: Jeff Vandermeer
   slug: veniss-underground
   image-source: https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/5098/9781509848164.jpg
-  isfdb: 171348
-  goodreads: 230853.Veniss_Underground
+  info-links:
+    isfdb: 171348
+    goodreads: 230853.Veniss_Underground
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -273,8 +290,9 @@
   author: Douglas Adams
   slug: hitchhikers-guide
   image-source: https://images.gr-assets.com/books/1388282444l/386162.jpg
-  isfdb: 1773
-  goodreads: 386162.The_Hitchhiker_s_Guide_to_the_Galaxy
+  info-links:
+    isfdb: 1773
+    goodreads: 386162.The_Hitchhiker_s_Guide_to_the_Galaxy
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -289,8 +307,9 @@
   slug: first-fifteen-lives
   image-source: https://images-na.ssl-images-amazon.com/images/I/51DJ1X5NJwL._SX325_BO1,204,203,200_.jpg
   suggested-by: Tim?
-  isfdb: 1708932
-  goodreads: 20706317-the-first-fifteen-lives-of-harry-august
+  info-links:
+    isfdb: 1708932
+    goodreads: 20706317-the-first-fifteen-lives-of-harry-august
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -305,8 +324,9 @@
   slug: day-of-the-triffids
   image-source: http://litreactor.com/sites/default/files/images/column/day-of-triffids.png
   suggested-by: Louise
-  isfdb: 2139
-  goodreads: 530965.The_Day_of_the_Triffids
+  info-links:
+    isfdb: 2139
+    goodreads: 530965.The_Day_of_the_Triffids
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -321,8 +341,9 @@
   slug: the-race
   image-source: http://www.ninaallan.co.uk/wp-content/uploads/2015/11/the-race-cover-2.jpg
   suggested-by: Mark
-  isfdb: 1768867
-  goodreads: 22708417-the-race
+  info-links:
+    isfdb: 1768867
+    goodreads: 22708417-the-race
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -337,8 +358,9 @@
   slug: hyperion
   image-source: https://images.gr-assets.com/books/1481404355l/9732198.jpg
   suggested-by: Rae
-  isfdb: 1749
-  goodreads: 77566.Hyperion
+  info-links:
+    isfdb: 1749
+    goodreads: 77566.Hyperion
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -353,8 +375,9 @@
   slug: the-machine
   image-source: https://images.gr-assets.com/books/1359897792l/17316670.jpg
   suggested-by: Matt Evans
-  isfdb: 1568223
-  goodreads: 17316670-the-machine
+  info-links:
+    isfdb: 1568223
+    goodreads: 17316670-the-machine
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -369,8 +392,9 @@
   slug: supernaturalist
   image-source: https://images.gr-assets.com/books/1233460677l/45432.jpg
   suggested-by: Helen
-  isfdb: 155146
-  goodreads: 45432.The_Supernaturalist
+  info-links:
+    isfdb: 155146
+    goodreads: 45432.The_Supernaturalist
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -384,8 +408,9 @@
   author: Philip K. Dick
   slug: do-androids-dream-of-electric-sheep
   image-source: http://www.dylan-penev.ch/sites/default/files/public/styles/colorbox_full_image/public/article/gallery/book_cover_07.jpg
-  isfdb: 2103
-  goodreads: 7082.Do_Androids_Dream_of_Electric_Sheep_
+  info-links:
+    isfdb: 2103
+    goodreads: 7082.Do_Androids_Dream_of_Electric_Sheep_
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -399,8 +424,9 @@
   author: Adrian Tchaikovsky
   slug: children-of-time
   image-source: https://images.gr-assets.com/books/1431014197l/25499718.jpg
-  isfdb: 1856439
-  goodreads: 25499718-children-of-time
+  info-links:
+    isfdb: 1856439
+    goodreads: 25499718-children-of-time
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -414,8 +440,9 @@
   author: Jessica Palmer
   slug: random-factor
   image-source: https://images-na.ssl-images-amazon.com/images/I/41SmNkmxWeL._SX288_BO1,204,203,200_.jpg
-  isfdb: 15829
-  goodreads: 2415676.Random_Factor
+  info-links:
+    isfdb: 15829
+    goodreads: 2415676.Random_Factor
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -426,8 +453,9 @@
   author: Alastair Reynolds
   slug: harvest-of-time
   image-source: https://vignette2.wikia.nocookie.net/tardis/images/7/72/Harvest_of_Time.jpg/revision/latest?cb=20140623085617
-  isfdb: 1588310
-  goodreads: 17162398-doctor-who
+  info-links:
+    isfdb: 1588310
+    goodreads: 17162398-doctor-who
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -441,8 +469,9 @@
   author: Dennis E. Taylor
   slug: we-are-legion-we-are-bob
   image-source: https://images-eu.ssl-images-amazon.com/images/I/513erhF-l2L._SY346_.jpg
-  isfdb: 2159484
-  goodreads: 32109569-we-are-legion-we-are-bob
+  info-links:
+    isfdb: 2159484
+    goodreads: 32109569-we-are-legion-we-are-bob
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -456,8 +485,9 @@
   author: Charles Yu
   slug: how-to-live-safely-in-a-science-fictional-universe
   image-source: https://www.wired.com/wp-content/uploads/blogs/geekdad/wp-content/uploads/2010/07/howto.jpg
-  isfdb: 1142404
-  goodreads: 7726420-how-to-live-safely-in-a-science-fictional-universe
+  info-links:
+    isfdb: 1142404
+    goodreads: 7726420-how-to-live-safely-in-a-science-fictional-universe
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -471,8 +501,9 @@
   author: Robert A. Heinlein
   slug: methuselahs-children
   image-source: https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/8/6/8/9200000036418685.jpg
-  isfdb: 1532
-  goodreads: 175319.Methuselah_s_Children
+  info-links:
+    isfdb: 1532
+    goodreads: 175319.Methuselah_s_Children
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -486,8 +517,9 @@
   author: John Scalzi
   slug: redshirts
   image-source: https://www.wired.com/images_blogs/underwire/2012/07/Redshirts_800.jpg
-  isfdb: 1422355
-  goodreads: 13055592-redshirts
+  info-links:
+    isfdb: 1422355
+    goodreads: 13055592-redshirts
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -501,8 +533,9 @@
   author: Tom Toner
   slug: promise-child
   image-source: https://images-na.ssl-images-amazon.com/images/I/516YGwuiw1L._SY344_BO1,204,203,200_.jpg
-  isfdb: 1916463
-  goodreads: 24693990-the-promise-of-the-child
+  info-links:
+    isfdb: 1916463
+    goodreads: 24693990-the-promise-of-the-child
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -516,8 +549,9 @@
   author: Robert Heinlein
   slug: starship-troopers
   image-source: https://upload.wikimedia.org/wikipedia/en/a/a9/Starship_Troopers_(novel).jpg
-  isfdb: 1112
-  goodreads: 17214.Starship_Troopers
+  info-links:
+    isfdb: 1112
+    goodreads: 17214.Starship_Troopers
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -531,8 +565,9 @@
   author: Liu Cixin
   slug: three-body-problem
   image-source: https://images.gr-assets.com/books/1415428227l/20518872.jpg
-  isfdb: 1779013
-  goodreads: 20518872-the-three-body-problem
+  info-links:
+    isfdb: 1779013
+    goodreads: 20518872-the-three-body-problem
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -546,8 +581,9 @@
   author: Rob Grant
   slug: backwards
   image-source: https://upload.wikimedia.org/wikipedia/en/8/81/Backwards_novel.jpg
-  isfdb: 18041
-  goodreads: 98785.Backwards
+  info-links:
+    isfdb: 18041
+    goodreads: 98785.Backwards
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -558,8 +594,9 @@
   author: Stephen Baxter
   slug: proxima
   image-source: http://www.forbiddenplanet.co.uk/blog/wp2013/wp-content/uploads/2013/09/proxima-stephen-baxter-gollancz.jpg
-  isfdb: 1616089
-  goodreads: 17983396-proxima
+  info-links:
+    isfdb: 1616089
+    goodreads: 17983396-proxima
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -573,8 +610,9 @@
   author: Yevgeny Zamyatin
   slug: we
   image-source: https://images-na.ssl-images-amazon.com/images/I/5147D4RvY7L.jpg
-  isfdb: 7135
-  goodreads: 76171.We
+  info-links:
+    isfdb: 7135
+    goodreads: 76171.We
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -588,8 +626,9 @@
   author: M.R. Carey
   slug: the-girl-with-all-the-gifts
   image-source: https://upload.wikimedia.org/wikipedia/en/1/1f/The_Girl_with_All_the_Gifts.jpg
-  isfdb: 1666651
-  goodreads: 17235026-the-girl-with-all-the-gifts
+  info-links:
+    isfdb: 1666651
+    goodreads: 17235026-the-girl-with-all-the-gifts
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -603,8 +642,9 @@
   author: Ernest Cline
   slug: ready-player-one
   image-source: https://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg
-  isfdb: 1297291
-  goodreads: 9969571-ready-player-one
+  info-links:
+    isfdb: 1297291
+    goodreads: 9969571-ready-player-one
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -618,8 +658,9 @@
   author: Charlie Jane Anders
   slug: all-the-birds-in-the-sky
   image-source: https://images-na.ssl-images-amazon.com/images/I/51AQy9%2BuVPL._SX328_BO1,204,203,200_.jpg
-  isfdb: 1938602
-  goodreads: 25372801-all-the-birds-in-the-sky
+  info-links:
+    isfdb: 1938602
+    goodreads: 25372801-all-the-birds-in-the-sky
   store-links:
     - name: Kobo
       class: kobo
@@ -636,8 +677,9 @@
   author: Robert Llewellyn
   slug: news-from-gardenia
   image-source: https://s3-eu-west-1.amazonaws.com/media.unbound.co/p/images/266/medium/9781908717139.jpg?1425299678
-  isfdb: 1390108
-  goodreads: 13560055-news-from-gardenia
+  info-links:
+    isfdb: 1390108
+    goodreads: 13560055-news-from-gardenia
   store-links:
     - name: Unbound
       class: web
@@ -654,8 +696,9 @@
   author: Dave Eggers
   slug: the-circle
   image-source: http://cdn.collider.com/wp-content/uploads/circle.jpg
-  isfdb: 1632893
-  goodreads: 18302455-the-circle
+  info-links:
+    isfdb: 1632893
+    goodreads: 18302455-the-circle
   store-links:
     - name: Amazon Paperback
       class: amazon
@@ -675,8 +718,9 @@
   author: Kurt Vonnegut
   slug: slaughterhouse-five
   image-source: http://ecx.images-amazon.com/images/I/4120yizU-2L._SY344_BO1,204,203,200_.jpg
-  isfdb: 955451
-  goodreads: 4981.Slaughterhouse_Five
+  info-links:
+    isfdb: 955451
+    goodreads: 4981.Slaughterhouse_Five
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -687,8 +731,9 @@
   author: David Weber
   slug: basilisk
   image-source: https://upload.wikimedia.org/wikipedia/en/a/ae/OnBasiliskStation.jpg
-  isfdb: 1442
-  goodreads: 35921.On_Basilisk_Station
+  info-links:
+    isfdb: 1442
+    goodreads: 35921.On_Basilisk_Station
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -702,8 +747,9 @@
   author: Greg Egan
   slug: teranesia
   image-source: https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Teranesia.jpg/220px-Teranesia.jpg
-  isfdb: 19907
-  goodreads: 156787.Teranesia
+  info-links:
+    isfdb: 19907
+    goodreads: 156787.Teranesia
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -716,8 +762,9 @@
   title: Wasp
   author: Eric Frank Russell
   slug: wasp
-  isfdb: 886
-  goodreads: 335919.Wasp
+  info-links:
+    isfdb: 886
+    goodreads: 335919.Wasp
   store-links:
     - name: Amazon Paperback
       class: amazon
@@ -733,8 +780,9 @@
   title: The Kraken Wakes
   author: John Wyndham
   slug: kraken
-  isfdb: 1426
-  goodreads: 91092.The_Kraken_Wakes
+  info-links:
+    isfdb: 1426
+    goodreads: 91092.The_Kraken_Wakes
   store-links:
     - name: Amazon Paperback
       class: amazon
@@ -753,8 +801,9 @@
   title: I Am Legend
   author: Richard Matheson
   slug: legend
-  isfdb: 16515
-  goodreads: 14064.I_Am_Legend
+  info-links:
+    isfdb: 16515
+    goodreads: 14064.I_Am_Legend
   store-links:
     - name: Amazon Paperback
       class: amazon
@@ -773,8 +822,9 @@
   title: Fallen Dragon
   author: Peter F. Hamilton
   slug: fallen-dragon
-  isfdb: 22083
-  goodreads: 45258.Fallen_Dragon
+  info-links:
+    isfdb: 22083
+    goodreads: 45258.Fallen_Dragon
   store-links:
     - name: Amazon Paperback
       class: amazon
@@ -790,8 +840,9 @@
   title: Annihilation
   author: Jeff VanderMeer
   slug: annihilation
-  isfdb: 1678159
-  goodreads: 17934530-annihilation
+  info-links:
+    isfdb: 1678159
+    goodreads: 17934530-annihilation
   store-links:
     - name: Amazon Hardback
       class: amazon
@@ -810,8 +861,9 @@
   title: The Martian
   author: Andy Weir
   slug: martian
-  isfdb: 1678924
-  goodreads: 18007564-the-martian
+  info-links:
+    isfdb: 1678924
+    goodreads: 18007564-the-martian
   store-links:
     - name: Amazon Paperback
       class: amazon
@@ -831,7 +883,8 @@
   author: Kim Newman
   slug: durbervilles
   suggested-by: Fiona
-  isfdb: 1354407
+  info-links:
+    isfdb: 1354407
   store-links:
     - name: Amazon Paperback
       class: amazon
@@ -851,7 +904,8 @@
   author: Terry Pratchett
   slug: mort
   suggested-by: The Club
-  isfdb: 1496
+  info-links:
+    isfdb: 1496
   store-links:
     - name: Amazon Paperback
       class: amazon
@@ -871,7 +925,8 @@
   author: Frederik Pohl
   slug: gateway
   suggested-by: Jonathon
-  isfdb: 1884
+  info-links:
+    isfdb: 1884
   store-links:
     - name: Amazon Paperback
       class: amazon
@@ -882,7 +937,8 @@
   author: Charles Stross
   slug: singularity-sky
   suggested-by: Naomi
-  isfdb: 23623
+  info-links:
+    isfdb: 23623
   store-links:
     - name: Amazon Paperback
       class: amazon
@@ -901,7 +957,8 @@
   title: Ubik
   author: Philip K. Dick
   slug: ubik
-  isfdb: 948
+  info-links:
+    isfdb: 948
   store-links:
     - name: Amazon Paperback
       class: amazon
@@ -921,8 +978,9 @@
   author: Alexander King
   slug: it-looks-like-youre-writing-a-letter
   image-source: http://alexanderking.co/wp-content/uploads/2014/09/itlookslikeyourewritingaletter_cover.jpg
-  isfdb: 1823232
-  goodreads: 23251483-it-looks-like-you-re-writing-a-letter
+  info-links:
+    isfdb: 1823232
+    goodreads: 23251483-it-looks-like-you-re-writing-a-letter
   store-links:
     - name: Amazon Kindle
       class: kindle
@@ -945,7 +1003,8 @@
   author: Philip K. Dick
   slug: man-in-high-castle
   image-source: http://img1.imagesbn.com/p/9780241964262_p0_v1_s300x475.JPG
-  isfdb: 1574
+  info-links:
+    isfdb: 1574
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -965,7 +1024,8 @@
   author: Jason Hough
   slug: the-darwin-elevator
   image-source: http://kbimages1-a.akamaihd.net/81e6219e-7a30-4e20-a3ae-d43dbd13e38b/166/300/False/The+Darwin+Elevator.jpg
-  isfdb: 1599406
+  info-links:
+    isfdb: 1599406
   store-links:
     - name: Kobo
       class: kobo
@@ -983,7 +1043,8 @@
   slug: contact
   image-source: http://upload.wikimedia.org/wikipedia/en/thumb/5/55/Contact_Sagan.jpg/220px-Contact_Sagan.jpg
   suggested-by: Michelle
-  isfdb: 2199
+  info-links:
+    isfdb: 2199
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -997,7 +1058,8 @@
   author: Charles Stross
   slug: halting-state
   image-source: http://img1.imagesbn.com/p/9780748100408_p0_v2_s300x475.JPG
-  isfdb: 659009
+  info-links:
+    isfdb: 659009
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -1017,7 +1079,8 @@
   author: Vernor Vinge
   slug: rainbows-end
   image-source: http://upload.wikimedia.org/wikipedia/en/thumb/e/ec/VernorVinge_RainbowsEnd.jpg/200px-VernorVinge_RainbowsEnd.jpg
-  isfdb: 181278
+  info-links:
+    isfdb: 181278
   store-links:
     - name: Kobo
       class: kobo
@@ -1034,7 +1097,8 @@
   author: David Wong
   slug: john-dies-at-the-end
   image-source: http://kbimages1-a.akamaihd.net/725168a3-5424-45e9-8cd3-ef79cdbe8812/166/300/False/John+Dies+at+the+End.jpg
-  isfdb: 1142519
+  info-links:
+    isfdb: 1142519
   store-links:
     - name: Kobo
       class: kobo
@@ -1051,7 +1115,8 @@
   author: China Miéville
   slug: the-city-and-the-city
   image-source: https://tomcatintheredroom.files.wordpress.com/2011/08/the-city-and-the-city.jpg
-  isfdb: 979458
+  info-links:
+    isfdb: 979458
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -1065,7 +1130,8 @@
   author: Tony Ballantyne
   slug: twisted-metal
   image-source: http://kbimages1-a.akamaihd.net/dcc23bee-7f94-42e4-bea0-66586917cea1/166/300/False/Twisted+Metal.jpg
-  isfdb: 930148
+  info-links:
+    isfdb: 930148
   store-links:
     - name: Kobo
       class: kobo
@@ -1082,7 +1148,8 @@
   author: John Scalzi
   slug: old-mans-war
   image-source: http://kbimages1-a.akamaihd.net/2ac6e66b-d1c1-4e03-beff-a042badd5461/166/300/False/Old+Man%27s+War.jpg
-  isfdb: 157782
+  info-links:
+    isfdb: 157782
   store-links:
     - name: Kobo
       class: kobo
@@ -1099,7 +1166,8 @@
   author: Ann Leckie
   slug: ancillary-justice
   image-source: http://kbimages1-a.akamaihd.net/8ee270b2-d166-46f4-a04c-4c2c6a52f436/166/300/False/Ancillary+Justice.jpg
-  isfdb: 1632550
+  info-links:
+    isfdb: 1632550
   store-links:
     - name: Kobo
       class: kobo
@@ -1116,7 +1184,8 @@
   author: Charlie Stross
   slug: atrocity-archive
   image-source: http://kbimages1-a.akamaihd.net/5e80f176-ad2a-4d50-92a0-be2092059cf1/166/300/False/The+Atrocity+Archives.jpg
-  isfdb: 23803
+  info-links:
+    isfdb: 23803
   store-links:
     - name: Kobo
       class: kobo
@@ -1133,7 +1202,8 @@
   author: Ursula K. Le Guin
   slug: dispossessed
   image-source: https://images-na.ssl-images-amazon.com/images/I/51uFZUY12BL._SX321_BO1,204,203,200_.jpg
-  isfdb: 1765549
+  info-links:
+    isfdb: 1765549
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -1147,7 +1217,8 @@
   author: Michael Marshall Smith
   slug: only-forward
   image-source: http://ecx.images-amazon.com/images/I/31VF9V9Y8QL.jpg
-  isfdb: 25035
+  info-links:
+    isfdb: 25035
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -1161,7 +1232,8 @@
   author: James S. A. Corey
   slug: leviathan-wakes
   image-source: http://kbimages1-a.akamaihd.net/f25cc4a0-1a61-4b60-9d8d-584e990bf630/166/300/False/Leviathan+Wakes.jpg
-  isfdb: 1272563
+  info-links:
+    isfdb: 1272563
   store-links:
     - name: Kobo
       class: kobo
@@ -1178,7 +1250,8 @@
   author: Gary Gibson
   slug: final-days
   image-source: http://kbimages1-a.akamaihd.net/4649e510-c6b9-43b4-afbe-9c3b7d8b980f/166/300/False/Final+Days.jpg
-  isfdb: 1245173
+  info-links:
+    isfdb: 1245173
   store-links:
     - name: Kobo
       class: kobo
@@ -1195,6 +1268,7 @@
   author: Isaac Asimov
   slug: foundation
   image-source: http://www.vavatch.co.uk/books/asimov/found1as.jpg
+  info-links: {}
   store-links:
     - name: Amazon paperback
       class: amazon
@@ -1205,7 +1279,8 @@
   author: Adam Roberts
   slug: by-light-alone
   image-source: http://kbimages1-a.akamaihd.net/896cacb4-b6f2-4faa-8197-4a5c4f77c77e/166/300/False/By+Light+Alone.jpg
-  isfdb: 1245153
+  info-links:
+    isfdb: 1245153
   store-links:
     - name: Kobo
       class: kobo
@@ -1222,7 +1297,8 @@
   author: Stephen Baxter and Terry Pratchett
   slug: long-earth
   image-source: http://kbimages1-a.akamaihd.net/52fae4c4-79c5-42e2-8a79-da5990274e93/166/300/False/The+Long+Earth.jpg
-  isfdb: 1433940
+  info-links:
+    isfdb: 1433940
   store-links:
     - name: Kobo
       class: kobo
@@ -1239,7 +1315,8 @@
   author: Joe Haldeman
   slug: accidental-time-machine
   image-source: http://d.gr-assets.com/books/1388420458l/21608.jpg
-  isfdb: 389381
+  info-links:
+    isfdb: 389381
   store-links:
     - name: Kobo
       class: kobo
@@ -1256,7 +1333,8 @@
   author: Adam Roberts
   slug: yellow-blue-tibia
   image-source: http://kbimages1-a.akamaihd.net/d23a60fb-cb4b-4bd2-86f5-94c54313c215/166/300/False/Yellow+Blue+Tibia.jpg
-  isfdb: 873631
+  info-links:
+    isfdb: 873631
   store-links:
     - name: Kobo
       class: kobo
@@ -1273,7 +1351,8 @@
   author: Ian M. Banks
   slug: surface-detail
   image-source: http://kbimages1-a.akamaihd.net/7a7cffcd-5bb0-42c7-b898-6c1a7c9aa1b2/166/300/False/Surface+Detail.jpg
-  isfdb: 1143220
+  info-links:
+    isfdb: 1143220
   store-links:
     - name: Kobo
       class: kobo
