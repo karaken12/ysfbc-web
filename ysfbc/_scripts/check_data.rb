@@ -5,17 +5,17 @@ def validate_file(file_name, type)
   mandatory_keys = []
   optional_keys = []
 
-  ordered_keys = ['meeting_for', 'title', 'author', 'slug', 'image-source', 'suggested-by', 'isfdb', 'goodreads', 'imdb', 'justwatch', 'info-links', 'store-links']
+  ordered_keys = ['meeting_for', 'title', 'author', 'slug', 'image-source', 'suggested-by', 'info-links', 'store-links']
 
   if type == 'books' then
-    mandatory_keys = ['title', 'author', 'meeting_for', 'slug', 'store-links', 'info-links']
-    optional_keys = ['isfdb', 'goodreads', 'image-source', 'suggested-by']
+    mandatory_keys = ['meeting_for', 'title', 'author', 'slug', 'info-links', 'store-links']
+    optional_keys = ['image-source', 'suggested-by']
   elsif type == 'shorts' then
-    mandatory_keys = ['title', 'author', 'meeting_for', 'slug', 'store-links', 'info-links']
-    optional_keys = ['isfdb', 'goodreads', 'image-source', 'store-links', 'suggested-by']
+    mandatory_keys = ['meeting_for', 'title', 'author', 'slug', 'info-links', 'store-links']
+    optional_keys = ['image-source', 'suggested-by']
   elsif type == 'films' then
-    mandatory_keys = ['title', 'meeting_for', 'slug', 'store-links', 'info-links']
-    optional_keys = ['imdb', 'justwatch', 'image-source', 'suggested-by']
+    mandatory_keys = ['meeting_for', 'title', 'slug', 'info-links', 'store-links']
+    optional_keys = ['image-source', 'suggested-by']
   end
   validate_data(data, mandatory_keys, optional_keys)
   validate_order(data, ordered_keys)
@@ -61,12 +61,8 @@ def validate_order(data, ordered_keys)
       entry['info-links'] = {}
     end
 
-    for key in ['isfdb', 'goodreads', 'imdb', 'justwatch'] do
-      if entry.has_key?(key)
-        entry['info-links'][key] = entry[key]
-        entry.delete(key)
-      end
-    end
+    ordered_info_keys = ['isfdb', 'goodreads', 'imdb', 'justwatch']
+    entry['info-links'] = entry['info-links'].sort_by {|k, v| ordered_info_keys.find_index(k)}.to_h
 
     ordered_entry = entry.sort_by {|k, v| ordered_keys.find_index(k)}.to_h
     data2 << ordered_entry
