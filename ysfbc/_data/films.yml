@@ -8,19 +8,15 @@
     - name: Netflix
       class: netflix
       url: https://www.netflix.com/gb/title/81067760
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/the-wandering-earth
+  justwatch: https://www.justwatch.com/uk/movie/the-wandering-earth
 
 - title: Children of Men
   meeting_for: August 2019
   slug: children-of-men
   image-source: https://m.media-amazon.com/images/M/MV5BMTQ5NTI2NTI4NF5BMl5BanBnXkFtZTcwNjk2NDA2OQ@@._V1_.jpg
   imdb: tt0206634
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/children-of-men
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/children-of-men
 
 - title: I Am Mother
   meeting_for: July 2019
@@ -31,9 +27,7 @@
     - name: Netflix
       class: netflix
       url: https://www.netflix.com/gb/title/80227090
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/i-am-mother
+  justwatch: https://www.justwatch.com/uk/movie/i-am-mother
 
 - meeting_for: May 2019
   title: Jurassic Park
@@ -44,29 +38,23 @@
     - name: Netflix
       class: netflix
       url: https://www.netflix.com/title/60002360
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/jurassic-park
+  justwatch: https://www.justwatch.com/uk/movie/jurassic-park
 
 - meeting_for: April 2019
   title: Sunshine
   slug: sunshine
   image-source: https://images-na.ssl-images-amazon.com/images/I/51469K3UVwL.jpg
   imdb: tt0448134
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/sunshine-2007
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/sunshine-2007
 
 - title: Captain Marvel
   meeting_for: March 2019
   slug: captain-marvel
   image-source: https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_SY1000_CR0,0,675,1000_AL_.jpg
   imdb: tt4154664
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/captain-marvel
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/captain-marvel
 
 - title: Delicatessen
   meeting_for: February 2019
@@ -77,109 +65,87 @@
     - name: BFI Player
       class: bfiplayer
       url: https://player.bfi.org.uk/subscription/film/watch-delicatessen-1990-online
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/delicatessen
+  justwatch: https://www.justwatch.com/uk/movie/delicatessen
 
 - title: Time Bandits
   meeting_for: January 2019
   slug: time-bandits
   image-source: https://m.media-amazon.com/images/M/MV5BNzM1MTY5ODA4NV5BMl5BanBnXkFtZTcwNzAxNTY0NA@@._V1_.jpg
   imdb: tt0081633
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/time-bandits
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/time-bandits
 
 - title: "Fantastic Beasts: The Crimes of Grindelwald"
   meeting_for: December 2018
   slug: fantastic-beasts-crimes-of-grindelwald
   image-source: https://m.media-amazon.com/images/M/MV5BZjFiMGUzMTAtNDAwMC00ZjRhLTk0OTUtMmJiMzM5ZmVjODQxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg
   imdb: tt4123430
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/fantastic-beasts-the-crimes-of-grindelwald
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/fantastic-beasts-the-crimes-of-grindelwald
 
 - title: Cube
   meeting_for: November 2018
   slug: cube
   image-source: https://m.media-amazon.com/images/M/MV5BZTIyZGM3NDItMTNmNS00Yzc4LTg2MzItOWY4MTE1NDlmZDIyXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_.jpg
   imdb: tt0123755
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/cube
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/cube
 
 - title: Flash Gordon
   meeting_for: October 2018
   slug: flash-gordon
   image-source: https://m.media-amazon.com/images/M/MV5BN2Y4ZDBjMjEtZWQ0OS00NzYyLTg0M2ItMmUzYTEwN2RmMGVlXkEyXkFqcGdeQXVyMjgyOTI1ODY@._V1_SY1000_CR0,0,650,1000_AL_.jpg
   imdb: tt0080745
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/flash-gordon
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/flash-gordon
 
 - title: The Thing
   meeting_for: September 2018
   slug: the-thing
   image-source: https://m.media-amazon.com/images/M/MV5BNDcyZmFjY2YtN2I1OC00MzU3LWIzZGEtZDA5N2VlNDJjYWI3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY1000_CR0,0,660,1000_AL_.jpg
   imdb: tt0084787
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/the-thing-1982
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/the-thing-1982
 
 - title: 10 Cloverfield Lane
   meeting_for: August 2018
   slug: ten-cloverfield-lane
   image-source: https://m.media-amazon.com/images/M/MV5BMjEzMjczOTIxMV5BMl5BanBnXkFtZTgwOTUwMjI3NzE@._V1_SX675_CR0,0,675,999_AL_.jpg
   imdb: tt1179933
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/10-cloverfield-lane
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/10-cloverfield-lane
 
 - title: Arrival
   meeting_for: July 2018
   slug: arrival
   image-source: https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_SY1000_CR0,0,640,1000_AL_.jpg
   imdb: tt2543164
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/arrival-2016
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/arrival-2016
 
 - title: "Solo: A Star Wars Story"
   meeting_for: June 2018
   slug: solo
   image-source: https://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/t/5ada2b7d6d2a7360cd0e2b84/1524247449667/new-solo-a-star-wars-story-poster-and-photo-are-all-about-landos-coolness1?format=750w
   imdb: tt3778644
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/solo-a-star-wars-story
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/solo-a-star-wars-story
 
 - title: The Theory of Everything
   meeting_for: April 2018
   slug: theory-of-everything
   image-source: https://ia.media-imdb.com/images/M/MV5BMTAwMTU4MDA3NDNeQTJeQWpwZ15BbWU4MDk4NTMxNTIx._V1_UX182_CR0,0,182,268_AL_.jpg
   imdb: tt2980516
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/the-theory-of-everything
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/the-theory-of-everything
 
 - title: District 9
   meeting_for: March 2018
   slug: district-9
   image-source: https://images-na.ssl-images-amazon.com/images/M/MV5BYmQ5MzFjYWMtMTMwNC00ZGU5LWI3YTQtYzhkMGExNGFlY2Q0XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg
   imdb: tt1136608
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/district-9
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/district-9
 
 - title: The Fountain
   meeting_for: February 2018
@@ -187,20 +153,16 @@
   slug: the-fountain
   image-source: https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5OTczMTcxMV5BMl5BanBnXkFtZTcwNDg3MTEzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg
   imdb: tt0414993
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/the-fountain
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/the-fountain
 
 - title: "Star Wars: The Last Jedi"
   meeting_for: January 2018
   slug: the-last-jedi
   image-source: https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg
   imdb: tt2527336
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/star-wars-the-last-jedi
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/star-wars-the-last-jedi
 
 - title: Monsters vs. Aliens
   meeting_for: December 2017
@@ -208,10 +170,8 @@
   slug: monsters-vs-aliens
   image-source: https://static.rogerebert.com/uploads/movie/movie_poster/monsters-vs-aliens-2009/large_8x0WrDcFQDC2eoXJe6iC34wXZE8.jpg
   imdb: tt0892782
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/monsters-vs-aliens
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/monsters-vs-aliens
 
 - title: Young Frankenstein
   meeting_for: November 2017
@@ -219,10 +179,8 @@
   slug: young-frankenstein
   image-source: https://images-na.ssl-images-amazon.com/images/M/MV5BMTEwNjg2MjM2ODFeQTJeQWpwZ15BbWU4MDQ1MDU5OTEx._V1_SY1000_CR0,0,645,1000_AL_.jpg
   imdb: tt0072431
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/young-frankenstein
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/young-frankenstein
 
 - title: Lifeforce
   meeting_for: October 2017
@@ -230,140 +188,112 @@
   slug: lifeforce
   image-source: http://img.moviepostershop.com/lifeforce-movie-poster-1985-1020468112.jpg
   imdb: tt0089489
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/lifeforce
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/lifeforce
 
 - title: Blade Runner
   meeting_for: September 2017
   slug: blade-runner
   image-source: https://images-na.ssl-images-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,671,1000_AL_.jpg
   imdb: tt0083658
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/blade-runner
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/blade-runner
 
 - title: Okja
   meeting_for: August 2017
   slug: okja
   image-source: https://images-na.ssl-images-amazon.com/images/M/MV5BMjQxMTcxNDgxN15BMl5BanBnXkFtZTgwOTczNTIzMjI@._V1_.jpg
   imdb: tt3967856
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/okja
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/okja
 
 - title: Equilibrium
   meeting_for: July 2017
   slug: equilibrium
   image-source: https://fanart.tv/fanart/movies/7299/movieposter/equilibrium-52c829761cf45.jpg
   imdb: tt0238380
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/equilibrium
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/equilibrium
 
 - title: The Dark Crystal
   meeting_for: June 2017
   slug: dark-crystal
   image-source: https://fanart.tv/fanart/movies/11639/movieposter/the-dark-crystal-56d7996029583.jpg
   imdb: tt0083791
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/the-dark-crystal
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/the-dark-crystal
 
 - title: Under The Skin
   meeting_for: May 2017
   slug: under-the-skin
   image-source: https://upload.wikimedia.org/wikipedia/en/6/64/Under_the_Skin_poster.png
   imdb: tt1441395
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/under-the-skin
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/under-the-skin
 
 - title: Demolition Man
   meeting_for: April 2017
   slug: demolition-man
   image-source: https://upload.wikimedia.org/wikipedia/en/0/05/Demolition_man.jpg
   imdb: tt0106697
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/demolition-man
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/demolition-man
 
 - title: Escape from L.A.
   meeting_for: March 2017
   slug: escape-from-la
   image-source: http://static.rogerebert.com/uploads/movie/movie_poster/escape-from-la-1996/large_edJzJali1V5PS7dCMyLt8cPf3DG.jpg
   imdb: tt0116225
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/escape-from-l-a
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/escape-from-l-a
 
 - title: Interstellar
   meeting_for: February 2017
   slug: interstellar
   image-source: http://sm.ign.com/t/ign_latam/movie/i/interstell/interstellar_n6ua.640.jpg
   imdb: tt0816692
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/interstellar
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/interstellar
 
 - title: "Rogue One: A Star Wars Story"
   meeting_for: January 2017
   slug: rogue-one-a-star-wars-story
   image-source: http://img.lum.dolimg.com/v1/images/rogueone_onesheeta_1000_309ed8f6.jpeg?region=0%2C0%2C1000%2C1481&width=480
   imdb: tt3748528
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/rogue-one-a-star-wars-story
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/rogue-one-a-star-wars-story
 
 - title: Lucy
   meeting_for: December 2016
   slug: lucy
   image-source: https://thehumanist.com/wp-content/uploads/2014/08/LucyMoviePoster.jpg
   imdb: tt2872732
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/lucy
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/lucy
 
 - title: The Wicker Man
   meeting_for: November 2016
   slug: wicker-man
   image-source: https://upload.wikimedia.org/wikipedia/en/thumb/1/11/The_Wicker_Man_(1973_film)_UK_poster.jpg/220px-The_Wicker_Man_(1973_film)_UK_poster.jpg
   imdb: tt0070917
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/the-wicker-man-1973
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/the-wicker-man-1973
 
 - title: The Girl With All The Gifts
   meeting_for: October 2016
   slug: the-girl-with-all-the-gifts
   image-source: https://upload.wikimedia.org/wikipedia/en/c/c7/The_Girl_with_All_the_Gifts_poster.jpg
   imdb: tt4547056
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/the-girl-with-all-the-gifts
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/the-girl-with-all-the-gifts
 
 - title: Labyrinth
   meeting_for: August 2016
   slug: labyrinth
   image-source: https://upload.wikimedia.org/wikipedia/en/6/6b/Labyrinth_ver2.jpg
   imdb: tt0091369
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/labyrinth-1986
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/labyrinth-1986
 
 - title: Europa Report
   meeting_for: July 2016
@@ -374,29 +304,23 @@
   - name: Netflix
     class: netflix
     url: http://www.netflix.com/WiMovie/70276016
-  - name: JustWatch
-    class: justwatch
-    url: https://www.justwatch.com/uk/movie/europa-report
+  justwatch: https://www.justwatch.com/uk/movie/europa-report
 
 - title: Battleship
   meeting_for: June 2016
   slug: battleship
   image-source: https://upload.wikimedia.org/wikipedia/en/6/6e/Battleship_Poster.jpg
   imdb: tt1440129
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/battleship
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/battleship
 
 - title: Attack The Block
   meeting_for: May 2016
   slug: attack-the-block
   image-source: http://www.sonypictures.com/movies/attacktheblock/assets/images/onesheet.jpg
   imdb: tt1478964
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/attack-the-block
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/attack-the-block
 
 - title: The Mist
   meeting_for: April 2016
@@ -407,9 +331,7 @@
   - name: Netflix
     class: netflix
     url: http://www.netflix.com/WiMovie/70077532
-  - name: JustWatch
-    class: justwatch
-    url: https://www.justwatch.com/uk/movie/the-mist
+  justwatch: https://www.justwatch.com/uk/movie/the-mist
 
 - title: Advantageous
   meeting_for: March 2016
@@ -420,54 +342,42 @@
   - name: Netflix
     class: netflix
     url: http://www.netflix.com/WiPlayer?movieid=80038420
-  - name: JustWatch
-    class: justwatch
-    url: https://www.justwatch.com/uk/movie/advantageous
+  justwatch: https://www.justwatch.com/uk/movie/advantageous
 
 - title: Gattaca
   meeting_for: February 2016
   slug: gattaca
   image-source: https://upload.wikimedia.org/wikipedia/en/b/bb/Gataca_Movie_Poster_B.jpg
   imdb: tt0119177
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/gattaca
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/gattaca
 
 - title: "Star Wars: The Force Awakens"
   meeting_for: January 2016
   slug: starwars
   image-source: http://vignette2.wikia.nocookie.net/starwars/images/f/fd/Star_Wars_Episode_VII_The_Force_Awakens.jpg/revision/latest?cb=20151018162823
   imdb: tt2488496
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/star-wars-the-force-awakens
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/star-wars-the-force-awakens
 
 - title: Snowpiercer
   meeting_for: December 2015
   slug: snowpiercer
   image-source: http://ia.media-imdb.com/images/M/MV5BMTQ3NzA1MTY3MV5BMl5BanBnXkFtZTgwNzE2Mzg5MTE@._V1_SX214_AL_.jpg
   imdb: tt1706620
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/snowpiercer
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/snowpiercer
 
 - title: What We Do In The Shadows
   meeting_for: November 2015
   slug: what-do-shadows
   imdb: tt3416742
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/what-we-do-in-the-shadows
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/what-we-do-in-the-shadows
 
 - title: Village of the Damned
   meeting_for: October 2015
   slug: village-damned
   imdb: tt0054443
-  store-links:
-    - name: JustWatch
-      class: justwatch
-      url: https://www.justwatch.com/uk/movie/village-of-the-damned-1960
+  store-links: []
+  justwatch: https://www.justwatch.com/uk/movie/village-of-the-damned-1960

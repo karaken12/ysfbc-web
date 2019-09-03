@@ -54,6 +54,9 @@ module Ysfbc
       if entry['imdb']
         info_links << {'name' => 'IMDB', 'class' => 'imdb', 'url' => "http://www.imdb.com/title/#{entry['imdb']}"}
       end
+      if entry['justwatch']
+        info_links << {'name' => 'JustWatch', 'class' => 'justwatch', 'url' => entry['justwatch']}
+      end
       entry['info-links'] = info_links
     end
 
