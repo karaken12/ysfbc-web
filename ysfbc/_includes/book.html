@@ -15,13 +15,8 @@
   {% endfor %}
   </ul>
 
-  {% if book.isfdb %}
-  <a class="isfdb" href="http://www.isfdb.org/cgi-bin/title.cgi?{{ book.isfdb }}">ISFDB</a>
-  {% endif %}
-  {% if book.goodreads %}
-  <a class="goodreads" href="http://www.goodreads.com/book/show/{{ book.goodreads }}">GoodReads</a>
-  {% endif %}
-  {% if book.imdb %}
-  <a class="imdb" href="http://www.imdb.com/title/{{ book.imdb }}">IMDB</a>
-  {% endif %}
+  {% for link in book.info-links %}
+  <a class="{{ link.class }}" href="{{ link.url }}">{{ link.name }}</a>
+  {% endfor %}
+
   <p class="meeting">{{ book.meeting_for }}</p>
