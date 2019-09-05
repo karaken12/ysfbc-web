@@ -35,6 +35,19 @@ $bgcolor-default: linear-gradient(to bottom,  #ffffff 0%, #e5e5e5 100%);
   }
 }
 
+.info-links {
+  list-style-type: none;
+  vertical-align: top;
+  padding: 5px;
+  margin: 0;
+
+  & {
+    li {
+      display: inline-block;
+    }
+  }
+}
+
 %affiliate-link {
   display: block;
   width: 100px;
@@ -111,7 +124,24 @@ $bgcolor-default: linear-gradient(to bottom,  #ffffff 0%, #e5e5e5 100%);
   @include background("/images/links/bfiplayer.png", 100px, #000);
 }
 
+// ---
+
 .justwatch {
   @extend %affiliate-link;
   @include background("/images/links/justwatch.png", 85px, rgba(5,30,40,.98));
+}
+
+.goodreads {
+  @extend %affiliate-link;
+  @include background("/images/links/goodreads.jpg", 95px, #ffffff);
+}
+
+.isfdb {
+  @extend %affiliate-link;
+  @include background("/images/links/isfdb.png", 95px, #ffffff);
+}
+
+.imdb {
+  @extend %affiliate-link;
+  @include background("/images/links/imdb.png", 70px, #e6b91e);
 }

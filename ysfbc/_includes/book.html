@@ -15,8 +15,10 @@
   {% endfor %}
   </ul>
 
-  {% for link in book.info-links %}
-  <a class="{{ link.class }}" href="{{ link.url }}">{{ link.name }}</a>
-  {% endfor %}
+  <ul class="info-links">
+    {% for link in book.info-links %}
+    <li><a class="{{ link.class }}" href="{{ link.url }}">{{ link.name }}</a></li>
+    {% endfor %}
+  </ul>
 
   <p class="meeting">{{ book.meeting_for }}</p>
