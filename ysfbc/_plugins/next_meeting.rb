@@ -23,6 +23,7 @@ module Ysfbc
       for entry in site.data[ptype]
         entry['ptype'] = ptype
         entry['img-url'] = image_url(entry)
+        setup_info_links(entry)
         download_image(site, entry)
         create_image_vars(site, entry)
 
@@ -40,6 +41,24 @@ module Ysfbc
       year = entry['meeting_for'][-4..-1]
       slug = entry['slug']
       "/images/#{base}/#{year}/#{slug}.jpg"
+    end
+
+    def setup_info_links(entry)
+      info_links = []
+      links = entry['info-links']
+      if links['isfdb']
+        info_links << {'name' => 'ISFDB', 'class' => 'isfdb', 'url' => "http://www.isfdb.org/cgi-bin/title.cgi?#{links['isfdb']}"}
+      end
+      if links['goodreads']
+        info_links << {'name' => 'GoodReads', 'class' => 'goodreads', 'url' => "http://www.goodreads.com/book/show/#{links['goodreads']}"}
+      end
+      if links['imdb']
+        info_links << {'name' => 'IMDB', 'class' => 'imdb', 'url' => "http://www.imdb.com/title/#{links['imdb']}"}
+      end
+      if links['justwatch']
+        info_links << {'name' => 'JustWatch', 'class' => 'justwatch', 'url' => links['justwatch']}
+      end
+      entry['info-links'] = info_links
     end
 
     def original_image_url(entry)

@@ -1,642 +1,1017 @@
 ---
-- title: Roboteer
-  author: Alex Lamb
-  meeting_for: July 2019
-  slug: roboteer
-  image-source: https://www.sffworld.com/wp-content/uploads/2016/04/roboteer.jpg
-  isfdb: 1898595
-  goodreads: 25070598-roboteer
-
-- title: Station Eleven
-  author: Emily St. John Mandel
-  meeting_for: March 2019
-  slug: station-eleven
-  image-source: http://ecx.images-amazon.com/images/I/518jrV1TaxL.jpg
-  isfdb: 1754847
-  goodreads: 20170404-station-eleven
-  store-links:
-  - name: Amazon Kindle
-    class: kindle
-    url: https://www.amazon.co.uk/Station-Eleven-Emily-John-Mandel-ebook/dp/B00JQ9FYAM
-  - name: Amazon paperback
-    class: amazon
-    url: https://www.amazon.co.uk/Station-Eleven-Emily-John-Mandel/dp/1447268970
-  - name: Kobo
-    class: kobo
-    url: https://www.kobo.com/gb/en/ebook/station-eleven-2
-
-- title: Spares
-  author: Michael Marshall Smith
-  meeting_for: February 2019
-  slug: spares
-  image-source: https://images.gr-assets.com/books/1167301486l/21010.jpg
-  isfdb: 5818
-  goodreads: 21010.Spares
-  store-links:
-  - name: Amazon paperback
-    class: amazon
-    url: https://www.amazon.co.uk/Spares-Michael-Marshall-Smith/dp/0006512674/
-  - name: Amazon Kindle
-    class: kindle
-    url: https://www.amazon.co.uk/Spares-Michael-Marshall-Smith-ebook/dp/B002RI9R20/
-  - name: Kobo
-    class: kobo
-    url: https://www.kobo.com/gb/en/ebook/spares
-
-- title: The Fifth Season
-  author: N. K. Jemisin
-  meeting_for: January 2019
-  slug: fifth-season
-  image-source: https://images.gr-assets.com/books/1386803701l/19161852.jpg
-  isfdb: 1878015
-  goodreads: 19161852-the-fifth-season
-
-- title: Brave New World
-  author: Aldous Huxley
-  meeting_for: December 2018
-  slug: brave-new-world
-  image-source: https://images.gr-assets.com/books/1494225554l/11517032.jpg
-  isfdb: 2319
-  goodreads: 5129.Brave_New_World
-
-- title: Synbat
-  author: Bob Mayher
-  meeting_for: November 2018
-  slug: synbat
-  image-source: https://images-na.ssl-images-amazon.com/images/I/715wqgsTnYL.jpg
-  isfdb: 1385184
-  goodreads: 2656865-synbat
-  store-links:
-  - name: Amazon Paperback
-    class: amazon
-    url: https://www.amazon.co.uk/Synbat-Green-Berets-Bob-Mayer/dp/1621250423
-  - name: Amazon Kindle
-    class: kindle
-    url: https://www.amazon.co.uk/Synbat-Green-Berets-Book-3-ebook/dp/B004XWFW7M
-
-- title: Shunt
-  author: Stubert Ferglstein
-  meeting_for: October 2018
-  slug: shunt
-  image-source: https://images.gr-assets.com/books/1503125737l/36067435.jpg
-  isfdb: 2437058
-  goodreads: https://www.goodreads.com/book/show/36067435-shunt
-  store-links:
-  - name: Amazon Paperback
-    class: amazon
-    url: https://www.amazon.co.uk/Shunt-Crest-Stubert-Ferglstein/dp/1521210543
-  - name: Amazon Kindle
-    class: kindle
-    url: https://www.amazon.co.uk/Shunt-Crest-Book-Stubert-Ferglstein-ebook/dp/B073RPH6DT
-
-- title: Places in the Darkness
-  author: Chris Brookmyre
-  meeting_for: September 2018
-  slug: places-in-darkness
-  image-source: https://images.gr-assets.com/books/1498745868l/31933061.jpg
-  isfdb: 2260856
-  goodreads: 31933061-places-in-the-darkness
-
-- title: Dreams Before the Start of Time
-  author: Anne Charnock
-  meeting_for: August 2018
-  slug: dreams-before-start-of-time
-  image-source: https://images.gr-assets.com/books/1484777556l/27780648.jpg
-  isfdb: 2149858
-  goodreads: 27780648-dreams-before-the-start-of-time
-
-- title: All Systems Red
-  author: Martha Wells
-  meeting_for: July 2018
-  slug: all-systems-red
-  image-source: https://images.gr-assets.com/books/1484171189l/32758901.jpg
-  isfdb: 2161845
-  goodreads: 32758901-all-systems-red
-
-- title: A Fire Upon the Deep
-  author: Vernor Vinge
-  meeting_for: June 2018
-  slug: fire-upon-the-deep
-  image-source: https://images-na.ssl-images-amazon.com/images/I/51sC8gPxGQL.jpg
-  isfdb: 1952
-  goodreads: 77711.A_Fire_Upon_the_Deep
-
-- title: Veniss Underground
-  author: Jeff Vandermeer
-  meeting_for: May 2018
-  slug: veniss-underground
-  image-source: https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/5098/9781509848164.jpg
-  isfdb: 171348
-  goodreads: 230853.Veniss_Underground
-
-- title: The Hitchhiker's Guide to the Galaxy
-  author: Douglas Adams
-  meeting_for: April 2018
-  slug: hitchhikers-guide
-  image-source: https://images.gr-assets.com/books/1388282444l/386162.jpg
-  isfdb: 1773
-  goodreads: 386162.The_Hitchhiker_s_Guide_to_the_Galaxy
-
-- title: The First Fifteen Lives of Harry August
-  author: Claire North
-  meeting_for: March 2018
-  suggested-by: Tim?
-  slug: first-fifteen-lives
-  image-source: https://images-na.ssl-images-amazon.com/images/I/51DJ1X5NJwL._SX325_BO1,204,203,200_.jpg
-  isfdb: 1708932
-  goodreads: 20706317-the-first-fifteen-lives-of-harry-august
-
-- title: The Day of the Triffids
-  author: John Wyndham
-  meeting_for: February 2018
-  suggested-by: Louise
-  slug: day-of-the-triffids
-  image-source: http://litreactor.com/sites/default/files/images/column/day-of-triffids.png
-  isfdb: 2139
-  goodreads: 530965.The_Day_of_the_Triffids
-
-- title: The Race
-  author: Nina Allan
-  meeting_for: January 2018
-  suggested-by: Mark
-  slug: the-race
-  image-source: http://www.ninaallan.co.uk/wp-content/uploads/2015/11/the-race-cover-2.jpg
-  isfdb: 1768867
-  goodreads: 22708417-the-race
-
-- title: Hyperion
-  author: Dan Simmons
-  meeting_for: December 2017
-  suggested-by: Rae
-  slug: hyperion
-  image-source: https://images.gr-assets.com/books/1481404355l/9732198.jpg
-  isfdb: 1749
-  goodreads: 77566.Hyperion
-
-- title: The Machine
-  author: James Smythe
-  meeting_for: November 2017
-  suggested-by: Matt Evans
-  slug: the-machine
-  image-source: https://images.gr-assets.com/books/1359897792l/17316670.jpg
-  isfdb: 1568223
-  goodreads: 17316670-the-machine
-
-- title: The Supernaturalist
-  author: Eoin Colfer
-  meeting_for: October 2017
-  suggested-by: Helen
-  slug: supernaturalist
-  image-source: https://images.gr-assets.com/books/1233460677l/45432.jpg
-  isfdb: 155146
-  goodreads: 45432.The_Supernaturalist
-
-- title: Do Androids Dream of Electric Sheep?
-  author: Philip K. Dick
-  meeting_for: September 2017
-  slug: do-androids-dream-of-electric-sheep
-  image-source: http://www.dylan-penev.ch/sites/default/files/public/styles/colorbox_full_image/public/article/gallery/book_cover_07.jpg
-  isfdb: 2103
-  goodreads: 7082.Do_Androids_Dream_of_Electric_Sheep_
-
-- title: Children of Time
-  author: Adrian Tchaikovsky
-  meeting_for: August 2017
-  slug: children-of-time
-  image-source: https://images.gr-assets.com/books/1431014197l/25499718.jpg
-  isfdb: 1856439
-  goodreads: 25499718-children-of-time
-
-- title: Random Factor
-  author: Jessica Palmer
-  meeting_for: July 2017
-  slug: random-factor
-  image-source: https://images-na.ssl-images-amazon.com/images/I/41SmNkmxWeL._SX288_BO1,204,203,200_.jpg
-  isfdb: 15829
-  goodreads: 2415676.Random_Factor
-
-- title: "Doctor Who: Harvest of Time"
-  author: Alastair Reynolds
-  meeting_for: June 2017
-  slug: harvest-of-time
-  image-source: https://vignette2.wikia.nocookie.net/tardis/images/7/72/Harvest_of_Time.jpg/revision/latest?cb=20140623085617
-  isfdb: 1588310
-  goodreads: 17162398-doctor-who
-
-- title: We Are Legion (We Are Bob)
-  author: Dennis E. Taylor
-  meeting_for: May 2017
-  slug: we-are-legion-we-are-bob
-  image-source: https://images-eu.ssl-images-amazon.com/images/I/513erhF-l2L._SY346_.jpg
-  isfdb: 2159484
-  goodreads: 32109569-we-are-legion-we-are-bob
-
-- title: How to Live Safely in a Science Fictional Universe
-  author: Charles Yu
-  meeting_for: April 2017
-  slug: how-to-live-safely-in-a-science-fictional-universe
-  image-source: https://www.wired.com/wp-content/uploads/blogs/geekdad/wp-content/uploads/2010/07/howto.jpg
-  isfdb: 1142404
-  goodreads: 7726420-how-to-live-safely-in-a-science-fictional-universe
-
-- title: Methuselah's Children
-  author: Robert A. Heinlein
-  meeting_for: March 2017
-  slug: methuselahs-children
-  image-source: https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/8/6/8/9200000036418685.jpg
-  isfdb: 1532
-  goodreads: 175319.Methuselah_s_Children
-
-- title: Redshirts
-  author: John Scalzi
-  meeting_for: February 2017
-  slug: redshirts
-  image-source: https://www.wired.com/images_blogs/underwire/2012/07/Redshirts_800.jpg
-  isfdb: 1422355
-  goodreads: 13055592-redshirts
-
-- title: Promise of the Child
-  author: Tom Toner
-  meeting_for: January 2017
-  slug: promise-child
-  image-source: https://images-na.ssl-images-amazon.com/images/I/516YGwuiw1L._SY344_BO1,204,203,200_.jpg
-  isfdb: 1916463
-  goodreads: 24693990-the-promise-of-the-child
-
-- title: Starship Troopers
-  author: Robert Heinlein
-  meeting_for: December 2016
-  slug: starship-troopers
-  image-source: https://upload.wikimedia.org/wikipedia/en/a/a9/Starship_Troopers_(novel).jpg
-  isfdb: 1112
-  goodreads: 17214.Starship_Troopers
-
-- title: The Three-Body Problem
-  author: Liu Cixin
-  meeting_for: November 2016
-  slug: three-body-problem
-  image-source: https://images.gr-assets.com/books/1415428227l/20518872.jpg
-  isfdb: 1779013
-  goodreads: 20518872-the-three-body-problem
-
-- title: Backwards
-  author: Rob Grant
-  meeting_for: October 2016
-  slug: backwards
-  image-source: https://upload.wikimedia.org/wikipedia/en/8/81/Backwards_novel.jpg
-  isfdb: 18041
-  goodreads: 98785.Backwards
-
-- title: Proxima
-  author: Stephen Baxter
-  meeting_for: September 2016
-  slug: proxima
-  image-source: http://www.forbiddenplanet.co.uk/blog/wp2013/wp-content/uploads/2013/09/proxima-stephen-baxter-gollancz.jpg
-  isfdb: 1616089
-  goodreads: 17983396-proxima
-
-- title: We
-  author: Yevgeny Zamyatin
-  meeting_for: August 2016
-  slug: we
-  image-source: https://images-na.ssl-images-amazon.com/images/I/5147D4RvY7L.jpg
-  isfdb: 7135
-  goodreads: 76171.We
-
-- title: The Girl With All The Gifts
-  author: M.R. Carey
-  meeting_for: July 2016
-  slug: the-girl-with-all-the-gifts
-  image-source: https://upload.wikimedia.org/wikipedia/en/1/1f/The_Girl_with_All_the_Gifts.jpg
-  isfdb: 1666651
-  goodreads: 17235026-the-girl-with-all-the-gifts
-
-- title: Ready Player One
-  author: Ernest Cline
-  meeting_for: June 2016
-  slug: ready-player-one
-  image-source: https://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg
-  isfdb: 1297291
-  goodreads: 9969571-ready-player-one
-
-- title: All The Birds In The Sky
-  author: Charlie Jane Anders
-  meeting_for: May 2016
-  slug: all-the-birds-in-the-sky
-  image-source: https://images-na.ssl-images-amazon.com/images/I/51AQy9%2BuVPL._SX328_BO1,204,203,200_.jpg
-  isfdb: 1938602
-  goodreads: 25372801-all-the-birds-in-the-sky
-  store-links:
-  - name: Kobo
-    class: kobo
-    url: https://store.kobobooks.com/en-us/ebook/all-the-birds-in-the-sky-1
-  - name: Amazon Paperback
-    class: amazon
-    url: https://www.amazon.co.uk/All-Birds-Charlie-Jane-Anders/dp/1785650556
-  - name: Amazon Kindle
-    class: kindle
-    url: http://www.amazon.co.uk/All-Birds-Charlie-Jane-Anders-ebook/dp/B019NFXK72
-
-- title: News From Gardenia
-  author: Robert Llewellyn
-  meeting_for: April 2016
-  slug: news-from-gardenia
-  image-source: https://s3-eu-west-1.amazonaws.com/media.unbound.co/p/images/266/medium/9781908717139.jpg?1425299678
-  isfdb: 1390108
-  goodreads: 13560055-news-from-gardenia
-  store-links:
-  - name: Unbound
-    class: web
-    url: https://unbound.co.uk/books/news-from-gardenia
-
-- title: The Circle
-  author: Dave Eggers
-  meeting_for: March 2016
-  slug: the-circle
-  image-source: http://cdn.collider.com/wp-content/uploads/circle.jpg
-  isfdb: 1632893
-  goodreads: 18302455-the-circle
-  store-links:
-  - name: Amazon Paperback
-    class: amazon
-    url: http://www.amazon.co.uk/The-Circle-Dave-Eggers/dp/024114650X
-  - name: Amazon Kindle
-    class: kindle
-    url: http://www.amazon.co.uk/Circle-Dave-Eggers-ebook/dp/B00EODUWQ6
-  - name: Kobo
-    class: kobo
-    url: https://store.kobobooks.com/en-us/ebook/the-circle-21
-  - name: Nook
-    class: nook
-    url: http://www.nook.com/gb/ebooks/the-circle-by-dave-eggers/9780241967553
-
-- title: Slaughterhouse-Five
-  author: Kurt Vonnegut
-  meeting_for: February 2016
-  slug: slaughterhouse-five
-  image-source: http://ecx.images-amazon.com/images/I/4120yizU-2L._SY344_BO1,204,203,200_.jpg
-  isfdb: 955451
-  goodreads: 4981.Slaughterhouse_Five
-
-- title: On Basilisk Station
-  author: David Weber
-  meeting_for: January 2016
-  slug: basilisk
-  image-source: https://upload.wikimedia.org/wikipedia/en/a/ae/OnBasiliskStation.jpg
-  isfdb: 1442
-  goodreads: 35921.On_Basilisk_Station
-
-- title: Teranesia
-  author: Greg Egan
-  meeting_for: December 2015
-  slug: teranesia
-  image-source: https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Teranesia.jpg/220px-Teranesia.jpg
-  isfdb: 19907
-  goodreads: 156787.Teranesia
-
-- title: Wasp
-  author: Eric Frank Russell
-  meeting_for: November 2015
-  slug: wasp
-  isfdb: 886
-  goodreads: 335919.Wasp
-  store-links:
-  - name: Amazon Paperback
-    class: amazon
-    url: http://www.amazon.co.uk/Wasp-S-F-MASTERWORKS-Frank-Russell/dp/0575129042
-  - name: Amazon Kindle
-    class: kindle
-    url: http://www.amazon.co.uk/WASP-Eric-Frank-Russell-ebook/dp/B003TFESY2
-  - name: Kobo
-    class: kobo
-    url: https://store.kobobooks.com/en-us/ebook/wasp-6
-
-- title: The Kraken Wakes
-  author: John Wyndham
-  meeting_for: October 2015
-  slug: kraken
-  isfdb: 1426
-  goodreads: 91092.The_Kraken_Wakes
-  store-links:
-  - name: Amazon Paperback
-    class: amazon
-    url: http://www.amazon.co.uk/The-Kraken-Wakes-John-Wyndham/dp/0141032995
-  - name: Amazon Kindle
-    class: kindle
-    url: http://www.amazon.co.uk/Kraken-Wakes-John-Wyndham-ebook/dp/B002RI9S1U
-  - name: Kobo
-    class: kobo
-    url: https://store.kobobooks.com/en-us/ebook/the-kraken-wakes
-  - name: Nook
-    class: nook
-    url: http://www.nook.com/gb/ebooks/the-kraken-wakes-by-john-wyndham/9780141920887
-
-- title: I Am Legend
-  author: Richard Matheson
-  meeting_for: September 2015
-  slug: legend
-  isfdb: 16515
-  goodreads: 14064.I_Am_Legend
-  store-links:
-  - name: Amazon Paperback
-    class: amazon
-    url: http://www.amazon.co.uk/I-Am-Legend-S-F-MASTERWORKS/dp/0575094168
-  - name: Amazon Kindle
-    class: kindle
-    url: http://www.amazon.co.uk/I-Am-Legend-S-F-MASTERWORKS-ebook/dp/B005GQ5IA0
-  - name: Kobo
-    class: kobo
-    url: https://store.kobobooks.com/en-US/ebook/i-am-legend
-  - name: Nook
-    class: nook
-    url: http://www.nook.com/gb/ebooks/i-am-legend-by-richard-matheson/9780575119574
-
-- title: Fallen Dragon
-  author: Peter F. Hamilton
-  meeting_for: August 2015
-  slug: fallen-dragon
-  isfdb: 22083
-  goodreads: 45258.Fallen_Dragon
-  store-links:
-  - name: Amazon Paperback
-    class: amazon
-    url: http://www.amazon.co.uk/Fallen-Dragon-Peter-F-Hamilton/dp/0330480065
-  - name: Amazon Kindle
-    class: kindle
-    url: http://www.amazon.co.uk/Fallen-Dragon-Peter-F-Hamilton-ebook/dp/B003GK21CG
-  - name: Kobo
-    class: kobo
-    url: https://store.kobobooks.com/en-US/ebook/fallen-dragon-2
-
-- title: Annihilation
-  author: Jeff VanderMeer
-  meeting_for: July 2015
-  slug: annihilation
-  isfdb: 1678159
-  goodreads: 17934530-annihilation
-  store-links:
-  - name: Amazon Hardback
-    class: amazon
-    url: http://www.amazon.co.uk/Annihilation-The-Southern-Reach-Trilogy/dp/0007550715
-  - name: Amazon Kindle
-    class: kindle
-    url: http://www.amazon.co.uk/Annihilation-Southern-Reach-Trilogy-Book-ebook/dp/B00EN5LEMG
-  - name: Kobo
-    class: kobo
-    url: https://store.kobobooks.com/en-US/ebook/annihilation-the-southern-reach-trilogy-book-1
-  - name: Nook
-    class: nook
-    url: http://www.nook.com/gb/ebooks/annihilation-the-southern-reach-trilogy-book-1-by-jeff-vandermeer/9780007550708
-
-- title: The Martian
-  author: Andy Weir
-  meeting_for: June 2015
-  slug: martian
-  isfdb: 1678924
-  goodreads: 18007564-the-martian
-  store-links:
-  - name: Amazon Paperback
-    class: amazon
-    url: http://www.amazon.co.uk/Martian-Andy-Weir/dp/0091956145
-  - name: Amazon Kindle
-    class: kindle
-    url: http://www.amazon.co.uk/Martian-Andy-Weir-ebook/dp/B00FAXJHCY
-  - name: Kobo
-    class: kobo
-    url: https://store.kobobooks.com/en-US/ebook/the-martian-5
-  - name: Nook
-    class: nook
-    url: http://www.nook.com/gb/ebooks/the-martian-by-andy-weir/9781448177202
-
-- title: "Professor Moriarty: The Hound of the D'Urbervilles"
-  author: Kim Newman
-  meeting_for: May 2015
-  slug: durbervilles
-  isfdb: 1354407
-  suggested-by: Fiona
-  store-links:
-  - name: Amazon Paperback
-    class: amazon
-    url: http://www.amazon.co.uk/Professor-Moriarty-Hound-DUrbervilles-Novels/dp/0857682830
-  - name: Amazon Kindle
-    class: kindle
-    url: http://www.amazon.co.uk/Hound-DUrbervilles-Moriarty-Kim-Newman-ebook/dp/B00MLDU676
-  - name: Kobo
-    class: kobo
-    url: https://store.kobobooks.com/en-US/ebook/the-hound-of-the-d-urbervilles
-  - name: Nook
-    class: nook
-    url: http://www.nook.com/gb/ebooks/professor-moriarty-the-hound-of-the-durbervilles-by-kim-newman/9780857686015
-
-- title: Mort
-  author: Terry Pratchett
-  meeting_for: April 2015
-  slug: mort
-  isfdb: 1496
-  suggested-by: The Club
-  store-links:
-  - name: Amazon Paperback
-    class: amazon
-    url: http://www.amazon.co.uk/Mort-Discworld-Novel-Novels/dp/0552166626
-  - name: Amazon Kindle
-    class: kindle
-    url: http://www.amazon.co.uk/Mort-Discworld-Novel-4-ebook/dp/B0035OC7OU
-  - name: Kobo
-    class: kobo
-    url: https://store.kobobooks.com/en-US/ebook/mort-2
-  - name: Nook
-    class: nook
-    url: http://www.nook.com/gb/ebooks/mort-discworld-novel-4-by-terry-pratchett/9781407034508
-
-- title: Gateway
-  author: Frederik Pohl
-  meeting_for: March 2015
-  slug: gateway
-  isfdb: 1884
-  suggested-by: Jonathon
-  store-links:
-  - name: Amazon Paperback
-    class: amazon
-    url: http://www.amazon.co.uk/Gateway-S-F-MASTERWORKS-Frederik-Pohl/dp/0575094230
-
-- title: Singularity Sky
-  author: Charles Stross
-  meeting_for: February 2015
-  slug: singularity-sky
-  isfdb: 23623
-  suggested-by: Naomi
-  store-links:
-  - name: Amazon Paperback
-    class: amazon
-    url: http://www.amazon.co.uk/Singularity-Sky-Charles-Stross/dp/1841493341
-  - name: Amazon Kindle
-    class: kindle
-    url: http://www.amazon.co.uk/Singularity-Sky-Charles-Stross-ebook/dp/B002TXZRF4
-  - name: Kobo
-    class: kobo
-    url: http://store.kobobooks.com/en-US/ebook/singularity-sky
-  - name: Nook
-    class: nook
-    url: http://www.nook.com/gb/ebooks/singularity-sky-by-charles-stross/9780748109173
-
-- title: Ubik
-  author: Philip K. Dick
-  meeting_for: January 2015
-  slug: ubik
-  isfdb: 948
-  store-links:
-  - name: Amazon Paperback
-    class: amazon
-    url: http://www.amazon.co.uk/Ubik-S-F-MASTERWORKS-Philip-Dick/dp/1857988531
-  - name: Amazon Kindle
-    class: kindle
-    url: http://www.amazon.co.uk/Ubik-GOLLANCZ-S-F-Philip-Dick-ebook/dp/B003FXCSU4/
-  - name: Nook
-    class: nook
-    url: http://www.nook.com/gb/ebooks/ubik-by-philip-k-dick/9780575097957
-  - name: Kobo
-    class: kobo
-    url: http://store.kobobooks.com/en-US/ebook/ubik
-
-- title: It Looks Like You're Writing A Letter
-  author: Alexander King
-  meeting_for: December 2014
-  slug: it-looks-like-youre-writing-a-letter
-  image-source: http://alexanderking.co/wp-content/uploads/2014/09/itlookslikeyourewritingaletter_cover.jpg
-  isfdb: 1823232
-  goodreads: 23251483-it-looks-like-you-re-writing-a-letter
-  store-links:
-  - name: Amazon Kindle
-    class: kindle
-    url: http://www.amazon.co.uk/Looks-Like-Youre-Writing-Letter-ebook/dp/B00NO7EZ0C
-  - name: Nook
-    class: nook
-    url: http://www.nook.com/gb/ebooks/it-looks-like-youre-writing-a-letter-by-alexander-king/2940046180701
-  - name: Kobo
-    class: kobo
-    url: http://store.kobobooks.com/en-US/ebook/it-looks-like-you-re-writing-a-letter
-  - name: iTunes
-    class: itunes
-    url: https://itunes.apple.com/gb/book/it-looks-like-youre-writing/id920241215
-  - name: Google Play
-    class: googleplay
-    url: https://play.google.com/store/books/details?id=XLGLBAAAQBAJ
-
-- title: The Man in the High Castle
-  author: Philip K. Dick
-  meeting_for: November 2014
-  startdate: 2014-10-19
-  enddate: 2014-11-20
-  slug: man-in-high-castle
-  image-source: http://img1.imagesbn.com/p/9780241964262_p0_v1_s300x475.JPG
-  isfdb: 1574
+- meeting_for: September 2019
+  title: Roadside Picnic
+  author: Arkady and Boris Strugatsky
+  slug: roadside-picnic
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516895892l/16118280._SY475_.jpg
+  info-links:
+    isfdb: 2369460
+    goodreads: 331256.Roadside_Picnic
   store-links:
     - name: Amazon paperback
       class: amazon
-      url: http://www.amazon.co.uk/High-Castle-Penguin-Modern-Classics/dp/0141186674
+      url: https://www.amazon.co.uk/Roadside-Picnic-Boris-Strugatsky/dp/0575093137
     - name: Amazon Kindle
       class: kindle
-      url: http://www.amazon.co.uk/High-Castle-Penguin-Modern-Classics-ebook/dp/B008DM2MGW
+      url: https://www.amazon.co.uk/Roadside-Picnic-MASTERWORKS-Arkady-Strugatsky-ebook/dp/B00JDQEC7Y
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/roadside-picnic-3
+
+- meeting_for: August 2019
+  title: The Things We Learn When We're Dead
+  author: Charlie Laidlaw
+  slug: things-we-learn-when-were-dead
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480332487l/33142013._SY475_.jpg
+  info-links:
+    isfdb: 2099322
+    goodreads: 33142013-the-things-we-learn-when-we-re-dead
+  store-links:
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Things-Learn-When-Were-Dead-ebook/dp/B01N455BK7
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Things-Learn-When-Were-Dead/dp/1786150352
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/the-things-we-learn-when-we-re-dead
+
+- meeting_for: July 2019
+  title: Roboteer
+  author: Alex Lamb
+  slug: roboteer
+  image-source: https://www.sffworld.com/wp-content/uploads/2016/04/roboteer.jpg
+  info-links:
+    isfdb: 1898595
+    goodreads: 25070598-roboteer
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Roboteer-Alex-Lamb/dp/147320609X
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Roboteer-Alex-Lamb-ebook/dp/B00TXH9GHY
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/roboteer
+
+- meeting_for: June 2019
+  title: The Pope of the Chimps
+  author: Robert Silverberg
+  slug: pope-of-the-chimps
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394351007l/21335957.jpg
+  info-links:
+    isfdb: 41047
+    goodreads: 21335957-the-pope-of-the-chimps
+  store-links:
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/POPE-CHIMPS-CLASSIC-SCIENCE-FICTION-ebook/dp/B00C32YCES
+
+- meeting_for: May 2019
+  title: The Seven Deaths of Evelyn Hardcastle
+  author: Stuart Turton
+  slug: seven-deaths-of-evelyn-hardcastle
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529014217l/39088216.jpg
+  info-links:
+    isfdb: 2304896
+    goodreads: 39088216-the-seven-deaths-of-evelyn-hardcastle
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Seven-Deaths-Evelyn-Hardcastle-bestseller/dp/140888951X
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Seven-Deaths-Evelyn-Hardcastle-bestseller-ebook/dp/B075RTC2LW
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/the-seven-deaths-of-evelyn-hardcastle
+
+- meeting_for: April 2019
+  title: Saga, Volume 1
+  author: Brian K. Vaughan and Fiona Staples
+  slug: saga-vol-1
+  image-source: https://images-na.ssl-images-amazon.com/images/I/81%2BSf%2BbNqUL.jpg
+  info-links:
+    goodreads: 15704307-saga-vol-1
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Saga-1-Comic-Brian-Vaughan/dp/1607066017
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Saga-Vol-1-Brian-Vaughan-ebook/dp/B015XEABR4
+
+- meeting_for: March 2019
+  title: Station Eleven
+  author: Emily St. John Mandel
+  slug: station-eleven
+  image-source: http://ecx.images-amazon.com/images/I/518jrV1TaxL.jpg
+  info-links:
+    isfdb: 1754847
+    goodreads: 20170404-station-eleven
+  store-links:
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Station-Eleven-Emily-John-Mandel-ebook/dp/B00JQ9FYAM
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Station-Eleven-Emily-John-Mandel/dp/1447268970
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/station-eleven-2
+
+- meeting_for: February 2019
+  title: Spares
+  author: Michael Marshall Smith
+  slug: spares
+  image-source: https://images.gr-assets.com/books/1167301486l/21010.jpg
+  info-links:
+    isfdb: 5818
+    goodreads: 21010.Spares
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Spares-Michael-Marshall-Smith/dp/0006512674/
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Spares-Michael-Marshall-Smith-ebook/dp/B002RI9R20/
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/spares
+
+- meeting_for: January 2019
+  title: The Fifth Season
+  author: N. K. Jemisin
+  slug: fifth-season
+  image-source: https://images.gr-assets.com/books/1386803701l/19161852.jpg
+  info-links:
+    isfdb: 1878015
+    goodreads: 19161852-the-fifth-season
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Fifth-Season-Broken-WINNER-Trilogy/dp/0356508196
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Fifth-Season-Broken-Earth-WINNER-ebook/dp/B00UFWTMUC
+
+- meeting_for: December 2018
+  title: Brave New World
+  author: Aldous Huxley
+  slug: brave-new-world
+  image-source: https://images.gr-assets.com/books/1494225554l/11517032.jpg
+  info-links:
+    isfdb: 2319
+    goodreads: 5129.Brave_New_World
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Brave-New-World-Aldous-Huxley/dp/0099518473
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Brave-New-World-Aldous-Huxley-ebook/dp/B0031R5K6S
+
+- meeting_for: November 2018
+  title: Synbat
+  author: Bob Mayher
+  slug: synbat
+  image-source: https://images-na.ssl-images-amazon.com/images/I/715wqgsTnYL.jpg
+  info-links:
+    isfdb: 1385184
+    goodreads: 2656865-synbat
+  store-links:
+    - name: Amazon Paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Synbat-Green-Berets-Bob-Mayer/dp/1621250423
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Synbat-Green-Berets-Book-3-ebook/dp/B004XWFW7M
+
+- meeting_for: October 2018
+  title: Shunt
+  author: Stubert Ferglstein
+  slug: shunt
+  image-source: https://images.gr-assets.com/books/1503125737l/36067435.jpg
+  info-links:
+    isfdb: 2437058
+    goodreads: https://www.goodreads.com/book/show/36067435-shunt
+  store-links:
+    - name: Amazon Paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Shunt-Crest-Stubert-Ferglstein/dp/1521210543
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Shunt-Crest-Book-Stubert-Ferglstein-ebook/dp/B073RPH6DT
+
+- meeting_for: September 2018
+  title: Places in the Darkness
+  author: Chris Brookmyre
+  slug: places-in-darkness
+  image-source: https://images.gr-assets.com/books/1498745868l/31933061.jpg
+  info-links:
+    isfdb: 2260856
+    goodreads: 31933061-places-in-the-darkness
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Places-Darkness-Chris-Brookmyre/dp/0356506274
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Places-Darkness-Chris-Brookmyre-ebook/dp/B06Y16K2QV
+
+- meeting_for: August 2018
+  title: Dreams Before the Start of Time
+  author: Anne Charnock
+  slug: dreams-before-start-of-time
+  image-source: https://images.gr-assets.com/books/1484777556l/27780648.jpg
+  info-links:
+    isfdb: 2149858
+    goodreads: 27780648-dreams-before-the-start-of-time
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Dreams-Before-Start-Time-Charnock/dp/1503934721
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Dreams-Before-Start-Time-Charnock-ebook/dp/B0176BJYRK
+
+- meeting_for: July 2018
+  title: All Systems Red
+  author: Martha Wells
+  slug: all-systems-red
+  image-source: https://images.gr-assets.com/books/1484171189l/32758901.jpg
+  info-links:
+    isfdb: 2161845
+    goodreads: 32758901-all-systems-red
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/ALL-SYSTEMS-RED-Murderbot-Diaries/dp/0765397536
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/All-Systems-Red-Kindle-Single-ebook/dp/B01MYZ8X5C
+
+- meeting_for: June 2018
+  title: A Fire Upon the Deep
+  author: Vernor Vinge
+  slug: fire-upon-the-deep
+  image-source: https://images-na.ssl-images-amazon.com/images/I/51sC8gPxGQL.jpg
+  info-links:
+    isfdb: 1952
+    goodreads: 77711.A_Fire_Upon_the_Deep
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Fire-Upon-Deep-S-F-MASTERWORKS/dp/1473211956
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Fire-Upon-Deep-S-F-MASTERWORKS-ebook/dp/B00AVUMIZE
+
+- meeting_for: May 2018
+  title: Veniss Underground
+  author: Jeff Vandermeer
+  slug: veniss-underground
+  image-source: https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/5098/9781509848164.jpg
+  info-links:
+    isfdb: 171348
+    goodreads: 230853.Veniss_Underground
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Veniss-Underground-Jeff-VanderMeer/dp/1509848169
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Veniss-Underground-Jeff-VanderMeer-ebook/dp/B00K7DBOMS
+
+- meeting_for: April 2018
+  title: The Hitchhiker's Guide to the Galaxy
+  author: Douglas Adams
+  slug: hitchhikers-guide
+  image-source: https://images.gr-assets.com/books/1388282444l/386162.jpg
+  info-links:
+    isfdb: 1773
+    goodreads: 386162.The_Hitchhiker_s_Guide_to_the_Galaxy
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Hitchhikers-Guide-Galaxy-Omnibus-Trilogy/dp/1509852794
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Hitchhikers-Guide-Galaxy-Omnibus-Trilogy-ebook/dp/B075NLB4P7
+
+- meeting_for: March 2018
+  title: The First Fifteen Lives of Harry August
+  author: Claire North
+  slug: first-fifteen-lives
+  image-source: https://images-na.ssl-images-amazon.com/images/I/51DJ1X5NJwL._SX325_BO1,204,203,200_.jpg
+  suggested-by: Tim?
+  info-links:
+    isfdb: 1708932
+    goodreads: 20706317-the-first-fifteen-lives-of-harry-august
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/First-Fifteen-Lives-August-mouth/dp/0356502589
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/First-Fifteen-Lives-August-mouth-ebook/dp/B00DI7HLDG
+
+- meeting_for: February 2018
+  title: The Day of the Triffids
+  author: John Wyndham
+  slug: day-of-the-triffids
+  image-source: http://litreactor.com/sites/default/files/images/column/day-of-triffids.png
+  suggested-by: Louise
+  info-links:
+    isfdb: 2139
+    goodreads: 530965.The_Day_of_the_Triffids
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Day-Triffids-John-Wyndham/dp/0141033002
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Day-Triffids-Penguin-Modern-Classics-ebook/dp/B002RI9YOG
+
+- meeting_for: January 2018
+  title: The Race
+  author: Nina Allan
+  slug: the-race
+  image-source: http://www.ninaallan.co.uk/wp-content/uploads/2015/11/the-race-cover-2.jpg
+  suggested-by: Mark
+  info-links:
+    isfdb: 1768867
+    goodreads: 22708417-the-race
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Race-Nina-Allan/dp/1785650467
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Race-Nina-Allan-ebook/dp/B01G4GS5GY
+
+- meeting_for: December 2017
+  title: Hyperion
+  author: Dan Simmons
+  slug: hyperion
+  image-source: https://images.gr-assets.com/books/1481404355l/9732198.jpg
+  suggested-by: Rae
+  info-links:
+    isfdb: 1749
+    goodreads: 77566.Hyperion
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Hyperion-GOLLANCZ-S-F-Dan-Simmons/dp/0575076372
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Hyperion-Cantos-Book-1-ebook/dp/B0043M6780
+
+- meeting_for: November 2017
+  title: The Machine
+  author: James Smythe
+  slug: the-machine
+  image-source: https://images.gr-assets.com/books/1359897792l/17316670.jpg
+  suggested-by: Matt Evans
+  info-links:
+    isfdb: 1568223
+    goodreads: 17316670-the-machine
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Machine-James-Smythe/dp/000750750X
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Machine-James-Smythe-ebook/dp/B009QU6V94
+
+- meeting_for: October 2017
+  title: The Supernaturalist
+  author: Eoin Colfer
+  slug: supernaturalist
+  image-source: https://images.gr-assets.com/books/1233460677l/45432.jpg
+  suggested-by: Helen
+  info-links:
+    isfdb: 155146
+    goodreads: 45432.The_Supernaturalist
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Supernaturalist-New-Cover-Eoin-Colfer/dp/1423146794
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Supernaturalist-Eoin-Colfer-ebook/dp/B002RI9L8K
+
+- meeting_for: September 2017
+  title: Do Androids Dream of Electric Sheep?
+  author: Philip K. Dick
+  slug: do-androids-dream-of-electric-sheep
+  image-source: http://www.dylan-penev.ch/sites/default/files/public/styles/colorbox_full_image/public/article/gallery/book_cover_07.jpg
+  info-links:
+    isfdb: 2103
+    goodreads: 7082.Do_Androids_Dream_of_Electric_Sheep_
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Androids-Dream-Electric-Sheep-Masterworks/dp/0575079932
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Blade-Runner-Philip-K-Dick-ebook/dp/B06WLKRKN5
+
+- meeting_for: August 2017
+  title: Children of Time
+  author: Adrian Tchaikovsky
+  slug: children-of-time
+  image-source: https://images.gr-assets.com/books/1431014197l/25499718.jpg
+  info-links:
+    isfdb: 1856439
+    goodreads: 25499718-children-of-time
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Children-Time-Adrian-Tchaikovsky/dp/1447273303
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Children-Time-Winner-Arthur-Clarke-ebook/dp/B00SN93AHU
+
+- meeting_for: July 2017
+  title: Random Factor
+  author: Jessica Palmer
+  slug: random-factor
+  image-source: https://images-na.ssl-images-amazon.com/images/I/41SmNkmxWeL._SX288_BO1,204,203,200_.jpg
+  info-links:
+    isfdb: 15829
+    goodreads: 2415676.Random_Factor
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Random-Factor-Point-SF-S/dp/0590556657
+
+- meeting_for: June 2017
+  title: 'Doctor Who: Harvest of Time'
+  author: Alastair Reynolds
+  slug: harvest-of-time
+  image-source: https://vignette2.wikia.nocookie.net/tardis/images/7/72/Harvest_of_Time.jpg/revision/latest?cb=20140623085617
+  info-links:
+    isfdb: 1588310
+    goodreads: 17162398-doctor-who
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Doctor-Who-Harvest-Alastair-Reynolds/dp/1849904197
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Doctor-Who-Harvest-Alastair-Reynolds-ebook/dp/B00CA88I2C
+
+- meeting_for: May 2017
+  title: We Are Legion (We Are Bob)
+  author: Dennis E. Taylor
+  slug: we-are-legion-we-are-bob
+  image-source: https://images-eu.ssl-images-amazon.com/images/I/513erhF-l2L._SY346_.jpg
+  info-links:
+    isfdb: 2159484
+    goodreads: 32109569-we-are-legion-we-are-bob
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/We-Are-Legion-Bob-Bobiverse/dp/1680680587
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Are-Legion-Bob-Bobiverse-Book-ebook/dp/B01LWAESYQ
+
+- meeting_for: April 2017
+  title: How to Live Safely in a Science Fictional Universe
+  author: Charles Yu
+  slug: how-to-live-safely-in-a-science-fictional-universe
+  image-source: https://www.wired.com/wp-content/uploads/blogs/geekdad/wp-content/uploads/2010/07/howto.jpg
+  info-links:
+    isfdb: 1142404
+    goodreads: 7726420-how-to-live-safely-in-a-science-fictional-universe
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Live-Safely-Science-Fictional-Universe/dp/1848876823
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Live-Safely-Science-Fictional-Universe-ebook/dp/B004S7BBNQ
+
+- meeting_for: March 2017
+  title: Methuselah's Children
+  author: Robert A. Heinlein
+  slug: methuselahs-children
+  image-source: https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/8/6/8/9200000036418685.jpg
+  info-links:
+    isfdb: 1532
+    goodreads: 175319.Methuselah_s_Children
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Methuselahs-Children-Robert-Heinlein/dp/0451075919
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Methuselahs-Children-Gateway-Essentials-Heinlein-ebook/dp/B00QFLKOH2
+
+- meeting_for: February 2017
+  title: Redshirts
+  author: John Scalzi
+  slug: redshirts
+  image-source: https://www.wired.com/images_blogs/underwire/2012/07/Redshirts_800.jpg
+  info-links:
+    isfdb: 1422355
+    goodreads: 13055592-redshirts
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Redshirts-John-Scalzi/dp/0575134305
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Redshirts-John-Scalzi-ebook/dp/B0087GYY92
+
+- meeting_for: January 2017
+  title: Promise of the Child
+  author: Tom Toner
+  slug: promise-child
+  image-source: https://images-na.ssl-images-amazon.com/images/I/516YGwuiw1L._SY344_BO1,204,203,200_.jpg
+  info-links:
+    isfdb: 1916463
+    goodreads: 24693990-the-promise-of-the-child
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Promise-Child-Amaranthine-Spectrum/dp/1473211379
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Promise-Child-Amaranthine-Spectrum-ebook/dp/B00XUDPGBW
+
+- meeting_for: December 2016
+  title: Starship Troopers
+  author: Robert Heinlein
+  slug: starship-troopers
+  image-source: https://upload.wikimedia.org/wikipedia/en/a/a9/Starship_Troopers_(novel).jpg
+  info-links:
+    isfdb: 1112
+    goodreads: 17214.Starship_Troopers
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Starship-Troopers-Robert-Heinlein/dp/1473616115
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Starship-Troopers-Robert-Heinlein-ebook/dp/B003ODIWEG
+
+- meeting_for: November 2016
+  title: The Three-Body Problem
+  author: Liu Cixin
+  slug: three-body-problem
+  image-source: https://images.gr-assets.com/books/1415428227l/20518872.jpg
+  info-links:
+    isfdb: 1779013
+    goodreads: 20518872-the-three-body-problem
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Three-Body-Problem-Cixin-Liu/dp/178497157X
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Three-Body-Problem-Cixin-Liu-ebook/dp/B00S8FCJCQ
+
+- meeting_for: October 2016
+  title: Backwards
+  author: Rob Grant
+  slug: backwards
+  image-source: https://upload.wikimedia.org/wikipedia/en/8/81/Backwards_novel.jpg
+  info-links:
+    isfdb: 18041
+    goodreads: 98785.Backwards
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Backwards-Red-Dwarf-Rob-Grant/dp/0140171509
+
+- meeting_for: September 2016
+  title: Proxima
+  author: Stephen Baxter
+  slug: proxima
+  image-source: http://www.forbiddenplanet.co.uk/blog/wp2013/wp-content/uploads/2013/09/proxima-stephen-baxter-gollancz.jpg
+  info-links:
+    isfdb: 1616089
+    goodreads: 17983396-proxima
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Proxima-1-Stephen-Baxter/dp/0575116854
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Proxima-Stephen-Baxter-ebook/dp/B00E0JYS8M
+
+- meeting_for: August 2016
+  title: We
+  author: Yevgeny Zamyatin
+  slug: we
+  image-source: https://images-na.ssl-images-amazon.com/images/I/5147D4RvY7L.jpg
+  info-links:
+    isfdb: 7135
+    goodreads: 76171.We
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/We-Yevgeny-Zamyatin/dp/0140185852
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/We-Momentum-Classic-Science-Fiction-ebook/dp/B00ABQ0LJS
+
+- meeting_for: July 2016
+  title: The Girl With All The Gifts
+  author: M.R. Carey
+  slug: the-girl-with-all-the-gifts
+  image-source: https://upload.wikimedia.org/wikipedia/en/1/1f/The_Girl_with_All_the_Gifts.jpg
+  info-links:
+    isfdb: 1666651
+    goodreads: 17235026-the-girl-with-all-the-gifts
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Girl-All-Gifts-original-thriller/dp/0356500152
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Girl-All-Gifts-original-thriller-ebook/dp/B00B27ECPY
+
+- meeting_for: June 2016
+  title: Ready Player One
+  author: Ernest Cline
+  slug: ready-player-one
+  image-source: https://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg
+  info-links:
+    isfdb: 1297291
+    goodreads: 9969571-ready-player-one
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Ready-Player-One-Ernest-Cline/dp/0099560437
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Ready-Player-One-Ernest-Cline-ebook/dp/B005CVWWJY
+
+- meeting_for: May 2016
+  title: All The Birds In The Sky
+  author: Charlie Jane Anders
+  slug: all-the-birds-in-the-sky
+  image-source: https://images-na.ssl-images-amazon.com/images/I/51AQy9%2BuVPL._SX328_BO1,204,203,200_.jpg
+  info-links:
+    isfdb: 1938602
+    goodreads: 25372801-all-the-birds-in-the-sky
+  store-links:
+    - name: Kobo
+      class: kobo
+      url: https://store.kobobooks.com/en-us/ebook/all-the-birds-in-the-sky-1
+    - name: Amazon Paperback
+      class: amazon
+      url: https://www.amazon.co.uk/All-Birds-Charlie-Jane-Anders/dp/1785650556
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/All-Birds-Charlie-Jane-Anders-ebook/dp/B019NFXK72
+
+- meeting_for: April 2016
+  title: News From Gardenia
+  author: Robert Llewellyn
+  slug: news-from-gardenia
+  image-source: https://s3-eu-west-1.amazonaws.com/media.unbound.co/p/images/266/medium/9781908717139.jpg?1425299678
+  info-links:
+    isfdb: 1390108
+    goodreads: 13560055-news-from-gardenia
+  store-links:
+    - name: Unbound
+      class: web
+      url: https://unbound.co.uk/books/news-from-gardenia
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Robert-Llewellyn-News-Gardenia-Paperback/dp/B00RWOC2AI
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/News-Gardenia-Robert-Llewellyn-ebook/dp/B00WDP9IPS
+
+- meeting_for: March 2016
+  title: The Circle
+  author: Dave Eggers
+  slug: the-circle
+  image-source: http://cdn.collider.com/wp-content/uploads/circle.jpg
+  info-links:
+    isfdb: 1632893
+    goodreads: 18302455-the-circle
+  store-links:
+    - name: Amazon Paperback
+      class: amazon
+      url: https://www.amazon.co.uk/The-Circle-Dave-Eggers/dp/024114650X
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Circle-Dave-Eggers-ebook/dp/B00EODUWQ6
+    - name: Kobo
+      class: kobo
+      url: https://store.kobobooks.com/en-us/ebook/the-circle-21
+    - name: Nook
+      class: nook
+      url: http://www.nook.com/gb/ebooks/the-circle-by-dave-eggers/9780241967553
+
+- meeting_for: February 2016
+  title: Slaughterhouse-Five
+  author: Kurt Vonnegut
+  slug: slaughterhouse-five
+  image-source: http://ecx.images-amazon.com/images/I/4120yizU-2L._SY344_BO1,204,203,200_.jpg
+  info-links:
+    isfdb: 955451
+    goodreads: 4981.Slaughterhouse_Five
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Slaughterhouse-Childrens-Crusade-Duty-dance-Death/dp/0099800209
+
+- meeting_for: January 2016
+  title: On Basilisk Station
+  author: David Weber
+  slug: basilisk
+  image-source: https://upload.wikimedia.org/wikipedia/en/a/ae/OnBasiliskStation.jpg
+  info-links:
+    isfdb: 1442
+    goodreads: 35921.On_Basilisk_Station
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Basilisk-Station-Honorverse-David-Weber/dp/0743435710
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Basilisk-Station-Honor-Harrington-Book-ebook/dp/B00ARPJBS0
+
+- meeting_for: December 2015
+  title: Teranesia
+  author: Greg Egan
+  slug: teranesia
+  image-source: https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Teranesia.jpg/220px-Teranesia.jpg
+  info-links:
+    isfdb: 19907
+    goodreads: 156787.Teranesia
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Teranesia-Greg-Egan/dp/0575083336
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Teranesia-Greg-Egan-ebook/dp/B004JHY8IA
+
+- meeting_for: November 2015
+  title: Wasp
+  author: Eric Frank Russell
+  slug: wasp
+  info-links:
+    isfdb: 886
+    goodreads: 335919.Wasp
+  store-links:
+    - name: Amazon Paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Wasp-S-F-MASTERWORKS-Frank-Russell/dp/0575129042
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/WASP-Eric-Frank-Russell-ebook/dp/B003TFESY2
+    - name: Kobo
+      class: kobo
+      url: https://store.kobobooks.com/en-us/ebook/wasp-6
+
+- meeting_for: October 2015
+  title: The Kraken Wakes
+  author: John Wyndham
+  slug: kraken
+  info-links:
+    isfdb: 1426
+    goodreads: 91092.The_Kraken_Wakes
+  store-links:
+    - name: Amazon Paperback
+      class: amazon
+      url: https://www.amazon.co.uk/The-Kraken-Wakes-John-Wyndham/dp/0141032995
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Kraken-Wakes-John-Wyndham-ebook/dp/B002RI9S1U
+    - name: Kobo
+      class: kobo
+      url: https://store.kobobooks.com/en-us/ebook/the-kraken-wakes
+    - name: Nook
+      class: nook
+      url: http://www.nook.com/gb/ebooks/the-kraken-wakes-by-john-wyndham/9780141920887
+
+- meeting_for: September 2015
+  title: I Am Legend
+  author: Richard Matheson
+  slug: legend
+  info-links:
+    isfdb: 16515
+    goodreads: 14064.I_Am_Legend
+  store-links:
+    - name: Amazon Paperback
+      class: amazon
+      url: https://www.amazon.co.uk/I-Am-Legend-S-F-MASTERWORKS/dp/0575094168
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/I-Am-Legend-S-F-MASTERWORKS-ebook/dp/B005GQ5IA0
+    - name: Kobo
+      class: kobo
+      url: https://store.kobobooks.com/en-US/ebook/i-am-legend
+    - name: Nook
+      class: nook
+      url: http://www.nook.com/gb/ebooks/i-am-legend-by-richard-matheson/9780575119574
+
+- meeting_for: August 2015
+  title: Fallen Dragon
+  author: Peter F. Hamilton
+  slug: fallen-dragon
+  info-links:
+    isfdb: 22083
+    goodreads: 45258.Fallen_Dragon
+  store-links:
+    - name: Amazon Paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Fallen-Dragon-Peter-F-Hamilton/dp/0330480065
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Fallen-Dragon-Peter-F-Hamilton-ebook/dp/B003GK21CG
+    - name: Kobo
+      class: kobo
+      url: https://store.kobobooks.com/en-US/ebook/fallen-dragon-2
+
+- meeting_for: July 2015
+  title: Annihilation
+  author: Jeff VanderMeer
+  slug: annihilation
+  info-links:
+    isfdb: 1678159
+    goodreads: 17934530-annihilation
+  store-links:
+    - name: Amazon Hardback
+      class: amazon
+      url: https://www.amazon.co.uk/Annihilation-The-Southern-Reach-Trilogy/dp/0007550715
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Annihilation-Southern-Reach-Trilogy-Book-ebook/dp/B00EN5LEMG
+    - name: Kobo
+      class: kobo
+      url: https://store.kobobooks.com/en-US/ebook/annihilation-the-southern-reach-trilogy-book-1
+    - name: Nook
+      class: nook
+      url: http://www.nook.com/gb/ebooks/annihilation-the-southern-reach-trilogy-book-1-by-jeff-vandermeer/9780007550708
+
+- meeting_for: June 2015
+  title: The Martian
+  author: Andy Weir
+  slug: martian
+  info-links:
+    isfdb: 1678924
+    goodreads: 18007564-the-martian
+  store-links:
+    - name: Amazon Paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Martian-Andy-Weir/dp/0091956145
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Martian-Andy-Weir-ebook/dp/B00FAXJHCY
+    - name: Kobo
+      class: kobo
+      url: https://store.kobobooks.com/en-US/ebook/the-martian-5
+    - name: Nook
+      class: nook
+      url: http://www.nook.com/gb/ebooks/the-martian-by-andy-weir/9781448177202
+
+- meeting_for: May 2015
+  title: 'Professor Moriarty: The Hound of the D''Urbervilles'
+  author: Kim Newman
+  slug: durbervilles
+  suggested-by: Fiona
+  info-links:
+    isfdb: 1354407
+  store-links:
+    - name: Amazon Paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Professor-Moriarty-Hound-DUrbervilles-Novels/dp/0857682830
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Hound-DUrbervilles-Moriarty-Kim-Newman-ebook/dp/B00MLDU676
+    - name: Kobo
+      class: kobo
+      url: https://store.kobobooks.com/en-US/ebook/the-hound-of-the-d-urbervilles
+    - name: Nook
+      class: nook
+      url: http://www.nook.com/gb/ebooks/professor-moriarty-the-hound-of-the-durbervilles-by-kim-newman/9780857686015
+
+- meeting_for: April 2015
+  title: Mort
+  author: Terry Pratchett
+  slug: mort
+  suggested-by: The Club
+  info-links:
+    isfdb: 1496
+  store-links:
+    - name: Amazon Paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Mort-Discworld-Novel-Novels/dp/0552166626
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Mort-Discworld-Novel-4-ebook/dp/B0035OC7OU
+    - name: Kobo
+      class: kobo
+      url: https://store.kobobooks.com/en-US/ebook/mort-2
+    - name: Nook
+      class: nook
+      url: http://www.nook.com/gb/ebooks/mort-discworld-novel-4-by-terry-pratchett/9781407034508
+
+- meeting_for: March 2015
+  title: Gateway
+  author: Frederik Pohl
+  slug: gateway
+  suggested-by: Jonathon
+  info-links:
+    isfdb: 1884
+  store-links:
+    - name: Amazon Paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Gateway-S-F-MASTERWORKS-Frederik-Pohl/dp/0575094230
+
+- meeting_for: February 2015
+  title: Singularity Sky
+  author: Charles Stross
+  slug: singularity-sky
+  suggested-by: Naomi
+  info-links:
+    isfdb: 23623
+  store-links:
+    - name: Amazon Paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Singularity-Sky-Charles-Stross/dp/1841493341
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Singularity-Sky-Charles-Stross-ebook/dp/B002TXZRF4
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/singularity-sky
+    - name: Nook
+      class: nook
+      url: http://www.nook.com/gb/ebooks/singularity-sky-by-charles-stross/9780748109173
+
+- meeting_for: January 2015
+  title: Ubik
+  author: Philip K. Dick
+  slug: ubik
+  info-links:
+    isfdb: 948
+  store-links:
+    - name: Amazon Paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Ubik-S-F-MASTERWORKS-Philip-Dick/dp/1857988531
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Ubik-GOLLANCZ-S-F-Philip-Dick-ebook/dp/B003FXCSU4/
+    - name: Nook
+      class: nook
+      url: http://www.nook.com/gb/ebooks/ubik-by-philip-k-dick/9780575097957
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/ubik
+
+- meeting_for: December 2014
+  title: It Looks Like You're Writing A Letter
+  author: Alexander King
+  slug: it-looks-like-youre-writing-a-letter
+  image-source: http://alexanderking.co/wp-content/uploads/2014/09/itlookslikeyourewritingaletter_cover.jpg
+  info-links:
+    isfdb: 1823232
+    goodreads: 23251483-it-looks-like-you-re-writing-a-letter
+  store-links:
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Looks-Like-Youre-Writing-Letter-ebook/dp/B00NO7EZ0C
+    - name: Nook
+      class: nook
+      url: http://www.nook.com/gb/ebooks/it-looks-like-youre-writing-a-letter-by-alexander-king/2940046180701
+    - name: Kobo
+      class: kobo
+      url: http://store.kobobooks.com/en-US/ebook/it-looks-like-you-re-writing-a-letter
+    - name: iTunes
+      class: itunes
+      url: https://itunes.apple.com/gb/book/it-looks-like-youre-writing/id920241215
+    - name: Google Play
+      class: googleplay
+      url: https://play.google.com/store/books/details?id=XLGLBAAAQBAJ
+
+- meeting_for: November 2014
+  title: The Man in the High Castle
+  author: Philip K. Dick
+  slug: man-in-high-castle
+  image-source: http://img1.imagesbn.com/p/9780241964262_p0_v1_s300x475.JPG
+  info-links:
+    isfdb: 1574
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/High-Castle-Penguin-Modern-Classics/dp/0141186674
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/High-Castle-Penguin-Modern-Classics-ebook/dp/B008DM2MGW
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/the-man-in-the-high-castle-1
@@ -644,44 +1019,54 @@
       class: nook
       url: http://www.nook.com/gb/ebooks/the-man-in-the-high-castle-by-philip-k-dick/9780241964262
 
-- title: The Darwin Elevator
+- meeting_for: October 2014
+  title: The Darwin Elevator
   author: Jason Hough
-  meeting_for: October 2014
-  startdate: 2014-09-18
-  enddate: 2014-10-16
   slug: the-darwin-elevator
   image-source: http://kbimages1-a.akamaihd.net/81e6219e-7a30-4e20-a3ae-d43dbd13e38b/166/300/False/The+Darwin+Elevator.jpg
-  isfdb: 1599406
+  info-links:
+    isfdb: 1599406
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/the-darwin-elevator-2
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Darwin-Elevator-Dire-Earth-Cycle/dp/178116763X
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Darwin-Elevator-Dire-Earth-Cycle-ebook/dp/B00MLDKLDU
 
-- title: Contact
+- meeting_for: September 2014
+  title: Contact
   author: Carl Sagan
-  meeting_for: September 2014
-  startdate: 2014-08-21
-  enddate: 2014-09-18
   slug: contact
   image-source: http://upload.wikimedia.org/wikipedia/en/thumb/5/55/Contact_Sagan.jpg/220px-Contact_Sagan.jpg
-  isfdb: 2199
   suggested-by: Michelle
-
-- title: Halting State
-  author: Charles Stross
-  meeting_for: August 2014
-  startdate: 2014-07-17
-  enddate: 2014-08-21
-  slug: halting-state
-  image-source: http://img1.imagesbn.com/p/9780748100408_p0_v2_s300x475.JPG
-  isfdb: 659009
+  info-links:
+    isfdb: 2199
   store-links:
     - name: Amazon paperback
       class: amazon
-      url: http://www.amazon.co.uk/Halting-State-Charles-Stross/dp/1841496650
+      url: https://www.amazon.co.uk/Contact-Carl-Sagan/dp/1857235800
     - name: Amazon Kindle
       class: kindle
-      url: http://www.amazon.co.uk/Halting-State-Ace-Science-Fiction-ebook/dp/B002TXZR6S
+      url: https://www.amazon.co.uk/Contact-Carl-Sagan-ebook/dp/B01NGT5T6A
+
+- meeting_for: August 2014
+  title: Halting State
+  author: Charles Stross
+  slug: halting-state
+  image-source: http://img1.imagesbn.com/p/9780748100408_p0_v2_s300x475.JPG
+  info-links:
+    isfdb: 659009
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Halting-State-Charles-Stross/dp/1841496650
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Halting-State-Ace-Science-Fiction-ebook/dp/B002TXZR6S
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/halting-state
@@ -689,209 +1074,292 @@
       class: nook
       url: http://www.nook.com/gb/ebooks/halting-state-by-charles-stross/9780748100408
 
-- title: Rainbows End
+- meeting_for: July 2014
+  title: Rainbows End
   author: Vernor Vinge
-  meeting_for: July 2014
-  startdate: 2014-06-19
-  enddate: 2014-07-17
   slug: rainbows-end
   image-source: http://upload.wikimedia.org/wikipedia/en/thumb/e/ec/VernorVinge_RainbowsEnd.jpg/200px-VernorVinge_RainbowsEnd.jpg
-  isfdb: 181278
+  info-links:
+    isfdb: 181278
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/rainbow-s-end-22
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Rainbows-End-Vernor-Vinge/dp/2221108469
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Rainbows-End-Vernor-Vinge-ebook/dp/B006L7RAPO
 
-- title: John Dies At The End
+- meeting_for: June 2014
+  title: John Dies At The End
   author: David Wong
-  meeting_for: June 2014
-  startdate: 2014-05-15
-  enddate: 2014-06-19
   slug: john-dies-at-the-end
   image-source: http://kbimages1-a.akamaihd.net/725168a3-5424-45e9-8cd3-ef79cdbe8812/166/300/False/John+Dies+at+the+End.jpg
-  isfdb: 1142519
+  info-links:
+    isfdb: 1142519
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/john-dies-at-the-end-4
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/John-Dies-End-David-Wong/dp/0857684833
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/John-Dies-End-David-Wong-ebook/dp/B00MLDTPIC
 
-- title: The City and The City
+- meeting_for: May 2014
+  title: The City and The City
   author: China Miéville
-  meeting_for: May 2014
-  startdate: 2014-04-17
-  enddate: 2014-05-15
   slug: the-city-and-the-city
   image-source: https://tomcatintheredroom.files.wordpress.com/2011/08/the-city-and-the-city.jpg
-  isfdb: 979458
+  info-links:
+    isfdb: 979458
   store-links:
     - name: Amazon paperback
       class: amazon
-      url: http://www.amazon.co.uk/City-China-Mieville/dp/033053419X
+      url: https://www.amazon.co.uk/City-China-Mieville/dp/033053419X
     - name: Amazon Kindle
       class: kindle
-      url: http://www.amazon.co.uk/City-China-Mi-ville-ebook/dp/B003E2UQLO
+      url: https://www.amazon.co.uk/City-China-Mi-ville-ebook/dp/B003E2UQLO
 
-- title: Twisted Metal
+- meeting_for: April 2014
+  title: Twisted Metal
   author: Tony Ballantyne
-  meeting_for: April 2014
-  startdate: 2014-03-20
-  enddate: 2014-04-17
   slug: twisted-metal
   image-source: http://kbimages1-a.akamaihd.net/dcc23bee-7f94-42e4-bea0-66586917cea1/166/300/False/Twisted+Metal.jpg
-  isfdb: 930148
+  info-links:
+    isfdb: 930148
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/twisted-metal-1
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Twisted-Metal-Penrose-Tony-Ballantyne/dp/1447281284
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Twisted-Metal-Penrose-Book-1-ebook/dp/B003P9XI66
 
-- title: Old Man's War
+- meeting_for: March 2014
+  title: Old Man's War
   author: John Scalzi
-  meeting_for: March 2014
-  startdate: 2014-02-20
-  enddate: 2014-03-20
   slug: old-mans-war
   image-source: http://kbimages1-a.akamaihd.net/2ac6e66b-d1c1-4e03-beff-a042badd5461/166/300/False/Old+Man%27s+War.jpg
-  isfdb: 157782
+  info-links:
+    isfdb: 157782
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/old-man-s-war-2
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Old-Mans-War/dp/1447295374
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Old-Mans-War-John-Scalzi-ebook/dp/B004M8S6FC
 
-- title: Ancillary Justice
+- meeting_for: February 2014
+  title: Ancillary Justice
   author: Ann Leckie
-  meeting_for: February 2014
-  startdate: 2014-01-16
-  enddate: 2014-02-20
   slug: ancillary-justice
   image-source: http://kbimages1-a.akamaihd.net/8ee270b2-d166-46f4-a04c-4c2c6a52f436/166/300/False/Ancillary+Justice.jpg
-  isfdb: 1632550
+  info-links:
+    isfdb: 1632550
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/ancillary-justice
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Ancillary-Justice-NEBULA-ARTHUR-Imperial/dp/0356502406
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Ancillary-Justice-NEBULA-ARTHUR-Imperial-ebook/dp/B00BU1DG1S
 
-- title: The Atrocity Archive
+- meeting_for: January 2014
+  title: The Atrocity Archive
   author: Charlie Stross
-  meeting_for: January 2014
-  startdate: 2013-12-19
-  enddate: 2014-01-16
   slug: atrocity-archive
   image-source: http://kbimages1-a.akamaihd.net/5e80f176-ad2a-4d50-92a0-be2092059cf1/166/300/False/The+Atrocity+Archives.jpg
-  isfdb: 23803
+  info-links:
+    isfdb: 23803
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/the-atrocity-archives
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Atrocity-Archives-Book-Laundry-Files/dp/0356502392
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Atrocity-Archives-Book-Laundry-Files-ebook/dp/B00486U23M
 
-- title: The Dispossessed
+- meeting_for: December 2013
+  title: The Dispossessed
   author: Ursula K. Le Guin
-  meeting_for: December 2013
-  startdate: 2013-11-21
-  enddate: 2013-12-19
   slug: dispossessed
   image-source: https://images-na.ssl-images-amazon.com/images/I/51uFZUY12BL._SX321_BO1,204,203,200_.jpg
-  isfdb: 1765549
+  info-links:
+    isfdb: 1765549
   store-links:
     - name: Amazon paperback
       class: amazon
-      url: http://www.amazon.co.uk/Dispossessed-Ursula-Guin/dp/1857988825
+      url: https://www.amazon.co.uk/Dispossessed-Ursula-Guin/dp/1857988825
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Dispossessed-S-F-MASTERWORKS-Ursula-Guin-ebook/dp/B0151Q54OE
 
-- title: Only Forward
+- meeting_for: November 2013
+  title: Only Forward
   author: Michael Marshall Smith
-  meeting_for: November 2013
   slug: only-forward
   image-source: http://ecx.images-amazon.com/images/I/31VF9V9Y8QL.jpg
-  isfdb: 25035
+  info-links:
+    isfdb: 25035
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Only-Forward-Michael-Marshall-Smith/dp/0008117446
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Forward-Voyager-Classics-Michael-Marshall-ebook/dp/B003IDMUOA
 
-- title: Leviathan Wakes
+- meeting_for: October 2013
+  title: Leviathan Wakes
   author: James S. A. Corey
-  meeting_for: October 2013
   slug: leviathan-wakes
   image-source: http://kbimages1-a.akamaihd.net/f25cc4a0-1a61-4b60-9d8d-584e990bf630/166/300/False/Leviathan+Wakes.jpg
-  isfdb: 1272563
+  info-links:
+    isfdb: 1272563
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/leviathan-wakes-1
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Leviathan-Wakes-Expanse-major-Netflix/dp/1841499897
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Leviathan-Wakes-Expanse-major-Netflix-ebook/dp/B004XCGKYQ
 
-- title: Final Days
+- meeting_for: September 2013
+  title: Final Days
   author: Gary Gibson
-  meeting_for: September 2013
   slug: final-days
   image-source: http://kbimages1-a.akamaihd.net/4649e510-c6b9-43b4-afbe-9c3b7d8b980f/166/300/False/Final+Days.jpg
-  isfdb: 1245173
+  info-links:
+    isfdb: 1245173
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/final-days-2
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Final-Days-Gary-Gibson/dp/0330519697
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Final-Days-Gary-Gibson-ebook/dp/B005BOHZ76
 
-- title: Foundation
+- meeting_for: August 2013
+  title: Foundation
   author: Isaac Asimov
-  meeting_for: August 2013
-  startdate: 2013-07-18
-  enddate: 2013-08-15
   slug: foundation
   image-source: http://www.vavatch.co.uk/books/asimov/found1as.jpg
-  #isfdb: you'd think this was easy, but I'm not sure which title it actually was!
+  info-links: {}
   store-links:
     - name: Amazon paperback
       class: amazon
-      url: http://www.amazon.co.uk/Foundation-1-3-Isaac-Asimov/dp/0586010807
+      url: https://www.amazon.co.uk/Foundation-1-3-Isaac-Asimov/dp/0586010807
 
-- title: By Light Alone
+- meeting_for: July 2013
+  title: By Light Alone
   author: Adam Roberts
-  meeting_for: July 2013
-  startdate: 2013-06-17
-  enddate: 2013-07-18
   slug: by-light-alone
   image-source: http://kbimages1-a.akamaihd.net/896cacb4-b6f2-4faa-8197-4a5c4f77c77e/166/300/False/By+Light+Alone.jpg
-  isfdb: 1245153
+  info-links:
+    isfdb: 1245153
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/by-light-alone
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Light-Alone-Adam-Roberts/dp/0575083662
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Light-Alone-Adam-Roberts-ebook/dp/B005ES0WN8
 
-- title: The Long Earth
+- meeting_for: June 2013
+  title: The Long Earth
   author: Stephen Baxter and Terry Pratchett
-  meeting_for: June 2013
   slug: long-earth
   image-source: http://kbimages1-a.akamaihd.net/52fae4c4-79c5-42e2-8a79-da5990274e93/166/300/False/The+Long+Earth.jpg
-  isfdb: 1433940
+  info-links:
+    isfdb: 1433940
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/the-long-earth-1
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Long-Earth/dp/0552164089
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Long-Earth-ebook/dp/B0073E4FTI
 
-- title: The Accidental Time Machine
+- meeting_for: May 2013
+  title: The Accidental Time Machine
   author: Joe Haldeman
-  meeting_for: May 2013
   slug: accidental-time-machine
   image-source: http://d.gr-assets.com/books/1388420458l/21608.jpg
-  isfdb: 389381
+  info-links:
+    isfdb: 389381
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/the-accidental-time-machine
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Accidental-Time-Machine-Joe-Haldeman/dp/0441016162
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Accidental-Time-Machine-Gateway-Essentials-ebook/dp/B00AJ1ZSJ8
 
-- title: Yellow Blue Tibia
+- meeting_for: April 2013
+  title: Yellow Blue Tibia
   author: Adam Roberts
-  meeting_for: April 2013
   slug: yellow-blue-tibia
   image-source: http://kbimages1-a.akamaihd.net/d23a60fb-cb4b-4bd2-86f5-94c54313c215/166/300/False/Yellow+Blue+Tibia.jpg
-  isfdb: 873631
+  info-links:
+    isfdb: 873631
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/yellow-blue-tibia
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Yellow-Blue-Tibia-Adam-Roberts/dp/0575083581
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Yellow-Blue-Tibia-Adam-Roberts-ebook/dp/B002UP1SZO
 
-- title: Surface Detail
+- meeting_for: March 2013
+  title: Surface Detail
   author: Ian M. Banks
-  meeting_for: March 2013
   slug: surface-detail
   image-source: http://kbimages1-a.akamaihd.net/7a7cffcd-5bb0-42c7-b898-6c1a7c9aa1b2/166/300/False/Surface+Detail.jpg
-  isfdb: 1143220
+  info-links:
+    isfdb: 1143220
   store-links:
     - name: Kobo
       class: kobo
       url: http://store.kobobooks.com/en-US/ebook/surface-detail-1
-
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Surface-Detail-Culture-Iain-Banks/dp/1841498955
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Surface-Detail-Culture-Book-9-ebook/dp/B00462RVHI
