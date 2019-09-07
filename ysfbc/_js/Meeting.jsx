@@ -77,15 +77,13 @@ function StoreLinks(props) {
 }
 
 function AdditionalInfo(props) {
-    return <div>
-        {props.isfdb &&
-        <a className="isfdb" href={"http://www.isfdb.org/cgi-bin/title.cgi?" + props.isfdb}>ISFDB</a>}
-        {" "}
-        {props.goodreads &&
-        <a className="goodreads" href={"http://www.goodreads.com/book/show/" + props.goodreads}>GoodReads</a>}
-        {" "}
-        {props.imdb && <a className="imdb" href={"http://www.imdb.com/title/" + props.imdb}>IMDB</a>}
-    </div>;
+    return (
+        <ul className="info-links">
+            {props['info-links'].map((link) =>
+                <li key={link.url}><a className={link.class} href={link.url}>{link.name}</a></li>
+            )}
+        </ul>
+    );
 }
 
 function MeetingName(props) {
