@@ -1,4 +1,23 @@
 ---
+- title: The Calculating Stars
+  author: Mary Robinette Kowal
+  meeting_for: October 2019
+  slug: calculating-stars
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1539850192l/33080122.jpg
+  info-links:
+    isfdb: 2370690
+    goodreads: 33080122-the-calculating-stars
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Calculating-Stars-Mary-Robinette-Kowal/dp/1781087318
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Calculating-Stars-Lady-Astronaut-Book-ebook/dp/B07QKTNM2P
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/the-calculating-stars-1
+
 - meeting_for: September 2019
   title: Roadside Picnic
   author: Arkady and Boris Strugatsky

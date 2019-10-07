@@ -1,4 +1,16 @@
 ---
+- title: Exile from Extinction
+  author: Ramez Naam
+  meeting_for: October 2019
+  slug: exile-from-extinction
+  image-source: https://images-eu.ssl-images-amazon.com/images/I/51KcY5qDvlL.jpg
+  info-links:
+    isfdb: 1944637
+  store-links:
+    - name: Lightspeed Magazine
+      class: web free
+      url: https://www.lightspeedmagazine.com/fiction/exile-from-extinction/
+
 - meeting_for: September 2019
   title: 'A Witch’s Guide to Escape: A Practical Compendium of Portal Fantasies'
   author: Alix E. Harrow

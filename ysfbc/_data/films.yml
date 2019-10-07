@@ -1,4 +1,13 @@
 ---
+- title: Ad Astra
+  meeting_for: October 2019
+  slug: ad-astra
+  image-source: https://m.media-amazon.com/images/M/MV5BZTllZTdlOGEtZTBmMi00MGQ5LWFjN2MtOGEyZTliNGY1MzFiXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg
+  info-links:
+    imdb: tt2935510
+    justwatch: https://www.justwatch.com/uk/movie/ad-astra
+  store-links: []
+
 - meeting_for: September 2019
   title: The Wandering Earth
   slug: wandering-earth
