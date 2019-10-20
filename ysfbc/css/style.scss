@@ -273,7 +273,13 @@ div.books {
         border-radius: 10px;
         margin: 15px;
         @include mq($from: smallwidth) {
-            min-width: 300px;
+            min-width: 330px;
+        }
+        @include mq($from: 855px) {
+            max-width: 50%;
+        }
+        @include mq($from: 1215px) {
+            max-width: 33%;
         }
 //        @include mq($until: smallwidth) {
 //            background: red;

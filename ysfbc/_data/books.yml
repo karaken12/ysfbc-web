@@ -1,4 +1,42 @@
 ---
+- title: Slow River
+  author: Nicola Griffith
+  meeting_for: November 2019
+  slug: slow-river
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386923585l/270259.jpg
+  info-links:
+    isfdb: 2431
+    goodreads: 270259.Slow_River
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/SLOW-RIVER-Nicola-Griffith/dp/0345395379
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Slow-River-MASTERWORKS-Nicola-Griffith-ebook/dp/B005OAIGSO
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/slow-river
+
+- title: The Calculating Stars
+  author: Mary Robinette Kowal
+  meeting_for: October 2019
+  slug: calculating-stars
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1539850192l/33080122.jpg
+  info-links:
+    isfdb: 2370690
+    goodreads: 33080122-the-calculating-stars
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Calculating-Stars-Mary-Robinette-Kowal/dp/1781087318
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Calculating-Stars-Lady-Astronaut-Book-ebook/dp/B07QKTNM2P
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/the-calculating-stars-1
+
 - meeting_for: September 2019
   title: Roadside Picnic
   author: Arkady and Boris Strugatsky
