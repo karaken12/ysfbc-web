@@ -1,4 +1,16 @@
 ---
+- title: Colossal
+  meeting_for: November 2019
+  slug: colossal
+  image-source: https://m.media-amazon.com/images/M/MV5BMTY2NTExOTA2MF5BMl5BanBnXkFtZTgwNTMwMjE2MTI@._V1_SY1000_CR0,0,687,1000_AL_.jpg
+  info-links:
+    imdb: tt4680182
+    justwatch: https://www.justwatch.com/uk/movie/colossal
+  store-links:
+    - name: Netfix
+      class: netflix
+      url: https://www.netflix.com/title/80158202
+
 - title: Ad Astra
   meeting_for: October 2019
   slug: ad-astra
