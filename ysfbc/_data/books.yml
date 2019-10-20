@@ -1,4 +1,23 @@
 ---
+- title: Slow River
+  author: Nicola Griffith
+  meeting_for: November 2019
+  slug: slow-river
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386923585l/270259.jpg
+  info-links:
+    isfdb: 2431
+    goodreads: 270259.Slow_River
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/SLOW-RIVER-Nicola-Griffith/dp/0345395379
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Slow-River-MASTERWORKS-Nicola-Griffith-ebook/dp/B005OAIGSO
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/slow-river
+
 - title: The Calculating Stars
   author: Mary Robinette Kowal
   meeting_for: October 2019

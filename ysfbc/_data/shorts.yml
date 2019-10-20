@@ -1,4 +1,20 @@
 ---
+- title: The Tale of the Three Beautiful Raptor Sisters, and the Prince Who Was Made of Meat
+  author: Brooke Bolander
+  meeting_for: November 2019
+  slug: tale-of-the-three-beautiful-raptor-sisters
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566434517l/47880743._SY475_.jpg
+  info-links:
+    isfdb: 2472156
+    goodreads: 47880743-the-tale-of-the-three-beautiful-raptor-sisters-and-the-prince-who-was-m
+  store-links:
+    - name: Uncanny Magazine
+      class: web free
+      url: https://uncannymagazine.com/article/the-tale-of-the-three-beautiful-raptor-sisters-and-the-prince-who-was-made-of-meat/
+    - name: Uncanny Podcast
+      class: audio free
+      url: https://traffic.libsyn.com/uncannymagazine/uncanny23b.mp3
+
 - title: Exile from Extinction
   author: Ramez Naam
   meeting_for: October 2019
