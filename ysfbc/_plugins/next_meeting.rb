@@ -50,10 +50,10 @@ module Ysfbc
         info_links << {'name' => 'ISFDB', 'class' => 'isfdb', 'url' => "http://www.isfdb.org/cgi-bin/title.cgi?#{links['isfdb']}"}
       end
       if links['goodreads']
-        info_links << {'name' => 'GoodReads', 'class' => 'goodreads', 'url' => "http://www.goodreads.com/book/show/#{links['goodreads']}"}
+        info_links << {'name' => 'GoodReads', 'class' => 'goodreads', 'url' => "https://www.goodreads.com/book/show/#{links['goodreads']}"}
       end
       if links['imdb']
-        info_links << {'name' => 'IMDB', 'class' => 'imdb', 'url' => "http://www.imdb.com/title/#{links['imdb']}"}
+        info_links << {'name' => 'IMDB', 'class' => 'imdb', 'url' => "https://www.imdb.com/title/#{links['imdb']}"}
       end
       if links['justwatch']
         info_links << {'name' => 'JustWatch', 'class' => 'justwatch', 'url' => links['justwatch']}
