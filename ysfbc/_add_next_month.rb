@@ -29,12 +29,13 @@ next_book = """- title:
   meeting_for: #{meeting}
   slug:
   image-source:
-  isfdb:
-  goodreads:
-  store-links:
-  - name:
-    class:
-    url:
+  info-links: {}
+#    isfdb:
+#    goodreads:
+  store-links: []
+#  - name:
+#    class:
+#    url:
 
 """
 
@@ -42,21 +43,28 @@ next_short = """- title:
   author:
   meeting_for: #{meeting}
   slug:
-  image-source:
-  isfdb:
-  goodreads:
-  store-links:
-  - name:
-    class:
-    url:
+#  image-source:
+  info-links: {}
+#    isfdb:
+#    goodreads:
+  store-links: []
+#  - name:
+#    class:
+#    url:
 
 """
 
 next_film = """- title:
   meeting_for: #{meeting}
   slug:
-  image-source:
-  imdb:
+#  image-source:
+  info-links: {}
+#    imdb:
+#    justwatch:
+  store-links: []
+#  - name:
+#    class:
+#    url:
 
 """
 
