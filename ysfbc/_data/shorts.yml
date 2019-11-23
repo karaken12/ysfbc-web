@@ -1,4 +1,20 @@
 ---
+- title: Christmas Wedding
+  author: Vylar Kaftan
+  meeting_for: December 2019
+  slug: christmas-wedding
+  image-source: https://vylarkaftan.files.wordpress.com/2009/04/warrior_wisewoman.jpg
+  info-links:
+    isfdb: 1151999
+    goodreads: 19092067-christmas-wedding
+  store-links:
+    - name: Escape Pod (free)
+      class: escapepod free
+      url: http://escapepod.org/2010/12/23/ep272-christmas-wedding
+    - name: Giganotosaurus
+      class: web free
+      url: http://giganotosaurus.org/2013/12/01/christmas-wedding/
+
 - title: The Tale of the Three Beautiful Raptor Sisters, and the Prince Who Was Made of Meat
   author: Brooke Bolander
   meeting_for: November 2019

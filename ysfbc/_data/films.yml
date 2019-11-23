@@ -1,4 +1,16 @@
 ---
+- title: The Castle of Cagliostro
+  meeting_for: December 2019
+  slug: castle-of-cagliostro
+  image-source: https://images.justwatch.com/poster/58748733/s592
+  info-links:
+    imdb: tt0079833
+    justwatch: https://www.justwatch.com/uk/movie/lupin-the-third-the-castle-of-cagliostro
+  store-links:
+    - name: Netfix
+      class: netflix
+      url: https://www.netflix.com/title/0050576
+
 - title: Colossal
   meeting_for: November 2019
   slug: colossal
