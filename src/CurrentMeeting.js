@@ -1,47 +1,35 @@
-import React, {Component} from "react";
+import React, {useEffect, useState} from "react";
 import Meeting from "./Meeting";
 
 const NEXT_MEETING_SERVICE_URL = '/data/next_meeting.json';
 
-export class CurrentMeeting extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isFetching: false,
-      meeting: {}
-    };
-  }
+const CurrentMeeting = () => {
+  const [meeting, setMeeting] = useState({});
 
-  render() {
-    return <Meeting
-      key={this.state.meeting.name}
-      name={this.state.meeting.name}
-      where={this.state.meeting.where}
-      facebook={this.state.meeting.facebook}
-      date={this.state.meeting.date}
-      book={this.state.meeting.book}
-      short={this.state.meeting.short}
-      film={this.state.meeting.film}
-      isCurrent={true}
-    />;
-  }
+  useEffect(() => {
+    async function fetchData() {
+      const res = await fetch(NEXT_MEETING_SERVICE_URL);
+      res.json()
+        .then(result => setMeeting(result))
+        .catch(e => {
+          console.log(e);
+        })
+    }
 
-  componentDidMount() {
-    this.fetchCurrentMeeting();
-  }
+    fetchData();
+  });
 
-  fetchCurrentMeetingWithFetchAPI = () => {
-    this.setState({...this.state, isFetching: true});
-    fetch(NEXT_MEETING_SERVICE_URL)
-      .then(response => response.json())
-      .then(result => {
-        this.setState({meeting: result, isFetching: false})
-      })
-      .catch(e => {
-        console.log(e);
-        this.setState({...this.state, isFetching: false});
-      });
-  };
+  return <Meeting
+    key={meeting.name}
+    name={meeting.name}
+    where={meeting.where}
+    facebook={meeting.facebook}
+    date={meeting.date}
+    book={meeting.book}
+    short={meeting.short}
+    film={meeting.film}
+    isCurrent={true}
+  />;
+};
 
-  fetchCurrentMeeting = this.fetchCurrentMeetingWithFetchAPI;
-}
+export default CurrentMeeting;

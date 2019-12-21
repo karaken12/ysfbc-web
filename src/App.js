@@ -1,7 +1,7 @@
 import React from 'react';
 import './normalize.css';
 import './style.css';
-import {CurrentMeeting} from "./CurrentMeeting";
+import CurrentMeeting from "./CurrentMeeting";
 
 function App() {
   return <>
