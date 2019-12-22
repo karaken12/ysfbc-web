@@ -2,6 +2,7 @@ import React from 'react';
 import './normalize.css';
 import './style.css';
 import CurrentMeeting from "./CurrentMeeting";
+import {Route, Switch} from "react-router-dom";
 
 function App() {
   return <>
@@ -17,7 +18,9 @@ function App() {
     </div>
 
 
-    <CurrentMeeting/>
+    <Switch>
+      <Route path={"/"} component={CurrentMeeting}/>
+    </Switch>
 
     <div className="footer">
       <p>The York SciFi Book Club is pretty awesome, but they don't pay me to do this, so sorry if it's a bit
