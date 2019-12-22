@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 function Meeting(props) {
     var meetingName = (props.isCurrent ? "Next Meeting - " : '') + props.name;
@@ -26,7 +27,7 @@ function Meeting(props) {
     );
 }
 
-function Book(props) {
+export function Book(props) {
     return (
         <section className="book">
             {props.isCurrent && CurrentHeader(props.type)}
@@ -35,7 +36,7 @@ function Book(props) {
             {props['store-links'] && StoreLinks(props)}
             {AdditionalInfo(props)}
             {MeetingName(props)}
-            {/*{props.isCurrent && PreviousLink(props.type)}*/}
+            {props.isCurrent && PreviousLink(props.type)}
         </section>
     );
 }
@@ -97,15 +98,15 @@ function PreviousLink(type) {
     switch (type) {
         case 'book':
             return (
-                <div className="prevbooks"><a href="/books.html">Previous books</a></div>
+                <div className="prevbooks"><Link to="/books">Previous books</Link></div>
             );
         case 'short':
             return (
-                <div className="prevshorts"><a href="/shorts.html">Previous short stories</a></div>
+                <div className="prevshorts"><Link to="/shorts">Previous short stories</Link></div>
             );
         case 'film':
             return (
-                <div className="prevfilms"><a href="/films.html">Previous films</a></div>
+                <div className="prevfilms"><Link to="/films">Previous films</Link></div>
             );
         default:
             return;

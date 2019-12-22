@@ -4,6 +4,7 @@ import './style.css';
 import CurrentMeeting from "./CurrentMeeting";
 import {Route, Switch} from "react-router-dom";
 import Meetings from "./Meetings";
+import Books from "./Books";
 
 function App() {
   return <>
@@ -21,6 +22,9 @@ function App() {
 
     <Switch>
       <Route path={"/meetings"} component={Meetings}/>
+      <Route path={"/books"}><Books type="book"/></Route>
+      <Route path={"/shorts"}><Books type="short"/></Route>
+      <Route path={"/films"}><Books type="film"/></Route>
       <Route path={"/"} component={CurrentMeeting}/>
     </Switch>
 
