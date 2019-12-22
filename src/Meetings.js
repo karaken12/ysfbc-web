@@ -6,18 +6,18 @@ const MEETINGS_SERVICE_URL = '/data/meetings.json';
 const Meetings = () => {
   const [meetings, setMeetings] = useState({});
 
-  useEffect(() => {
-    async function fetchData() {
-      const res = await fetch(MEETINGS_SERVICE_URL);
-      res.json()
-        .then(result => setMeetings(result))
-        .catch(e => {
-          console.error(e);
-        })
-    }
+  async function fetchData() {
+    const res = await fetch(MEETINGS_SERVICE_URL);
+    res.json()
+      .then(result => setMeetings(result))
+      .catch(e => {
+        console.error(e);
+      })
+  }
 
+  useEffect(() => {
     fetchData();
-  });
+  }, []);
 
   return <>
     <h1 className="books">Meetings</h1>
