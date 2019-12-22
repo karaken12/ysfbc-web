@@ -3,6 +3,7 @@ import './normalize.css';
 import './style.css';
 import CurrentMeeting from "./CurrentMeeting";
 import {Route, Switch} from "react-router-dom";
+import Meetings from "./Meetings";
 
 function App() {
   return <>
@@ -19,6 +20,7 @@ function App() {
 
 
     <Switch>
+      <Route path={"/meetings"} component={Meetings}/>
       <Route path={"/"} component={CurrentMeeting}/>
     </Switch>
 
