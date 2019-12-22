@@ -2,7 +2,7 @@ import React from 'react';
 import './normalize.css';
 import './style.css';
 import CurrentMeeting from "./CurrentMeeting";
-import {Route, Switch} from "react-router-dom";
+import {Link, Route, Switch} from "react-router-dom";
 import Meetings from "./Meetings";
 import Books from "./Books";
 
@@ -10,10 +10,10 @@ function App() {
   return <>
     <div className="header">
       <div className="logo">
-        <img src={"/images/spaceship02.svg"} alt="York SciFi Book Club"/>
+        <Link to="/"><img src={"/images/spaceship02.svg"} alt="York SciFi Book Club"/></Link>
       </div>
       <ul className="nav">
-        <li><a href="/">Home</a></li>
+        <li><Link to="/">Home</Link></li>
         <li><a href="https://www.facebook.com/YorkSciFiBookClub">Facebook</a></li>
         <li><a href="https://twitter.com/YorkSFBookClub">Twitter</a></li>
       </ul>
