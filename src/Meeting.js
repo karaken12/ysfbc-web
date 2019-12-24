@@ -65,8 +65,7 @@ function Header(props) {
 
 function BookImage(props) {
     return <div className="bookimg">
-        {/*<img src={props["img-url"]} alt={props.title}/>*/}
-        <img src={"https://s3-eu-west-1.amazonaws.com/www.yorkscifibookclub.co.uk" + props["img-url"]} alt={props.title}/>
+        <img src={"https://www-assets.yorkscifibookclub.co.uk" + props["img-url"]} alt={props.title}/>
     </div>;
 }
 

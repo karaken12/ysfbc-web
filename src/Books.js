@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {Book} from "./Meeting";
 
-const MEETINGS_SERVICE_URL = '/data/meetings.json';
+const MEETINGS_SERVICE_URL = 'http://www-assets.yorkscifibookclub.co.uk/data/meetings.json';
 
 const Books = (props) => {
   const [meetings, setMeetings] = useState({});

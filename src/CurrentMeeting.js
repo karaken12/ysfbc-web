@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import Meeting from "./Meeting";
 
-const NEXT_MEETING_SERVICE_URL = '/data/next_meeting.json';
+const NEXT_MEETING_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/next_meeting.json';
 
 const CurrentMeeting = () => {
   const [meeting, setMeeting] = useState({});
