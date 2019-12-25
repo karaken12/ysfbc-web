@@ -1,24 +1,34 @@
-  <header>
-    {% if extra_heading %}<h1>{{ extra_heading }}</h1>{% endif %}
-    <h2>{{ book.title }}</h2>
+<ul>
+  <li>title: {{book.title}}</li>
+  <li>author:
     {% if book.author %}
-    <p>by {{ book.author }}</p>
+    {{ book.author }}
+    {% else %}
+    unset
     {% endif %}
-  </header>
-  <div class="bookimg">
-    <img src="{{ book.img-url }}" alt="{{ book.title }}"/>
-  </div>
+  </li>
+  <li>slug: {{ book.slug }}</li>
+  <li>image-source:
+    {% if book.image-source %}
+    {% assign imgurlsplit = book.image-source | split: "/" %}
+    <a href="{{ book.image-source }}" target="_blank">{{ imgurlsplit[2] }}</a>
+    {% else %}
+    unset
+    {% endif %}
+  </li>
+  <li>downloaded image:<br/><img src="{{ book.img-url }}"/></li>
+</ul>
 
-  <ul class="affiliate-links">
+<h3>Affiliate links</h3>
+<ul class="affiliate-links">
   {% for link in book.store-links %}
-    <li><a class="{{ link.class }}" href="{{ link.url }}">{{ link.name }}</a></li>
+  <li>{{link.class}}: <a class="{{ link.class }}" href="{{ link.url }}">{{ link.name }}</a></li>
   {% endfor %}
-  </ul>
+</ul>
 
-  <ul class="info-links">
-    {% for link in book.info-links %}
-    <li><a class="{{ link.class }}" href="{{ link.url }}">{{ link.name }}</a></li>
-    {% endfor %}
-  </ul>
-
-  <p class="meeting">{{ book.meeting_for }}</p>
+<h3>Info links</h3>
+<ul class="info-links">
+  {% for link in book.info-links %}
+  <li>{{link.class}}: <a class="{{ link.class }}" href="{{ link.url }}">{{ link.name }}</a></li>
+  {% endfor %}
+</ul>

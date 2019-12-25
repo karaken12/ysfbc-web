@@ -1,10 +1,19 @@
 ---
-layout: default
+layout: none
 ---
 
-<div id="root" class="content"></div>
+<style>
+  .books { display:flex; }
+  .book {width:33%;}
+</style>
 
-<script src='//unpkg.com/react/umd/react.development.js'></script>
-<script src='//unpkg.com/react-dom/umd/react-dom.development.js'></script>
-<script src='js/Meeting.js'></script>
-<script src='js/index.js'></script>
+<div>
+  {% for meeting_x in site.data.meetings %}
+  {% assign meeting = meeting_x[1] %}
+
+  {% include meeting.html %}
+
+  <hr/>
+
+  {% endfor %}
+</div>
