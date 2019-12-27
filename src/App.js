@@ -1,6 +1,6 @@
 import React from 'react';
 import './normalize.css';
-import './style.css';
+import './style.scss';
 import CurrentMeeting from "./CurrentMeeting";
 import {Link, Route, Switch} from "react-router-dom";
 import Meetings from "./Meetings";
