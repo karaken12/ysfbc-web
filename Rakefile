@@ -48,6 +48,7 @@ namespace :aws do
     Dir.chdir(from_folder) do
       Dir["**/*"].each do |file|
         next if File.directory?(file)
+        next if File.extname(file) == '.html'
         mime_type = MIME::Types.type_for(file).first
         if ! mime_type.nil?
           mime_type = mime_type.simplified
