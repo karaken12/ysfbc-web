@@ -1,4 +1,23 @@
 ---
+- title: The Word for World Is Forest
+  author: Ursula K. Le Guin
+  meeting_for: January 2020
+  slug: word-for-world-is-forest
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423929448l/24933757.jpg
+  info-links:
+    isfdb: 32494
+    goodreads: 276767.The_Word_for_World_is_Forest
+  store-links:
+    - name: Amazon paperback
+      class: amazon
+      url: https://www.amazon.co.uk/Word-World-Forest-S-F-MASTERWORKS/dp/1473205786
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Word-World-Forest-S-F-MASTERWORKS-ebook/dp/B00OOQJALQ
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/the-word-for-world-is-forest-2
+
 - title: Lord of Light
   author: Roger Zelazny
   meeting_for: December 2019

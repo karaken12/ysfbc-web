@@ -1,4 +1,20 @@
 ---
+- title: The Crystal Spheres
+  author: David Brin
+  meeting_for: January 2020
+  slug: crystal-spheres
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354033086l/12298550.jpg
+  info-links:
+    isfdb: 48767
+    goodreads: 12298550-the-crystal-spheres
+  store-links:
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Crystal-Spheres-David-Brin-ebook/dp/B0057ZFGUW
+    - name: Kobo
+      class: kobo
+      url: https://www.kobo.com/gb/en/ebook/the-crystal-spheres
+
 - title: Christmas Wedding
   author: Vylar Kaftan
   meeting_for: December 2019

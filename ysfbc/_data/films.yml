@@ -1,4 +1,14 @@
 ---
+- title: 'Star Wars: The Rise of Skywalker'
+  meeting_for: January 2020
+  slug: rise-of-skywalker
+  image-source: https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SY1000_CR0,0,675,1000_AL_.jpg
+  info-links:
+    imdb: tt2527338
+    justwatch: https://www.justwatch.com/uk/movie/star-wars-episode-ix/
+    letterboxd: https://letterboxd.com/film/star-wars-the-rise-of-skywalker/
+  store-links: []
+
 - title: The Castle of Cagliostro
   meeting_for: December 2019
   slug: castle-of-cagliostro
