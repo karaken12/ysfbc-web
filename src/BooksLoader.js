@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
-import {Book} from "./Meeting";
 import {LoadingSpinner} from "./LoadingSpinner";
+import {Books} from "./Books";
 
 const MEETINGS_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/meetings.json';
 
@@ -28,16 +28,7 @@ const BooksLoader = (props) => {
   if (isLoading) {
     return <LoadingSpinner/>
   } else {
-    return <>
-      <div className="books">
-        {Object.entries(meetings).map((entry) => {
-          var meeting = entry[1];
-          return (meeting[type] === undefined) ? null : (
-            <Book meeting={meeting} type={type} key={meeting.name}/>
-          );
-        })}
-      </div>
-    </>;
+    return <Books meetings={meetings} type={type}/>;
   }
 };
 
