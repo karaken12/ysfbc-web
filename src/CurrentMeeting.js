@@ -5,11 +5,15 @@ const NEXT_MEETING_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/dat
 
 const CurrentMeeting = () => {
   const [meeting, setMeeting] = useState({});
+  const [isLoading, setLoading] = useState(true);
 
   async function fetchData() {
     const res = await fetch(NEXT_MEETING_SERVICE_URL);
     res.json()
-      .then(result => setMeeting(result))
+      .then(result => {
+        setMeeting(result);
+        setLoading(false);
+      })
       .catch(e => {
         console.log(e);
       });
@@ -19,17 +23,21 @@ const CurrentMeeting = () => {
     fetchData();
   }, []);
 
-  return <Meeting
-    key={meeting.name}
-    name={meeting.name}
-    where={meeting.where}
-    facebook={meeting.facebook}
-    date={meeting.date}
-    book={meeting.book}
-    short={meeting.short}
-    film={meeting.film}
-    isCurrent={true}
-  />;
+  if (isLoading) {
+    return <h1>Loading...</h1>;
+  } else {
+    return <Meeting
+      key={meeting.name}
+      name={meeting.name}
+      where={meeting.where}
+      facebook={meeting.facebook}
+      date={meeting.date}
+      book={meeting.book}
+      short={meeting.short}
+      film={meeting.film}
+      isCurrent={true}
+    />;
+  }
 };
 
 export default CurrentMeeting;
