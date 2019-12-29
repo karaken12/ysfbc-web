@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import Meeting from "./Meeting";
+import {LoadingSpinner} from "./LoadingSpinner";
 
 const NEXT_MEETING_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/next_meeting.json';
 
@@ -24,7 +25,7 @@ const CurrentMeeting = () => {
   }, []);
 
   if (isLoading) {
-    return <h1>Loading...</h1>;
+    return <LoadingSpinner/>
   } else {
     return <Meeting
       key={meeting.name}

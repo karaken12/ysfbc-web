@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {Book} from "./Meeting";
+import {LoadingSpinner} from "./LoadingSpinner";
 
 const MEETINGS_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/meetings.json';
 
@@ -25,7 +26,7 @@ const Books = (props) => {
   }, []);
 
   if (isLoading) {
-    return <h1>Loading...</h1>;
+    return <LoadingSpinner/>
   } else {
     return <>
       <div className="books">
