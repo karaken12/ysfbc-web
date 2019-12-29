@@ -4,6 +4,7 @@ import AsyncLoader from "./AsyncLoader";
 import {Meetings} from "./Meetings";
 import {Books} from "./Books";
 import Meeting from "./Meeting";
+import Tweets from "./Tweets";
 
 const NEXT_MEETING_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/next_meeting.json';
 const MEETINGS_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/meetings.json';
@@ -13,6 +14,11 @@ const PageContent = () => {
   const [meetings, setMeetings] = useState(null);
 
   return <Switch>
+    <Route path={"/admin/twitter"}>
+      <AsyncLoader serviceUrl={MEETINGS_SERVICE_URL} state={[meetings, setMeetings]}>
+        <Tweets meetings={meetings}/>
+      </AsyncLoader>
+    </Route>
     <Route path={"/(meetings|books|shorts|films)"}>
       <AsyncLoader serviceUrl={MEETINGS_SERVICE_URL} state={[meetings, setMeetings]}>
         <Switch>
