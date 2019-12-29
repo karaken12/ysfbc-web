@@ -1,5 +1,5 @@
 import React from "react";
-import {Book} from "./Meeting";
+import Book from "./Book";
 
 export function Books(props) {
   const type = props.type;
