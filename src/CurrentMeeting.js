@@ -27,17 +27,7 @@ const CurrentMeeting = () => {
   if (isLoading) {
     return <LoadingSpinner/>
   } else {
-    return <Meeting
-      key={meeting.name}
-      name={meeting.name}
-      where={meeting.where}
-      facebook={meeting.facebook}
-      date={meeting.date}
-      book={meeting.book}
-      short={meeting.short}
-      film={meeting.film}
-      isCurrent={true}
-    />;
+    return <Meeting meeting={meeting} isCurrent={true}/>;
   }
 };
 

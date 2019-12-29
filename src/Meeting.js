@@ -2,16 +2,19 @@ import React from 'react';
 import {Link} from "react-router-dom";
 
 function Meeting(props) {
-    var meetingName = (props.isCurrent ? "Next Meeting - " : '') + props.name;
+    const meeting = props.meeting;
+    const isCurrent = props.isCurrent;
+    const meetingName = (isCurrent ? "Next Meeting - " : '') + meeting.name;
+
     return (
         <div className="meeting">
             <div className="next-meeting">
                 <h1>{meetingName}</h1>
                 <p>
-                    {props.date}
-                    {props.where != null && (<span> at {props.where}. </span>)}
-                    {props.facebook && (
-                        <a href={"https://www.facebook.com/events/" + props.facebook.event_id + "/"}>
+                    {meeting.date}
+                    {meeting.where != null && (<span> at {meeting.where}. </span>)}
+                    {meeting.facebook && (
+                        <a href={"https://www.facebook.com/events/" + meeting.facebook.event_id + "/"}>
                             <img src="../images/facebook-icon.png" alt="Facebook Event"
                                  style={{verticalAlign: 'text-top'}}/>
                         </a>
@@ -19,24 +22,33 @@ function Meeting(props) {
                 </p>
             </div>
             <div className="books">
-                {props.book && <Book {...props.book} type="book" isCurrent={props.isCurrent}/>}
-                {props.short && <Book {...props.short} type="short" isCurrent={props.isCurrent}/>}
-                {props.film && <Book {...props.film} type="film" isCurrent={props.isCurrent}/>}
+                {meeting.book && <Book meeting={meeting} type="book" isCurrent={isCurrent}/>}
+                {meeting.short && <Book meeting={meeting} type="short" isCurrent={isCurrent}/>}
+                {meeting.film && <Book meeting={meeting} type="film" isCurrent={isCurrent}/>}
             </div>
         </div>
     );
 }
 
+Meeting.defaultProps = {
+  isCurrent: false,
+};
+
 export function Book(props) {
+    const type = props.type;
+    const meeting = props.meeting;
+    const isCurrent = props.isCurrent;
+
+    const book = meeting[type];
     return (
         <section className="book">
-            {props.isCurrent && CurrentHeader(props.type)}
-            {Header(props)}
-            {BookImage(props)}
-            {props['store-links'] && StoreLinks(props)}
-            {AdditionalInfo(props)}
-            {MeetingName(props)}
-            {props.isCurrent && PreviousLink(props.type)}
+            {isCurrent && CurrentHeader(type)}
+            {Header(book)}
+            {BookImage(book)}
+            {book['store-links'] && StoreLinks(book)}
+            {AdditionalInfo(book)}
+            {MeetingName(book)}
+            {isCurrent && PreviousLink(type)}
         </section>
     );
 }

@@ -31,19 +31,7 @@ const Meetings = () => {
       <h1 className="books">Meetings</h1>
       {Object.entries(meetings).map((entry) => {
         var meeting = entry[1];
-        return (
-          <Meeting
-            key={meeting.name}
-            name={meeting.name}
-            where={meeting.where}
-            facebook={meeting.facebook}
-            date={meeting.date}
-            book={meeting.book}
-            short={meeting.short}
-            film={meeting.film}
-            isCurrent={false}
-          />
-        )
+        return <Meeting meeting={meeting} key={meeting.name}/>;
       })}
     </>;
   }

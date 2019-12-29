@@ -33,7 +33,7 @@ const Books = (props) => {
         {Object.entries(meetings).map((entry) => {
           var meeting = entry[1];
           return (meeting[type] === undefined) ? null : (
-            <Book {...(meeting[type])} type={type} key={meeting.name}/>
+            <Book meeting={meeting} type={type} key={meeting.name}/>
           );
         })}
       </div>
