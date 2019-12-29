@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
-import Meeting from "./Meeting";
-import {LoadingSpinner} from "./LoadingSpinner";
+import {LoadingSpinner} from "../LoadingSpinner";
+import Meeting from "../Meeting";
 
 const NEXT_MEETING_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/next_meeting.json';
 

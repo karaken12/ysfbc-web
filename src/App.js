@@ -1,10 +1,10 @@
 import React from 'react';
+import {Link, Route, Switch} from "react-router-dom";
+import CurrentMeetingLoader from "./components/loaders/CurrentMeetingLoader";
+import MeetingsLoader from "./components/loaders/MeetingsLoader";
+import BooksLoader from "./components/loaders/BooksLoader";
 import './normalize.css';
 import './style.scss';
-import CurrentMeetingLoader from "./CurrentMeetingLoader";
-import {Link, Route, Switch} from "react-router-dom";
-import MeetingsLoader from "./MeetingsLoader";
-import BooksLoader from "./BooksLoader";
 
 function App() {
   return <>
@@ -18,7 +18,6 @@ function App() {
         <li><a href="https://twitter.com/YorkSFBookClub">Twitter</a></li>
       </ul>
     </div>
-
 
     <Switch>
       <Route path={"/meetings"} component={MeetingsLoader}/>
