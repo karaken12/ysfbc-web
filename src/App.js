@@ -1,10 +1,10 @@
 import React from 'react';
 import './normalize.css';
 import './style.scss';
-import CurrentMeeting from "./CurrentMeeting";
+import CurrentMeetingLoader from "./CurrentMeetingLoader";
 import {Link, Route, Switch} from "react-router-dom";
-import Meetings from "./Meetings";
-import Books from "./Books";
+import MeetingsLoader from "./MeetingsLoader";
+import BooksLoader from "./BooksLoader";
 
 function App() {
   return <>
@@ -21,11 +21,11 @@ function App() {
 
 
     <Switch>
-      <Route path={"/meetings"} component={Meetings}/>
-      <Route path={"/books"}><Books type="book"/></Route>
-      <Route path={"/shorts"}><Books type="short"/></Route>
-      <Route path={"/films"}><Books type="film"/></Route>
-      <Route path={"/"} component={CurrentMeeting}/>
+      <Route path={"/meetings"} component={MeetingsLoader}/>
+      <Route path={"/books"}><BooksLoader type="book"/></Route>
+      <Route path={"/shorts"}><BooksLoader type="short"/></Route>
+      <Route path={"/films"}><BooksLoader type="film"/></Route>
+      <Route path={"/"} component={CurrentMeetingLoader}/>
     </Switch>
 
     <div className="footer">

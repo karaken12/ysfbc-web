@@ -4,7 +4,7 @@ import {LoadingSpinner} from "./LoadingSpinner";
 
 const NEXT_MEETING_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/next_meeting.json';
 
-const CurrentMeeting = () => {
+const CurrentMeetingLoader = () => {
   const [meeting, setMeeting] = useState({});
   const [isLoading, setLoading] = useState(true);
 
@@ -31,4 +31,4 @@ const CurrentMeeting = () => {
   }
 };
 
-export default CurrentMeeting;
+export default CurrentMeetingLoader;
