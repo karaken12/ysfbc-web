@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from "react";
+import {Route, Switch} from "react-router-dom";
 import {LoadingSpinner} from "../LoadingSpinner";
 import {Meetings} from "../Meetings";
+import {Books} from "../Books";
 
 const MEETINGS_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/meetings.json';
 
@@ -27,7 +29,12 @@ const MeetingsLoader = () => {
   if (isLoading) {
     return <LoadingSpinner/>
   } else {
-    return <Meetings meetings={meetings}/>;
+    return <Switch>
+      <Route path={"/meetings"}><Meetings meetings={meetings}/></Route>
+      <Route path={"/books"}><Books meetings={meetings} type="book"/></Route>
+      <Route path={"/shorts"}><Books meetings={meetings} type="short"/></Route>
+      <Route path={"/films"}><Books meetings={meetings} type="film"/></Route>
+    </Switch>;
   }
 };
 

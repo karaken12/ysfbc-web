@@ -2,7 +2,6 @@ import React from 'react';
 import {Link, Route, Switch} from "react-router-dom";
 import CurrentMeetingLoader from "./components/loaders/CurrentMeetingLoader";
 import MeetingsLoader from "./components/loaders/MeetingsLoader";
-import BooksLoader from "./components/loaders/BooksLoader";
 import './normalize.css';
 import './style.scss';
 
@@ -20,10 +19,7 @@ function App() {
     </div>
 
     <Switch>
-      <Route path={"/meetings"} component={MeetingsLoader}/>
-      <Route path={"/books"}><BooksLoader type="book"/></Route>
-      <Route path={"/shorts"}><BooksLoader type="short"/></Route>
-      <Route path={"/films"}><BooksLoader type="film"/></Route>
+      <Route path={"/(meetings|books|shorts|films)"}><MeetingsLoader/></Route>
       <Route path={"/"} component={CurrentMeetingLoader}/>
     </Switch>
 
