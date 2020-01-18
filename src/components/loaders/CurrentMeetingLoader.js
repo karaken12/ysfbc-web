@@ -1,37 +1,8 @@
-import React, {useEffect, useState} from "react";
-import {LoadingSpinner} from "../LoadingSpinner";
+import React, {useState} from "react";
 import Meeting from "../Meeting";
-import ErrorMessage from "../ErrorMessage";
+import AsyncLoader from "./AsyncLoader";
 
 const NEXT_MEETING_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/next_meeting.json';
-
-const AsyncLoader = (props) => {
-  const [errorMessage, setErrorMessage] = useState(null);
-  const setData = props.setData;
-  const serviceUrl = props.serviceUrl;
-
-  async function fetchData() {
-    const res = await fetch(serviceUrl);
-    res.json()
-      .then(result => {
-        setData(result);
-      })
-      .catch(e => {
-        console.log(e);
-        setErrorMessage('An error occurred!');
-      });
-  }
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
-  if (errorMessage) {
-    return <ErrorMessage message={errorMessage}/>
-  } else {
-    return <LoadingSpinner/>;
-  }
-};
 
 const CurrentMeetingLoader = () => {
   const [meeting, setMeeting] = useState(null);
