@@ -5,22 +5,20 @@ import ErrorMessage from "../ErrorMessage";
 
 const NEXT_MEETING_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/next_meeting.json';
 
-const CurrentMeetingLoader = () => {
-  const [meeting, setMeeting] = useState({});
-  const [isLoading, setLoading] = useState(true);
+const AsyncLoader = (props) => {
   const [errorMessage, setErrorMessage] = useState(null);
+  const setData = props.setData;
+  const serviceUrl = props.serviceUrl;
 
   async function fetchData() {
-    const res = await fetch(NEXT_MEETING_SERVICE_URL);
+    const res = await fetch(serviceUrl);
     res.json()
       .then(result => {
-        setMeeting(result);
-        setLoading(false);
+        setData(result);
       })
       .catch(e => {
         console.log(e);
         setErrorMessage('An error occurred!');
-        setLoading(false);
       });
   }
 
@@ -28,12 +26,20 @@ const CurrentMeetingLoader = () => {
     fetchData();
   }, []);
 
-  if (isLoading) {
-    return <LoadingSpinner/>
-  } else if (errorMessage) {
+  if (errorMessage) {
     return <ErrorMessage message={errorMessage}/>
   } else {
+    return <LoadingSpinner/>;
+  }
+};
+
+const CurrentMeetingLoader = () => {
+  const [meeting, setMeeting] = useState(null);
+
+  if (meeting) {
     return <Meeting meeting={meeting} isCurrent={true}/>;
+  } else {
+    return <AsyncLoader serviceUrl={NEXT_MEETING_SERVICE_URL} setData={setMeeting}/>;
   }
 };
 

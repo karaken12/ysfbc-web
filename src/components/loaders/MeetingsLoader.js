@@ -7,34 +7,38 @@ import ErrorMessage from "../ErrorMessage";
 
 const MEETINGS_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/meetings.json';
 
-const MeetingsLoader = () => {
-  const [meetings, setMeetings] = useState({});
-  const [isLoading, setLoading] = useState(true);
+const AsyncLoader = (props) => {
   const [errorMessage, setErrorMessage] = useState(null);
+  const setData = props.setData;
+  const serviceUrl = props.serviceUrl;
 
   async function fetchData() {
-    const res = await fetch(MEETINGS_SERVICE_URL);
+    const res = await fetch(serviceUrl);
     res.json()
       .then(result => {
-        setMeetings(result);
-        setLoading(false);
+        setData(result);
       })
       .catch(e => {
-        console.error(e);
+        console.log(e);
         setErrorMessage('An error occurred!');
-        setLoading(false);
-      })
+      });
   }
 
   useEffect(() => {
     fetchData();
   }, []);
 
-  if (isLoading) {
-    return <LoadingSpinner/>
-  } else if (errorMessage) {
+  if (errorMessage) {
     return <ErrorMessage message={errorMessage}/>
   } else {
+    return <LoadingSpinner/>;
+  }
+};
+
+const MeetingsLoader = () => {
+  const [meetings, setMeetings] = useState(null);
+
+  if (meetings) {
     return <Switch>
       <Route path={"/meetings"}>
         <h1 className="books">Meetings</h1>
@@ -53,6 +57,8 @@ const MeetingsLoader = () => {
         <Books meetings={meetings} type="film"/>
       </Route>
     </Switch>;
+  } else {
+    return <AsyncLoader serviceUrl={MEETINGS_SERVICE_URL} setData={setMeetings}/>;
   }
 };
 
