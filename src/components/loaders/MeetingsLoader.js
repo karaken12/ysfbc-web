@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import {Route, Switch} from "react-router-dom";
 import {Meetings} from "../Meetings";
 import {Books} from "../Books";
@@ -6,9 +6,7 @@ import AsyncLoader from "./AsyncLoader";
 
 const MEETINGS_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/meetings.json';
 
-const MeetingsLoader = () => {
-  const [meetings, setMeetings] = useState(null);
-
+const MeetingsLoader = ({meetings, setMeetings}) => {
   if (meetings) {
     return <Switch>
       <Route path={"/meetings"}>

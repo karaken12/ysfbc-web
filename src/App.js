@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link, Route, Switch} from "react-router-dom";
 import CurrentMeetingLoader from "./components/loaders/CurrentMeetingLoader";
 import MeetingsLoader from "./components/loaders/MeetingsLoader";
@@ -6,6 +6,9 @@ import './normalize.css';
 import './style.scss';
 
 function App() {
+  const [currentMeeting, setCurrentMeeting] = useState(null);
+  const [meetings, setMeetings] = useState(null);
+
   return <>
     <div className="header">
       <div className="logo">
@@ -19,8 +22,12 @@ function App() {
     </div>
 
     <Switch>
-      <Route path={"/(meetings|books|shorts|films)"}><MeetingsLoader/></Route>
-      <Route path={"/"} component={CurrentMeetingLoader}/>
+      <Route path={"/(meetings|books|shorts|films)"}>
+        <MeetingsLoader meetings={meetings} setMeetings={setMeetings}/>
+      </Route>
+      <Route path={"/"}>
+        <CurrentMeetingLoader meeting={currentMeeting} setMeeting={setCurrentMeeting}/>
+      </Route>
     </Switch>
 
     <div className="footer">
