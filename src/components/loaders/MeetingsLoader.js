@@ -3,12 +3,14 @@ import {Route, Switch} from "react-router-dom";
 import {LoadingSpinner} from "../LoadingSpinner";
 import {Meetings} from "../Meetings";
 import {Books} from "../Books";
+import ErrorMessage from "../ErrorMessage";
 
 const MEETINGS_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/meetings.json';
 
 const MeetingsLoader = () => {
   const [meetings, setMeetings] = useState({});
   const [isLoading, setLoading] = useState(true);
+  const [errorMessage, setErrorMessage] = useState(null);
 
   async function fetchData() {
     const res = await fetch(MEETINGS_SERVICE_URL);
@@ -19,6 +21,8 @@ const MeetingsLoader = () => {
       })
       .catch(e => {
         console.error(e);
+        setErrorMessage('An error occurred!');
+        setLoading(false);
       })
   }
 
@@ -28,6 +32,8 @@ const MeetingsLoader = () => {
 
   if (isLoading) {
     return <LoadingSpinner/>
+  } else if (errorMessage) {
+    return <ErrorMessage message={errorMessage}/>
   } else {
     return <Switch>
       <Route path={"/meetings"}>
