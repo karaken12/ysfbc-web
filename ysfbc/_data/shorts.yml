@@ -1,4 +1,16 @@
 ---
+- title: Holiday
+  author: M. Rickert
+  meeting_for: February 2020
+  slug: holiday
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442924736l/8424623._SY475_.jpg
+  info-links:
+    isfdb: 880905
+  store-links:
+    - name: Lightspeed Magazine
+      class: web free
+      url: http://www.lightspeedmagazine.com/fiction/holiday/
+
 - title: The Crystal Spheres
   author: David Brin
   meeting_for: January 2020

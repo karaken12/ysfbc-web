@@ -1,4 +1,14 @@
 ---
+- title: Artemis
+  author: Andy Weir
+  meeting_for: February 2020
+  slug: artemis
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494273579l/34928122.jpg
+  info-links:
+    isfdb: 2259277
+    goodreads: 34928122-artemis
+  store-links: []
+
 - title: The Word for World Is Forest
   author: Ursula K. Le Guin
   meeting_for: January 2020
