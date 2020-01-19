@@ -4,12 +4,10 @@ import AsyncLoader from "./AsyncLoader";
 
 const NEXT_MEETING_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/next_meeting.json';
 
-const CurrentMeetingLoader = ({meeting, setMeeting}) => {
-  if (meeting) {
-    return <Meeting meeting={meeting} isCurrent={true}/>;
-  } else {
-    return <AsyncLoader serviceUrl={NEXT_MEETING_SERVICE_URL} setData={setMeeting}/>;
-  }
-};
+const CurrentMeetingLoader = ({meeting, setMeeting}) => (
+  <AsyncLoader serviceUrl={NEXT_MEETING_SERVICE_URL} data={meeting} setData={setMeeting}>
+    <Meeting meeting={meeting} isCurrent={true}/>;
+  </AsyncLoader>
+);
 
 export default CurrentMeetingLoader;

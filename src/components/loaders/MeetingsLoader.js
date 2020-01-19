@@ -6,9 +6,9 @@ import AsyncLoader from "./AsyncLoader";
 
 const MEETINGS_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/meetings.json';
 
-const MeetingsLoader = ({meetings, setMeetings}) => {
-  if (meetings) {
-    return <Switch>
+const MeetingsLoader = ({meetings, setMeetings}) => (
+  <AsyncLoader serviceUrl={MEETINGS_SERVICE_URL} data={meetings} setData={setMeetings}>
+    <Switch>
       <Route path={"/meetings"}>
         <h1 className="books">Meetings</h1>
         <Meetings meetings={meetings}/>
@@ -26,9 +26,7 @@ const MeetingsLoader = ({meetings, setMeetings}) => {
         <Books meetings={meetings} type="film"/>
       </Route>
     </Switch>;
-  } else {
-    return <AsyncLoader serviceUrl={MEETINGS_SERVICE_URL} setData={setMeetings}/>;
-  }
-};
+  </AsyncLoader>
+);
 
 export default MeetingsLoader;

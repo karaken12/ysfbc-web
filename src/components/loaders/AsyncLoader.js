@@ -3,6 +3,14 @@ import ErrorMessage from "../ErrorMessage";
 import {LoadingSpinner} from "../LoadingSpinner";
 
 const AsyncLoader = (props) => {
+  if (props.data) {
+    return props.children;
+  } else {
+    return <AsyncLoaderInt serviceUrl={props.serviceUrl} setData={props.setData}/>;
+  }
+};
+
+const AsyncLoaderInt = (props) => {
   const [errorMessage, setErrorMessage] = useState(null);
   const setData = props.setData;
   const serviceUrl = props.serviceUrl;
