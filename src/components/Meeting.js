@@ -1,5 +1,7 @@
 import React from 'react';
 import Book from "./Book";
+import Moment from "react-moment";
+import * as moment from "moment";
 
 function Meeting(props) {
     const meeting = props.meeting;
@@ -11,7 +13,7 @@ function Meeting(props) {
             <div className="next-meeting">
                 <h1>{meetingName}</h1>
                 <p>
-                    {meeting.date}
+                    <Moment format="kk:mm, dddd MMMM Do">{moment.utc(meeting.date)}</Moment>
                     {meeting.where != null && (<span> at {meeting.where}. </span>)}
                     {meeting.facebook && (
                         <a href={"https://www.facebook.com/events/" + meeting.facebook.event_id + "/"}>

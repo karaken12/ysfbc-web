@@ -1,4 +1,6 @@
 import React from "react";
+import Moment from 'react-moment';
+import * as moment from "moment";
 
 function Tweet(props) {
   const meeting = props.meeting;
@@ -6,9 +8,9 @@ function Tweet(props) {
   return (
     <div className="meeting">
       <div className="book">
-        <p>{meeting.name}<br/>
-          &#x1F4C6; {meeting.date}
-          {/*| date: '%I:%M %p on %A %B %d, %Y'}}*/}
+        <p>{meeting.name} details:<br/>
+          &#x1F4C6; <Moment format="kk:mm, dddd MMMM Do">{moment.utc(meeting.date)}</Moment>
+
           {meeting.where != null && (<><br/>&#x1F4CD; {meeting.where}</>)}
 
           {meeting.book && (<>
