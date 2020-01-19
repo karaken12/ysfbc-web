@@ -28,7 +28,7 @@ function App() {
 
     <Switch>
       <Route path={"/(meetings|books|shorts|films)"}>
-        <AsyncLoader serviceUrl={MEETINGS_SERVICE_URL} data={meetings} setData={setMeetings}>
+        <AsyncLoader serviceUrl={MEETINGS_SERVICE_URL} state={[meetings, setMeetings]}>
           <Switch>
             <Route path={"/meetings"}>
               <h1 className="books">Meetings</h1>
@@ -50,7 +50,7 @@ function App() {
         </AsyncLoader>
       </Route>
       <Route path={"/"}>
-        <AsyncLoader serviceUrl={NEXT_MEETING_SERVICE_URL} data={currentMeeting} setData={setCurrentMeeting}>
+        <AsyncLoader serviceUrl={NEXT_MEETING_SERVICE_URL} state={[currentMeeting, setCurrentMeeting]}>
           <Meeting meeting={currentMeeting} isCurrent={true}/>;
         </AsyncLoader>
       </Route>

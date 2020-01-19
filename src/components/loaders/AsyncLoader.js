@@ -2,11 +2,13 @@ import React, {useEffect, useState} from "react";
 import ErrorMessage from "../ErrorMessage";
 import {LoadingSpinner} from "../LoadingSpinner";
 
-const AsyncLoader = (props) => {
-  if (props.data) {
-    return props.children;
+const AsyncLoader = ({serviceUrl, state, children}) => {
+  const [data, setData] = state;
+
+  if (data) {
+    return children;
   } else {
-    return <AsyncLoaderInt serviceUrl={props.serviceUrl} setData={props.setData}/>;
+    return <AsyncLoaderInt serviceUrl={serviceUrl} setData={setData}/>;
   }
 };
 
