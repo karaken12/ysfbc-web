@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Link, Route, Switch} from "react-router-dom";
 import './normalize.css';
 import './style.scss';
-import AsyncLoader from "./components/loaders/AsyncLoader";
+import AsyncLoader from "./components/AsyncLoader";
 import Meeting from "./components/Meeting";
 import {Meetings} from "./components/Meetings";
 import {Books} from "./components/Books";

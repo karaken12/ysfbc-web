@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
-import ErrorMessage from "../ErrorMessage";
-import {LoadingSpinner} from "../LoadingSpinner";
+import ErrorMessage from "./ErrorMessage";
+import {LoadingSpinner} from "./LoadingSpinner";
 
 const AsyncLoader = ({serviceUrl, state, children}) => {
   const [data, setData] = state;
