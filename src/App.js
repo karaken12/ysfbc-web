@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link, Route, Switch} from "react-router-dom";
-import CurrentMeetingLoader from "./components/loaders/CurrentMeetingLoader";
-import MeetingsLoader from "./components/loaders/MeetingsLoader";
 import './normalize.css';
 import './style.scss';
+import AsyncLoader from "./components/AsyncLoader";
+import Meeting from "./components/Meeting";
+import {Meetings} from "./components/Meetings";
+import {Books} from "./components/Books";
+
+const NEXT_MEETING_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/next_meeting.json';
+const MEETINGS_SERVICE_URL = 'https://www-assets.yorkscifibookclub.co.uk/data/meetings.json';
 
 function App() {
+  const [currentMeeting, setCurrentMeeting] = useState(null);
+  const [meetings, setMeetings] = useState(null);
+
   return <>
     <div className="header">
       <div className="logo">
@@ -19,8 +27,33 @@ function App() {
     </div>
 
     <Switch>
-      <Route path={"/(meetings|books|shorts|films)"}><MeetingsLoader/></Route>
-      <Route path={"/"} component={CurrentMeetingLoader}/>
+      <Route path={"/(meetings|books|shorts|films)"}>
+        <AsyncLoader serviceUrl={MEETINGS_SERVICE_URL} state={[meetings, setMeetings]}>
+          <Switch>
+            <Route path={"/meetings"}>
+              <h1 className="books">Meetings</h1>
+              <Meetings meetings={meetings}/>
+            </Route>
+            <Route path={"/books"}>
+              <h1 className="books">Books</h1>
+              <Books meetings={meetings} type="book"/>
+            </Route>
+            <Route path={"/shorts"}>
+              <h1 className="books">Shorts</h1>
+              <Books meetings={meetings} type="short"/>
+            </Route>
+            <Route path={"/films"}>
+              <h1 className="books">Films</h1>
+              <Books meetings={meetings} type="film"/>
+            </Route>
+          </Switch>;
+        </AsyncLoader>
+      </Route>
+      <Route path={"/"}>
+        <AsyncLoader serviceUrl={NEXT_MEETING_SERVICE_URL} state={[currentMeeting, setCurrentMeeting]}>
+          <Meeting meeting={currentMeeting} isCurrent={true}/>;
+        </AsyncLoader>
+      </Route>
     </Switch>
 
     <div className="footer">
