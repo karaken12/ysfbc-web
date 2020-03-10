@@ -1,4 +1,16 @@
 ---
+- title: Lest We Forget
+  author: Elizabeth Bear
+  meeting_for: March 2020
+  slug: lest-we-forget
+  image-source: https://uncannymagazine.com/wp-content/uploads/2019/04/MayJune19-Issue-28-Med-340x510.jpg
+  info-links:
+    goodreads: https://www.goodreads.com/book/show/45689186-uncanny-magazine-issue-28
+  store-links:
+  - name: Uncanny Magazine
+    class: web free
+    url: https://uncannymagazine.com/article/lest-we-forget/
+
 - title: Holiday
   author: M. Rickert
   meeting_for: February 2020

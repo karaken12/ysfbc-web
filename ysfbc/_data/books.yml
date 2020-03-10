@@ -1,4 +1,14 @@
 ---
+- title: The First Men in the Moon
+  author: H. G. Wells
+  meeting_for: March 2020
+  slug: first-men-in-the-moon
+  image-source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480210530l/32941313.jpg
+  info-links:
+    isfdb: 65
+    goodreads: 536478.The_First_Men_in_the_Moon
+  store-links: []
+
 - title: Artemis
   author: Andy Weir
   meeting_for: February 2020

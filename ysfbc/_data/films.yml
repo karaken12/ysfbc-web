@@ -1,4 +1,17 @@
 ---
+- title: Ex Machina
+  meeting_for: March 2020
+  slug: ex-machina
+  image-source: https://images.justwatch.com/poster/8541394/s592
+  info-links:
+    imdb: tt0470752
+    justwatch: https://www.justwatch.com/uk/movie/ex-machina
+    letterboxd: https://letterboxd.com/film/ex-machina-2014/
+  store-links:
+    - name: Netflix
+      class: netflix
+      url: https://www.netflix.com/title/80023689
+
 - title: Downsizing
   meeting_for: February 2020
   slug: downsizing
@@ -27,7 +40,7 @@
     imdb: tt0079833
     justwatch: https://www.justwatch.com/uk/movie/lupin-the-third-the-castle-of-cagliostro
   store-links:
-    - name: Netfix
+    - name: Netflix
       class: netflix
       url: https://www.netflix.com/title/0050576
 
