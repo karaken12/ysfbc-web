@@ -1,4 +1,17 @@
 ---
+- title: Castle in the Sky
+  meeting_for: April 2020
+  slug: castle-in-the-sky
+  image-source: https://images-na.ssl-images-amazon.com/images/I/910Z5JbI6VL._AC_SL1500_.jpg
+  info-links:
+    imdb: tt0092067
+    justwatch: https://www.justwatch.com/uk/movie/castle-in-the-sky
+    letterboxd: https://letterboxd.com/film/castle-in-the-sky/
+  store-links:
+  - name: Netflix
+    class: netflix
+    url: https://www.netflix.com/title/60027393
+
 - title: Ex Machina
   meeting_for: March 2020
   slug: ex-machina
