@@ -71,10 +71,10 @@ module Ysfbc
     def download_image(site, entry)
       img_path = ".#{original_image_url(entry)}"
       image_source = entry['image-source']
-      if not(File.exists?(img_path)) and image_source
+      if not(File.exist?(img_path)) and image_source
          puts "Downloading #{image_source} to #{img_path}..."
          FileUtils.mkdir_p(File.split(img_path)[0])
-         open(image_source) do |download|
+         URI.open(image_source) do |download|
            IO.copy_stream(download, img_path)
          end
          FileUtils.chmod 0664, img_path
@@ -85,7 +85,7 @@ module Ysfbc
     def create_image_vars(site, entry)
       img_path = ".#{image_url(entry)}"
       orig_image_path = ".#{original_image_url(entry)}"
-      if not(File.exists?(img_path)) and File.exists?(orig_image_path)
+      if not(File.exist?(img_path)) and File.exist?(orig_image_path)
         puts "Resizing #{img_path}..."
         FileUtils.mkdir_p(File.split(img_path)[0])
         orig_img = Image.read(orig_image_path).first
