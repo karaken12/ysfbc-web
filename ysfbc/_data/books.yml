@@ -1,4 +1,15 @@
 ---
+- title: Queen of the States
+  author: Josephine Saxton
+  meeting_for: January 2024
+  slug: queen-of-the-states
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1329422802i/1603563.jpg
+  info-links:
+    isfdb: 1355
+    goodreads: 1603563.Queen_of_the_States
+    goodreads-url: https://www.goodreads.com/book/show/1603563.Queen_of_the_States
+  store-links: []
+
 - title: The Anubis Gates
   author: Tim Powers
   meeting_for: April 2020
