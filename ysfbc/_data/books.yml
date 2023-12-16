@@ -10,6 +10,130 @@
     goodreads-url: https://www.goodreads.com/book/show/1603563.Queen_of_the_States
   store-links: []
 
+- title: The Trouble with Tinsel
+  author: Julia Hunt
+  meeting_for: December 2023
+  suggested-by: Fiona
+  slug: trouble-with-tinsel
+  image-source: https://m.media-amazon.com/images/I/A1-OSriv6wL._SL1500_.jpg
+  info-links:
+    isfdb: 2657807
+    goodreads: 55825020-the-trouble-with-tinsel
+  store-links: []
+
+- title: Douglas Adams' Starship Titanic
+  author: Terry Jones
+  meeting_for: November 2023
+  slug: starship-titanic
+  image-source: https://m.media-amazon.com/images/I/71Y3NbHwbCL._SL1500_.jpg
+  info-links:
+    isfdb: 10014
+    goodreads: 8704.Starship_Titanic
+  store-links: []
+
+- title: The Spare Man
+  author: Mary Robinette Kowal
+  meeting_for: October 2023
+  suggested_by: Emma
+  slug: spare-man
+  image-source: https://m.media-amazon.com/images/I/9186-Ua-4fL._SL1500_.jpg
+  info-links:
+    isfdb: 3075206
+    goodreads: 55077658-the-spare-man
+  store-links: []
+
+- title: The State of the Art
+  author: Iain M. Banks
+  meeting_for: September 2023
+  suggested_by: Matt
+  slug: state-of-the-art
+  image-source: https://m.media-amazon.com/images/I/81aMdIauyVL._SL1500_.jpg
+  info-links:
+    isfdb: 39183
+    goodreads: 129131.The_State_of_the_Art
+  store-links: []
+
+- title: Cat's Cradle
+  author: Kurt Vonnegut
+  meeting_for: August 2023
+  slug: cats-cradle
+  image-source: https://m.media-amazon.com/images/I/91dteLFr7-L._SL1500_.jpg
+  info-links:
+    isfdb: 2269
+    goodreads: 135479.Cat_s_Cradle
+  store-links: []
+
+- title: Jurassic Park
+  author: Michael Crichton
+  meeting_for: July 2023
+  slug: jurassic-park
+  image-source: https://m.media-amazon.com/images/I/91SbISuTcIL._SL1500_.jpg
+  info-links:
+    isfdb: 1678
+    goodreads: 40604658-jurassic-park
+  store-links: []
+
+- title: The Space Between Us
+  author: Doug Johnstone
+  meeting_for: June 2023
+  suggested_by: Emma
+  slug: space-between-us
+  image-source: https://m.media-amazon.com/images/I/71zhjJAcXpL._SL1500_.jpg
+  info-links:
+    isfdb: 3162532
+    goodreads: 61142689-the-space-between-us
+  store-links: []
+
+- title: The Void Captain's Tale
+  author: Norman Spinrad
+  meeting_for: May 2023
+  slug: void-captains-tale
+  image-source: https://m.media-amazon.com/images/I/81kwCyzEE3L._SL1360_.jpg
+  info-links:
+    isfdb: 916
+    goodreads: 633181.The_Void_Captain_s_Tale
+  store-links: []
+
+- title: Snow Crash
+  author: Neal Stephenson
+  meeting_for: April 2023
+  slug: snow-crash
+  image-source: https://m.media-amazon.com/images/I/71tI7M6j2SL._SL1500_.jpg
+  info-links:
+    isfdb: 1182
+    goodreads: 40651883-snow-crash
+  store-links: []
+
+- title: There Is No Antimemetics Division
+  author: qntm
+  meeting_for: March 2023
+  slug: there-is-no-antimemetics-division
+  image-source: https://m.media-amazon.com/images/I/718uTT6bM9L._SL1500_.jpg
+  info-links:
+    goodreads: 54870256-there-is-no-antimemetics-division
+  store-links: []
+
+- title: The Luminous Dead
+  author: Caitlin Starling
+  meeting_for: February 2023
+  slug: luminous-dead
+  image-source: https://m.media-amazon.com/images/I/91hB0fy5ZfL._SL1500_.jpg
+  info-links:
+    isfdb: 2520452
+    goodreads: 36117102-the-luminous-dead
+  store-links: []
+
+- title: Childhood's End
+  author: Arthur C. Clarke
+  meeting_for: January 2023
+  recommended_by: Jonathon
+  slug: childhoods-end
+  image-source: https://m.media-amazon.com/images/I/91J9WTQT3lL._SL1500_.jpg
+  info-links:
+    isfdb: 2248
+    goodreads: 414999.Childhood_s_End
+  store-links: []
+
 - title: The Anubis Gates
   author: Tim Powers
   meeting_for: April 2020
