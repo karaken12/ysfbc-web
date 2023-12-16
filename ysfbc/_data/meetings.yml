@@ -60,9 +60,60 @@ January 2023:
   where: The Minster Inn
   facebook:
     event_id: 1224294168160548
+# ---
+December 2020:
+  date: 2020-12-17
+  where: Online
+  facebook:
+    event_id: 2504772873156375
+    event_url: https://www.facebook.com/events/2504772873156375/
+November 2020:
+  date: 2020-11-19
+  where: Online
+  facebook:
+    event_id: 802011443675300
+    event_url: https://www.facebook.com/events/802011443675300/
+October 2020:
+  date: 2020-10-15
+  where: Online
+  facebook:
+    event_id: 1667931890051080
+    event_url: https://www.facebook.com/events/1667931890051080/
+September 2020:
+  date: 2020-09-17
+  where: Online
+  facebook:
+    event_id: 1476241812563974
+    event_url: https://www.facebook.com/events/1476241812563974/
+August 2020:
+  date: 2020-08-20
+  where: Online
+  facebook:
+    event_id: 324195458770068
+    event_url: https://www.facebook.com/events/324195458770068/
+July 2020:
+  date: 2020-07-16
+  where: Online
+  facebook:
+    event_id: 205366114143357
+    event_url: https://www.facebook.com/events/205366114143357/
+June 2020:
+  date: 2020-06-18
+  where: Online
+  facebook:
+    event_id: 295717611460221
+    event_url: https://www.facebook.com/events/295717611460221/
+May 2020:
+  date: 2020-05-21
+  where: Online
+  facebook:
+    event_id: 250577162660608
+    event_url: https://www.facebook.com/events/250577162660608/
 April 2020:
   date: 2020-04-16 19:00:00
   where: Online
+  facebook:
+    event_id: 151315002865420
 March 2020:
   date: 2020-03-19 19:00:00
   where: Duke of York

@@ -134,6 +134,86 @@
     goodreads: 414999.Childhood_s_End
   store-links: []
 
+- title: Too Like the Lightning
+  author: Ada Palmer
+  meeting_for: December 2020
+  slug: too-like-the-lightning
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1443106959i/26114545.jpg
+  info-links:
+    isfdb: 1989076
+    goodreads: 26114545-too-like-the-lightning
+  store-links: []
+
+- title: Rivers of London
+  author: Ben Aaronovitch
+  meeting_for: November 2020
+  slug: rivers-of-london
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1401385034i/9317452.jpg
+  info-links:
+    isfdb: 1210028
+    goodreads: 9317452-rivers-of-london
+  store-links: []
+
+- title: Take Back Plenty
+  author: Colin Greenland
+  meeting_for: October 2020
+  slug: take-back-plenty
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1400890123i/22306679.jpg
+  info-links:
+    isfdb: 1054
+    goodreads: 22306679-take-back-plenty
+  store-links: []
+
+- title: Ancestral Night
+  author: Elizabeth Bear
+  meeting_for: September 2020
+  slug: ancestral-night
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1549453849i/26159745.jpg
+  info-links:
+    isfdb: 2500494
+    goodreads: 26159745-ancestral-night
+  store-links: []
+
+- title: Space Opera
+  author: Catherynne M. Valente
+  meeting_for: August 2020
+  slug: space-opera
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1518017807i/24100285.jpg
+  info-links:
+    isfdb: 2331285
+    goodreads: 24100285-space-opera
+  store-links: []
+
+- title: Neuromancer
+  author: William Gibson
+  meeting_for: July 2020
+  slug: neuromancer
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1554437249i/6088007.jpg
+  info-links:
+    isfdb: 1475
+    goodreads: 6088007-neuromancer
+  store-links: []
+
+- title: The Future of Another Timeline
+  author: Annalee Newitz
+  meeting_for: June 2020
+  slug: future-of-another-timeline
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1550000245i/43263237.jpg
+  info-links:
+    isfdb: 2592016
+    goodreads: 43263237-the-future-of-another-timeline
+  store-links: []
+
+- title: Space Team
+  author: Barry J. Hutchison
+  meeting_for: May 2020
+  slug: space-team
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1474031773i/32058824.jpg
+  info-links:
+    isfdb: 2321198
+    goodreads: 32058824-space-team
+  store-links: []
+
 - title: The Anubis Gates
   author: Tim Powers
   meeting_for: April 2020
