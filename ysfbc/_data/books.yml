@@ -134,6 +134,128 @@
     goodreads: 414999.Childhood_s_End
   store-links: []
 
+- title: The Forever War
+  author: Joe Haldeman
+  meeting_for: December 2022
+  slug: forever-war
+  image-source: https://m.media-amazon.com/images/I/51DSKBHF4RL.jpg
+  info-links:
+    isfdb: 1911
+    goodreads: 21611.The_Forever_War
+  store-links: []
+
+- title: The Last Day
+  author: Andrew Hunter Murray
+  meeting_for: November 2022
+  slug: last-day
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1574747028i/46147319.jpg
+  info-links:
+    isfdb: 2667693
+    goodreads: 46147319-the-last-day
+  store-links: []
+
+- title: Just One Damned Thing After Another
+  author: Jodi Taylor
+  meeting_for: October 2022
+  slug: just-one-damned-thing-after-another
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1459230212i/29661618.jpg
+  info-links:
+    isfdb: 1696675
+    goodreads: 29661618-just-one-damned-thing-after-another
+  store-links: []
+
+- title: The Stepford Wives
+  author: Ira Levin
+  meeting_for: September 2022
+  slug: stepford-wives
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1554371721i/52350.jpg
+  info-links:
+    isfdb: 8721
+    goodreads: 52350.The_Stepford_Wives
+  store-links: []
+
+- title: Nova
+  author: Samuel R. Delany
+  meeting_for: August 2022
+  slug: nova
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320491578i/85863.jpg
+  info-links:
+    isfdb: 1452
+    goodreads: 85863.Nova
+  store-links: []
+
+- title: The Book of Koli
+  author: M. R. Carey
+  meeting_for: July 2022
+  slug: book-of-koli
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1570049059i/51285749.jpg
+  info-links:
+    isfdb: 2695984
+    goodreads: 51285749-the-book-of-koli
+  store-links: []
+
+- title: Piranesi
+  author: Susanna Clarke
+  meeting_for: June 2022
+  slug: piranesi
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1609095173i/50202953.jpg
+  info-links:
+    isfdb: 2758983
+    goodreads: 50202953-piranesi
+  store-links: []
+
+- title: Tuf Voyaging
+  author: George R R Martin
+  meeting_for: May 2022
+  slug: tuf-voyaging
+  image-source: https://m.media-amazon.com/images/I/51igWDqZqsL.jpg
+  info-links:
+    isfdb: 16553
+    goodreads: 776212.Tuf_Voyaging
+  store-links: []
+
+- title: Project Hail Mary
+  author: Andy Weir
+  meeting_for: April 2022
+  slug: project-hail-mary
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1597695864i/54493401.jpg
+  info-links:
+    isfdb: 2848254
+    goodreads: 54493401-project-hail-mary
+  store-links: []
+
+- title: The Doors of Eden
+  author: Adrian Tchaikovsky
+  meeting_for: March 2022
+  slug: doors-of-eden
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1572448827i/48643567.jpg
+  info-links:
+    isfdb: 2762771
+    goodreads: 48643567-the-doors-of-eden
+  store-links: []
+
+- title: The Demolished Man
+  author: Alfred Bester
+  meeting_for: February 2022
+  slug: demolished-man
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1360171879i/76740.jpg
+  info-links:
+    isfdb: 2122
+    goodreads: 76740.The_Demolished_Man
+  store-links: []
+
+- title: "A Christmas Carol II: The Rise of the Juggernauts"
+  author: Nicholas Kaminsky
+  meeting_for: January 2022
+  slug: christmas-carol-ii
+  image-source: https://m.media-amazon.com/images/I/6109mWaOqAL._SL1360_.jpg
+  info-links:
+    goodreads: 32982877-a-christmas-carol-ii
+  store-links:
+    - name: Amazon Kindle
+      class: kindle
+      url: https://www.amazon.co.uk/Christmas-Carol-II-Rise-Juggernauts/dp/1635871867
+
 - title: Too Like the Lightning
   author: Ada Palmer
   meeting_for: December 2020

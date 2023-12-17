@@ -60,7 +60,59 @@ January 2023:
   where: The Minster Inn
   facebook:
     event_id: 1224294168160548
-# ---
+December 2022:
+  date: 2022-12-15
+  where: Cat In The Wall
+  facebook:
+    event_id: 915344699443489
+November 2022:
+  date: 2022-11-17
+  where: Minster Inn
+  facebook:
+    event_id: 526541042256197
+October 2022:
+  date: 2022-10-20
+  where: Minster Inn
+  facebook:
+    event_id: 792428008474068
+September 2022:
+  date: 2022-09-15
+  where: Minster Inn
+  facebook:
+    event_id: 774604150533264
+August 2022:
+  date: 2022-08-18
+  where: Minster Inn
+  facebook:
+    event_id: 849764429336302
+July 2022:
+  date: 2022-07-21
+  where: Minster Inn
+  facebook:
+    event_id: 449743706599898
+June 2022:
+  date: 2022-06-16
+  facebook:
+    event_id: 1178893042908864
+May 2022:
+  date: 2022-05-19
+  facebook:
+    event_id: 3096591293941588
+April 2022:
+  date: 2022-04-21
+March 2022:
+  date: 2022-03-17
+  facebook:
+    event_id: 739385974135360
+February 2022:
+  date: 2022-02-17
+  facebook:
+    event_id: 364927661707923
+January 2022:
+  date: 2022-01-20
+  where: Online
+  facebook:
+    event_id: 640771673766923
 December 2020:
   date: 2020-12-17
   where: Online
