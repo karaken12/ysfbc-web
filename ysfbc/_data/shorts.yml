@@ -1,4 +1,24 @@
 ---
+- title: The It-Doesn't-Matter Suit
+  author: Sylvia Plath
+  meeting_for: September 2021
+  slug: it-doesnt-matter-suit
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1173477002i/295151.jpg
+  info-links:
+    goodreads: 295151.The_It_Doesn_t_Matter_Suit
+  store-links: []
+
+- title: The Machine Stops
+  author: E M Forester
+  meeting_for: February 2021
+  recommended_by: Michelle
+  slug: machine-stops
+  image-source: https://ichef.bbci.co.uk/news/976/cpsprodpb/10987/production/_112557976_emforsterthemachinestops_2.jpg
+  info-links:
+    isfdb: 41186
+    goodreads: 4711854-the-machine-stops
+  store-links: []
+
 - title: Reliable People
   author: Charlie Jane Anders
   meeting_for: April 2020

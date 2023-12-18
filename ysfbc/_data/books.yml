@@ -256,6 +256,125 @@
       class: kindle
       url: https://www.amazon.co.uk/Christmas-Carol-II-Rise-Juggernauts/dp/1635871867
 
+- title: Chilling Effect
+  author: Valerie Valdes
+  meeting_for: December 2021
+  slug: chilling-effect
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1552317447i/43309529.jpg
+  info-links:
+    isfdb: 2594998
+    goodreads: 43309529-chilling-effect
+  store-links: []
+
+- title: The Girl Who Could Move Sh*t With Her Mind
+  author: Jackson Ford
+  meeting_for: November 2021
+  slug: girl-who-could-move-shit-with-her-mind
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1552347873i/41155087.jpg
+  info-links:
+    isfdb: 2546115
+    goodreads: 41155087-the-girl-who-could-move-sh-t-with-her-mind
+  store-links: []
+
+- title: Starship Grifters
+  author: Robert Kroese
+  meeting_for: October 2021
+  slug: starship-grifters
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1395002474i/20861021.jpg
+  info-links:
+    isfdb: 1710691
+    goodreads: 20861021-starship-grifters
+  store-links: []
+
+- title: How to Buy a Planet
+  author: D. A. Holdsworth
+  meeting_for: September 2021
+  slug: how-to-buy-a-planet
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1607513542i/56229666.jpg
+  info-links:
+    goodreads: 56229666-how-to-buy-a-planet
+  store-links: []
+
+- title: The Eyre Affair
+  author: Jasper Fforde
+  meeting_for: August 2021
+  slug: eyre-affair
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1445540555i/27003.jpg
+  info-links:
+    isfdb: 22027
+    goodreads: 27003.The_Eyre_Affair
+  store-links: []
+
+- title: Red Rising
+  author: Pierce Brown
+  meeting_for: July 2021
+  slug: red-rising
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1461354651i/15839976.jpg
+  info-links:
+    isfdb: 1664916
+    goodreads: 15839976-red-rising
+  store-links: []
+
+- title: Rosewater
+  author: Tade Thompson
+  meeting_for: June 2021
+  slug: rosewater
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1534300082i/38362809.jpg
+  info-links:
+    isfdb: 2086430
+    goodreads: 38362809-rosewater
+  store-links: []
+
+- title: A Memory Called Empire
+  author: Arkady Martine
+  meeting_for: May 2021
+  slug: memory-called-empire
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1526486698i/37794149.jpg
+  info-links:
+    isfdb: 2500310
+    goodreads: 37794149-a-memory-called-empire
+  store-links: []
+
+- title: Autonomous
+  author: Annalee Newitz
+  meeting_for: April 2021
+  slug: autonomous
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1484305104i/28209634.jpg
+  info-links:
+    isfdb: 2234630
+    goodreads: 28209634-autonomous
+  store-links: []
+
+- title: How to Stop Time
+  author: Matt Haig
+  meeting_for: March 2021
+  slug: how-to-stop-time
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1645729201i/45152372.jpg
+  info-links:
+    isfdb: 2212517
+    goodreads: 45152372-how-to-stop-time
+  store-links: []
+
+- title: Binti
+  author: Nnedi Okorafor
+  meeting_for: February 2021
+  slug: binti
+  image-source: https://upload.wikimedia.org/wikipedia/en/1/1a/Binti_-_book_cover.jpg
+  info-links:
+    isfdb: 1888986
+    goodreads: 25667918-binti
+  store-links: []
+
+- title: This Is How You Lose the Time War
+  author: Amal El-Mohtar and Max Gladstone
+  meeting_for: January 2021
+  slug: this-is-how-you-lose-the-time-war
+  image-source: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1653185078i/43352954.jpg
+  info-links:
+    isfdb: 2567153
+    goodreads: 43352954-this-is-how-you-lose-the-time-war
+  store-links: []
+
 - title: Too Like the Lightning
   author: Ada Palmer
   meeting_for: December 2020

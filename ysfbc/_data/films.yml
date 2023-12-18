@@ -19,6 +19,125 @@
     letterboxd: https://letterboxd.com/film/everything-everywhere-all-at-once/
   store-links: []
 
+- title: The Island
+  meeting_for: November 2021
+  slug: island
+  image-source: https://a.ltrbxd.com/resized/sm/upload/0n/jk/bj/hm/zE9OTe7JvcX1jyFXs0GEL2f3RkZ-0-500-0-750-crop.jpg?v=7ccc5ef082
+  info-links:
+    imdb: tt0399201
+    justwatch: https://www.justwatch.com/uk/movie/the-island
+    letterboxd: https://letterboxd.com/film/the-island-2005/
+  store-links: []
+
+- title: Sorry to Bother You
+  meeting_for: October 2021
+  slug: sorry-to-bother-you
+  image-source: https://a.ltrbxd.com/resized/sm/upload/pi/8d/sk/jg/wdiJKxlyg3bzqZgRsNcIfoaQs1O-0-500-0-750-crop.jpg?v=f85a9cc2f4
+  info-links:
+    imdb: tt5688932
+    justwatch: https://www.justwatch.com/uk/movie/sorry-to-bother-you
+    letterboxd: https://letterboxd.com/film/sorry-to-bother-you/
+  store-links: []
+
+- title: The Matrix
+  meeting_for: September 2021
+  slug: matrix
+  image-source: https://a.ltrbxd.com/resized/film-poster/5/1/5/1/8/51518-the-matrix-0-500-0-750-crop.jpg?v=fc7c366afe
+  info-links:
+    imdb: tt0133093
+    justwatch: https://www.justwatch.com/uk/movie/the-matrix
+    letterboxd: https://letterboxd.com/film/the-matrix/
+  store-links: []
+
+- title: Mystery Men
+  meeting_for: August 2021
+  slug: mystery-men
+  image-source: https://a.ltrbxd.com/resized/film-poster/4/6/7/9/0/46790-mystery-men-0-500-0-750-crop.jpg?v=c140c7ee89
+  info-links:
+    imdb: tt0132347
+    justwatch: https://www.justwatch.com/uk/movie/mystery-men
+    letterboxd: https://letterboxd.com/film/mystery-men/
+  store-links: []
+
+- title: Serenity
+  meeting_for: July 2021
+  slug: serenity
+  image-source: https://a.ltrbxd.com/resized/sm/upload/43/41/2j/rl/serenity-0-500-0-750-crop.jpg?v=2e4d0d5a3b
+  info-links:
+    imdb: tt0379786
+    justwatch: https://www.justwatch.com/uk/movie/serenity
+    letterboxd: https://letterboxd.com/film/serenity/
+  store-links: []
+
+- title: The Mitchells vs. The Machines
+  meeting_for: June 2021
+  slug: mitchells-vs-machines
+  image-source: https://a.ltrbxd.com/resized/film-poster/4/3/1/8/8/8/431888-the-mitchells-vs-the-machines-0-500-0-750-crop.jpg?v=d3be38052a
+  info-links:
+    imdb: tt7979580
+    justwatch: https://www.justwatch.com/uk/movie/the-mitchells-vs-the-machines
+    letterboxd: https://letterboxd.com/film/the-mitchells-vs-the-machines/
+  store-links:
+    - name: Netflix
+      class: netflix
+      url: https://www.netflix.com/title/81399614
+
+- title: Stowaway
+  meeting_for: May 2021
+  slug: stowaway
+  image-source: https://a.ltrbxd.com/resized/film-poster/4/8/8/1/0/6/488106-stowaway-0-500-0-750-crop.jpg?v=b8f310f8ae
+  info-links:
+    imdb: tt9203694
+    justwatch: https://www.justwatch.com/uk/movie/stowaway-2021
+    letterboxd: https://letterboxd.com/film/stowaway-2021/
+  store-links:
+    - name: Netflix
+      class: netflix
+      url: https://www.netflix.com/gb/title/81321986
+
+- title: The History of Future Folk
+  meeting_for: April 2021
+  slug: history-of-future-folk
+  image-source: https://a.ltrbxd.com/resized/film-poster/9/1/5/7/1/91571-the-history-of-future-folk-0-500-0-750-crop.jpg?v=5f30b3c4ee
+  info-links:
+    imdb: tt2245195
+    justwatch: https://www.justwatch.com/uk/movie/the-history-of-future-folk
+    letterboxd: https://letterboxd.com/film/the-history-of-future-folk/
+  store-links:
+    - name: Netflix
+      class: netflix
+      url: https://www.netflix.com/title/70245246
+
+- title: Space Sweepers
+  meeting_for: March 2021
+  slug: space-sweepers
+  image-source: https://a.ltrbxd.com/resized/film-poster/5/0/9/4/7/7/509477-space-sweepers-0-500-0-750-crop.jpg?v=02fa365186
+  info-links:
+    imdb: tt12838766
+    justwatch: https://www.justwatch.com/uk/movie/space-sweepers
+    letterboxd: https://letterboxd.com/film/space-sweepers/
+  store-links: []
+
+- title: The Midnight Sky
+  meeting_for: February 2021
+  slug: midnight-sky
+  image-source: https://a.ltrbxd.com/resized/film-poster/5/4/2/0/4/5/542045-the-midnight-sky-0-500-0-750-crop.jpg?v=b2b659250e
+  info-links:
+    imdb: tt10539608
+    justwatch: https://www.justwatch.com/uk/movie/the-midnight-sky
+    letterboxd: https://letterboxd.com/film/the-midnight-sky/
+  store-links: []
+
+- title: Dredd
+  meeting_for: January 2021
+  slug: dredd
+  image-source: https://a.ltrbxd.com/resized/film-poster/1/6/5/2/7/16527-dredd-0-500-0-750-crop.jpg?v=b8eb60725b
+  info-links:
+    imdb: tt1343727
+    justwatch: https://www.justwatch.com/uk/movie/dredd
+    letterboxd: https://letterboxd.com/film/dredd/
+  store-links: []
+
 - title: Color Out of Space
   meeting_for: December 2020
   slug: color-out-of-space
