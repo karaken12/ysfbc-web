@@ -11,8 +11,8 @@ function App({children}) {
       </div>
       <ul className="nav">
         <li><Link to="/">Home</Link></li>
-        <li><a href="https://www.facebook.com/YorkSciFiBookClub">Facebook</a></li>
-        <li><a href="https://twitter.com/YorkSFBookClub">Twitter</a></li>
+        <li><Link to="/meetings">Past meetings</Link></li>
+        <li><Link to="/books">Previous books</Link></li>
       </ul>
     </div>
 
