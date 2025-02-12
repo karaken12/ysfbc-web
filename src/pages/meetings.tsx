@@ -4,16 +4,16 @@ import '../style.scss'
 // @ts-ignore
 import App from '../App.js'
 // @ts-ignore
-import {IndexPageContent} from '../components/PageContent.js'
+import {MeetingsPageContent} from '../components/PageContent.js'
 
-const IndexPage: React.FC<PageProps> = () => {
+const MeetingsPage: React.FC<PageProps> = () => {
   return (
     <App>
-      <IndexPageContent />
+      <MeetingsPageContent />
     </App>
   )
 }
 
-export default IndexPage
+export default MeetingsPage
 
 export const Head: HeadFC = () => <title>York SciFi Book Club</title>

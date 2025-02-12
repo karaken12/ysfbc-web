@@ -1,10 +1,9 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import {Link} from 'gatsby';
 import './normalize.css';
 import './style.scss';
-import PageContent from "./components/PageContent";
 
-function App() {
+function App({children}) {
   return <>
     <div className="header">
       <div className="logo">
@@ -17,7 +16,7 @@ function App() {
       </ul>
     </div>
 
-    <PageContent/>
+    {children}
 
     <div className="footer">
       <p>The York SciFi Book Club is pretty awesome, but they don't pay me to do this, so sorry if it's a bit
