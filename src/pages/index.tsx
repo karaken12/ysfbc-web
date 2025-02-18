@@ -1,14 +1,18 @@
 import * as React from "react"
-import type { HeadFC, PageProps } from "gatsby"
+import {graphql, HeadFC, PageProps} from "gatsby"
+import {renderRichText} from "gatsby-source-contentful/rich-text";
 import '../style.scss'
 // @ts-ignore
 import App from '../App.js'
 // @ts-ignore
 import {IndexPageContent} from '../components/PageContent.js'
 
-const IndexPage: React.FC<PageProps> = () => {
+const IndexPage: React.FC<PageProps> = ({data}) => {
   return (
     <App>
+      <div className="book">
+        <div>{renderRichText(data.contentfulDescription.content)}</div>
+      </div>
       <IndexPageContent />
     </App>
   )
@@ -17,3 +21,15 @@ const IndexPage: React.FC<PageProps> = () => {
 export default IndexPage
 
 export const Head: HeadFC = () => <title>York SciFi Book Club</title>
+
+export const query = graphql`
+  query {
+    contentfulDescription(title: {eq: "Front page"}) {
+      id
+      content {
+        raw
+      }
+      title
+    }
+  }
+`
