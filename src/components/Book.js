@@ -43,6 +43,11 @@ function Header(props) {
 }
 
 function BookImage(props) {
+    if (props.image) {
+        return <div className="bookimg">
+            {props.image}
+        </div>;
+    }
     return <div className="bookimg">
         <img src={"https://www-assets.yorkscifibookclub.co.uk" + props["img-url"]} alt={props.title}/>
     </div>;

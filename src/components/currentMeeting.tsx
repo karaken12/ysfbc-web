@@ -2,7 +2,7 @@ import React from 'react'
 // @ts-ignore
 import Meeting from './Meeting.js'
 import {graphql, useStaticQuery} from "gatsby";
-// import {GatsbyImage, getImage} from "gatsby-plugin-image";
+import {GatsbyImage, getImage} from "gatsby-plugin-image";
 import moment from "moment/moment";
 
 const constructImageUrl = (type: string, year: number, slug: string, extension: string = 'jpg') =>
@@ -23,6 +23,9 @@ const CurrentMeeting = () => {
             author
             slug
             title
+            image {
+              gatsbyImageData(width: 150)
+            }
             infoLinks {
               class
               url
@@ -45,17 +48,18 @@ const CurrentMeeting = () => {
     film: null,
   }
   const year = moment.utc(currentMeeting.date).year()
-  let slug = data.allContentfulMeeting.nodes[0].book.slug;
-  const infoLinks = data.allContentfulMeeting.nodes[0].book.infoLinks;
-  const storeLinks = data.allContentfulMeeting.nodes[0].book.storeLinks;
+  const book = data.allContentfulMeeting.nodes[0].book;
+  const imageData = getImage(book.image);
+  const bookImage = imageData ? <GatsbyImage image={imageData} alt={book.title}/> : undefined;
   currentMeeting.book = {
-    "info-links": infoLinks,
-    "store-links": storeLinks,
+    "info-links": book.infoLinks,
+    "store-links": book.storeLinks,
     meeting: currentMeeting,
     "meeting_for": currentMeeting.name,
-    title: data.allContentfulMeeting.nodes[0].book.title,
-    author: data.allContentfulMeeting.nodes[0].book.author,
-    "img-url": constructImageUrl("books", year, slug)
+    title: book.title,
+    author: book.author,
+    "img-url": constructImageUrl("books", year, book.slug),
+    image: bookImage,
   }
   return <Meeting meeting={currentMeeting} isCurrent={true} />
 }
