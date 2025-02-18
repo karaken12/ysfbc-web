@@ -6,6 +6,8 @@ import '../style.scss'
 import App from '../App.js'
 // @ts-ignore
 import {IndexPageContent} from '../components/PageContent.js'
+// @ts-ignore
+import CurrentMeeting from "../components/currentMeeting";
 
 const IndexPage: React.FC<PageProps> = ({data}) => {
   return (
@@ -14,6 +16,7 @@ const IndexPage: React.FC<PageProps> = ({data}) => {
         <div>{renderRichText(data.contentfulDescription.content)}</div>
       </div>
       <IndexPageContent />
+      <CurrentMeeting />
     </App>
   )
 }
