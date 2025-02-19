@@ -13,7 +13,7 @@ function Book(props) {
             {Header(book)}
             {BookImage(book)}
             {book['store-links'] && StoreLinks(book)}
-            {AdditionalInfo(book)}
+            {book['info-links'] && AdditionalInfo(book)}
             {MeetingName(book)}
             {isCurrent && PreviousLink(type)}
         </section>
