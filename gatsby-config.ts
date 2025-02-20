@@ -1,4 +1,7 @@
 import type { GatsbyConfig } from "gatsby"
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -16,8 +19,8 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `3ygf5yadm911`,
-        accessToken: `6fjoJngK3XE-8s6xQgABZxM69MTrTArf_32jcXn77G4`,
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
   ]
