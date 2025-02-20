@@ -1,4 +1,7 @@
 import {createClient} from 'contentful-management'
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 type MeetingData = {
   title: string;
@@ -8,14 +11,19 @@ type MeetingData = {
 
 const main = async () => {
 
+  const accessToken = process.env.CONTENTFUL_MANAGEMENT_API_TOKEN;
+  if (!accessToken) {
+    throw new Error('No access token provided');
+  }
+
   const client = createClient(
     {
-      accessToken: 'xxx',
+      accessToken,
     },
     {
       type: 'plain',
       defaults: {
-        spaceId: `3ygf5yadm911`,
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
         environmentId: 'master',
       },
     }
