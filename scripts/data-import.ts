@@ -1,13 +1,84 @@
 import {createClient} from 'contentful-management'
 import dotenv from 'dotenv'
+import moment from "moment/moment";
 
 dotenv.config()
+
+type SourceMeetingData = {
+  date: string;
+  where: string;
+  facebook?: { event_id: number },
+  name: string;
+  book: {
+    title: string;
+    author: string;
+    meeting_for: string;
+    slug: string;
+    "image-source": string;
+    "info-links"?: Array<{
+      "name": string;
+      "class": string;
+      "url": string;
+    }>;
+    "store-links"?: Array<{
+      "name": string;
+      "class": string;
+      "url": string;
+    }>;
+    ptype: "books";
+    "img-url": string;
+  }
+  short: {
+    title: string;
+    author: string;
+    meeting_for: string;
+    slug: string;
+    "image-source": string;
+    "info-links"?: Array<{
+      "name": string;
+      "class": string;
+      "url": string;
+    }>;
+    "store-links"?: Array<{
+      "name": string;
+      "class": string;
+      "url": string;
+    }>;
+    ptype: "shorts";
+    "img-url": string;
+  }
+  film: {
+    title: string;
+    meeting_for: string;
+    slug: string;
+    "image-source": string;
+    "info-links"?: Array<{
+      "name": string;
+      "class": string;
+      "url": string;
+    }>;
+    "store-links"?: Array<{
+      "name": string;
+      "class": string;
+      "url": string;
+    }>;
+    ptype: "films";
+    "img-url": string;
+  }
+};
 
 type MeetingData = {
   title: string;
   date: string;
   facebookUrl?: string;
 };
+
+async function fetchData() {
+  const serviceUrl = 'https://www-assets.yorkscifibookclub.co.uk/data/meetings.json';
+
+  const res = await fetch(serviceUrl);
+  return res.json();
+}
 
 const main = async () => {
 
@@ -50,16 +121,14 @@ const main = async () => {
 
     if (entries.total == 0) {
       console.log(`Creating meeting ${(meeting.title)}`)
-      const response = await client.entry.create(
+      return client.entry.create(
         {contentTypeId: 'meeting'},
         {fields}
       )
-      console.log(response)
     } else {
       console.log(`Updating meeting ${(meeting.title)}`)
       const entry = entries.items[0]
-      console.log(entry)
-      const response = await client.entry.update(
+      return client.entry.update(
         {entryId: entry.sys.id},
         {
           ...entry,
@@ -69,26 +138,20 @@ const main = async () => {
           }
         }
       )
-      console.log(response);
     }
   };
 
-  const meeting = {
-    title: 'July 2019',
-    date: "2019-07-18T19:00+00:00",
-    // location
-    // facebookUrl: 'https://facebook.com/events/1858977807535469',
-    // book
-    // short
-    // film
-    /* fields: {
-    title: { 'en-GB': 'July 2019' },
-    date: { 'en-GB': '2019-07-18T19:00+00:00' },
-    location: { 'en-GB': [Object] },
-    facebookUrl: { 'en-GB': 'https://facebook.com/events/1858977807535469' } */
+  const sourceMeetings: Array<SourceMeetingData> = Object.values(await fetchData())
+  for(const sourceMeeting of sourceMeetings) {
+    const meeting: MeetingData = {
+      title: sourceMeeting.name,
+      date: moment(Date.parse(sourceMeeting.date)).toISOString(),
+      ...(sourceMeeting.facebook ? {
+        facebookUrl: `https://www.facebook.com/events/${sourceMeeting.facebook.event_id}/`
+      } : {}),
+    }
+    await createOrUpdateMeeting(meeting);
   }
-
-  await createOrUpdateMeeting(meeting);
 }
 
 main().then(() => {
