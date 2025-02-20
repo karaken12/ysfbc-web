@@ -13,9 +13,11 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "ts-script": "node --import tsx"
   },
   "dependencies": {
+    "contentful-management": "^11.47.2",
     "gatsby": "^5.14.1",
     "gatsby-plugin-image": "^3.14.0",
     "gatsby-plugin-sass": "^6.14.0",
@@ -32,6 +34,7 @@
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
+    "tsx": "^4.19.3",
     "typescript": "^5.3.3"
   }
 }
