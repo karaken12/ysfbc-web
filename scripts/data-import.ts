@@ -70,6 +70,7 @@ type SourceMeetingData = {
 type MeetingData = {
   title: string;
   date: string;
+  location?: string;
   facebookUrl?: string;
 };
 
@@ -100,22 +101,60 @@ const main = async () => {
     }
   )
 
+  const locationCache = new Map<string, any>()
+
+  async function createOrFetchLocation(where: string) {
+    console.log(`Fetching location data for ${where}`)
+    const entries = await client.entry.getMany({
+      query: {
+        content_type: 'location',
+        'fields.name': where,
+        limit: 2,
+      },
+    })
+
+    if (entries.total > 1) {
+      throw new Error(`Too many entries for ${where} (${entries.total})`)
+    }
+
+    if (entries.total != 0) {
+      return entries.items[0]
+    }
+
+    console.log(`Creating location ${where}`)
+    return client.entry.create(
+      {contentTypeId: 'location'},
+      {fields: {name: {"en-GB": where}}}
+    )
+  }
+
+  const getContentfulLocation = async (where: string) => {
+    if (!locationCache.has(where)) {
+      locationCache.set(where, await createOrFetchLocation(where))
+    }
+
+    return locationCache.get(where);
+  };
+
   const createOrUpdateMeeting = async (meeting: MeetingData) => {
     const entries = await client.entry.getMany({
       query: {
         content_type: 'meeting',
         'fields.title': meeting.title,
-        limit: 10,
+        limit: 2,
       },
     })
 
     if (entries.total > 1) {
-      throw new Error(`Too many entries for ${(meeting.title)} (${entries.total})`)
+      throw new Error(`Too many entries for ${meeting.title} (${entries.total})`)
     }
+
+    const location = meeting.location ? await getContentfulLocation(meeting.location) : undefined
 
     const fields = {
       title: {"en-GB": meeting.title},
       date: {"en-GB": meeting.date},
+      ...(meeting.location ? {location: {"en-GB": {sys: {type: 'Link', linkType: 'Entry', id: location.sys.id}}}} : {}),
       ...(meeting.facebookUrl ? {facebookUrl: {"en-GB": meeting.facebookUrl}} : {}),
     };
 
@@ -146,6 +185,7 @@ const main = async () => {
     const meeting: MeetingData = {
       title: sourceMeeting.name,
       date: moment(Date.parse(sourceMeeting.date)).toISOString(),
+      location: sourceMeeting.where,
       ...(sourceMeeting.facebook ? {
         facebookUrl: `https://www.facebook.com/events/${sourceMeeting.facebook.event_id}/`
       } : {}),
