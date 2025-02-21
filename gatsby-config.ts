@@ -3,6 +3,8 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 
+const useContentfulPreview = process.env.NODE_ENV === 'development'
+
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `York SciFi Book Club`,
@@ -21,6 +23,7 @@ const config: GatsbyConfig = {
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        ...(useContentfulPreview ? {host: `preview.contentful.com`} : {}),
       },
     },
   ]

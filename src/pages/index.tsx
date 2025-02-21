@@ -4,9 +4,6 @@ import {renderRichText} from "gatsby-source-contentful/rich-text";
 import '../style.scss'
 // @ts-ignore
 import App from '../App.js'
-// @ts-ignore
-import {IndexPageContent} from '../components/PageContent.js'
-// @ts-ignore
 import CurrentMeeting from "../components/currentMeeting";
 
 const IndexPage: React.FC<PageProps> = ({data}) => {
@@ -15,7 +12,6 @@ const IndexPage: React.FC<PageProps> = ({data}) => {
       <div className="book">
         <div>{renderRichText(data.contentfulDescription.content)}</div>
       </div>
-      <IndexPageContent />
       <CurrentMeeting />
     </App>
   )
