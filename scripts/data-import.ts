@@ -196,11 +196,16 @@ const main = async () => {
     }
   };
 
-  const getBookFields = (bookData: SourceBookData) => ({
-    title: {"en-GB": bookData.title},
-    author: {"en-GB": bookData.author},
-    slug: {"en-GB": bookData.slug},
-  });
+  const getBookFields = (bookData: SourceBookData) => {
+    const hasStoreLinks = bookData["store-links"] && bookData["store-links"].length > 0;
+
+    return ({
+      title: {"en-GB": bookData.title},
+      author: {"en-GB": bookData.author},
+      slug: {"en-GB": bookData.slug},
+      ...(hasStoreLinks ? {storeLinks: {"en-GB": bookData["store-links"]}} : {}),
+    });
+  };
 
   const updateInfoLinks = async (bookEntry, bookData: SourceBookData) => {
     const existingLinks = (bookEntry.fields.infoLinks?.['en-GB'] ?? []).map(entry => entry.sys.id)
