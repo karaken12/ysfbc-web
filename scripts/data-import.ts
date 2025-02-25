@@ -84,6 +84,11 @@ async function fetchData() {
   return res.json();
 }
 
+const deepEqual = (lhs: object, rhs: object) => {
+  // A hack to check for deep equality
+  return JSON.stringify(lhs) === JSON.stringify(rhs);
+};
+
 const main = async () => {
 
   const accessToken = process.env.CONTENTFUL_MANAGEMENT_API_TOKEN;
@@ -189,6 +194,15 @@ const main = async () => {
     slug: {"en-GB": bookData.slug},
   });
 
+  const createOrUpdateBook = async (meetingEntry, bookData: SourceBookData) => {
+    if (meetingEntry.fields.book) {
+      const bookEntryId = meetingEntry.fields.book['en-GB'].sys.id;
+      return await updateBookEntry(bookEntryId, bookData)
+    } else {
+      return await createBookEntry(bookData)
+    }
+  };
+
   const createBookEntry = async (bookData: SourceBookData) => {
     const fields = getBookFields(bookData);
     console.log(`Creating book ${fields.title["en-GB"]}`)
@@ -207,6 +221,10 @@ const main = async () => {
       ...(getBookFields(bookData)),
     };
 
+    if (deepEqual(entry.fields, fields)) {
+      return entry
+    }
+
     console.log(`Updating book ${entry.fields.title["en-GB"]}`)
     return client.entry.update(
       {entryId: entry.sys.id},
@@ -218,14 +236,21 @@ const main = async () => {
   };
 
   const updateMeetingWithBook = async (meetingEntry, bookEntryId: string) => {
+    const fields = {
+      ...meetingEntry.fields,
+      book: {"en-GB": {sys: {type: 'Link', linkType: 'Entry', id: bookEntryId}}},
+    };
+
+    if (deepEqual(meetingEntry.fields, fields)) {
+      return meetingEntry
+    }
+
+    console.log(`Updating meeting ${meetingEntry.fields.title["en-GB"]} with book ID ${bookEntryId}`)
     return client.entry.update(
       {entryId: meetingEntry.sys.id},
       {
         ...(meetingEntry),
-        fields: {
-          ...meetingEntry.fields,
-          book: {"en-GB": {sys: {type: 'Link', linkType: 'Entry', id: bookEntryId}}},
-        }
+        fields,
       }
     )
   };
@@ -243,14 +268,9 @@ const main = async () => {
     const meetingEntry = await createOrUpdateMeeting(meeting);
 
     const bookData = sourceMeeting.book
-    const needToAddBook = !!bookData
-    if (needToAddBook) {
-      if (!meetingEntry.fields.book) {
-        const bookEntry = await createBookEntry(bookData)
-        await updateMeetingWithBook(meetingEntry, bookEntry.sys.id)
-      } else {
-        const bookEntry = await updateBookEntry(meetingEntry.fields.book['en-GB'].sys.id, bookData)
-      }
+    if (bookData) {
+      const bookEntry = await createOrUpdateBook(meetingEntry, bookData);
+      await updateMeetingWithBook(meetingEntry, bookEntry.sys.id)
     }
   }
 }
