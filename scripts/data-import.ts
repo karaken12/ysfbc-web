@@ -4,30 +4,33 @@ import moment from "moment/moment";
 
 dotenv.config()
 
+type SourceBookData = {
+  title: string;
+  author: string;
+  meeting_for: string;
+  "suggested-by"?: string;
+  slug: string;
+  "image-source": string;
+  "info-links"?: Array<{
+    "name": string;
+    "class": string;
+    "url": string;
+  }>;
+  "store-links"?: Array<{
+    "name": string;
+    "class": string;
+    "url": string;
+  }>;
+  ptype: "books";
+  "img-url": string;
+};
+
 type SourceMeetingData = {
   date: string;
   where: string;
   facebook?: { event_id: number },
   name: string;
-  book: {
-    title: string;
-    author: string;
-    meeting_for: string;
-    slug: string;
-    "image-source": string;
-    "info-links"?: Array<{
-      "name": string;
-      "class": string;
-      "url": string;
-    }>;
-    "store-links"?: Array<{
-      "name": string;
-      "class": string;
-      "url": string;
-    }>;
-    ptype: "books";
-    "img-url": string;
-  }
+  book: SourceBookData
   short: {
     title: string;
     author: string;
@@ -180,6 +183,53 @@ const main = async () => {
     }
   };
 
+  const getBookFields = (bookData: SourceBookData) => ({
+    title: {"en-GB": bookData.title},
+    author: {"en-GB": bookData.author},
+    slug: {"en-GB": bookData.slug},
+  });
+
+  const createBookEntry = async (bookData: SourceBookData) => {
+    const fields = getBookFields(bookData);
+    console.log(`Creating book ${fields.title["en-GB"]}`)
+    return client.entry.create(
+      {contentTypeId: 'book'},
+      {
+        fields,
+      }
+    )
+  };
+
+  const updateBookEntry = async (entryId: string, bookData: SourceBookData) => {
+    const entry = await client.entry.get({entryId})
+    const fields = {
+      ...entry.fields,
+      ...(getBookFields(bookData)),
+    };
+
+    console.log(`Updating book ${entry.fields.title["en-GB"]}`)
+    return client.entry.update(
+      {entryId: entry.sys.id},
+      {
+        ...entry,
+        fields,
+      }
+    )
+  };
+
+  const updateMeetingWithBook = async (meetingEntry, bookEntryId: string) => {
+    return client.entry.update(
+      {entryId: meetingEntry.sys.id},
+      {
+        ...(meetingEntry),
+        fields: {
+          ...meetingEntry.fields,
+          book: {"en-GB": {sys: {type: 'Link', linkType: 'Entry', id: bookEntryId}}},
+        }
+      }
+    )
+  };
+
   const sourceMeetings: Array<SourceMeetingData> = Object.values(await fetchData())
   for(const sourceMeeting of sourceMeetings) {
     const meeting: MeetingData = {
@@ -190,7 +240,18 @@ const main = async () => {
         facebookUrl: `https://www.facebook.com/events/${sourceMeeting.facebook.event_id}/`
       } : {}),
     }
-    await createOrUpdateMeeting(meeting);
+    const meetingEntry = await createOrUpdateMeeting(meeting);
+
+    const bookData = sourceMeeting.book
+    const needToAddBook = !!bookData
+    if (needToAddBook) {
+      if (!meetingEntry.fields.book) {
+        const bookEntry = await createBookEntry(bookData)
+        await updateMeetingWithBook(meetingEntry, bookEntry.sys.id)
+      } else {
+        const bookEntry = await updateBookEntry(meetingEntry.fields.book['en-GB'].sys.id, bookData)
+      }
+    }
   }
 }
 
