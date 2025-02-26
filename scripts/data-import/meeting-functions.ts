@@ -1,4 +1,5 @@
-import {PlainClientAPI} from "contentful-management";
+import {EntryProps, PlainClientAPI} from "contentful-management";
+import {ContentfulEntryLink, createEntryLink, deepEqual, localise, Localised} from "./utils";
 
 export type MeetingData = {
   title: string;
@@ -7,26 +8,29 @@ export type MeetingData = {
   facebookUrl?: string;
 };
 
-const deepEqual = (lhs: object, rhs: object) => {
-  // A hack to check for deep equality
-  return JSON.stringify(lhs) === JSON.stringify(rhs);
+export type ContentfulMeeting = {
+  title: Localised<string>;
+  date: Localised<string>;
+  location?: Localised<ContentfulEntryLink>;
+  facebookUrl?: Localised<string>;
+  book?: Localised<ContentfulEntryLink>;
 };
 
 export const meetingFunctions = (client: PlainClientAPI, getContentfulLocation: (where: string) => Promise<any>) => {
-  const getMeetingFields = async (meeting: MeetingData) => {
+  const getMeetingFields = async (meeting: MeetingData): Promise<ContentfulMeeting> => {
     const location = meeting.location ? await getContentfulLocation(meeting.location) : undefined
 
     return {
-      title: {"en-GB": meeting.title},
-      date: {"en-GB": meeting.date},
-      ...(meeting.location ? {location: {"en-GB": {sys: {type: 'Link', linkType: 'Entry', id: location.sys.id}}}} : {}),
-      ...(meeting.facebookUrl ? {facebookUrl: {"en-GB": meeting.facebookUrl}} : {}),
+      title: localise(meeting.title),
+      date: localise(meeting.date),
+      ...(meeting.location ? {location: localise(createEntryLink(location.sys.id))} : {}),
+      ...(meeting.facebookUrl ? {facebookUrl: localise(meeting.facebookUrl)} : {}),
     };
   };
 
-  const createOrUpdateMeeting = async (meeting: MeetingData) => {
+  const createOrUpdateMeeting = async (meeting: MeetingData): Promise<EntryProps<ContentfulMeeting>> => {
     console.log(`Fetching meeting data for ${(meeting.title)}`)
-    const entries = await client.entry.getMany({
+    const entries = await client.entry.getMany<ContentfulMeeting>({
       query: {
         content_type: 'meeting',
         'fields.title': meeting.title,
@@ -40,7 +44,7 @@ export const meetingFunctions = (client: PlainClientAPI, getContentfulLocation: 
 
     if (entries.total == 0) {
       console.log(`Creating meeting ${(meeting.title)}`)
-      return client.entry.create(
+      return client.entry.create<ContentfulMeeting>(
         {contentTypeId: 'meeting'},
         {fields: await getMeetingFields(meeting)}
       )
@@ -55,7 +59,7 @@ export const meetingFunctions = (client: PlainClientAPI, getContentfulLocation: 
       }
 
       console.log(`Updating meeting ${(meeting.title)}`)
-      return client.entry.update(
+      return client.entry.update<ContentfulMeeting>(
         {entryId: entry.sys.id},
         {
           ...entry,
@@ -65,10 +69,13 @@ export const meetingFunctions = (client: PlainClientAPI, getContentfulLocation: 
     }
   };
 
-  const updateMeetingWithBook = async (meetingEntry, bookEntryId: string) => {
+  const updateMeetingWithBook = async (
+    meetingEntry: EntryProps<ContentfulMeeting>,
+    bookEntryId: string
+  ): Promise<EntryProps<ContentfulMeeting>> => {
     const fields = {
       ...meetingEntry.fields,
-      book: {"en-GB": {sys: {type: 'Link', linkType: 'Entry', id: bookEntryId}}},
+      book: localise(createEntryLink(bookEntryId)),
     };
 
     if (deepEqual(meetingEntry.fields, fields)) {
@@ -76,7 +83,7 @@ export const meetingFunctions = (client: PlainClientAPI, getContentfulLocation: 
     }
 
     console.log(`Updating meeting ${meetingEntry.fields.title["en-GB"]} with book ID ${bookEntryId}`)
-    return client.entry.update(
+    return client.entry.update<ContentfulMeeting>(
       {entryId: meetingEntry.sys.id},
       {
         ...(meetingEntry),
