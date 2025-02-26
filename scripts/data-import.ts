@@ -3,15 +3,9 @@ import dotenv from 'dotenv'
 import moment from "moment/moment";
 import {getSourceMeetings, SourceBookData} from "./data-import/get-source-data";
 import {locationFunctions} from "./data-import/locationFunctions";
+import {MeetingData, meetingFunctions} from "./data-import/meeting-functions";
 
 dotenv.config()
-
-type MeetingData = {
-  title: string;
-  date: string;
-  location?: string;
-  facebookUrl?: string;
-};
 
 const deepEqual = (lhs: object, rhs: object) => {
   // A hack to check for deep equality
@@ -38,58 +32,7 @@ const main = async () => {
   )
 
   const {getContentfulLocation} = locationFunctions(client);
-
-  const getMeetingFields = async (meeting: MeetingData) => {
-    const location = meeting.location ? await getContentfulLocation(meeting.location) : undefined
-
-    return {
-      title: {"en-GB": meeting.title},
-      date: {"en-GB": meeting.date},
-      ...(meeting.location ? {location: {"en-GB": {sys: {type: 'Link', linkType: 'Entry', id: location.sys.id}}}} : {}),
-      ...(meeting.facebookUrl ? {facebookUrl: {"en-GB": meeting.facebookUrl}} : {}),
-    };
-  };
-
-  const createOrUpdateMeeting = async (meeting: MeetingData) => {
-    console.log(`Fetching meeting data for ${(meeting.title)}`)
-    const entries = await client.entry.getMany({
-      query: {
-        content_type: 'meeting',
-        'fields.title': meeting.title,
-        limit: 2,
-      },
-    })
-
-    if (entries.total > 1) {
-      throw new Error(`Too many entries for ${meeting.title} (${entries.total})`)
-    }
-
-    if (entries.total == 0) {
-      console.log(`Creating meeting ${(meeting.title)}`)
-      return client.entry.create(
-        {contentTypeId: 'meeting'},
-        {fields: await getMeetingFields(meeting)}
-      )
-    } else {
-      const entry = entries.items[0]
-      const fields = {
-        ...entry.fields,
-        ...(await getMeetingFields(meeting)),
-      };
-      if (deepEqual(entry.fields, fields)) {
-        return entry
-      }
-
-      console.log(`Updating meeting ${(meeting.title)}`)
-      return client.entry.update(
-        {entryId: entry.sys.id},
-        {
-          ...entry,
-          fields,
-        }
-      )
-    }
-  };
+  const {createOrUpdateMeeting, updateMeetingWithBook} = meetingFunctions(client, getContentfulLocation);
 
   const getBookFields = (bookData: SourceBookData) => {
     const hasStoreLinks = bookData["store-links"] && bookData["store-links"].length > 0;
@@ -214,25 +157,6 @@ const main = async () => {
     )
   };
 
-  const updateMeetingWithBook = async (meetingEntry, bookEntryId: string) => {
-    const fields = {
-      ...meetingEntry.fields,
-      book: {"en-GB": {sys: {type: 'Link', linkType: 'Entry', id: bookEntryId}}},
-    };
-
-    if (deepEqual(meetingEntry.fields, fields)) {
-      return meetingEntry
-    }
-
-    console.log(`Updating meeting ${meetingEntry.fields.title["en-GB"]} with book ID ${bookEntryId}`)
-    return client.entry.update(
-      {entryId: meetingEntry.sys.id},
-      {
-        ...(meetingEntry),
-        fields,
-      }
-    )
-  };
   const sourceMeetings = await getSourceMeetings();
   for(const sourceMeeting of sourceMeetings) {
     const meeting: MeetingData = {
