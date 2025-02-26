@@ -39,6 +39,25 @@ export type SourceShortData = {
   "img-url": string;
 };
 
+export type SourceFilmData = {
+  title: string;
+  meeting_for: string;
+  slug: string;
+  "image-source": string;
+  "info-links"?: Array<{
+    "name": string;
+    "class": string;
+    "url": string;
+  }>;
+  "store-links"?: Array<{
+    "name": string;
+    "class": string;
+    "url": string;
+  }>;
+  ptype: "films";
+  "img-url": string;
+};
+
 type SourceMeetingData = {
   date: string;
   where: string;
@@ -46,24 +65,7 @@ type SourceMeetingData = {
   name: string;
   book: SourceBookData;
   short: SourceShortData;
-  film: {
-    title: string;
-    meeting_for: string;
-    slug: string;
-    "image-source": string;
-    "info-links"?: Array<{
-      "name": string;
-      "class": string;
-      "url": string;
-    }>;
-    "store-links"?: Array<{
-      "name": string;
-      "class": string;
-      "url": string;
-    }>;
-    ptype: "films";
-    "img-url": string;
-  }
+  film: SourceFilmData;
 };
 
 const fetchData = async () => {

@@ -15,6 +15,7 @@ export type ContentfulMeeting = {
   facebookUrl?: Localised<string>;
   book?: Localised<ContentfulEntryLink>;
   short?: Localised<ContentfulEntryLink>;
+  film?: Localised<ContentfulEntryLink>;
 };
 
 export const meetingFunctions = (client: PlainClientAPI, getContentfulLocation: (where: string) => Promise<any>) => {
@@ -116,5 +117,28 @@ export const meetingFunctions = (client: PlainClientAPI, getContentfulLocation: 
     )
   };
 
-  return {createOrUpdateMeeting, updateMeetingWithBook, updateMeetingWithShort};
+  const updateMeetingWithFilm = async (
+    meetingEntry: EntryProps<ContentfulMeeting>,
+    shortEntryId: string
+  ): Promise<EntryProps<ContentfulMeeting>> => {
+    const fields = {
+      ...meetingEntry.fields,
+      film: localise(createEntryLink(shortEntryId)),
+    };
+
+    if (deepEqual(meetingEntry.fields, fields)) {
+      return meetingEntry
+    }
+
+    console.log(`Updating meeting ${meetingEntry.fields.title["en-GB"]} with film ID ${shortEntryId}`)
+    return client.entry.update<ContentfulMeeting>(
+      {entryId: meetingEntry.sys.id},
+      {
+        ...(meetingEntry),
+        fields,
+      }
+    )
+  };
+
+  return {createOrUpdateMeeting, updateMeetingWithBook, updateMeetingWithShort, updateMeetingWithFilm};
 };

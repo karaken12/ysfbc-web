@@ -6,6 +6,7 @@ import {locationFunctions} from "./data-import/locationFunctions";
 import {MeetingData, meetingFunctions} from "./data-import/meeting-functions";
 import {bookFunctions} from "./data-import/book-functions";
 import {shortFunctions} from "./data-import/short-functions";
+import {filmFunctions} from "./data-import/film-functions";
 
 dotenv.config()
 
@@ -29,9 +30,10 @@ const main = async () => {
   )
 
   const {getContentfulLocation} = locationFunctions(client);
-  const {createOrUpdateMeeting, updateMeetingWithBook, updateMeetingWithShort} = meetingFunctions(client, getContentfulLocation);
+  const {createOrUpdateMeeting, updateMeetingWithBook, updateMeetingWithShort, updateMeetingWithFilm} = meetingFunctions(client, getContentfulLocation);
   const {createOrUpdateBook} = bookFunctions(client);
   const {createOrUpdateShort} = shortFunctions(client);
+  const {createOrUpdateFilm} = filmFunctions(client);
 
   const sourceMeetings = await getSourceMeetings();
   for(const sourceMeeting of sourceMeetings) {
@@ -55,6 +57,12 @@ const main = async () => {
     if (shortData) {
       const shortEntry = await createOrUpdateShort(meetingEntry, shortData);
       await updateMeetingWithShort(meetingEntry, shortEntry.sys.id)
+    }
+
+    const filmData = sourceMeeting.film
+    if (filmData) {
+      const filmEntry = await createOrUpdateFilm(meetingEntry, filmData);
+      await updateMeetingWithFilm(meetingEntry, filmEntry.sys.id)
     }
   }
 }
