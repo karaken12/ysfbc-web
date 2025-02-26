@@ -5,6 +5,7 @@ import {getSourceMeetings} from "./data-import/get-source-data";
 import {locationFunctions} from "./data-import/locationFunctions";
 import {MeetingData, meetingFunctions} from "./data-import/meeting-functions";
 import {bookFunctions} from "./data-import/book-functions";
+import {shortFunctions} from "./data-import/short-functions";
 
 dotenv.config()
 
@@ -28,8 +29,9 @@ const main = async () => {
   )
 
   const {getContentfulLocation} = locationFunctions(client);
-  const {createOrUpdateMeeting, updateMeetingWithBook} = meetingFunctions(client, getContentfulLocation);
+  const {createOrUpdateMeeting, updateMeetingWithBook, updateMeetingWithShort} = meetingFunctions(client, getContentfulLocation);
   const {createOrUpdateBook} = bookFunctions(client);
+  const {createOrUpdateShort} = shortFunctions(client);
 
   const sourceMeetings = await getSourceMeetings();
   for(const sourceMeeting of sourceMeetings) {
@@ -47,6 +49,12 @@ const main = async () => {
     if (bookData) {
       const bookEntry = await createOrUpdateBook(meetingEntry, bookData);
       await updateMeetingWithBook(meetingEntry, bookEntry.sys.id)
+    }
+
+    const shortData = sourceMeeting.short
+    if (shortData) {
+      const shortEntry = await createOrUpdateShort(meetingEntry, shortData);
+      await updateMeetingWithShort(meetingEntry, shortEntry.sys.id)
     }
   }
 }
