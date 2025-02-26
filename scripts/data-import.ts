@@ -1,74 +1,9 @@
 import {createClient} from 'contentful-management'
 import dotenv from 'dotenv'
 import moment from "moment/moment";
+import {getSourceMeetings, SourceBookData} from "./data-import/get-source-data";
 
 dotenv.config()
-
-type SourceBookData = {
-  title: string;
-  author: string;
-  meeting_for: string;
-  "suggested-by"?: string;
-  slug: string;
-  "image-source": string;
-  "info-links"?: Array<{
-    "name": string;
-    "class": string;
-    "url": string;
-  }>;
-  "store-links"?: Array<{
-    "name": string;
-    "class": string;
-    "url": string;
-  }>;
-  ptype: "books";
-  "img-url": string;
-};
-
-type SourceMeetingData = {
-  date: string;
-  where: string;
-  facebook?: { event_id: number },
-  name: string;
-  book: SourceBookData
-  short: {
-    title: string;
-    author: string;
-    meeting_for: string;
-    slug: string;
-    "image-source": string;
-    "info-links"?: Array<{
-      "name": string;
-      "class": string;
-      "url": string;
-    }>;
-    "store-links"?: Array<{
-      "name": string;
-      "class": string;
-      "url": string;
-    }>;
-    ptype: "shorts";
-    "img-url": string;
-  }
-  film: {
-    title: string;
-    meeting_for: string;
-    slug: string;
-    "image-source": string;
-    "info-links"?: Array<{
-      "name": string;
-      "class": string;
-      "url": string;
-    }>;
-    "store-links"?: Array<{
-      "name": string;
-      "class": string;
-      "url": string;
-    }>;
-    ptype: "films";
-    "img-url": string;
-  }
-};
 
 type MeetingData = {
   title: string;
@@ -76,13 +11,6 @@ type MeetingData = {
   location?: string;
   facebookUrl?: string;
 };
-
-async function fetchData() {
-  const serviceUrl = 'https://www-assets.yorkscifibookclub.co.uk/data/meetings.json';
-
-  const res = await fetch(serviceUrl);
-  return res.json();
-}
 
 const deepEqual = (lhs: object, rhs: object) => {
   // A hack to check for deep equality
@@ -338,8 +266,7 @@ const main = async () => {
       }
     )
   };
-
-  const sourceMeetings: Array<SourceMeetingData> = Object.values(await fetchData())
+  const sourceMeetings = await getSourceMeetings();
   for(const sourceMeeting of sourceMeetings) {
     const meeting: MeetingData = {
       title: sourceMeeting.name,
