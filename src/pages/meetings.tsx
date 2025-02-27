@@ -27,7 +27,6 @@ export const Head: HeadFC = () => <title>York SciFi Book Club</title>
 export const query = graphql`
   query {
     allContentfulMeeting(
-      filter: {date: {lt: "2024-02-01T00:00+00:00"}}
       sort: {date: DESC}
     ) {
       nodes {
