@@ -4,33 +4,18 @@ import '../style.scss'
 // @ts-ignore
 import App from '../App.js'
 // @ts-ignore
-import {MeetingsPageContent} from '../components/PageContent.js'
-// @ts-ignore
 import {Meetings} from '../components/Meetings.js'
 import {translateContentfulMeeting} from "../data/translation/translateContentfulMeeting";
 
 const MeetingsPage: React.FC<PageProps> = ({data}) => {
-  const meetings = data.allContentfulMeeting.nodes.map((meeting) => translateContentfulMeeting(meeting))
-
-  const columns = {
-    display: 'flex',
-  }
-
-  const columnStyle = {
-    width: "50%",
-  }
+  const meetings = data.allContentfulMeeting.nodes.map(
+    (meeting: Queries.ContentfulMeeting) => translateContentfulMeeting(meeting)
+  )
 
   return (
     <App>
-      <div style={columns}>
-        <div style={columnStyle}>
-          <MeetingsPageContent />
-        </div>
-        <div style={columnStyle}>
-          <h1 className="books">Meetings</h1>
-          <Meetings meetings={meetings}/>
-        </div>
-      </div>
+      <h1 className="books">Meetings</h1>
+      <Meetings meetings={meetings}/>
     </App>
   )
 }
