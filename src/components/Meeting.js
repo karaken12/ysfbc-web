@@ -15,12 +15,6 @@ function Meeting(props) {
                 <p>
                     <Moment format="kk:mm, dddd MMMM Do">{moment.utc(meeting.date)}</Moment>
                     {meeting.where != null && (<span> at {meeting.where}. </span>)}
-                    {meeting.facebook && (
-                        <a href={"https://www.facebook.com/events/" + meeting.facebook.event_id + "/"}>
-                            <img src="../images/facebook-icon.png" alt="Facebook Event"
-                                 style={{verticalAlign: 'text-top'}}/>
-                        </a>
-                    )}
                 </p>
             </div>
             <div className="books">
