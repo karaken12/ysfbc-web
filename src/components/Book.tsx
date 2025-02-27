@@ -1,7 +1,13 @@
 import React from 'react';
 import {Link} from 'gatsby';
+import {Meeting as MeetingType} from "../data/types/meeting";
+import {Book as BookType, Short as ShortType, Film as FilmType} from "../data/types/media";
 
-function Book(props) {
+type BookParams = {meeting: MeetingType, type: 'book' | 'short' | 'film', isCurrent?: boolean};
+
+type UnionBookType = BookType | ShortType | FilmType;
+
+function Book(props: BookParams) {
     const type = props.type;
     const meeting = props.meeting;
     const isCurrent = props.isCurrent;
@@ -20,7 +26,7 @@ function Book(props) {
     );
 }
 
-function CurrentHeader(type) {
+function CurrentHeader(type: 'book' | 'short' | 'film') {
     switch (type) {
         case 'book':
             return <h1>Current book</h1>;
@@ -33,7 +39,7 @@ function CurrentHeader(type) {
     }
 }
 
-function Header(props) {
+function Header(props: UnionBookType) {
     return <header>
         <h2>{props.title}</h2>
         {props.author && (
@@ -42,7 +48,7 @@ function Header(props) {
     </header>;
 }
 
-function BookImage(props) {
+function BookImage(props: UnionBookType) {
     if (props.image) {
         return <div className="bookimg">
             {props.image}
@@ -53,7 +59,7 @@ function BookImage(props) {
     </div>;
 }
 
-function StoreLinks(props) {
+function StoreLinks(props: UnionBookType) {
     return (
         <ul className="affiliate-links">
             {props['store-links'].map((link) =>
@@ -63,7 +69,7 @@ function StoreLinks(props) {
     );
 }
 
-function AdditionalInfo(props) {
+function AdditionalInfo(props: UnionBookType) {
     return (
         <ul className="info-links">
             {props['info-links'].map((link) =>
@@ -73,11 +79,11 @@ function AdditionalInfo(props) {
     );
 }
 
-function MeetingName(props) {
+function MeetingName(props: UnionBookType) {
     return <p className="meeting">{props.meeting_for}</p>;
 }
 
-function PreviousLink(type) {
+function PreviousLink(type: 'book' | 'short' | 'film') {
     switch (type) {
         case 'book':
             return (

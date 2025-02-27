@@ -2,8 +2,11 @@ import React from 'react';
 import Book from "./Book";
 import Moment from "react-moment";
 import * as moment from "moment";
+import {Meeting as MeetingType} from "../data/types/meeting";
 
-function Meeting(props) {
+type MeetingParams = { meeting: MeetingType, isCurrent?: boolean };
+
+function Meeting(props: MeetingParams) {
     const meeting = props.meeting;
     const isCurrent = props.isCurrent;
     const meetingName = (isCurrent ? "Next Meeting - " : '') + meeting.name;

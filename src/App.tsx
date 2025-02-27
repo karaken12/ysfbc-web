@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {ReactNode} from 'react';
 import {Link} from 'gatsby';
 import './normalize.css';
 import './style.scss';
 
-function App({children}) {
+function App({children}: {children?: ReactNode}) {
   return <>
     <div className="header">
       <div className="logo">

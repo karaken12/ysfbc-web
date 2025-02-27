@@ -1,7 +1,10 @@
 import React from "react";
 import Meeting from "./Meeting";
+import {Meeting as MeetingType} from "../data/types/meeting";
 
-export function Meetings(props) {
+type MeetingsParams = { meetings: Array<MeetingType> };
+
+export function Meetings(props: MeetingsParams) {
   const meetings = props.meetings;
 
   return <>
@@ -10,4 +13,4 @@ export function Meetings(props) {
       return <Meeting meeting={meeting} key={meeting.name}/>;
     })}
   </>;
-}
+};

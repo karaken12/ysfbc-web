@@ -1,7 +1,10 @@
 import React from "react";
 import Book from "./Book";
+import {Meeting as MeetingType} from "../data/types/meeting";
 
-export function Books(props) {
+type BooksParams = { meetings: Array<MeetingType>, type: 'book' | 'short' | 'film' };
+
+export function Books(props: BooksParams) {
   const type = props.type;
   const meetings = props.meetings;
 

@@ -1,10 +1,8 @@
 import * as React from "react"
 import {graphql, HeadFC, PageProps} from "gatsby"
 import '../style.scss'
-// @ts-ignore
-import App from '../App.js'
-// @ts-ignore
-import {Books} from '../components/Books.js'
+import App from '../App'
+import {Books} from '../components/Books'
 import {translateContentfulMeeting} from "../data/translation/translateContentfulMeeting";
 
 type DataProps = {

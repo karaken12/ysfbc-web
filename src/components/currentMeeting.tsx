@@ -1,6 +1,5 @@
 import React from 'react'
-// @ts-ignore
-import Meeting from './Meeting.js'
+import Meeting from './Meeting'
 import {graphql, useStaticQuery} from "gatsby";
 import {translateContentfulMeeting} from "../data/translation/translateContentfulMeeting";
 
