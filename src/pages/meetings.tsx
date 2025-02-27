@@ -7,7 +7,11 @@ import App from '../App.js'
 import {Meetings} from '../components/Meetings.js'
 import {translateContentfulMeeting} from "../data/translation/translateContentfulMeeting";
 
-const MeetingsPage: React.FC<PageProps> = ({data}) => {
+type DataProps = {
+  allContentfulMeeting: Queries.ContentfulMeetingConnection,
+}
+
+const MeetingsPage = ({data}: PageProps<DataProps>) => {
   const meetings = data.allContentfulMeeting.nodes.map(
     (meeting: Queries.ContentfulMeeting) => translateContentfulMeeting(meeting)
   )
