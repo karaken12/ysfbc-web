@@ -1,14 +1,17 @@
 import React from "react";
 import Book from "./Book";
-import {Meeting as MeetingType} from "../data/types/meeting";
+import {Meeting} from "../data/types/meeting";
 
-type BooksParams = { meetings: Array<MeetingType>, type: 'book' | 'short' | 'film' };
-
-export function Books(props: BooksParams) {
-  const type = props.type;
-  const meetings = props.meetings;
-
-  return <>
+export const Books = (
+  {
+    type,
+    meetings,
+  }: {
+    meetings: Array<Meeting>,
+    type: 'book' | 'short' | 'film',
+  }
+) => (
+  <>
     <div className="books">
       {Object.entries(meetings).map((entry) => {
         var meeting = entry[1];
@@ -17,5 +20,5 @@ export function Books(props: BooksParams) {
         );
       })}
     </div>
-  </>;
-}
+  </>
+);

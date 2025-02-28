@@ -1,105 +1,129 @@
-import React from 'react';
+import React, {ReactNode} from 'react';
 import {Link} from 'gatsby';
 import {Meeting as MeetingType} from "../data/types/meeting";
-import {Book as BookType, Short as ShortType, Film as FilmType} from "../data/types/media";
+import {MediaType, Media} from "../data/types/media";
 
-type BookParams = {meeting: MeetingType, type: 'book' | 'short' | 'film', isCurrent?: boolean};
+const Book = (
+  {
+    isCurrent,
+    meeting,
+    type,
+  }: {
+    meeting: MeetingType,
+    type: MediaType,
+    isCurrent?: boolean,
+  }
+) => {
+  const book = meeting[type];
+  if (!book) {
+    return;
+  }
 
-type UnionBookType = BookType | ShortType | FilmType;
+  return (
+    <section className="book">
+      {isCurrent && CurrentHeader(type)}
+      {Header(book)}
+      {BookImage(book)}
+      {book['store-links'] && StoreLinks(book)}
+      {book['info-links'] && AdditionalInfo(book)}
+      {MeetingName(book)}
+      {isCurrent && PreviousLink(type)}
+    </section>
+  );
+};
 
-function Book(props: BookParams) {
-    const type = props.type;
-    const meeting = props.meeting;
-    const isCurrent = props.isCurrent;
+const CurrentHeader = (type: MediaType) => {
+  switch (type) {
+    case 'book':
+      return <h1>Current book</h1>;
+    case 'short':
+      return <h1>Current short story</h1>;
+    case 'film':
+      return <h1>Current film</h1>;
+    default:
+      return;
+  }
+};
 
-    const book = meeting[type];
-    return (
-        <section className="book">
-            {isCurrent && CurrentHeader(type)}
-            {Header(book)}
-            {BookImage(book)}
-            {book['store-links'] && StoreLinks(book)}
-            {book['info-links'] && AdditionalInfo(book)}
-            {MeetingName(book)}
-            {isCurrent && PreviousLink(type)}
-        </section>
-    );
-}
-
-function CurrentHeader(type: 'book' | 'short' | 'film') {
-    switch (type) {
-        case 'book':
-            return <h1>Current book</h1>;
-        case 'short':
-            return <h1>Current short story</h1>;
-        case 'film':
-            return <h1>Current film</h1>;
-        default:
-            return;
+const Header = (
+  {
+    title,
+    author,
+  }: {
+    title: string,
+    author?: string,
+  }
+) => (
+  <header>
+    <h2>{title}</h2>
+    {author && (
+      <p>by {author}</p>)
     }
-}
+  </header>
+);
 
-function Header(props: UnionBookType) {
-    return <header>
-        <h2>{props.title}</h2>
-        {props.author && (
-            <p>by {props.author}</p>)
-        }
-    </header>;
-}
-
-function BookImage(props: UnionBookType) {
-    if (props.image) {
-        return <div className="bookimg">
-            {props.image}
-        </div>;
-    }
+const BookImage = (
+  {
+    image,
+    title,
+    "img-url": imgUrl,
+  }: {
+    image?: ReactNode,
+    title: string,
+    "img-url": string,
+  }
+) => {
+  if (image) {
     return <div className="bookimg">
-        <img src={"https://www-assets.yorkscifibookclub.co.uk" + props["img-url"]} alt={props.title}/>
+      {image}
     </div>;
-}
+  }
+  return <div className="bookimg">
+    <img src={"https://www-assets.yorkscifibookclub.co.uk" + imgUrl} alt={title}/>
+  </div>;
+};
 
-function StoreLinks(props: UnionBookType) {
-    return (
-        <ul className="affiliate-links">
-            {props['store-links'].map((link) =>
-                <li key={link.url}><a className={link.class} href={link.url}>{link.name}</a></li>
-            )}
-        </ul>
-    );
-}
+const StoreLinks = ({'store-links': storeLinks}: Media) => {
+  return (
+    <ul className="affiliate-links">
+      {storeLinks.map((link) =>
+        <li key={link.url}><a className={link.class} href={link.url}>{link.name}</a></li>
+      )}
+    </ul>
+  );
+};
 
-function AdditionalInfo(props: UnionBookType) {
-    return (
-        <ul className="info-links">
-            {props['info-links'].map((link) =>
-                <li key={link.url}><a className={link.class} href={link.url}>{link.name}</a></li>
-            )}
-        </ul>
-    );
-}
+const AdditionalInfo = ({'info-links': infoLinks}: Media) => {
+  return (
+    <ul className="info-links">
+      {infoLinks.map((link) =>
+        <li key={link.url}><a className={link.class} href={link.url}>{link.name}</a></li>
+      )}
+    </ul>
+  );
+};
 
-function MeetingName(props: UnionBookType) {
-    return <p className="meeting">{props.meeting_for}</p>;
-}
+const MeetingName = ({meeting_for: meetingFor}: Media) => {
+  return <p className="meeting">{meetingFor}</p>;
+};
 
-function PreviousLink(type: 'book' | 'short' | 'film') {
-    switch (type) {
-        case 'book':
-            return (
-                <div className="prevbooks"><Link to="/books">Previous books</Link></div>
-            );
-        case 'short':
-            return (
-                <div className="prevshorts"><Link to="/shorts">Previous short stories</Link></div>
-            );
-        case 'film':
-            return (
-                <div className="prevfilms"><Link to="/films">Previous films</Link></div>
-            );
-        default:
-            return;
-    }
-}
+const PreviousLink = (type: MediaType) => {
+  switch (type) {
+    case 'book':
+      return (
+        <div className="prevbooks"><Link to="/books">Previous books</Link></div>
+      );
+    case 'short':
+      return (
+        <div className="prevshorts"><Link to="/shorts">Previous short stories</Link></div>
+      );
+    case 'film':
+      return (
+        <div className="prevfilms"><Link to="/films">Previous films</Link></div>
+      );
+    default:
+      return;
+  }
+};
 
 export default Book;
