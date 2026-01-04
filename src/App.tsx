@@ -13,6 +13,7 @@ function App({children}: {children?: ReactNode}) {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/meetings">Past meetings</Link></li>
         <li><Link to="/books">Previous books</Link></li>
+        <li><Link to="/posts">Messages</Link></li>
       </ul>
     </div>
 
