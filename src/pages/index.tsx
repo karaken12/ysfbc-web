@@ -4,7 +4,7 @@ import {renderRichText} from "gatsby-source-contentful/rich-text";
 import '../style.scss'
 import App from '../App'
 import CurrentMeeting from "../components/currentMeeting";
-import LatestBlogPost from "../components/LatestBlogPost";
+import LatestBlogPost from "../components/blog/LatestBlogPost";
 
 const IndexPage: React.FC<PageProps> = ({data}) => {
   return (
